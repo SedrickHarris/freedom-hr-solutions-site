@@ -8,237 +8,286 @@ import { ProcessSteps } from "@/components/sections/ProcessSteps";
 import { FaqSection } from "@/components/sections/FaqSection";
 import { ServiceCard } from "@/components/cards/ServiceCard";
 import { AudienceCard } from "@/components/cards/AudienceCard";
-import { PartnerCard } from "@/components/cards/PartnerCard";
 import { CtaBand } from "@/components/sections/CtaBand";
 import { Button } from "@/components/ui/Button";
-import { Badge } from "@/components/ui/Badge";
-import { SchemaScript } from "@/components/seo/SchemaScript";
 import { serviceHubs } from "@/data/serviceHubs";
-import { launchServices } from "@/data/services";
-import { audiences } from "@/data/audiences";
-import { partners } from "@/data/partners";
-import { site } from "@/data/site";
-import { standardProcess, ctas } from "@/data/shared";
+import { standardProcess } from "@/data/shared";
 import { buildMetadata } from "@/lib/seo";
-import { professionalServiceSchema } from "@/lib/schema";
-import { servicePath, audiencePath, partnerPath } from "@/lib/routes";
+import { servicePath } from "@/lib/routes";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Freedom HR Solutions | HR, Payroll, Benefits, and Compliance Support",
+  title: "HR Compliance, Payroll, Benefits & HR Consulting | Freedom HR Solutions",
   description:
-    "Freedom HR Solutions is headquartered in Las Vegas and supports businesses locally and nationwide with HR compliance, payroll, benefits, ACA reporting, HR technology, and system support.",
+    "Freedom HR Solutions provides HR compliance, payroll, benefits, ACA reporting, and HR technology support for businesses in Las Vegas and nationwide.",
   path: "/",
 });
 
-const trustPoints = [
-  "Las Vegas headquartered",
-  "Nationwide service delivery",
-  "HR, payroll, benefits, and compliance support",
-  "Founder-led HR technology experience",
-  "Support for growing and multi-state employers",
+const whoWeHelp = [
+  {
+    title: "Business Owners",
+    summary: "You need HR, payroll, and compliance handled so you can focus on running the business.",
+    href: "/who-we-help/business-owners/",
+  },
+  {
+    title: "Small Businesses",
+    summary: "Get the HR and compliance foundation your business needs without a full in-house HR team.",
+    href: "/who-we-help/small-businesses/",
+  },
+  {
+    title: "Growing Businesses",
+    summary: "Scale your HR, payroll, and benefits operations without outgrowing your systems.",
+    href: "/who-we-help/growing-businesses/",
+  },
+  {
+    title: "HR Teams",
+    summary: "Support for system implementation, reporting, open enrollment, and technical issues.",
+    href: "/who-we-help/hr-teams/",
+  },
+  {
+    title: "Payroll Teams",
+    summary: "Resolve payroll system issues, improve reporting accuracy, and support multi-state payroll.",
+    href: "/who-we-help/payroll-teams/",
+  },
+  {
+    title: "Multi-State Employers",
+    summary: "HR compliance, ACA reporting, and payroll support across multiple states and jurisdictions.",
+    href: "/who-we-help/multi-state-employers/",
+  },
 ];
 
-const problems = [
-  { title: "Payroll errors", description: "Mistakes create employee frustration and hours of administrative rework." },
-  { title: "Benefits confusion", description: "Setup and eligibility issues cause problems during open enrollment and beyond." },
-  { title: "ACA reporting stress", description: "Reporting errors can lead to notices and penalty exposure." },
-  { title: "Disconnected systems", description: "When systems do not talk to each other, reporting and compliance get harder." },
-  { title: "Outdated policies", description: "Handbooks and policies that have not kept up create unnecessary risk." },
-  { title: "Outgrowing your processes", description: "Growing companies often outgrow their HR processes before they realize it." },
+const whyChoose = [
+  {
+    title: "Platform-Agnostic Support",
+    description:
+      "We work with ADP, isolved, BambooHR, HiBob, CustomHCM, and other HR and payroll platforms. You keep your systems and we help you get more out of them.",
+  },
+  {
+    title: "Las Vegas Based. Nationwide Reach.",
+    description:
+      "We are headquartered in Las Vegas and support businesses across Nevada and nationwide through remote HR consulting, system support, and ACA reporting assistance.",
+  },
+  {
+    title: "HR, Payroll, Benefits, and ACA Under One Firm",
+    description:
+      "Instead of managing multiple vendors, you get compliance support, payroll and benefits help, HR technology consulting, and ACA reporting support from one team.",
+  },
+  {
+    title: "Process-First Approach",
+    description:
+      "We start by understanding how your business operates today before making recommendations. Every engagement begins with a structured review of your current state.",
+  },
 ];
 
 const homeFaqs = [
-  { question: "What does Freedom HR Solutions do?", answer: "We provide HR compliance, payroll, benefits, ACA reporting, HR technology, system implementation, technical support, and workforce support for growing businesses." },
-  { question: "Where is Freedom HR Solutions headquartered?", answer: "We are headquartered in Las Vegas, Nevada." },
-  { question: "Does Freedom HR Solutions serve businesses nationwide?", answer: "Yes. We are based in Las Vegas and support businesses locally, statewide, and nationwide through remote consulting and system support." },
-  { question: "What is the HR MRI Risk Assessment?", answer: "It is a structured review of your HR, payroll, benefits, and compliance operations that identifies gaps and gives you a prioritized plan to address them." },
-  { question: "Can Freedom HR Solutions work with our existing payroll or HR provider?", answer: "Yes. We frequently work alongside your existing systems and providers to support and improve your workflows." },
+  {
+    question: "What does Freedom HR Solutions do?",
+    answer:
+      "Freedom HR Solutions provides HR compliance, payroll and benefits support, ACA reporting, HR technology implementation, system audits, open enrollment setup, and ongoing HR technical support for businesses in Las Vegas, Nevada, and nationwide.",
+  },
+  {
+    question: "Who does Freedom HR Solutions work with?",
+    answer:
+      "We work with business owners, HR teams, payroll teams, benefits administrators, small businesses, growing companies, and multi-state employers that need HR, payroll, benefits, or compliance support.",
+  },
+  {
+    question: "How do I know if my business has HR compliance gaps?",
+    answer:
+      "The HR MRI Risk Assessment is a structured review of your HR, payroll, benefits, and compliance operations that identifies gaps and gives you a prioritized list of what to address first.",
+  },
+  {
+    question: "What is an HR compliance consultant?",
+    answer:
+      "An HR compliance consultant reviews your HR policies, documentation, payroll practices, and benefits administration to help identify risks and support your readiness for regulatory requirements.",
+  },
+  {
+    question: "What HR platforms does Freedom HR Solutions support?",
+    answer:
+      "We work with businesses using ADP, isolved, BambooHR, HiBob, and CustomHCM, among others. We help with implementation, configuration, audits, troubleshooting, and ongoing support.",
+  },
+  {
+    question: "Can Freedom HR Solutions work with our existing payroll or HR system?",
+    answer:
+      "Yes. We frequently work alongside your existing systems and providers to improve configuration, reporting, and workflows without requiring a platform change.",
+  },
+  {
+    question: "Where is Freedom HR Solutions located?",
+    answer:
+      "Freedom HR Solutions is headquartered in Las Vegas, Nevada, and supports businesses locally, statewide, and nationwide through remote consulting and system support.",
+  },
+  {
+    question: "Does Freedom HR Solutions serve businesses outside Nevada?",
+    answer:
+      "Yes. We support businesses across multiple states and nationwide through remote HR consulting, ACA reporting support, system implementation, and ongoing technical support.",
+  },
+  {
+    question: "What is ACA reporting and does my business need it?",
+    answer:
+      "ACA reporting refers to the Affordable Care Act employer reporting requirements, including Forms 1094-C and 1095-C. Applicable large employers and certain self-insured plans are generally required to file. Freedom HR Solutions helps businesses review requirements, prepare data, and support the reporting process.",
+  },
+  {
+    question: "What is the HR MRI Risk Assessment?",
+    answer:
+      "The HR MRI Risk Assessment is a structured review of your HR, compliance, payroll, and benefits operations. It identifies gaps, risks, and priorities so you have a clear plan before investing in new systems or processes.",
+  },
 ];
 
 export default function HomePage() {
-  const featuredAudiences = audiences.filter((a) =>
-    ["business-owners", "small-businesses", "growing-businesses", "hr-teams", "payroll-teams", "multi-state-employers"].includes(a.slug),
-  );
-
   return (
     <>
+      {/* 1. Hero */}
       <Hero
         variant="home"
         eyebrow="Headquartered in Las Vegas. Serving businesses nationwide."
         title="HR, Payroll, Benefits, and Compliance Support for Growing Businesses"
         description="Freedom HR Solutions helps businesses identify HR risks, improve payroll and benefits processes, manage ACA reporting, implement HR systems, and strengthen workforce operations."
         trustLine="Not sure where to start? The HR MRI Risk Assessment gives you a clear next step."
-        primaryCta={ctas.assessment}
-        secondaryCta={{ label: "Explore Services", href: "/services/" }}
-        aside={
-          <div className="rounded-card border border-white/15 bg-white/10 p-6 backdrop-blur-sm">
-            <p className="text-sm font-semibold uppercase tracking-wide text-white/70">How we help</p>
-            <ul className="mt-4 space-y-3">
-              {serviceHubs.slice(0, 6).map((hub) => (
-                <li key={hub.slug} className="flex items-center gap-3 text-sm text-white/90">
-                  <span className="h-1.5 w-1.5 rounded-full bg-red-400" aria-hidden />
-                  {hub.title}
-                </li>
-              ))}
-            </ul>
-          </div>
-        }
+        primaryCta={{ label: "Request HR MRI Assessment", href: "/request-assessment/" }}
+        secondaryCta={{ label: "Schedule Consultation", href: "/contact/" }}
       />
 
-      <div className="border-b border-border bg-white">
-        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-8 gap-y-3 px-5 py-5 sm:px-6 lg:px-8">
-          {trustPoints.map((point) => (
-            <span key={point} className="flex items-center gap-2 text-sm font-medium text-ink-soft">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden>
-                <path d="M20 6L9 17l-5-5" stroke="#c8252b" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-              {point}
-            </span>
-          ))}
-        </div>
-      </div>
-
-      <Section tone="muted">
-        <SectionHeading
-          eyebrow="The problem"
-          title="HR, payroll, and benefits problems become business problems fast"
-          description="Small gaps in systems, documentation, and compliance create real costs over time. We help you find and fix them."
-        />
-        <div className="mt-10">
-          <FeatureGrid items={problems} columns={3} variant="card" />
+      {/* 2. Trust Bar */}
+      <Section tone="muted" className="py-6">
+        <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4 text-sm font-medium text-body">
+          <span className="flex items-center gap-2">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
+              <path d="M12 21s-7-5.2-7-11a7 7 0 1114 0c0 5.8-7 11-7 11z" stroke="#0A2240" strokeWidth="1.8" />
+              <circle cx="12" cy="10" r="2.4" stroke="#0A2240" strokeWidth="1.8" />
+            </svg>
+            Las Vegas Headquartered
+          </span>
+          <span className="flex items-center gap-2">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
+              <circle cx="12" cy="12" r="9" stroke="#1B4F8A" strokeWidth="1.8" />
+              <path d="M3 12h18M12 3c2.5 2.5 2.5 15 0 18M12 3c-2.5 2.5-2.5 15 0 18" stroke="#1B4F8A" strokeWidth="1.6" />
+            </svg>
+            Nevada and Nationwide Support
+          </span>
+          <span className="flex items-center gap-2">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
+              <path d="M12 3l7 3v5c0 4.4-3 8.4-7 9.6C8 19.4 5 15.4 5 11V6l7-3z" stroke="#C8102E" strokeWidth="1.8" strokeLinejoin="round" />
+            </svg>
+            HR, Payroll, Benefits and ACA
+          </span>
+          <span className="flex items-center gap-2">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
+              <path d="M12 3l8 4-8 4-8-4 8-4z" stroke="#0A2240" strokeWidth="1.7" strokeLinejoin="round" />
+              <path d="M4 12l8 4 8-4M4 16l8 4 8-4" stroke="#0A2240" strokeWidth="1.7" strokeLinejoin="round" />
+            </svg>
+            ADP, isolved, BambooHR and More
+          </span>
         </div>
       </Section>
 
+      {/* 3. What We Do (Quick Answer Block) */}
+      <Section containerSize="narrow">
+        <SectionHeading
+          eyebrow="What We Do"
+          title="HR, Payroll, Benefits, and Compliance Support Under One Firm"
+        />
+        <p className="mt-5 text-lg leading-relaxed text-body">
+          Freedom HR Solutions is an HR consulting firm headquartered in Las Vegas, Nevada. We help
+          businesses identify compliance gaps, manage payroll and benefits, prepare ACA reporting,
+          implement HR systems, and support workforce operations. We work with business owners, HR
+          teams, payroll teams, benefits administrators, and companies that do not have a dedicated HR
+          department. Our support covers Las Vegas, Henderson, North Las Vegas, Nevada statewide, and
+          businesses nationwide.
+        </p>
+      </Section>
+
+      {/* 4. Services Preview */}
       <Section>
         <SectionHeading
           eyebrow="Services"
-          title="Practical support across the HR, payroll, benefits, and compliance lifecycle"
-          description="Six service categories that cover the work of running and growing a workforce."
+          title="Six Service Areas That Cover the HR Lifecycle"
+          description="From compliance and ACA reporting to payroll, benefits, HR technology, and workforce development, we cover every stage of the HR and payroll lifecycle."
         />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {serviceHubs.map((hub) => (
-            <ServiceCard key={hub.slug} title={hub.title} summary={hub.summary} href={servicePath(hub.slug)} />
+            <ServiceCard
+              key={hub.slug}
+              title={hub.title}
+              summary={hub.summary}
+              href={servicePath(hub.slug)}
+              withImagePlaceholder
+            />
           ))}
         </div>
-        <div className="mt-8">
-          <Button href="/services/" variant="outline">
-            Explore all services
-          </Button>
+        <div className="mt-10 text-center">
+          <Button href="/services/">Explore All Services</Button>
         </div>
       </Section>
 
-      <Section tone="brand">
-        <div className="grid items-center gap-8 lg:grid-cols-[1.3fr_0.7fr]">
-          <div>
-            <Badge tone="onDark" className="mb-4">Start here</Badge>
-            <h2 className="font-display text-3xl font-bold text-white sm:text-4xl">
-              Start with an HR MRI Risk Assessment
-            </h2>
-            <p className="mt-4 max-w-2xl text-lg text-white/85">
-              If you are not sure where your biggest HR, payroll, benefits, or compliance risks are,
-              the HR MRI Risk Assessment gives your business a practical starting point. We review key
-              areas of your HR operations, identify potential gaps, and help you understand what to
-              address first.
-            </p>
-            <div className="mt-7 flex flex-col gap-3 sm:flex-row">
-              <Button href={ctas.assessment.href} variant="white" size="lg">
-                {ctas.assessment.label}
-              </Button>
-              <Button href={ctas.consultation.href} variant="outline" size="lg" className="border-white/30 bg-white/10 text-white hover:bg-white/20">
-                {ctas.consultation.label}
-              </Button>
-            </div>
-          </div>
-          <ul className="space-y-3 rounded-card border border-white/15 bg-white/10 p-6">
-            {["HR and compliance review", "Payroll and benefits review", "Systems and reporting review", "Prioritized, practical findings"].map((item) => (
-              <li key={item} className="flex items-center gap-3 text-white/90">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
-                  <path d="M20 6L9 17l-5-5" stroke="#bcd2ff" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                {item}
-              </li>
-            ))}
-          </ul>
-        </div>
-      </Section>
-
-      <Section>
-        <SectionHeading eyebrow="Who we help" title="Support built around your role and business" />
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {featuredAudiences.map((audience) => (
-            <AudienceCard key={audience.slug} title={audience.navLabel} summary={audience.summary} href={audiencePath(audience.slug)} />
-          ))}
-        </div>
-        <div className="mt-8">
-          <Button href="/who-we-help/" variant="outline">
-            See everyone we help
-          </Button>
-        </div>
-      </Section>
-
+      {/* 5. Who We Help */}
       <Section tone="muted">
         <SectionHeading
-          eyebrow="Platform support"
-          title="Support for the HR, payroll, benefits, and HCM platforms you use"
-          description="We help businesses implement, configure, optimize, and support workflows involving leading platforms. The goal is to help your systems work better, not replace the tools you rely on."
+          eyebrow="Who We Help"
+          title="Built for the Teams and Businesses That Carry the HR Load"
         />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {partners.slice(0, 6).map((partner) => (
-            <PartnerCard key={partner.slug} name={partner.name} category={partner.category} summary={partner.summary} href={partnerPath(partner.slug)} />
+          {whoWeHelp.map((audience) => (
+            <AudienceCard
+              key={audience.href}
+              title={audience.title}
+              summary={audience.summary}
+              href={audience.href}
+            />
           ))}
         </div>
       </Section>
 
+      {/* 6. Why Choose Freedom HR Solutions */}
       <Section>
         <SectionHeading
-          eyebrow="Our process"
-          title="A clear, practical way of working"
-          description="From the first conversation through ongoing support, you always know what comes next."
+          eyebrow="Why Freedom HR"
+          title="What Makes Freedom HR Solutions Different"
         />
         <div className="mt-10">
-          <ProcessSteps steps={standardProcess} />
+          <FeatureGrid items={whyChoose} columns={2} variant="check" />
         </div>
       </Section>
 
+      {/* 7. How We Work (Process Steps) */}
       <Section tone="muted">
-        <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
-          <div>
-            <Badge className="mb-4">Founder-led</Badge>
-            <h2 className="font-display text-3xl font-bold text-ink">Founder-led support from Soleil Kline</h2>
-          </div>
-          <div>
-            <p className="text-lg leading-relaxed text-body">
-              Soleil Kline, founder of Freedom HR Solutions, brings experience across HR technology,
-              payroll, benefits, compliance, HR operations, and HCM systems. Freedom HR Solutions was
-              created to help businesses make sense of the systems, processes, and compliance
-              responsibilities that keep their workforce running.
-            </p>
-            <div className="mt-6 flex flex-wrap gap-4">
-              <Link href="/about/" className="font-semibold text-brand-700 hover:text-brand-800">
-                Learn more about us →
-              </Link>
-              <a href={site.founder.linkedin} target="_blank" rel="noopener noreferrer" className="font-semibold text-brand-700 hover:text-brand-800">
-                Connect with Soleil on LinkedIn →
-              </a>
-            </div>
-          </div>
+        <SectionHeading
+          eyebrow="Our Process"
+          title="How We Work With You"
+          description="Every engagement starts with understanding your business before we recommend anything."
+        />
+        <div className="mt-10">
+          <ProcessSteps steps={standardProcess.slice(0, 4)} />
         </div>
       </Section>
 
-      <Section>
-        <SectionHeading eyebrow="Featured services" title="Popular ways we help" />
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {launchServices.slice(0, 6).map((service) => (
-            <ServiceCard key={service.slug} title={service.title} summary={service.summary} href={servicePath(service.slug)} />
-          ))}
-        </div>
+      {/* 8. Service Area */}
+      <Section containerSize="narrow">
+        <SectionHeading
+          eyebrow="Service Area"
+          title="Headquartered in Las Vegas. Available Nationwide."
+        />
+        <p className="mt-5 text-lg leading-relaxed text-body">
+          Freedom HR Solutions is based in Las Vegas, Nevada. We serve businesses in Las Vegas,
+          Henderson, and North Las Vegas directly, and provide statewide support across Nevada. For
+          businesses outside Nevada, we offer remote HR consulting, ACA reporting support, system
+          implementation, and ongoing technical support nationwide.
+        </p>
+        <p className="mt-4 text-lg leading-relaxed text-body">
+          Learn more about our{" "}
+          <Link href="/locations/las-vegas-nv/" className="font-semibold text-brand-700 hover:text-brand-800">
+            Las Vegas HR consulting
+          </Link>{" "}
+          services or explore{" "}
+          <Link href="/locations/nationwide-hr-consulting/" className="font-semibold text-brand-700 hover:text-brand-800">
+            nationwide HR support
+          </Link>
+          .
+        </p>
       </Section>
 
+      {/* 9. AEO FAQ Section (FaqSection also emits FAQPage JSON-LD) */}
       <FaqSection faqs={homeFaqs} />
 
+      {/* 10. Final CTA Band */}
       <CtaBand />
-
-      <SchemaScript schema={professionalServiceSchema({ path: "/" })} />
     </>
   );
 }

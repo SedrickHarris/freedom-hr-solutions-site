@@ -6,11 +6,20 @@ interface ServiceCardProps {
   summary: string;
   href: string;
   category?: string;
+  /** Opt-in image placeholder at the top of the card (off by default). */
+  withImagePlaceholder?: boolean;
 }
 
-export function ServiceCard({ title, summary, href, category }: ServiceCardProps) {
+export function ServiceCard({ title, summary, href, category, withImagePlaceholder }: ServiceCardProps) {
   return (
     <CardShell href={href}>
+      {withImagePlaceholder && (
+        /* TODO: Replace with owner-supplied service category image */
+        <div
+          aria-hidden="true"
+          className="mb-5 aspect-[16/10] w-full overflow-hidden rounded-lg bg-brand-50"
+        />
+      )}
       {category && (
         <Badge tone="muted" className="mb-3 self-start">
           {category}

@@ -1,0 +1,1216 @@
+import type { Audience } from "@/types";
+
+export const audiences: Audience[] = [
+  {
+    slug: "business-owners",
+    title: "HR, Payroll, Benefits, and Compliance Support for Business Owners",
+    navLabel: "Business Owners",
+    type: "role",
+    meta: {
+      title: "HR Support for Business Owners | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps business owners identify HR risks, improve payroll and benefits processes, strengthen compliance, and prepare for growth.",
+    },
+    summary:
+      "Practical HR, payroll, benefits, and compliance support so owners can run the business instead of chasing paperwork.",
+    intro:
+      "As a business owner, HR is often one more responsibility stacked on top of everything else you manage. Freedom HR Solutions helps you find hidden risks, tighten payroll and benefits processes, and build a foundation that supports growth. We work alongside you with clear, practical guidance, not legal advice.",
+    painPoints: [
+      {
+        title: "HR is a side job, not your focus",
+        description:
+          "You handle hiring, payroll, and policies between everything else, so gaps quietly build up over time.",
+      },
+      {
+        title: "Uncertain compliance footing",
+        description:
+          "You are not always sure whether your handbook, classifications, and records would hold up if reviewed.",
+      },
+      {
+        title: "Payroll and benefits feel disconnected",
+        description:
+          "Separate systems and manual steps make it hard to trust that the numbers and deductions are right.",
+      },
+      {
+        title: "No clear plan for growth",
+        description:
+          "As headcount changes, you lack a roadmap for the HR processes and systems your business will need next.",
+      },
+    ],
+    scenarios: [
+      "You just hired your tenth employee and realize you have no written policies in place.",
+      "An employee asks a benefits question you cannot confidently answer.",
+      "You suspect some workers may be misclassified but are not sure how to check.",
+      "Tax season arrives and your payroll records are scattered across spreadsheets.",
+    ],
+    recommendedServiceSlugs: [
+      "hr-mri-risk-assessment",
+      "compliance-support",
+      "payroll-benefits-hr-management",
+      "employee-handbook-creation-management",
+      "system-audits-improvements",
+      "ongoing-technical-support",
+    ],
+    relatedAudienceSlugs: [
+      "small-businesses",
+      "growing-businesses",
+      "companies-without-hr-departments",
+    ],
+    faqs: [
+      {
+        question: "How can Freedom HR Solutions help business owners?",
+        answer:
+          "We help owners identify HR gaps, organize payroll and benefits processes, and strengthen compliance readiness. The goal is to take routine HR burdens off your plate so you can focus on running the business.",
+      },
+      {
+        question: "Do I need an internal HR team to work with Freedom HR Solutions?",
+        answer:
+          "No. Many of our clients have no dedicated HR staff, and we are built to support owners who manage HR themselves alongside their other duties.",
+      },
+      {
+        question: "What HR risks should business owners be aware of?",
+        answer:
+          "Common areas include worker classification, missing or outdated handbooks, incomplete records, and payroll setup. An assessment helps surface these gaps before they grow.",
+      },
+      {
+        question: "Can Freedom HR Solutions help review payroll and benefits processes?",
+        answer:
+          "Yes. We review how your payroll and benefits workflows run today and recommend changes that help reduce avoidable errors and manual work.",
+      },
+      {
+        question: "What is the best first step for a business owner?",
+        answer:
+          "Most owners start with an HR MRI risk assessment. It gives you a clear picture of where things stand and a prioritized list of what to address.",
+      },
+    ],
+    primaryCta: { label: "Find Hidden HR Risks", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+    launch: true,
+  },
+  {
+    slug: "hr-teams",
+    title: "HR System, Compliance, and Workforce Support for HR Teams",
+    navLabel: "HR Teams",
+    type: "role",
+    meta: {
+      title: "Support for HR Teams | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps HR teams with compliance, HR technology, system implementation, reporting, employee handbooks, training, and workforce processes.",
+    },
+    summary:
+      "Extra capacity and specialized support so your HR team can move faster on systems, compliance, and reporting.",
+    intro:
+      "Your HR team already carries a full workload, and big projects often compete with daily demands. Freedom HR Solutions acts as an extension of your team, supporting system implementation, compliance work, reporting, and workforce programs. We help you deliver projects without pulling staff away from the work that keeps the business running.",
+    painPoints: [
+      {
+        title: "Project work crowded out by daily tasks",
+        description:
+          "System rollouts and process improvements stall because the team is busy handling day-to-day employee needs.",
+      },
+      {
+        title: "Reporting takes too long",
+        description:
+          "Pulling and reconciling data across systems eats hours that could go toward higher-value HR work.",
+      },
+      {
+        title: "Handbooks and policies fall behind",
+        description:
+          "Keeping documents current across changing requirements is hard when no one owns the update cycle.",
+      },
+      {
+        title: "Open enrollment strains the team",
+        description:
+          "Configuration, communication, and troubleshooting pile up during a short, high-pressure window.",
+      },
+    ],
+    scenarios: [
+      "You are implementing a new HRIS and need hands-on support to configure it correctly.",
+      "Leadership wants better workforce reporting but your data lives in several places.",
+      "Your handbook has not been updated since your last round of hires.",
+      "Open enrollment is six weeks out and your team is already stretched thin.",
+    ],
+    recommendedServiceSlugs: [
+      "compliance-support",
+      "hr-technology-automation",
+      "system-setup-implementation",
+      "reporting-data-insights",
+      "employee-handbook-creation-management",
+      "training-development-programs",
+    ],
+    relatedAudienceSlugs: [
+      "payroll-teams",
+      "benefits-administrators",
+      "growing-businesses",
+    ],
+    faqs: [
+      {
+        question: "Can Freedom HR Solutions support an existing HR team?",
+        answer:
+          "Yes. We work as an extension of your team, taking on projects and specialized tasks so your staff can stay focused on daily operations.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with HR system implementation?",
+        answer:
+          "Yes. We support setup, configuration, and rollout of HR systems and help your team adopt new tools with less disruption.",
+      },
+      {
+        question: "Can Freedom HR Solutions help improve HR reporting?",
+        answer:
+          "We help streamline how data is pulled and presented so your team spends less time reconciling and more time acting on insights.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with employee handbooks?",
+        answer:
+          "Yes. We help create and maintain handbooks so policies stay organized, consistent, and aligned with your operations.",
+      },
+      {
+        question: "Can Freedom HR Solutions help HR teams during open enrollment?",
+        answer:
+          "We support open enrollment setup, configuration, and communication so the process runs more smoothly during a busy window.",
+      },
+    ],
+    primaryCta: { label: "Request HR Systems Review", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+    launch: true,
+  },
+  {
+    slug: "payroll-teams",
+    title: "Payroll System, Compliance, and Technical Support for Payroll Teams",
+    navLabel: "Payroll Teams",
+    type: "role",
+    meta: {
+      title: "Payroll Team Support | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps payroll teams improve payroll workflows, system accuracy, reporting, compliance, configuration, and technical issue resolution.",
+    },
+    summary:
+      "Hands-on help to troubleshoot payroll systems, tighten workflows, and reduce recurring errors.",
+    intro:
+      "Payroll has zero tolerance for mistakes, yet teams often work around clunky systems and manual steps. Freedom HR Solutions helps payroll teams resolve technical issues, refine workflows, and improve reporting accuracy. We support the configuration and processes that keep each cycle running cleanly.",
+    painPoints: [
+      {
+        title: "Recurring errors that resist fixing",
+        description:
+          "The same payroll issues keep returning because the root configuration problem was never addressed.",
+      },
+      {
+        title: "Manual workarounds slow each cycle",
+        description:
+          "Spreadsheets and rekeying between systems add time and create openings for mistakes.",
+      },
+      {
+        title: "Multi-state payroll complexity",
+        description:
+          "Different state rules and filings make accuracy harder as your workforce spreads across locations.",
+      },
+      {
+        title: "Limited reporting visibility",
+        description:
+          "Getting clear, reliable payroll reports for finance and leadership takes more effort than it should.",
+      },
+    ],
+    scenarios: [
+      "A payroll deduction keeps calculating incorrectly and no one can pinpoint why.",
+      "You added employees in two new states and need to confirm the setup is right.",
+      "Finance asks for a custom payroll report your current system does not produce easily.",
+      "A system update changed a setting and now your workflow is broken.",
+    ],
+    recommendedServiceSlugs: [
+      "payroll-benefits-hr-management",
+      "multi-state-payroll-support",
+      "technical-issue-resolution",
+      "reporting-data-insights",
+      "ongoing-technical-support",
+      "system-audits-improvements",
+    ],
+    relatedAudienceSlugs: [
+      "hr-teams",
+      "multi-state-employers",
+      "benefits-administrators",
+    ],
+    faqs: [
+      {
+        question: "Can Freedom HR Solutions help troubleshoot payroll system issues?",
+        answer:
+          "Yes. We help diagnose technical problems and address the underlying configuration so recurring issues are less likely to return.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with payroll reporting?",
+        answer:
+          "We help improve how payroll data is structured and reported so your team can produce reliable reports for finance and leadership.",
+      },
+      {
+        question: "Can Freedom HR Solutions help reduce recurring payroll errors?",
+        answer:
+          "Yes. We review workflows and system settings to identify error sources and help reduce avoidable mistakes across cycles.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with multi-state payroll support?",
+        answer:
+          "We support multi-state payroll setup and workflows so your team can manage employees across locations with more confidence.",
+      },
+      {
+        question: "Can Freedom HR Solutions support payroll teams after implementation?",
+        answer:
+          "Yes. We provide ongoing technical support to keep systems running well and to resolve issues that come up after go-live.",
+      },
+    ],
+    primaryCta: { label: "Request Payroll Workflow Review", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+    launch: true,
+  },
+  {
+    slug: "benefits-administrators",
+    title: "Benefits Administration and Open Enrollment Support",
+    navLabel: "Benefits Administrators",
+    type: "role",
+    meta: {
+      title: "Benefits Administrator Support | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps benefits administrators with open enrollment setup, benefits workflows, ACA reporting, employee communication, and system support.",
+    },
+    summary:
+      "Support for open enrollment setup, benefits workflows, ACA reporting, and employee communication.",
+    intro:
+      "Benefits administration runs on tight deadlines, detailed data, and clear communication. Freedom HR Solutions helps benefits administrators configure open enrollment, manage eligibility data, and support ACA reporting. We take pressure off the busiest parts of your year so the process stays accurate and organized.",
+    painPoints: [
+      {
+        title: "Open enrollment crunch",
+        description:
+          "Setup, testing, and employee questions all land in a narrow window that strains your time.",
+      },
+      {
+        title: "Eligibility data is hard to verify",
+        description:
+          "Confirming who is eligible and what changed across systems takes careful, repetitive checking.",
+      },
+      {
+        title: "ACA reporting pressure",
+        description:
+          "Tracking hours, coverage offers, and forms adds complexity on top of regular benefits work.",
+      },
+      {
+        title: "Communicating clearly with employees",
+        description:
+          "Explaining options and deadlines in plain language is essential but time-consuming to do well.",
+      },
+    ],
+    scenarios: [
+      "Open enrollment opens in three weeks and the new plan year is not configured yet.",
+      "You need to reconcile eligibility data before sending it to carriers.",
+      "ACA filing season is approaching and your hours tracking needs review.",
+      "Employees are confused about their options and your inbox is overflowing.",
+    ],
+    recommendedServiceSlugs: [
+      "open-enrollment-setup",
+      "benefits-administration-support",
+      "payroll-benefits-hr-management",
+      "aca-reporting-consultant",
+      "technical-issue-resolution",
+      "ongoing-technical-support",
+    ],
+    relatedAudienceSlugs: [
+      "hr-teams",
+      "payroll-teams",
+      "multi-state-employers",
+    ],
+    faqs: [
+      {
+        question: "Can Freedom HR Solutions help with open enrollment setup?",
+        answer:
+          "Yes. We support plan configuration, testing, and workflow setup so your open enrollment period runs more smoothly.",
+      },
+      {
+        question: "Can Freedom HR Solutions help benefits administrators manage employee communication?",
+        answer:
+          "We help structure clear communication around options and deadlines so employees understand their choices and your inbox stays manageable.",
+      },
+      {
+        question: "Can Freedom HR Solutions help review benefits eligibility data?",
+        answer:
+          "Yes. We help reconcile and verify eligibility data across systems so the information sent to carriers is more accurate.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with ACA reporting?",
+        answer:
+          "We support ACA reporting by helping organize hours tracking, coverage data, and forms to support your filing readiness.",
+      },
+      {
+        question: "Can Freedom HR Solutions support benefits systems after open enrollment?",
+        answer:
+          "Yes. We provide ongoing support to resolve issues and keep benefits workflows running well throughout the plan year.",
+      },
+    ],
+    primaryCta: { label: "Request Benefits Workflow Review", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+    launch: true,
+  },
+  {
+    slug: "small-businesses",
+    title: "HR, Payroll, Benefits, and Compliance Support for Small Businesses",
+    navLabel: "Small Businesses",
+    type: "company",
+    meta: {
+      title: "HR Support for Small Businesses | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps small businesses manage HR compliance, payroll, benefits, employee handbooks, HR systems, and workforce risk.",
+    },
+    summary:
+      "Right-sized HR, payroll, benefits, and compliance support for small businesses without a full HR department.",
+    intro:
+      "Small businesses get the same HR responsibilities as large companies but rarely the same resources. Freedom HR Solutions helps you handle compliance, payroll, benefits, and handbooks without hiring a full HR department. We meet you where you are and build processes that fit your size and budget.",
+    painPoints: [
+      {
+        title: "Big-company rules, small-company resources",
+        description:
+          "You face many of the same requirements as larger employers but have far fewer people to manage them.",
+      },
+      {
+        title: "No written policies",
+        description:
+          "Without a handbook, expectations and procedures live in people's heads instead of a clear document.",
+      },
+      {
+        title: "DIY payroll and benefits",
+        description:
+          "Software choices and setup decisions are hard to make confidently without HR expertise on hand.",
+      },
+      {
+        title: "Compliance blind spots",
+        description:
+          "It is easy to miss requirements simply because no one is tracking them day to day.",
+      },
+    ],
+    scenarios: [
+      "You are growing past a handful of employees and policies are still informal.",
+      "You need an employee handbook but do not know where to start.",
+      "You are comparing payroll software and want guidance before committing.",
+      "A former employee raises a question that makes you review your records.",
+    ],
+    recommendedServiceSlugs: [
+      "hr-mri-risk-assessment",
+      "compliance-support",
+      "employee-handbook-creation-management",
+      "payroll-benefits-hr-management",
+      "hr-technology-automation",
+      "ongoing-technical-support",
+    ],
+    relatedAudienceSlugs: [
+      "business-owners",
+      "growing-businesses",
+      "companies-without-hr-departments",
+    ],
+    faqs: [
+      {
+        question: "Can Freedom HR Solutions help a small business without an HR department?",
+        answer:
+          "Yes. We are built for businesses that do not have dedicated HR staff and provide right-sized support that fits your size and budget.",
+      },
+      {
+        question: "What HR compliance risks do small businesses often miss?",
+        answer:
+          "Common gaps include missing handbooks, worker classification, incomplete records, and payroll setup. An assessment helps surface these areas.",
+      },
+      {
+        question: "Can Freedom HR Solutions help create an employee handbook?",
+        answer:
+          "Yes. We help create and maintain a handbook so your policies and expectations are documented clearly and consistently.",
+      },
+      {
+        question: "Can Freedom HR Solutions help small businesses choose payroll software?",
+        answer:
+          "We help you evaluate options and set up the right tools so your payroll and HR systems fit how your business actually works.",
+      },
+      {
+        question: "What is the best first step for a small business?",
+        answer:
+          "Most small businesses start with an HR MRI risk assessment to get a clear picture of priorities and a practical plan to act on.",
+      },
+    ],
+    primaryCta: { label: "Find Hidden HR Risks", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+    launch: true,
+  },
+  {
+    slug: "growing-businesses",
+    title: "HR, Payroll, Benefits, and System Support for Growing Businesses",
+    navLabel: "Growing Businesses",
+    type: "company",
+    meta: {
+      title: "HR Support for Growing Businesses | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps growing businesses improve HR systems, payroll workflows, benefits administration, compliance, reporting, and workforce processes.",
+    },
+    summary:
+      "HR systems, payroll, benefits, and compliance support that scales as your headcount grows.",
+    intro:
+      "Growth is exciting, but it stretches processes that worked when you were smaller. Freedom HR Solutions helps growing businesses implement HR systems, strengthen payroll and benefits workflows, and prepare for new compliance requirements. We help your operations keep pace with your headcount instead of falling behind it.",
+    painPoints: [
+      {
+        title: "Processes built for a smaller team",
+        description:
+          "Manual habits that worked at ten employees start breaking down as you scale.",
+      },
+      {
+        title: "Systems not keeping up",
+        description:
+          "Tools you outgrew create bottlenecks in payroll, benefits, and onboarding.",
+      },
+      {
+        title: "New compliance thresholds",
+        description:
+          "Crossing headcount milestones can trigger requirements you did not face before.",
+      },
+      {
+        title: "Reporting cannot answer leadership questions",
+        description:
+          "As decisions get bigger, you need workforce data your current setup cannot easily provide.",
+      },
+    ],
+    scenarios: [
+      "You doubled your headcount this year and onboarding feels chaotic.",
+      "Your payroll system is straining under the new volume.",
+      "You are approaching a size where new compliance rules may apply.",
+      "Leadership wants workforce metrics your current tools cannot deliver.",
+    ],
+    recommendedServiceSlugs: [
+      "system-setup-implementation",
+      "payroll-benefits-hr-management",
+      "hr-technology-automation",
+      "reporting-data-insights",
+      "compliance-support",
+      "system-audits-improvements",
+    ],
+    relatedAudienceSlugs: [
+      "business-owners",
+      "small-businesses",
+      "multi-state-employers",
+    ],
+    faqs: [
+      {
+        question: "How can Freedom HR Solutions help a growing business?",
+        answer:
+          "We help upgrade systems, refine payroll and benefits workflows, and prepare for new compliance requirements so your operations scale with your growth.",
+      },
+      {
+        question: "When should a growing business review its HR systems?",
+        answer:
+          "A good time is when manual workarounds increase, headcount jumps, or current tools start causing bottlenecks. Earlier reviews prevent bigger issues later.",
+      },
+      {
+        question: "Can Freedom HR Solutions help implement payroll and HR systems?",
+        answer:
+          "Yes. We support setup, configuration, and rollout so new systems fit your processes and adoption goes more smoothly.",
+      },
+      {
+        question: "Can Freedom HR Solutions help improve reporting?",
+        answer:
+          "We help structure workforce data so leadership gets the clear, reliable reporting they need to make decisions as you grow.",
+      },
+      {
+        question: "Can Freedom HR Solutions help prepare for more compliance requirements?",
+        answer:
+          "Yes. We help identify requirements tied to your size and support your readiness as new thresholds come into view.",
+      },
+    ],
+    primaryCta: { label: "Request HR Systems Review", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+    launch: true,
+  },
+  {
+    slug: "multi-state-employers",
+    title: "HR, Payroll, Benefits, and Compliance Support for Multi-State Employers",
+    navLabel: "Multi-State Employers",
+    type: "company",
+    meta: {
+      title: "Multi-State Employer HR Support | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps multi-state employers with payroll workflows, ACA reporting, employee handbooks, workforce compliance, HR systems, and reporting.",
+    },
+    summary:
+      "Coordinated payroll, ACA reporting, handbook, and compliance support across multiple states.",
+    intro:
+      "Operating across state lines multiplies the rules you have to track. Freedom HR Solutions helps multi-state employers coordinate payroll, ACA reporting, handbooks, and workforce compliance across locations. We help bring consistency to processes that vary from state to state.",
+    painPoints: [
+      {
+        title: "Different rules in every state",
+        description:
+          "Varying payroll, leave, and policy requirements make consistency hard to maintain across locations.",
+      },
+      {
+        title: "Multi-state payroll complexity",
+        description:
+          "Registrations, filings, and tax setups stack up as you add employees in new states.",
+      },
+      {
+        title: "Handbooks that do not fit every location",
+        description:
+          "A single policy set rarely accounts for the differences between the states where you operate.",
+      },
+      {
+        title: "Fragmented reporting across sites",
+        description:
+          "Pulling a clear, company-wide view is difficult when each location reports differently.",
+      },
+    ],
+    scenarios: [
+      "You just hired remote employees in three new states.",
+      "Your handbook does not address state-specific leave policies.",
+      "ACA reporting spans several locations and the data lives in different systems.",
+      "Leadership wants one consolidated workforce report across all sites.",
+    ],
+    recommendedServiceSlugs: [
+      "aca-reporting-consultant",
+      "multi-state-payroll-support",
+      "employee-handbook-creation-management",
+      "workforce-compliance-monitoring",
+      "reporting-data-insights",
+      "hr-technology-automation",
+    ],
+    relatedAudienceSlugs: [
+      "growing-businesses",
+      "payroll-teams",
+      "benefits-administrators",
+    ],
+    faqs: [
+      {
+        question: "Can Freedom HR Solutions help multi-state employers?",
+        answer:
+          "Yes. We help coordinate payroll, compliance, handbooks, and reporting across states so your processes stay more consistent.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with multi-state payroll support?",
+        answer:
+          "We support multi-state payroll setup, registrations, and workflows so you can manage employees across locations with more confidence.",
+      },
+      {
+        question: "Can employee handbooks be reviewed for multi-state operations?",
+        answer:
+          "Yes. We help structure handbooks so they account for differences across the states where your employees work.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with ACA reporting for multi-state employers?",
+        answer:
+          "We help organize hours, coverage data, and forms across locations to support your ACA reporting readiness.",
+      },
+      {
+        question: "Can Freedom HR Solutions help improve workforce reporting across locations?",
+        answer:
+          "Yes. We help consolidate data from multiple sites so leadership gets a clearer company-wide view.",
+      },
+    ],
+    primaryCta: { label: "Request Compliance Review", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+    launch: true,
+  },
+  {
+    slug: "companies-without-hr-departments",
+    title: "HR Support for Companies Without an HR Department",
+    navLabel: "Companies Without HR",
+    type: "company",
+    meta: {
+      title: "HR Support Without an HR Department | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps companies without dedicated HR teams manage HR compliance, payroll, benefits, employee handbooks, systems, and workforce processes.",
+    },
+    summary:
+      "A complete HR resource for companies that have no dedicated HR staff.",
+    intro:
+      "When no one owns HR, important tasks fall to whoever has time, and gaps form quietly. Freedom HR Solutions becomes your outsourced HR resource, handling compliance, payroll, benefits, handbooks, and core processes. We help you build the HR foundation you never had the staff to create.",
+    painPoints: [
+      {
+        title: "No clear owner for HR",
+        description:
+          "Tasks get split among people who already have full-time roles, so things slip through the cracks.",
+      },
+      {
+        title: "Processes built on memory, not documents",
+        description:
+          "Without written procedures, HR depends on individuals knowing how things have always been done.",
+      },
+      {
+        title: "Reactive instead of proactive",
+        description:
+          "HR issues only get attention once they become problems, rather than being prevented up front.",
+      },
+      {
+        title: "Uncertainty about what to prioritize",
+        description:
+          "You know HR matters but have no roadmap for which gaps to address first.",
+      },
+    ],
+    scenarios: [
+      "An employee issue comes up and no one is sure who should handle it.",
+      "You realize you have never had a written set of HR policies.",
+      "Onboarding looks different every time because there is no standard process.",
+      "You want to fix your HR setup but do not know where to begin.",
+    ],
+    recommendedServiceSlugs: [
+      "hr-mri-risk-assessment",
+      "compliance-support",
+      "employee-handbook-creation-management",
+      "payroll-benefits-hr-management",
+      "system-audits-improvements",
+      "ongoing-technical-support",
+    ],
+    relatedAudienceSlugs: [
+      "small-businesses",
+      "business-owners",
+      "growing-businesses",
+    ],
+    faqs: [
+      {
+        question: "Can Freedom HR Solutions help if we do not have an HR department?",
+        answer:
+          "Yes. We serve as your outsourced HR resource, handling compliance, payroll, benefits, and core processes so you do not need internal HR staff.",
+      },
+      {
+        question: "What HR tasks should a business owner not ignore?",
+        answer:
+          "Key areas include worker classification, a written handbook, accurate records, and proper payroll setup. These are common sources of avoidable problems.",
+      },
+      {
+        question: "Can Freedom HR Solutions help create HR processes from scratch?",
+        answer:
+          "Yes. We help build core HR processes, from onboarding to documentation, so your operations no longer rely on memory alone.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with employee handbooks?",
+        answer:
+          "We create and maintain handbooks so your policies are documented clearly and stay consistent as your team changes.",
+      },
+      {
+        question: "What should we review first?",
+        answer:
+          "Start with an HR MRI risk assessment. It identifies your biggest gaps and gives you a prioritized plan to build a solid HR foundation.",
+      },
+    ],
+    primaryCta: { label: "Find Hidden HR Risks", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+    launch: true,
+  },
+  {
+    slug: "healthcare-companies",
+    title: "HR, Payroll, Benefits, and Compliance Support for Healthcare Companies",
+    navLabel: "Healthcare",
+    type: "industry",
+    meta: {
+      title: "HR Support for Healthcare Companies | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps healthcare companies improve HR compliance, payroll, benefits, employee documentation, reporting, and workforce support.",
+    },
+    summary:
+      "HR, payroll, benefits, and compliance support tuned to the demands of healthcare workforces.",
+    intro:
+      "Healthcare organizations manage credentialed staff, around-the-clock shifts, and demanding documentation requirements. Freedom HR Solutions helps healthcare companies strengthen compliance, organize payroll and benefits, and keep employee documentation in order. We help your HR processes keep up with a fast-moving clinical environment.",
+    painPoints: [
+      {
+        title: "Shift-based payroll complexity",
+        description:
+          "Differentials, overtime, and around-the-clock scheduling make payroll harder to keep accurate.",
+      },
+      {
+        title: "Heavy documentation requirements",
+        description:
+          "Credentials, certifications, and records must stay current across a large clinical workforce.",
+      },
+      {
+        title: "High turnover and constant onboarding",
+        description:
+          "Frequent hiring puts pressure on onboarding and benefits enrollment workflows.",
+      },
+      {
+        title: "Training and policy demands",
+        description:
+          "Staff need ongoing training and clear policies that are easy to access and keep updated.",
+      },
+    ],
+    scenarios: [
+      "Shift differentials are being calculated inconsistently in payroll.",
+      "Employee certification records are scattered and hard to track.",
+      "You are onboarding clinical staff faster than your process can handle.",
+      "Your policies need updating but no one has time to manage them.",
+    ],
+    recommendedServiceSlugs: [
+      "compliance-support",
+      "payroll-benefits-hr-management",
+      "employee-handbook-creation-management",
+      "training-development-programs",
+      "reporting-data-insights",
+      "ongoing-technical-support",
+    ],
+    relatedAudienceSlugs: [
+      "growing-businesses",
+      "multi-state-employers",
+      "professional-services",
+    ],
+    faqs: [
+      {
+        question: "Can Freedom HR Solutions help healthcare businesses with HR compliance?",
+        answer:
+          "Yes. We help identify gaps and support compliance readiness across documentation, policies, and workforce processes common in healthcare.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with payroll and benefits workflows?",
+        answer:
+          "We help organize shift-based payroll and benefits administration so calculations stay more accurate and enrollment runs more smoothly.",
+      },
+      {
+        question: "Can Freedom HR Solutions help healthcare companies improve employee documentation?",
+        answer:
+          "Yes. We help structure how records and credentials are tracked so important documentation stays organized and current.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with training support?",
+        answer:
+          "We support training and development programs so staff have consistent, accessible learning resources.",
+      },
+      {
+        question: "Can Freedom HR Solutions help improve reporting?",
+        answer:
+          "We help structure workforce data so leadership gets clearer reporting on staffing, turnover, and other key measures.",
+      },
+    ],
+    primaryCta: { label: "Request HR MRI Assessment", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+    launch: true,
+  },
+  {
+    slug: "construction-companies",
+    title: "HR, Payroll, Benefits, and Compliance Support for Construction Companies",
+    navLabel: "Construction",
+    type: "industry",
+    meta: {
+      title: "HR Support for Construction Companies | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps construction companies improve payroll workflows, HR compliance, employee documentation, benefits processes, and workforce support.",
+    },
+    summary:
+      "Payroll, compliance, onboarding, and HR support built for project-based construction workforces.",
+    intro:
+      "Construction workforces move between job sites, projects, and sometimes states, which complicates payroll and HR. Freedom HR Solutions helps construction companies manage payroll workflows, documentation, onboarding, and compliance across a mobile workforce. We help bring structure to HR processes that change with every project.",
+    painPoints: [
+      {
+        title: "Job-site and project-based payroll",
+        description:
+          "Tracking hours, classifications, and pay rates across sites and projects is hard to keep accurate.",
+      },
+      {
+        title: "Mobile, changing workforce",
+        description:
+          "Crews shift between projects, making consistent onboarding and documentation difficult.",
+      },
+      {
+        title: "Multi-state work",
+        description:
+          "Projects in different states add payroll registrations and rules to manage.",
+      },
+      {
+        title: "Documentation that lags the field",
+        description:
+          "Records and certifications fall behind when the work is happening away from the office.",
+      },
+    ],
+    scenarios: [
+      "Crews are spread across multiple job sites and payroll tracking is messy.",
+      "A new project starts in another state and you need payroll set up fast.",
+      "Worker certifications and documents are incomplete or hard to locate.",
+      "Onboarding new field workers takes too long and varies by site.",
+    ],
+    recommendedServiceSlugs: [
+      "payroll-benefits-hr-management",
+      "multi-state-payroll-support",
+      "compliance-support",
+      "employee-handbook-creation-management",
+      "recruiting-onboarding-solutions",
+      "reporting-data-insights",
+    ],
+    relatedAudienceSlugs: [
+      "multi-state-employers",
+      "manufacturing-companies",
+      "growing-businesses",
+    ],
+    faqs: [
+      {
+        question: "Can Freedom HR Solutions help construction companies with payroll workflows?",
+        answer:
+          "Yes. We help organize job-site and project-based payroll so hours, classifications, and pay rates stay more accurate across sites.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with employee documentation?",
+        answer:
+          "We help structure how records and certifications are tracked so documentation keeps pace with a mobile field workforce.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with onboarding processes?",
+        answer:
+          "Yes. We support recruiting and onboarding so new field workers start consistently, even across different job sites.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with multi-state payroll support?",
+        answer:
+          "We support multi-state payroll setup and registrations so projects in new states get configured correctly.",
+      },
+      {
+        question: "Can Freedom HR Solutions help review HR compliance risks?",
+        answer:
+          "Yes. We help identify gaps across documentation, classification, and policies and support your compliance readiness.",
+      },
+    ],
+    primaryCta: { label: "Request HR MRI Assessment", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+    launch: true,
+  },
+  {
+    slug: "retail-businesses",
+    title: "HR, Payroll, Benefits, and Workforce Support for Retail Businesses",
+    navLabel: "Retail",
+    type: "industry",
+    meta: {
+      title: "HR Support for Retail Businesses | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps retail businesses improve HR processes, payroll workflows, benefits administration, onboarding, compliance, and employee support.",
+    },
+    summary:
+      "Onboarding, payroll, benefits, and HR support designed for high-turnover retail teams.",
+    intro:
+      "Retail runs on hourly staff, seasonal hiring, and constant scheduling, which keeps HR busy year round. Freedom HR Solutions helps retail businesses streamline onboarding, payroll, and benefits while reducing manual HR work. We help your store teams spend more time on customers and less on paperwork.",
+    painPoints: [
+      {
+        title: "Constant hiring and onboarding",
+        description:
+          "High turnover means onboarding never stops, and inconsistent processes slow new hires down.",
+      },
+      {
+        title: "Hourly and seasonal payroll",
+        description:
+          "Variable hours and seasonal swings make scheduling and payroll harder to manage cleanly.",
+      },
+      {
+        title: "Too much manual HR work",
+        description:
+          "Paper forms and repetitive tasks pull managers away from running the store.",
+      },
+      {
+        title: "Team leaders without HR training",
+        description:
+          "Store managers handle people issues without consistent guidance or training.",
+      },
+    ],
+    scenarios: [
+      "Seasonal hiring is ramping up and onboarding cannot keep pace.",
+      "Hourly payroll is taking too long every cycle.",
+      "Managers are buried in paper HR forms.",
+      "Store leaders need basic training on handling team issues.",
+    ],
+    recommendedServiceSlugs: [
+      "recruiting-onboarding-solutions",
+      "payroll-benefits-hr-management",
+      "compliance-support",
+      "employee-handbook-creation-management",
+      "training-development-programs",
+      "hr-technology-automation",
+    ],
+    relatedAudienceSlugs: [
+      "small-businesses",
+      "growing-businesses",
+      "manufacturing-companies",
+    ],
+    faqs: [
+      {
+        question: "Can Freedom HR Solutions help retail businesses improve onboarding?",
+        answer:
+          "Yes. We support recruiting and onboarding so new hires start consistently, even during high-volume seasonal periods.",
+      },
+      {
+        question: "Can Freedom HR Solutions help manage payroll and benefits processes?",
+        answer:
+          "We help organize hourly and seasonal payroll along with benefits administration to reduce avoidable errors each cycle.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with employee handbooks?",
+        answer:
+          "Yes. We create and maintain handbooks so store policies stay clear and consistent across locations.",
+      },
+      {
+        question: "Can Freedom HR Solutions help reduce manual HR work?",
+        answer:
+          "We help introduce HR technology and automation so managers spend less time on paperwork and more time on the floor.",
+      },
+      {
+        question: "Can Freedom HR Solutions help train retail team leaders?",
+        answer:
+          "Yes. We provide training and development programs so store leaders have practical guidance for handling team situations.",
+      },
+    ],
+    primaryCta: { label: "Request HR MRI Assessment", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+    launch: true,
+  },
+  {
+    slug: "manufacturing-companies",
+    title: "HR, Payroll, Benefits, and Compliance Support for Manufacturing Companies",
+    navLabel: "Manufacturing",
+    type: "industry",
+    meta: {
+      title: "HR Support for Manufacturing Companies | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps manufacturing companies strengthen HR compliance, payroll workflows, benefits administration, training, reporting, and workforce processes.",
+    },
+    summary:
+      "Compliance, payroll, training, and workforce support built for shift-based manufacturing teams.",
+    intro:
+      "Manufacturing depends on shift workers, safety-minded culture, and steady production, which puts unique demands on HR. Freedom HR Solutions helps manufacturing companies strengthen compliance, refine payroll, support training, and improve workforce reporting. We help your HR processes run as reliably as your production line.",
+    painPoints: [
+      {
+        title: "Shift-based payroll and overtime",
+        description:
+          "Multiple shifts, overtime, and differentials make payroll calculations more complex to manage.",
+      },
+      {
+        title: "Compliance and safety expectations",
+        description:
+          "Workforce policies and documentation need to stay consistent and current across the plant.",
+      },
+      {
+        title: "Training needs across roles",
+        description:
+          "Workers across skill levels need structured training that is hard to coordinate manually.",
+      },
+      {
+        title: "Limited workforce visibility",
+        description:
+          "Leadership lacks clear data on staffing, attendance, and performance across shifts.",
+      },
+    ],
+    scenarios: [
+      "Overtime and shift differentials are creating payroll discrepancies.",
+      "Your workforce policies need a thorough review and update.",
+      "New hires need a consistent training path across roles.",
+      "Leadership wants reporting on attendance and staffing by shift.",
+    ],
+    recommendedServiceSlugs: [
+      "compliance-support",
+      "payroll-benefits-hr-management",
+      "training-development-programs",
+      "reporting-data-insights",
+      "employee-engagement-performance-management",
+      "technical-issue-resolution",
+    ],
+    relatedAudienceSlugs: [
+      "construction-companies",
+      "growing-businesses",
+      "multi-state-employers",
+    ],
+    faqs: [
+      {
+        question: "Can Freedom HR Solutions help manufacturing companies with HR compliance?",
+        answer:
+          "Yes. We help identify gaps across policies and documentation and support compliance readiness for shift-based workforces.",
+      },
+      {
+        question: "Can Freedom HR Solutions help improve payroll workflows?",
+        answer:
+          "We help organize shift, overtime, and differential payroll so calculations stay more accurate across cycles.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with employee training programs?",
+        answer:
+          "Yes. We support training and development so workers across roles have a consistent path for building skills.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with workforce reporting?",
+        answer:
+          "We help structure data on staffing, attendance, and performance so leadership has clearer visibility across shifts.",
+      },
+      {
+        question: "Can Freedom HR Solutions support HR and payroll systems?",
+        answer:
+          "Yes. We provide technical support to resolve issues and keep your HR and payroll systems running reliably.",
+      },
+    ],
+    primaryCta: { label: "Request HR MRI Assessment", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+    launch: true,
+  },
+  {
+    slug: "education-organizations",
+    title: "HR, Payroll, Benefits, and Workforce Support for Education Organizations",
+    navLabel: "Education",
+    type: "industry",
+    meta: {
+      title: "HR Support for Education Organizations | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps education organizations improve HR systems, payroll workflows, benefits administration, compliance, reporting, and employee processes.",
+    },
+    summary:
+      "HR systems, payroll, benefits, and compliance support for schools and education organizations.",
+    intro:
+      "Education organizations balance faculty, staff, and seasonal schedules with tight budgets and clear accountability. Freedom HR Solutions helps schools and education groups improve HR systems, payroll workflows, and benefits while supporting compliance. We help your administrative team manage HR with more structure and less strain.",
+    painPoints: [
+      {
+        title: "Academic-calendar payroll",
+        description:
+          "Seasonal schedules and varied employee types make payroll cycles harder to manage cleanly.",
+      },
+      {
+        title: "Mixed staff and faculty roles",
+        description:
+          "Different employee categories require different policies, benefits, and documentation.",
+      },
+      {
+        title: "Aging HR systems",
+        description:
+          "Older tools and manual processes slow down administrative teams with limited resources.",
+      },
+      {
+        title: "Accountability and reporting needs",
+        description:
+          "Boards and leadership expect clear reporting that current systems struggle to produce.",
+      },
+    ],
+    scenarios: [
+      "Seasonal and faculty payroll is difficult to manage across the academic year.",
+      "Your handbook needs review for different staff and faculty categories.",
+      "Outdated HR systems are slowing down your administrative team.",
+      "Leadership requests workforce reporting your tools cannot easily produce.",
+    ],
+    recommendedServiceSlugs: [
+      "payroll-benefits-hr-management",
+      "compliance-support",
+      "employee-handbook-creation-management",
+      "reporting-data-insights",
+      "training-development-programs",
+      "system-setup-implementation",
+    ],
+    relatedAudienceSlugs: [
+      "professional-services",
+      "growing-businesses",
+      "healthcare-companies",
+    ],
+    faqs: [
+      {
+        question: "Can Freedom HR Solutions help education organizations with HR systems?",
+        answer:
+          "Yes. We support setup and improvement of HR systems so administrative teams can work with less manual effort.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with payroll and benefits workflows?",
+        answer:
+          "We help organize payroll and benefits across academic schedules and varied employee types to reduce avoidable errors.",
+      },
+      {
+        question: "Can Freedom HR Solutions help review employee handbooks?",
+        answer:
+          "Yes. We help create and maintain handbooks that account for different staff and faculty categories.",
+      },
+      {
+        question: "Can Freedom HR Solutions help improve reporting?",
+        answer:
+          "We help structure workforce data so leadership and boards get clearer reporting and accountability.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with training programs?",
+        answer:
+          "Yes. We support training and development programs so staff and faculty have consistent learning resources.",
+      },
+    ],
+    primaryCta: { label: "Request HR MRI Assessment", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+    launch: true,
+  },
+  {
+    slug: "professional-services",
+    title: "HR, Payroll, Benefits, and Compliance Support for Professional Services Firms",
+    navLabel: "Professional Services",
+    type: "industry",
+    meta: {
+      title: "HR Support for Professional Services Firms | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps professional services firms improve HR compliance, payroll, benefits, employee handbooks, HR technology, and workforce processes.",
+    },
+    summary:
+      "HR, payroll, benefits, and compliance support for professional services firms scaling their teams.",
+    intro:
+      "Professional services firms depend on skilled people, and their HR needs grow as they win more work. Freedom HR Solutions helps firms strengthen compliance, modernize HR technology, and refine payroll and benefits. We help your firm build HR processes that support recruiting, retention, and steady growth.",
+    painPoints: [
+      {
+        title: "Talent is the whole business",
+        description:
+          "Recruiting and retaining skilled professionals depends on HR processes that often get little attention.",
+      },
+      {
+        title: "Outdated or manual HR tools",
+        description:
+          "Spreadsheets and disconnected systems slow down a firm that should be running efficiently.",
+      },
+      {
+        title: "Policies lag the firm's growth",
+        description:
+          "Handbooks and procedures fall behind as headcount and client work expand.",
+      },
+      {
+        title: "Compliance is an afterthought",
+        description:
+          "With focus on client delivery, internal HR compliance can quietly drift out of date.",
+      },
+    ],
+    scenarios: [
+      "Your firm is growing and your HR processes are still mostly manual.",
+      "Your handbook has not kept pace with recent hires and policy changes.",
+      "You want to modernize HR technology but are not sure where to start.",
+      "Compliance has taken a back seat to client work for too long.",
+    ],
+    recommendedServiceSlugs: [
+      "hr-mri-risk-assessment",
+      "compliance-support",
+      "payroll-benefits-hr-management",
+      "hr-technology-automation",
+      "employee-handbook-creation-management",
+      "reporting-data-insights",
+    ],
+    relatedAudienceSlugs: [
+      "growing-businesses",
+      "small-businesses",
+      "education-organizations",
+    ],
+    faqs: [
+      {
+        question: "Can Freedom HR Solutions help professional services firms?",
+        answer:
+          "Yes. We help firms strengthen HR compliance, modernize technology, and refine payroll and benefits as they grow.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with HR compliance and employee handbooks?",
+        answer:
+          "We help identify gaps, support compliance readiness, and create and maintain handbooks that keep pace with your firm.",
+      },
+      {
+        question: "Can Freedom HR Solutions help improve payroll and benefits processes?",
+        answer:
+          "Yes. We review and refine payroll and benefits workflows to reduce avoidable errors and manual work.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with HR technology?",
+        answer:
+          "We help select, set up, and automate HR technology so your firm runs more efficiently and relies less on spreadsheets.",
+      },
+      {
+        question: "Can Freedom HR Solutions support firms as they grow?",
+        answer:
+          "Yes. We help your HR processes scale with headcount and client work so growth does not outpace your operations.",
+      },
+    ],
+    primaryCta: { label: "Request HR MRI Assessment", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+    launch: true,
+  },
+];
+
+export const audiencesBySlug: Record<string, Audience> = Object.fromEntries(
+  audiences.map((a) => [a.slug, a]),
+);
+
+export function getAudience(slug: string): Audience | undefined {
+  return audiencesBySlug[slug];
+}

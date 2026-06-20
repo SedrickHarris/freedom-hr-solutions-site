@@ -1,26 +1,118 @@
 @import "tailwindcss";
 
+/*
+  Freedom HR Solutions design system
+  Professional, trustworthy, compliance-focused palette.
+*/
+
+@theme {
+  /* Fonts */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-jakarta), var(--font-inter), ui-sans-serif, sans-serif;
+
+  /* Ink / navy text */
+  --color-ink: #0b2545;
+  --color-ink-soft: #1c3a5e;
+  --color-body: #334155;
+  --color-muted-text: #5b6b7f;
+
+  /* Surfaces */
+  --color-surface: #ffffff;
+  --color-muted: #f4f8fc;
+  --color-muted-deep: #eaf1f9;
+  --color-border: #dbe4ee;
+  --color-border-soft: #e9eff6;
+
+  /* Professional blue (primary accent / CTA) */
+  --color-brand-50: #eef4ff;
+  --color-brand-100: #dbe7ff;
+  --color-brand-200: #bcd2ff;
+  --color-brand-300: #8eb2ff;
+  --color-brand-400: #5a87fb;
+  --color-brand-500: #2f63ef;
+  --color-brand-600: #1f4ed6;
+  --color-brand-700: #1b3fb0;
+  --color-brand-800: #1c388c;
+  --color-brand-900: #1b326f;
+
+  /* Brand red (primary CTA / highlights) — patriotic red, white, blue, navy system.
+     NOTE: exact hex values should be confirmed against the current site / logo
+     before launch. These are close brand-aligned placeholders. */
+  --color-red-50: #fef2f2;
+  --color-red-100: #fee2e2;
+  --color-red-200: #fecaca;
+  --color-red-300: #fca5a5;
+  --color-red-400: #f87171;
+  --color-red-500: #e23b3b;
+  --color-red-600: #c8252b;
+  --color-red-700: #a81d23;
+  --color-red-800: #8a1a20;
+  --color-red-900: #731a1f;
+
+  /* Trust accent now maps to navy/blue (no green) for success and inclusion marks. */
+  --color-trust-50: #eef4ff;
+  --color-trust-100: #dbe7ff;
+  --color-trust-400: #5a87fb;
+  --color-trust-600: #1f4ed6;
+  --color-trust-700: #1b3fb0;
+
+  /* Radii */
+  --radius-card: 0.875rem;
+}
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: var(--color-ink);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  border-color: var(--color-border);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-body);
+  font-family: var(--font-sans);
+  font-feature-settings: "cv11", "ss01";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: var(--color-ink);
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* Subtle focus ring for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--color-brand-500);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Reusable gradient used in hero and CTA bands */
+.bg-brand-gradient {
+  background-image: linear-gradient(135deg, #1b326f 0%, #1f4ed6 55%, #2f63ef 100%);
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
 }

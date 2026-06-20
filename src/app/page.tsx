@@ -1,15 +1,29 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import {
+  MapPin,
+  Globe,
+  Shield,
+  User,
+  Building2,
+  AlertCircle,
+  HelpCircle,
+  FileWarning,
+  Unplug,
+  BookX,
+  TrendingUp,
+  Check,
+} from "lucide-react";
 import { Hero } from "@/components/sections/Hero";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
-import { FeatureGrid } from "@/components/sections/FeatureGrid";
 import { ProcessSteps } from "@/components/sections/ProcessSteps";
 import { FaqSection } from "@/components/sections/FaqSection";
 import { ServiceCard } from "@/components/cards/ServiceCard";
 import { AudienceCard } from "@/components/cards/AudienceCard";
 import { CtaBand } from "@/components/sections/CtaBand";
 import { Button } from "@/components/ui/Button";
+import { Reveal } from "@/components/motion/Reveal";
 import { serviceHubs } from "@/data/serviceHubs";
 import { standardProcess } from "@/data/shared";
 import { buildMetadata } from "@/lib/seo";
@@ -21,6 +35,23 @@ export const metadata: Metadata = buildMetadata({
     "Freedom HR Solutions provides HR compliance, payroll, benefits, ACA reporting, and HR technology support for businesses in Las Vegas and nationwide.",
   path: "/",
 });
+
+const trustItems = [
+  { label: "Las Vegas Headquartered", Icon: MapPin },
+  { label: "Nationwide Service Delivery", Icon: Globe },
+  { label: "HR, Payroll, Benefits and Compliance Support", Icon: Shield },
+  { label: "Founder-led HR Technology Experience", Icon: User },
+  { label: "Support for Growing and Multi-State Employers", Icon: Building2 },
+];
+
+const problems = [
+  { title: "Payroll errors", description: "Mistakes create employee frustration and hours of administrative rework.", Icon: AlertCircle },
+  { title: "Benefits confusion", description: "Setup and eligibility issues cause problems during open enrollment and beyond.", Icon: HelpCircle },
+  { title: "ACA reporting stress", description: "Reporting errors can lead to notices and penalty exposure.", Icon: FileWarning },
+  { title: "Disconnected systems", description: "When systems do not talk to each other, reporting and compliance get harder.", Icon: Unplug },
+  { title: "Outdated policies", description: "Handbooks and policies that have not kept up create unnecessary risk.", Icon: BookX },
+  { title: "Outgrowing your processes", description: "Growing companies often outgrow their HR processes before they realize it.", Icon: TrendingUp },
+];
 
 const whoWeHelp = [
   {
@@ -146,35 +177,16 @@ export default function HomePage() {
       />
 
       {/* 2. Trust Bar */}
-      <Section tone="muted" className="py-6">
+      <Section tone="muted" className="border-y border-border py-6">
         <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4 text-sm font-medium text-body">
-          <span className="flex items-center gap-2">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
-              <path d="M12 21s-7-5.2-7-11a7 7 0 1114 0c0 5.8-7 11-7 11z" stroke="#0A2240" strokeWidth="1.8" />
-              <circle cx="12" cy="10" r="2.4" stroke="#0A2240" strokeWidth="1.8" />
-            </svg>
-            Las Vegas Headquartered
-          </span>
-          <span className="flex items-center gap-2">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
-              <circle cx="12" cy="12" r="9" stroke="#1B4F8A" strokeWidth="1.8" />
-              <path d="M3 12h18M12 3c2.5 2.5 2.5 15 0 18M12 3c-2.5 2.5-2.5 15 0 18" stroke="#1B4F8A" strokeWidth="1.6" />
-            </svg>
-            Nevada and Nationwide Support
-          </span>
-          <span className="flex items-center gap-2">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
-              <path d="M12 3l7 3v5c0 4.4-3 8.4-7 9.6C8 19.4 5 15.4 5 11V6l7-3z" stroke="#C8102E" strokeWidth="1.8" strokeLinejoin="round" />
-            </svg>
-            HR, Payroll, Benefits and ACA
-          </span>
-          <span className="flex items-center gap-2">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
-              <path d="M12 3l8 4-8 4-8-4 8-4z" stroke="#0A2240" strokeWidth="1.7" strokeLinejoin="round" />
-              <path d="M4 12l8 4 8-4M4 16l8 4 8-4" stroke="#0A2240" strokeWidth="1.7" strokeLinejoin="round" />
-            </svg>
-            ADP, isolved, BambooHR and More
-          </span>
+          {trustItems.map((item, index) => (
+            <Reveal key={item.label} index={index}>
+              <span className="flex items-center gap-2">
+                <item.Icon className="h-4 w-4 text-brand-600" aria-hidden />
+                {item.label}
+              </span>
+            </Reveal>
+          ))}
         </div>
       </Section>
 
@@ -194,7 +206,29 @@ export default function HomePage() {
         </p>
       </Section>
 
-      {/* 4. Services Preview */}
+      {/* 4. Common Problems */}
+      <Section tone="muted">
+        <SectionHeading
+          eyebrow="The problem"
+          title="HR, Payroll, and Benefits Problems Become Business Problems Fast"
+          description="Small gaps in systems, documentation, and compliance create real costs over time. We help you find and fix them."
+        />
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {problems.map((problem, index) => (
+            <Reveal key={problem.title} index={index} className="h-full">
+              <div className="flex h-full flex-col rounded-card border border-border bg-white p-6 shadow-sm shadow-ink/[0.03]">
+                <span className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-red-50" aria-hidden>
+                  <problem.Icon className="h-6 w-6 text-red-600" />
+                </span>
+                <h3 className="font-display text-lg font-bold text-ink">{problem.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-body">{problem.description}</p>
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      </Section>
+
+      {/* 5. Services Preview */}
       <Section>
         <SectionHeading
           eyebrow="Services"
@@ -202,14 +236,15 @@ export default function HomePage() {
           description="From compliance and ACA reporting to payroll, benefits, HR technology, and workforce development, we cover every stage of the HR and payroll lifecycle."
         />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {serviceHubs.map((hub) => (
-            <ServiceCard
-              key={hub.slug}
-              title={hub.title}
-              summary={hub.summary}
-              href={servicePath(hub.slug)}
-              withImagePlaceholder
-            />
+          {serviceHubs.map((hub, index) => (
+            <Reveal key={hub.slug} index={index} className="h-full">
+              <ServiceCard
+                title={hub.title}
+                summary={hub.summary}
+                href={servicePath(hub.slug)}
+                withImagePlaceholder
+              />
+            </Reveal>
           ))}
         </div>
         <div className="mt-10 text-center">
@@ -217,36 +252,45 @@ export default function HomePage() {
         </div>
       </Section>
 
-      {/* 5. Who We Help */}
+      {/* 6. Who We Help */}
       <Section tone="muted">
         <SectionHeading
           eyebrow="Who We Help"
           title="Built for the Teams and Businesses That Carry the HR Load"
         />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {whoWeHelp.map((audience) => (
-            <AudienceCard
-              key={audience.href}
-              title={audience.title}
-              summary={audience.summary}
-              href={audience.href}
-            />
+          {whoWeHelp.map((audience, index) => (
+            <Reveal key={audience.href} index={index} className="h-full">
+              <AudienceCard title={audience.title} summary={audience.summary} href={audience.href} />
+            </Reveal>
           ))}
         </div>
       </Section>
 
-      {/* 6. Why Choose Freedom HR Solutions */}
+      {/* 7. Why Choose Freedom HR Solutions */}
       <Section>
         <SectionHeading
           eyebrow="Why Freedom HR"
           title="What Makes Freedom HR Solutions Different"
         />
-        <div className="mt-10">
-          <FeatureGrid items={whyChoose} columns={2} variant="check" />
+        <div className="mt-10 grid gap-5 sm:grid-cols-2">
+          {whyChoose.map((item, index) => (
+            <Reveal key={item.title} index={index} className="h-full">
+              <div className="flex h-full gap-4 rounded-card border border-border bg-white p-6 shadow-sm shadow-ink/[0.03]">
+                <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-brand-50" aria-hidden>
+                  <Check className="h-5 w-5 text-brand-600" />
+                </span>
+                <div>
+                  <h3 className="font-display text-lg font-bold text-ink">{item.title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-body">{item.description}</p>
+                </div>
+              </div>
+            </Reveal>
+          ))}
         </div>
       </Section>
 
-      {/* 7. How We Work (Process Steps) */}
+      {/* 8. How We Work (Process Steps) */}
       <Section tone="muted">
         <SectionHeading
           eyebrow="Our Process"
@@ -258,7 +302,7 @@ export default function HomePage() {
         </div>
       </Section>
 
-      {/* 8. Service Area */}
+      {/* 9. Service Area */}
       <Section containerSize="narrow">
         <SectionHeading
           eyebrow="Service Area"
@@ -283,10 +327,10 @@ export default function HomePage() {
         </p>
       </Section>
 
-      {/* 9. AEO FAQ Section (FaqSection also emits FAQPage JSON-LD) */}
+      {/* 10. AEO FAQ Section (FaqSection also emits FAQPage JSON-LD) */}
       <FaqSection faqs={homeFaqs} />
 
-      {/* 10. Final CTA Band */}
+      {/* 11. Final CTA Band */}
       <CtaBand />
     </>
   );

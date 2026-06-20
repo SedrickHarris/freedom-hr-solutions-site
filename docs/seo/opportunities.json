@@ -1,0 +1,616 @@
+{
+  "generatedAt": "2026-06-20T04:14:25.725Z",
+  "opportunityCount": 21,
+  "opportunities": [
+    {
+      "opportunityId": "o-004",
+      "clusterId": "c-001",
+      "recommendedPageTitle": "Hr Risk Assessment",
+      "recommendedSlug": "hr-risk-assessment",
+      "primaryKeyword": "hr risk assessment",
+      "supportingKeywords": [
+        "risk assessment for hr",
+        "risk assessment in hr"
+      ],
+      "pageType": "service-location",
+      "intent": "local",
+      "existingRouteOverlap": {
+        "route": "/request-assessment",
+        "sourceFile": "src/app/request-assessment/page.tsx",
+        "matchedTokens": 3,
+        "baseTokenCount": 3,
+        "overlapRatio": 1
+      },
+      "score": 5,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 2,
+        "clusterDepth": 1,
+        "modifierStrength": 1,
+        "existingOverlapPenalty": -4,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 5. Signals: intent=local, pageType=service-location, keywords=3, volumeData=supplied, existingOverlap=1. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Review the existing overlapping route for expansion instead of creating a duplicate page."
+    },
+    {
+      "opportunityId": "o-003",
+      "clusterId": "c-011",
+      "recommendedPageTitle": "Hr Audit List",
+      "recommendedSlug": "hr-audit-list",
+      "primaryKeyword": "hr audit list",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/who-we-help",
+        "sourceFile": "src/app/who-we-help/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 3,
+        "overlapRatio": 0.33
+      },
+      "score": 4,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 4. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.33. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-001",
+      "clusterId": "c-002",
+      "recommendedPageTitle": "Hr Compliance Audit",
+      "recommendedSlug": "hr-compliance-audit",
+      "primaryKeyword": "hr compliance audit",
+      "supportingKeywords": [
+        "compliance hr audit",
+        "hr audit and compliance"
+      ],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 2,
+        "baseTokenCount": 3,
+        "overlapRatio": 0.67
+      },
+      "score": 3,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 1,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -3,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 3. Signals: intent=general, pageType=pillar, keywords=3, volumeData=supplied, existingOverlap=0.67. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-002",
+      "clusterId": "c-005",
+      "recommendedPageTitle": "Human Resources Compliance Audit",
+      "recommendedSlug": "human-resources-compliance-audit",
+      "primaryKeyword": "human resources compliance audit",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/resources",
+        "sourceFile": "src/app/resources/page.tsx",
+        "matchedTokens": 2,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.5
+      },
+      "score": 3,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -2,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 3. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.5. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-009",
+      "clusterId": "c-008",
+      "recommendedPageTitle": "Human Resources Risk Assessment",
+      "recommendedSlug": "human-resources-risk-assessment",
+      "primaryKeyword": "human resources risk assessment",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/request-assessment",
+        "sourceFile": "src/app/request-assessment/page.tsx",
+        "matchedTokens": 2,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.5
+      },
+      "score": 3,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -2,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 3. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.5. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-013",
+      "clusterId": "c-013",
+      "recommendedPageTitle": "Hr Risk Register Template",
+      "recommendedSlug": "hr-risk-register-template",
+      "primaryKeyword": "hr risk register template",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/request-assessment",
+        "sourceFile": "src/app/request-assessment/page.tsx",
+        "matchedTokens": 2,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.5
+      },
+      "score": 3,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -2,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 3. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.5. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-014",
+      "clusterId": "c-014",
+      "recommendedPageTitle": "Sample Risk Assessment Hr Department",
+      "recommendedSlug": "sample-risk-assessment-for-hr-department",
+      "primaryKeyword": "sample risk assessment for hr department",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/request-assessment",
+        "sourceFile": "src/app/request-assessment/page.tsx",
+        "matchedTokens": 3,
+        "baseTokenCount": 5,
+        "overlapRatio": 0.6
+      },
+      "score": 3,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -2,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 3. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.6. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-016",
+      "clusterId": "c-016",
+      "recommendedPageTitle": "Hr Compliance Small",
+      "recommendedSlug": "hr-compliance-review-small-business",
+      "primaryKeyword": "hr compliance review small business",
+      "supportingKeywords": [],
+      "pageType": "comparison",
+      "intent": "commercial-comparison",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 4,
+        "baseTokenCount": 5,
+        "overlapRatio": 0.8
+      },
+      "score": 3,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 1,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 2,
+        "existingOverlapPenalty": -3,
+        "dataCompleteness": 0
+      },
+      "rationale": "Priority heuristic 3. Signals: intent=commercial-comparison, pageType=comparison, keywords=1, volumeData=none, existingOverlap=0.8. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Review the existing overlapping route for expansion instead of creating a duplicate page."
+    },
+    {
+      "opportunityId": "o-017",
+      "clusterId": "c-017",
+      "recommendedPageTitle": "Employee Handbook Audit",
+      "recommendedSlug": "employee-handbook-audit",
+      "primaryKeyword": "employee handbook audit",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": null,
+      "score": 3,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": 0,
+        "dataCompleteness": 0
+      },
+      "rationale": "Priority heuristic 3. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-005",
+      "clusterId": "c-003",
+      "recommendedPageTitle": "Payroll Compliance Audit",
+      "recommendedSlug": "payroll-compliance-audit",
+      "primaryKeyword": "payroll compliance audit",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 2,
+        "baseTokenCount": 3,
+        "overlapRatio": 0.67
+      },
+      "score": 2,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -3,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.67. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-006",
+      "clusterId": "c-004",
+      "recommendedPageTitle": "Hr Risk Assessment Template",
+      "recommendedSlug": "hr-risk-assessment-template",
+      "primaryKeyword": "hr risk assessment template",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/request-assessment",
+        "sourceFile": "src/app/request-assessment/page.tsx",
+        "matchedTokens": 3,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.75
+      },
+      "score": 2,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -3,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.75. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Review the existing overlapping route for expansion instead of creating a duplicate page."
+    },
+    {
+      "opportunityId": "o-007",
+      "clusterId": "c-006",
+      "recommendedPageTitle": "Hr Risk Assessment Examples",
+      "recommendedSlug": "hr-risk-assessment-examples",
+      "primaryKeyword": "hr risk assessment examples",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/request-assessment",
+        "sourceFile": "src/app/request-assessment/page.tsx",
+        "matchedTokens": 3,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.75
+      },
+      "score": 2,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -3,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.75. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Review the existing overlapping route for expansion instead of creating a duplicate page."
+    },
+    {
+      "opportunityId": "o-010",
+      "clusterId": "c-009",
+      "recommendedPageTitle": "Risk Assessment Hr Department",
+      "recommendedSlug": "risk-assessment-for-hr-department",
+      "primaryKeyword": "risk assessment for hr department",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/request-assessment",
+        "sourceFile": "src/app/request-assessment/page.tsx",
+        "matchedTokens": 3,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.75
+      },
+      "score": 2,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -3,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.75. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Review the existing overlapping route for expansion instead of creating a duplicate page."
+    },
+    {
+      "opportunityId": "o-011",
+      "clusterId": "c-010",
+      "recommendedPageTitle": "Hr Audit",
+      "recommendedSlug": "an-hr-audit",
+      "primaryKeyword": "an hr audit",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 2,
+        "overlapRatio": 0.5
+      },
+      "score": 2,
+      "scoreBreakdown": {
+        "serviceFitHint": 2,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -2,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.5. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-012",
+      "clusterId": "c-012",
+      "recommendedPageTitle": "Hr Risk Analysis",
+      "recommendedSlug": "hr-risk-analysis",
+      "primaryKeyword": "hr risk analysis",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/request-assessment",
+        "sourceFile": "src/app/request-assessment/page.tsx",
+        "matchedTokens": 2,
+        "baseTokenCount": 3,
+        "overlapRatio": 0.67
+      },
+      "score": 2,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -3,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.67. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-008",
+      "clusterId": "c-007",
+      "recommendedPageTitle": "Hr Compliance Risk Assessment",
+      "recommendedSlug": "hr-compliance-risk-assessment",
+      "primaryKeyword": "hr compliance risk assessment",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/request-assessment",
+        "sourceFile": "src/app/request-assessment/page.tsx",
+        "matchedTokens": 4,
+        "baseTokenCount": 4,
+        "overlapRatio": 1
+      },
+      "score": 1,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -4,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 1. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=1. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Review the existing overlapping route for expansion instead of creating a duplicate page."
+    },
+    {
+      "opportunityId": "o-015",
+      "clusterId": "c-015",
+      "recommendedPageTitle": "Hr Compliance Gap Analysis",
+      "recommendedSlug": "hr-compliance-gap-analysis",
+      "primaryKeyword": "hr compliance gap analysis",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 2,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.5
+      },
+      "score": 1,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -2,
+        "dataCompleteness": 0
+      },
+      "rationale": "Priority heuristic 1. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.5. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-019",
+      "clusterId": "c-019",
+      "recommendedPageTitle": "Hr Compliance Checklist Employer",
+      "recommendedSlug": "hr-compliance-checklist-employer",
+      "primaryKeyword": "hr compliance checklist employer",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 2,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.5
+      },
+      "score": 1,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -2,
+        "dataCompleteness": 0
+      },
+      "rationale": "Priority heuristic 1. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.5. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-020",
+      "clusterId": "c-020",
+      "recommendedPageTitle": "Hr Audit Services Las Vegas",
+      "recommendedSlug": "hr-audit-services-las-vegas",
+      "primaryKeyword": "hr audit services las vegas",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 3,
+        "baseTokenCount": 5,
+        "overlapRatio": 0.6
+      },
+      "score": 1,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -2,
+        "dataCompleteness": 0
+      },
+      "rationale": "Priority heuristic 1. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.6. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-021",
+      "clusterId": "c-021",
+      "recommendedPageTitle": "Hr Assessment Growing",
+      "recommendedSlug": "hr-assessment-for-growing-business",
+      "primaryKeyword": "hr assessment for growing business",
+      "supportingKeywords": [],
+      "pageType": "audience-service",
+      "intent": "audience-specific",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 3,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.75
+      },
+      "score": 1,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 1,
+        "existingOverlapPenalty": -3,
+        "dataCompleteness": 0
+      },
+      "rationale": "Priority heuristic 1. Signals: intent=audience-specific, pageType=audience-service, keywords=1, volumeData=none, existingOverlap=0.75. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Review the existing overlapping route for expansion instead of creating a duplicate page."
+    },
+    {
+      "opportunityId": "o-018",
+      "clusterId": "c-018",
+      "recommendedPageTitle": "Hr Risk Assessment Consultant",
+      "recommendedSlug": "hr-risk-assessment-consultant",
+      "primaryKeyword": "hr risk assessment consultant",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/thank-you",
+        "sourceFile": "src/app/thank-you/page.tsx",
+        "matchedTokens": 4,
+        "baseTokenCount": 4,
+        "overlapRatio": 1
+      },
+      "score": 0,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -4,
+        "dataCompleteness": 0
+      },
+      "rationale": "Priority heuristic 0. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=1. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Review the existing overlapping route for expansion instead of creating a duplicate page."
+    }
+  ],
+  "warnings": []
+}

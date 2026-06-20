@@ -1,0 +1,486 @@
+{
+  "generatedAt": "2026-06-20T04:14:22.219Z",
+  "clusterCount": 21,
+  "clusters": [
+    {
+      "clusterId": "c-002",
+      "clusterName": "Hr Compliance Audit",
+      "primaryKeyword": "hr compliance audit",
+      "keywords": [
+        "hr compliance audit",
+        "compliance hr audit",
+        "hr audit and compliance"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 3,
+        "keywordsWithVolume": 3,
+        "totalAvgMonthlySearches": 600,
+        "maxAvgMonthlySearches": 500,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: hr, compliance, audit. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-005",
+      "clusterName": "Human Resources Compliance Audit",
+      "primaryKeyword": "human resources compliance audit",
+      "keywords": [
+        "human resources compliance audit"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 500,
+        "maxAvgMonthlySearches": 500,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: human, resources, compliance, audit. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-011",
+      "clusterName": "Hr Audit List",
+      "primaryKeyword": "hr audit list",
+      "keywords": [
+        "hr audit list"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 500,
+        "maxAvgMonthlySearches": 500,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: hr, audit, list. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-001",
+      "clusterName": "Hr Risk Assessment",
+      "primaryKeyword": "hr risk assessment",
+      "keywords": [
+        "hr risk assessment",
+        "risk assessment for hr",
+        "risk assessment in hr"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "local"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 3,
+        "keywordsWithVolume": 3,
+        "totalAvgMonthlySearches": 150,
+        "maxAvgMonthlySearches": 50,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: hr, risk, assessment. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": [
+        "location"
+      ]
+    },
+    {
+      "clusterId": "c-003",
+      "clusterName": "Payroll Compliance Audit",
+      "primaryKeyword": "payroll compliance audit",
+      "keywords": [
+        "payroll compliance audit"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 50,
+        "maxAvgMonthlySearches": 50,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: payroll, compliance, audit. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-004",
+      "clusterName": "Hr Risk Assessment Template",
+      "primaryKeyword": "hr risk assessment template",
+      "keywords": [
+        "hr risk assessment template"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 50,
+        "maxAvgMonthlySearches": 50,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: hr, risk, assessment, template. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-006",
+      "clusterName": "Hr Risk Assessment Examples",
+      "primaryKeyword": "hr risk assessment examples",
+      "keywords": [
+        "hr risk assessment examples"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 50,
+        "maxAvgMonthlySearches": 50,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: hr, risk, assessment, examples. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-007",
+      "clusterName": "Hr Compliance Risk Assessment",
+      "primaryKeyword": "hr compliance risk assessment",
+      "keywords": [
+        "hr compliance risk assessment"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 50,
+        "maxAvgMonthlySearches": 50,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: hr, compliance, risk, assessment. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-008",
+      "clusterName": "Human Resources Risk Assessment",
+      "primaryKeyword": "human resources risk assessment",
+      "keywords": [
+        "human resources risk assessment"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 50,
+        "maxAvgMonthlySearches": 50,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: human, resources, risk, assessment. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-009",
+      "clusterName": "Risk Assessment Hr Department",
+      "primaryKeyword": "risk assessment for hr department",
+      "keywords": [
+        "risk assessment for hr department"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 50,
+        "maxAvgMonthlySearches": 50,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: risk, assessment, hr, department. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-010",
+      "clusterName": "Hr Audit",
+      "primaryKeyword": "an hr audit",
+      "keywords": [
+        "an hr audit"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 50,
+        "maxAvgMonthlySearches": 50,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: hr, audit. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-012",
+      "clusterName": "Hr Risk Analysis",
+      "primaryKeyword": "hr risk analysis",
+      "keywords": [
+        "hr risk analysis"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 50,
+        "maxAvgMonthlySearches": 50,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: hr, risk, analysis. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-013",
+      "clusterName": "Hr Risk Register Template",
+      "primaryKeyword": "hr risk register template",
+      "keywords": [
+        "hr risk register template"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 50,
+        "maxAvgMonthlySearches": 50,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: hr, risk, register, template. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-014",
+      "clusterName": "Sample Risk Assessment Hr Department",
+      "primaryKeyword": "sample risk assessment for hr department",
+      "keywords": [
+        "sample risk assessment for hr department"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 50,
+        "maxAvgMonthlySearches": 50,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: sample, risk, assessment, hr, department. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-015",
+      "clusterName": "Hr Compliance Gap Analysis",
+      "primaryKeyword": "hr compliance gap analysis",
+      "keywords": [
+        "hr compliance gap analysis"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: hr, compliance, gap, analysis. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-016",
+      "clusterName": "Hr Compliance Small",
+      "primaryKeyword": "hr compliance review small business",
+      "keywords": [
+        "hr compliance review small business"
+      ],
+      "modifiers": [
+        "review",
+        "business"
+      ],
+      "intentHints": [
+        "commercial-comparison",
+        "audience-specific"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: hr, compliance, small. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": [
+        "comparison",
+        "audience"
+      ]
+    },
+    {
+      "clusterId": "c-017",
+      "clusterName": "Employee Handbook Audit",
+      "primaryKeyword": "employee handbook audit",
+      "keywords": [
+        "employee handbook audit"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: employee, handbook, audit. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-018",
+      "clusterName": "Hr Risk Assessment Consultant",
+      "primaryKeyword": "hr risk assessment consultant",
+      "keywords": [
+        "hr risk assessment consultant"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: hr, risk, assessment, consultant. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-019",
+      "clusterName": "Hr Compliance Checklist Employer",
+      "primaryKeyword": "hr compliance checklist employer",
+      "keywords": [
+        "hr compliance checklist employer"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: hr, compliance, checklist, employer. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-020",
+      "clusterName": "Hr Audit Services Las Vegas",
+      "primaryKeyword": "hr audit services las vegas",
+      "keywords": [
+        "hr audit services las vegas"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: hr, audit, services, las, vegas. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-021",
+      "clusterName": "Hr Assessment Growing",
+      "primaryKeyword": "hr assessment for growing business",
+      "keywords": [
+        "hr assessment for growing business"
+      ],
+      "modifiers": [
+        "business"
+      ],
+      "intentHints": [
+        "audience-specific"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: hr, assessment, growing. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": [
+        "audience"
+      ]
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,309 @@
+{
+  "generatedAt": "2026-06-20T04:14:05.811Z",
+  "routeCount": 19,
+  "routes": [
+    {
+      "route": "/",
+      "sourceFile": "src/app/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [
+        "HR Compliance, Payroll, Benefits & HR Consulting | Freedom HR Solutions",
+        "Business Owners",
+        "Small Businesses",
+        "Growing Businesses",
+        "HR Teams",
+        "Payroll Teams",
+        "Multi-State Employers",
+        "Platform-Agnostic Support",
+        "Las Vegas Based. Nationwide Reach.",
+        "HR, Payroll, Benefits, and ACA Under One Firm"
+      ],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [
+        "/services/",
+        "/locations/las-vegas-nv/",
+        "/locations/nationwide-hr-consulting/"
+      ],
+      "schemaTypeHints": [
+        "FAQPage",
+        "Service"
+      ],
+      "wordEstimate": 163
+    },
+    {
+      "route": "/about",
+      "sourceFile": "src/app/about/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [
+        "About Freedom HR Solutions | HR, Payroll, Benefits, and Compliance Support",
+        "Service",
+        "Accountability",
+        "Integrity",
+        "Clarity",
+        "Practical support",
+        "Business-first problem solving"
+      ],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [],
+      "schemaTypeHints": [
+        "Service"
+      ],
+      "wordEstimate": 11
+    },
+    {
+      "route": "/blog",
+      "sourceFile": "src/app/blog/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [
+        "HR, Payroll, Benefits, and Compliance Blog | Freedom HR Solutions"
+      ],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [],
+      "schemaTypeHints": [],
+      "wordEstimate": 9
+    },
+    {
+      "route": "/blog/:slug",
+      "sourceFile": "src/app/blog/[slug]/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [],
+      "schemaTypeHints": [],
+      "wordEstimate": 36
+    },
+    {
+      "route": "/blog/category/:slug",
+      "sourceFile": "src/app/blog/category/[slug]/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [
+        "${category.title} Articles | ${site.name}"
+      ],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [],
+      "schemaTypeHints": [],
+      "wordEstimate": 63
+    },
+    {
+      "route": "/contact",
+      "sourceFile": "src/app/contact/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [
+        "Contact Freedom HR Solutions | HR, Payroll, Benefits, and Compliance Support"
+      ],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [],
+      "schemaTypeHints": [],
+      "wordEstimate": 67
+    },
+    {
+      "route": "/faqs",
+      "sourceFile": "src/app/faqs/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [
+        "FAQs | Freedom HR Solutions"
+      ],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [],
+      "schemaTypeHints": [],
+      "wordEstimate": 9
+    },
+    {
+      "route": "/locations",
+      "sourceFile": "src/app/locations/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [
+        "Locations Served | Freedom HR Solutions"
+      ],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [],
+      "schemaTypeHints": [],
+      "wordEstimate": 14
+    },
+    {
+      "route": "/locations/:slug",
+      "sourceFile": "src/app/locations/[slug]/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [],
+      "schemaTypeHints": [],
+      "wordEstimate": 35
+    },
+    {
+      "route": "/partners",
+      "sourceFile": "src/app/partners/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [
+        "HR, Payroll, Benefits, and HCM Platform Support | Freedom HR Solutions"
+      ],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [],
+      "schemaTypeHints": [],
+      "wordEstimate": 11
+    },
+    {
+      "route": "/partners/:slug",
+      "sourceFile": "src/app/partners/[slug]/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [],
+      "schemaTypeHints": [],
+      "wordEstimate": 35
+    },
+    {
+      "route": "/privacy-policy",
+      "sourceFile": "src/app/privacy-policy/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [
+        "Privacy Policy | Freedom HR Solutions"
+      ],
+      "possibleH1s": [
+        "Privacy Policy"
+      ],
+      "possibleH2s": [
+        "Information we collect",
+        "How we use your information",
+        "Communication consent",
+        "Service providers",
+        "Your choices",
+        "Contact"
+      ],
+      "internalHrefs": [],
+      "schemaTypeHints": [
+        "Service"
+      ],
+      "wordEstimate": 9
+    },
+    {
+      "route": "/request-assessment",
+      "sourceFile": "src/app/request-assessment/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [
+        "Request HR MRI Risk Assessment | Freedom HR Solutions",
+        "HR and compliance",
+        "Payroll and benefits",
+        "Systems and reporting",
+        "Risk and priorities",
+        "You submit the form",
+        "We review your situation",
+        "We follow up"
+      ],
+      "possibleH1s": [],
+      "possibleH2s": [
+        "Request your assessment"
+      ],
+      "internalHrefs": [],
+      "schemaTypeHints": [],
+      "wordEstimate": 32
+    },
+    {
+      "route": "/resources",
+      "sourceFile": "src/app/resources/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [
+        "HR, Payroll, Benefits, and Compliance Resources | Freedom HR Solutions"
+      ],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [
+        "/blog/"
+      ],
+      "schemaTypeHints": [],
+      "wordEstimate": 12
+    },
+    {
+      "route": "/services",
+      "sourceFile": "src/app/services/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [
+        "HR, Payroll, Benefits, and Compliance Services | Freedom HR Solutions"
+      ],
+      "possibleH1s": [],
+      "possibleH2s": [
+        "Not sure which service you need?"
+      ],
+      "internalHrefs": [],
+      "schemaTypeHints": [
+        "Service"
+      ],
+      "wordEstimate": 44
+    },
+    {
+      "route": "/services/:slug",
+      "sourceFile": "src/app/services/[slug]/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [],
+      "schemaTypeHints": [],
+      "wordEstimate": 62
+    },
+    {
+      "route": "/thank-you",
+      "sourceFile": "src/app/thank-you/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [
+        "Thank You | Freedom HR Solutions",
+        "Explore our services",
+        "HR MRI Risk Assessment",
+        "ACA Reporting Consultant",
+        "Payroll, Benefits & HR Management",
+        "See who we help",
+        "For business owners"
+      ],
+      "possibleH1s": [
+        "Thank you for contacting Freedom HR Solutions"
+      ],
+      "possibleH2s": [
+        "While you are here"
+      ],
+      "internalHrefs": [
+        "/"
+      ],
+      "schemaTypeHints": [],
+      "wordEstimate": 11
+    },
+    {
+      "route": "/who-we-help",
+      "sourceFile": "src/app/who-we-help/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [
+        "Who We Help | Freedom HR Solutions",
+        "Role-based support",
+        "Company-type support",
+        "Industry support"
+      ],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [],
+      "schemaTypeHints": [],
+      "wordEstimate": 15
+    },
+    {
+      "route": "/who-we-help/:slug",
+      "sourceFile": "src/app/who-we-help/[slug]/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [],
+      "schemaTypeHints": [],
+      "wordEstimate": 35
+    }
+  ],
+  "warnings": []
+}

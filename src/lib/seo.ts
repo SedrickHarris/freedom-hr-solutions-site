@@ -23,8 +23,12 @@ export function buildMetadata({
   const canonicalPath = path === "/" ? "/" : path.endsWith("/") ? path : `${path}/`;
   const url = `${site.url}${canonicalPath}`;
 
+  // If the title already includes the brand, mark it absolute so the root
+  // layout's "%s | Brand" template does not append the brand a second time.
+  const resolvedTitle = title.includes(site.name) ? { absolute: title } : title;
+
   return {
-    title,
+    title: resolvedTitle,
     description,
     alternates: {
       canonical: canonicalPath,

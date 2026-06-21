@@ -8,18 +8,18 @@ import { primaryCta, secondaryCta } from "@/data/site";
 /**
  * Footer CTA band.
  *
- * Renders ONLY on pages that do not already render an in-page <CtaBand />,
- * so the two never stack into a duplicate CTA. Every marketing/template page
- * ships CtaBand, so this is an allowlist of the few routes that don't:
- * contact, privacy policy, the assessment form, and the thank-you page.
+ * Renders ONLY on pages that do not already have their own bottom CTA,
+ * so a duplicate CTA never stacks. Every marketing/template page ships
+ * CtaBand, and the request-assessment page already contains the assessment
+ * form, so this is an allowlist of the few routes that need it:
+ * contact, privacy policy, and the thank-you page.
  *
- * Keeping this as an allowlist (default hidden) means new pages — which almost
- * always include CtaBand — never accidentally double up.
+ * Keeping this as an allowlist (default hidden) means new pages, which almost
+ * always include CtaBand, never accidentally double up.
  */
 const SHOW_ON = new Set([
   "/contact",
   "/privacy-policy",
-  "/request-assessment",
   "/thank-you",
 ]);
 

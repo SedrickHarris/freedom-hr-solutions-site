@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CardShell, CardArrow } from "@/components/cards/CardShell";
 import { Badge } from "@/components/ui/Badge";
 
@@ -8,17 +9,31 @@ interface ServiceCardProps {
   category?: string;
   /** Opt-in image placeholder at the top of the card (off by default). */
   withImagePlaceholder?: boolean;
+  /** Real category image. When omitted, the placeholder background shows. */
+  image?: {
+    src: string;
+    alt: string;
+  };
 }
 
-export function ServiceCard({ title, summary, href, category, withImagePlaceholder }: ServiceCardProps) {
+export function ServiceCard({ title, summary, href, category, withImagePlaceholder, image }: ServiceCardProps) {
   return (
     <CardShell href={href}>
       {withImagePlaceholder && (
-        /* TODO: Replace with owner-supplied service category image */
         <div
-          aria-hidden="true"
-          className="mb-5 aspect-[16/10] w-full overflow-hidden rounded-lg bg-brand-50"
-        />
+          aria-hidden={!image}
+          className="relative mb-5 aspect-[7/4] w-full overflow-hidden rounded-lg bg-brand-50"
+        >
+          {image ? (
+            <Image
+              src={image.src}
+              alt={image.alt}
+              fill
+              className="object-cover object-center"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            />
+          ) : null}
+        </div>
       )}
       {category && (
         <Badge tone="muted" className="mb-3 self-start">

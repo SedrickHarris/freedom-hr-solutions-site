@@ -168,6 +168,34 @@ const homeFaqs = [
   },
 ];
 
+/** Maps each service hub slug to its real category image. */
+const serviceHubImages: Record<string, { src: string; alt: string }> = {
+  "hr-compliance": {
+    src: "/images/services/freedom-hr-solutions-hr-compliance-risk-management-service-section.webp",
+    alt: "HR compliance and risk management consulting",
+  },
+  "aca-reporting-compliance": {
+    src: "/images/services/freedom-hr-solutions-aca-reporting-compliance-service-section.webp",
+    alt: "ACA reporting and compliance consulting",
+  },
+  "payroll-benefits-hr-systems": {
+    src: "/images/services/freedom-hr-solutions-payroll-benefits-hr-systems-service-section.webp",
+    alt: "Payroll, benefits, and HR systems support",
+  },
+  "hr-technology-automation": {
+    src: "/images/services/freedom-hr-solutions-hr-technology-automation-service-section.webp",
+    alt: "HR technology and automation consulting",
+  },
+  "support-service-continuity": {
+    src: "/images/services/freedom-hr-solutions-support-service-continuity-service-section.webp",
+    alt: "HR support and service continuity",
+  },
+  "talent-workforce-development": {
+    src: "/images/services/freedom-hr-solutions-talent-workforce-development-service-section.webp",
+    alt: "Talent and workforce development consulting",
+  },
+};
+
 export default function HomePage() {
   return (
     <>
@@ -182,7 +210,7 @@ export default function HomePage() {
       />
 
       {/* 2. Trust Bar */}
-      <Section tone="muted" className="border-y border-border py-6">
+      <Section tone="muted" className="border-y border-border py-4">
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm font-medium text-body sm:flex-nowrap">
           {trustItems.map((item, index) => (
             <Reveal key={item.label} index={index} className="flex items-center gap-x-8">
@@ -251,6 +279,7 @@ export default function HomePage() {
                 summary={hub.summary}
                 href={servicePath(hub.slug)}
                 withImagePlaceholder
+                image={serviceHubImages[hub.slug]}
               />
             </Reveal>
           ))}

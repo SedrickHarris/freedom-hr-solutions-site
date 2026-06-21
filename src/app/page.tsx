@@ -306,7 +306,7 @@ export default function HomePage() {
           description="Every engagement starts with understanding your business before we recommend anything."
         />
         <div className="mt-10">
-          <ProcessSteps steps={standardProcess.slice(0, 4)} />
+          <ProcessSteps steps={standardProcess.slice(0, 4)} columns={2} />
         </div>
       </Section>
 

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Hero } from "@/components/sections/Hero";
+import { HrMriHero } from "@/components/sections/HrMriHero";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { FeatureGrid } from "@/components/sections/FeatureGrid";
@@ -48,7 +48,7 @@ export default function RequestAssessmentPage() {
     <>
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Request HR MRI Assessment", path: "/request-assessment/" }]} />
 
-      <Hero
+      <HrMriHero
         eyebrow="HR MRI Risk Assessment"
         title="Request Your HR MRI Risk Assessment"
         description="The HR MRI Risk Assessment is a structured evaluation of your HR practices, policies, systems, and compliance operations. We identify your risks, explain why they matter, and give you a prioritized plan to address them."

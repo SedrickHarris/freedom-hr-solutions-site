@@ -14,7 +14,7 @@ import {
   TrendingUp,
   Check,
 } from "lucide-react";
-import { Hero } from "@/components/sections/Hero";
+import { HomepageHero } from "@/components/sections/HomepageHero";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { ProcessSteps } from "@/components/sections/ProcessSteps";
@@ -166,8 +166,7 @@ export default function HomePage() {
   return (
     <>
       {/* 1. Hero */}
-      <Hero
-        variant="home"
+      <HomepageHero
         eyebrow="Headquartered in Las Vegas. Serving businesses nationwide."
         title="HR, Payroll, Benefits, and Compliance Support for Growing Businesses"
         description="Freedom HR Solutions helps businesses identify HR risks, improve payroll and benefits processes, manage ACA reporting, implement HR systems, and strengthen workforce operations."

@@ -7,7 +7,10 @@ import { Button } from "@/components/ui/Button";
 import { consentLanguage } from "@/data/site";
 import { submitLead } from "@/lib/forms";
 
-const companySizes = ["1 to 10", "11 to 50", "51 to 100", "101 to 250", "251 to 500", "500+"];
+const employeeCounts = ["1 to 10", "11 to 50", "51 to 100", "101 to 250", "251 to 500", "500+"];
+const taxIdOptions = ["1", "2", "3", "4", "5+"];
+const locationOptions = ["1", "2 to 5", "6 to 10", "11 to 25", "26+"];
+const multiStateOptions = ["Yes", "No"];
 
 const serviceOptions = [
   "HR Compliance & Risk",
@@ -52,31 +55,61 @@ export function AssessmentForm() {
           <Field label="Last name" htmlFor="lastName" required>
             <Input id="lastName" name="lastName" autoComplete="family-name" required />
           </Field>
+          <Field label="Job title" htmlFor="jobTitle" required>
+            <Input id="jobTitle" name="jobTitle" autoComplete="organization-title" required />
+          </Field>
           <Field label="Email" htmlFor="email" required>
             <Input id="email" name="email" type="email" autoComplete="email" required />
           </Field>
-          <Field label="Phone" htmlFor="phone">
-            <Input id="phone" name="phone" type="tel" autoComplete="tel" />
+          <Field label="Phone" htmlFor="phone" required>
+            <Input id="phone" name="phone" type="tel" autoComplete="tel" required />
+          </Field>
+          <Field label="Website URL" htmlFor="websiteUrl">
+            <Input id="websiteUrl" name="websiteUrl" type="url" placeholder="https://" autoComplete="url" />
           </Field>
         </div>
       </fieldset>
 
       <fieldset className="space-y-5">
         <legend className="text-sm font-semibold uppercase tracking-wide text-brand-700">
-          About your business
+          About your company
         </legend>
         <div className="grid gap-5 sm:grid-cols-2">
           <Field label="Company name" htmlFor="company" required>
             <Input id="company" name="company" autoComplete="organization" required />
           </Field>
-          <Field label="Company size" htmlFor="companySize">
-            <Select id="companySize" name="companySize" defaultValue="">
+          <Field label="Number of employees" htmlFor="employeeCount">
+            <Select id="employeeCount" name="employeeCount" defaultValue="">
               <option value="" disabled>
-                Select size
+                Select range
               </option>
-              {companySizes.map((size) => (
-                <option key={size} value={size}>
-                  {size} employees
+              {employeeCounts.map((count) => (
+                <option key={count} value={count}>
+                  {count} employees
+                </option>
+              ))}
+            </Select>
+          </Field>
+          <Field label="Number of tax IDs" htmlFor="taxIds">
+            <Select id="taxIds" name="taxIds" defaultValue="">
+              <option value="" disabled>
+                Select number
+              </option>
+              {taxIdOptions.map((count) => (
+                <option key={count} value={count}>
+                  {count}
+                </option>
+              ))}
+            </Select>
+          </Field>
+          <Field label="Number of locations" htmlFor="locationCount">
+            <Select id="locationCount" name="locationCount" defaultValue="">
+              <option value="" disabled>
+                Select range
+              </option>
+              {locationOptions.map((count) => (
+                <option key={count} value={count}>
+                  {count}
                 </option>
               ))}
             </Select>
@@ -84,17 +117,42 @@ export function AssessmentForm() {
           <Field label="State" htmlFor="state">
             <Input id="state" name="state" placeholder="e.g. Nevada" autoComplete="address-level1" />
           </Field>
-          <Field label="Current HR or payroll platform" htmlFor="platform">
-            <Input id="platform" name="platform" placeholder="e.g. ADP, isolved, not sure" />
+          <Field label="Multi-state locations" htmlFor="multiState">
+            <div className="flex flex-wrap gap-5 pt-2">
+              {multiStateOptions.map((option) => (
+                <label key={option} className="flex items-center gap-2 text-sm text-body">
+                  <input
+                    type="radio"
+                    name="multiState"
+                    value={option}
+                    className="h-4 w-4 border-border text-brand-600 focus:ring-brand-400"
+                  />
+                  {option}
+                </label>
+              ))}
+            </div>
           </Field>
         </div>
-        <Field label="Primary challenge" htmlFor="challenge">
-          <Input
-            id="challenge"
-            name="challenge"
-            placeholder="What is the main issue you want help with?"
-          />
-        </Field>
+      </fieldset>
+
+      <fieldset className="space-y-5">
+        <legend className="text-sm font-semibold uppercase tracking-wide text-brand-700">
+          Your current systems
+        </legend>
+        <div className="grid gap-5 sm:grid-cols-2">
+          <Field label="Payroll service provider" htmlFor="payrollProvider">
+            <Input id="payrollProvider" name="payrollProvider" placeholder="e.g. ADP, isolved, Paychex, not sure" />
+          </Field>
+          <Field label="HRIS provider" htmlFor="hrisProvider">
+            <Input id="hrisProvider" name="hrisProvider" placeholder="e.g. BambooHR, HiBob, not sure" />
+          </Field>
+          <Field label="Benefits administration system" htmlFor="benefitsSystem">
+            <Input id="benefitsSystem" name="benefitsSystem" placeholder="e.g. isolved, carrier portal, not sure" />
+          </Field>
+          <Field label="Time management system" htmlFor="timeSystem">
+            <Input id="timeSystem" name="timeSystem" placeholder="e.g. ADP, TSheets, not sure" />
+          </Field>
+        </div>
       </fieldset>
 
       <fieldset className="space-y-3">
@@ -116,6 +174,14 @@ export function AssessmentForm() {
         </div>
       </fieldset>
 
+      <Field label="Primary challenge or desired area of improvement" htmlFor="desiredImprovement">
+        <Textarea
+          id="desiredImprovement"
+          name="desiredImprovement"
+          placeholder="What is the main issue you want to address? The more context you share, the more focused the review."
+        />
+      </Field>
+
       <fieldset className="space-y-3">
         <Label htmlFor="preferredContact">Preferred contact method</Label>
         <div className="flex flex-wrap gap-5">
@@ -133,10 +199,6 @@ export function AssessmentForm() {
           ))}
         </div>
       </fieldset>
-
-      <Field label="Anything else we should know?" htmlFor="message">
-        <Textarea id="message" name="message" placeholder="Optional. Share any context that would help." />
-      </Field>
 
       <label className="flex items-start gap-3 text-sm text-body">
         <input

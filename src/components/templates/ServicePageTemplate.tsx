@@ -14,6 +14,8 @@ import { getServiceHub } from "@/data/serviceHubs";
 import { serviceRefs, audienceRefs, serviceHubRef } from "@/lib/links";
 import { serviceSchema } from "@/lib/schema";
 import { servicePath } from "@/lib/routes";
+import { AlertTriangle } from "lucide-react";
+import { getFeatureIcon } from "@/lib/icons";
 
 export function ServicePageTemplate({ service }: { service: Service }) {
   const hub = getServiceHub(service.hubSlug);
@@ -51,11 +53,8 @@ export function ServicePageTemplate({ service }: { service: Service }) {
         <ul className="mt-8 grid gap-4 sm:grid-cols-2">
           {service.problems.map((problem) => (
             <li key={problem} className="flex items-start gap-3 rounded-card border border-border bg-white p-4">
-              <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-50 text-brand-700" aria-hidden>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 8v5M12 16h.01" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
-                  <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.6" />
-                </svg>
+              <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-red-50 text-red-600" aria-hidden>
+                <AlertTriangle size={13} strokeWidth={2.2} />
               </span>
               <span className="text-body">{problem}</span>
             </li>
@@ -87,10 +86,11 @@ export function ServicePageTemplate({ service }: { service: Service }) {
             <ul className="mt-6 space-y-3">
               {service.challenges.map((challenge) => (
                 <li key={challenge} className="flex items-center gap-3 text-body">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-trust-50" aria-hidden>
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-                      <path d="M20 6L9 17l-5-5" stroke="#1f4ed6" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-trust-50 text-brand-600" aria-hidden>
+                    {(() => {
+                      const Icon = getFeatureIcon(challenge);
+                      return <Icon size={13} strokeWidth={2.2} />;
+                    })()}
                   </span>
                   {challenge}
                 </li>

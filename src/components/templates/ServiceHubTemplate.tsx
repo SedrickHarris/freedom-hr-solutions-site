@@ -15,6 +15,7 @@ import { getServicesByHub } from "@/data/services";
 import { audienceRefs } from "@/lib/links";
 import { serviceSchema } from "@/lib/schema";
 import { servicePath } from "@/lib/routes";
+import { Users } from "lucide-react";
 
 export function ServiceHubTemplate({ hub }: { hub: ServiceHub }) {
   // Exclude any child whose slug collides with the hub slug to avoid a self-link.
@@ -81,10 +82,8 @@ export function ServiceHubTemplate({ hub }: { hub: ServiceHub }) {
             <ul className="mt-6 space-y-3">
               {hub.whoItHelps.map((who) => (
                 <li key={who} className="flex items-center gap-3 text-body">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-trust-50" aria-hidden>
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-                      <path d="M20 6L9 17l-5-5" stroke="#1f4ed6" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-trust-50 text-brand-600" aria-hidden>
+                    <Users size={13} strokeWidth={2.2} />
                   </span>
                   {who}
                 </li>

@@ -1,5 +1,6 @@
 import type { FeatureItem } from "@/types";
 import { cn } from "@/lib/utils";
+import { getFeatureIcon } from "@/lib/icons";
 
 interface FeatureGridProps {
   items: FeatureItem[];
@@ -37,19 +38,14 @@ export function FeatureGrid({
               <span
                 className={cn(
                   "mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full",
-                  onDark ? "bg-trust-400/20" : "bg-trust-50",
+                  onDark ? "bg-trust-400/20 text-brand-200" : "bg-trust-50 text-brand-600",
                 )}
                 aria-hidden
               >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M20 6L9 17l-5-5"
-                    stroke={onDark ? "#bcd2ff" : "#1f4ed6"}
-                    strokeWidth="2.6"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
+                {(() => {
+                  const Icon = getFeatureIcon(item.title);
+                  return <Icon size={13} strokeWidth={2.2} />;
+                })()}
               </span>
               <div>
                 <h3 className={cn("font-semibold", onDark ? "text-white" : "text-ink")}>
@@ -65,19 +61,14 @@ export function FeatureGrid({
               <div
                 className={cn(
                   "mb-4 flex h-10 w-10 items-center justify-center rounded-lg",
-                  onDark ? "bg-white/10" : "bg-brand-50",
+                  onDark ? "bg-white/10 text-brand-200" : "bg-brand-50 text-brand-600",
                 )}
                 aria-hidden
               >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M20 6L9 17l-5-5"
-                    stroke={onDark ? "#bcd2ff" : "#1f4ed6"}
-                    strokeWidth="2.4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
+                {(() => {
+                  const Icon = getFeatureIcon(item.title);
+                  return <Icon size={20} strokeWidth={2} />;
+                })()}
               </div>
               <h3 className={cn("font-display text-lg font-bold", onDark ? "text-white" : "text-ink")}>
                 {item.title}

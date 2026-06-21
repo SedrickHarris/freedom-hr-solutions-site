@@ -13,7 +13,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-30 border-b border-border-soft bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-5 sm:px-6 lg:h-18 lg:px-8">
+      <div className="mx-auto flex h-18 max-w-6xl items-center justify-between gap-4 px-5 sm:px-6 lg:h-20 lg:px-8">
         <Link href="/" className="flex items-center" aria-label={`${"Freedom HR Solutions"} home`}>
           <Logo />
         </Link>

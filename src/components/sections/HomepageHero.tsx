@@ -131,7 +131,7 @@ export function HomepageHero({
 
       {/* Dark overlay — keeps text readable over any image */}
       <div
-        className="absolute inset-0 bg-black/65"
+        className="absolute inset-0 bg-black/55"
         aria-hidden
       />
 

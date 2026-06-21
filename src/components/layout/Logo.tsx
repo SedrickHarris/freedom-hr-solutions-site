@@ -23,7 +23,7 @@ export function Logo({ className, variant = "default" }: LogoProps) {
         alt="Freedom HR Solutions"
         width={200}
         height={60}
-        className="h-auto w-auto max-h-[48px]"
+        className="h-auto w-auto max-h-[60px]"
         priority
       />
     </span>

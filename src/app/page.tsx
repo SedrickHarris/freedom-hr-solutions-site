@@ -1,11 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
-  MapPin,
   Globe,
-  Shield,
-  User,
-  Building2,
   AlertCircle,
   HelpCircle,
   FileWarning,
@@ -37,14 +33,6 @@ export const metadata: Metadata = buildMetadata({
     "Freedom HR Solutions provides HR compliance, payroll, benefits, ACA reporting, and HR technology support for businesses in Las Vegas and nationwide.",
   path: "/",
 });
-
-const trustItems = [
-  { label: "Las Vegas Headquartered", Icon: MapPin },
-  { label: "Nationwide Service Delivery", Icon: Globe },
-  { label: "HR, Payroll, Benefits & Compliance", Icon: Shield },
-  { label: "Founder-Led HR Technology", Icon: User },
-  { label: "Multi-State Employer Support", Icon: Building2 },
-];
 
 const problems = [
   { title: "Payroll errors", description: "Mistakes create employee frustration and hours of administrative rework.", Icon: AlertCircle },
@@ -208,23 +196,6 @@ export default function HomePage() {
         primaryCta={{ label: "Request HR MRI Assessment", href: "/request-assessment/" }}
         secondaryCta={{ label: "Schedule Consultation", href: "/contact/" }}
       />
-
-      {/* 2. Trust Bar */}
-      <Section tone="muted" className="border-y border-border py-4">
-        <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm font-medium text-body sm:flex-nowrap">
-          {trustItems.map((item, index) => (
-            <Reveal key={item.label} index={index} className="flex items-center gap-x-8">
-              {index > 0 && (
-                <span className="hidden text-border sm:block select-none" aria-hidden>|</span>
-              )}
-              <span className="flex items-center gap-2 whitespace-nowrap">
-                <item.Icon className="h-4 w-4 shrink-0 text-brand-600" aria-hidden />
-                {item.label}
-              </span>
-            </Reveal>
-          ))}
-        </div>
-      </Section>
 
       {/* 3. What We Do (Quick Answer Block) */}
       <Section containerSize="narrow">

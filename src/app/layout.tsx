@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
+import { TrustBar } from "@/components/sections/TrustBar";
 import { Footer } from "@/components/layout/Footer";
 import { SchemaScript } from "@/components/seo/SchemaScript";
 import { organizationSchema, websiteSchema } from "@/lib/schema";
@@ -53,6 +54,7 @@ export default function RootLayout({
           Skip to content
         </a>
         <Header />
+        <TrustBar />
         <main id="main-content" className="flex-1">
           {children}
         </main>

@@ -131,7 +131,7 @@ export function HomepageHero({
 
       {/* Dark overlay — keeps text readable over any image */}
       <div
-        className="absolute inset-0 bg-black/50"
+        className="absolute inset-0 bg-black/65"
         aria-hidden
       />
 
@@ -158,11 +158,17 @@ export function HomepageHero({
             </div>
           )}
 
-          <h1 className="font-display text-4xl font-extrabold text-white sm:text-5xl lg:text-[3.4rem] lg:leading-[1.05]">
+          <h1
+            className="font-display text-4xl font-extrabold text-white sm:text-5xl lg:text-[3.4rem] lg:leading-[1.05]"
+            style={{ color: "#ffffff" }}
+          >
             {title}
           </h1>
 
-          <p className="mt-5 text-lg leading-relaxed text-white/85">
+          <p
+            className="mt-5 text-lg leading-relaxed text-white/85"
+            style={{ color: "rgba(255,255,255,0.85)" }}
+          >
             {description}
           </p>
 

@@ -12,7 +12,9 @@ import {
   Unplug,
   BookX,
   TrendingUp,
-  Check,
+  Layers,
+  ShieldCheck,
+  ClipboardList,
 } from "lucide-react";
 import { HomepageHero } from "@/components/sections/HomepageHero";
 import { Section } from "@/components/ui/Section";
@@ -89,21 +91,25 @@ const whoWeHelp = [
 const whyChoose = [
   {
     title: "Platform-Agnostic Support",
+    Icon: Layers,
     description:
       "We work with ADP, isolved, BambooHR, HiBob, CustomHCM, and other HR and payroll platforms. You keep your systems and we help you get more out of them.",
   },
   {
     title: "Las Vegas Based. Nationwide Reach.",
+    Icon: Globe,
     description:
       "We are headquartered in Las Vegas and support businesses across Nevada and nationwide through remote HR consulting, system support, and ACA reporting assistance.",
   },
   {
     title: "HR, Payroll, Benefits, and ACA Under One Firm",
+    Icon: ShieldCheck,
     description:
       "Instead of managing multiple vendors, you get compliance support, payroll and benefits help, HR technology consulting, and ACA reporting support from one team.",
   },
   {
     title: "Process-First Approach",
+    Icon: ClipboardList,
     description:
       "We start by understanding how your business operates today before making recommendations. Every engagement begins with a structured review of your current state.",
   },
@@ -280,7 +286,7 @@ export default function HomePage() {
             <Reveal key={item.title} index={index} className="h-full">
               <div className="flex h-full gap-4 rounded-card border border-border bg-white p-6 shadow-sm shadow-ink/[0.03]">
                 <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-brand-50" aria-hidden>
-                  <Check className="h-5 w-5 text-brand-600" />
+                  <item.Icon size={18} strokeWidth={2} className="text-brand-600" />
                 </span>
                 <div>
                   <h3 className="font-display text-lg font-bold text-ink">{item.title}</h3>
@@ -300,7 +306,7 @@ export default function HomePage() {
           description="Every engagement starts with understanding your business before we recommend anything."
         />
         <div className="mt-10">
-          <ProcessSteps steps={standardProcess.slice(0, 4)} />
+          <ProcessSteps steps={standardProcess.slice(0, 4)} columns={2} />
         </div>
       </Section>
 

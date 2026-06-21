@@ -4,12 +4,18 @@ import { cn } from "@/lib/utils";
 interface ProcessStepsProps {
   steps: ProcessStep[];
   tone?: "default" | "onDark";
+  columns?: 2 | 3;
 }
 
-export function ProcessSteps({ steps, tone = "default" }: ProcessStepsProps) {
+export function ProcessSteps({ steps, tone = "default", columns = 3 }: ProcessStepsProps) {
   const onDark = tone === "onDark";
   return (
-    <ol className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <ol
+      className={cn(
+        "grid gap-6 sm:grid-cols-2",
+        columns === 3 && "lg:grid-cols-3",
+      )}
+    >
       {steps.map((step, index) => (
         <li
           key={step.title}

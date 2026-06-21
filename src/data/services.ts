@@ -26,16 +26,18 @@ export const services: Service[] = [
     summary:
       "A structured review of your HR, payroll, benefits, and compliance operations that surfaces hidden risks and gives you a prioritized plan for what to fix first.",
     trustLine:
-      "The starting point for businesses that want clarity before investing in new systems or processes.",
+      "No cost. No obligation. A clear picture of your HR, payroll, and compliance health before you invest in new systems or processes.",
     intro:
       "Most HR, payroll, and compliance risks stay hidden until they create a problem. The HR MRI Risk Assessment gives your business a clear picture of where your operations stand today across HR policies, payroll configuration, benefits administration, ACA readiness, system setup, and documentation. You receive a prioritized report of findings with practical recommendations, not just a checklist.",
     problems: [
-      "You are not sure where your biggest HR or compliance risks are.",
+      "You are not sure where your biggest HR, payroll, or compliance risks are hiding.",
       "Your policies and documentation have not kept up with your growth.",
       "No one has formally reviewed your payroll or benefits configuration.",
       "You are expanding into new states and need to understand your compliance exposure.",
       "You want a clear starting point before investing in new HR systems or processes.",
       "Your company has grown quickly and your HR infrastructure has not kept pace.",
+      "Key HR responsibilities are delegated informally with no oversight or documentation.",
+      "You are approaching an audit, organizational change, or rapid growth and want to be prepared.",
     ],
     includes: [
       {
@@ -49,33 +51,41 @@ export const services: Service[] = [
           "We assess how your payroll and benefits are set up, administered, and documented to surface errors, inconsistencies, and compliance risks.",
       },
       {
-        title: "ACA Reporting Readiness Review",
+        title: "Compliance Area Assessment",
         description:
-          "We evaluate your ACA reporting processes and data to identify preparation gaps before your next filing cycle.",
+          "We review key compliance areas including I-9 documentation, wage and hour practices, leave administration, EEO recordkeeping, and anti-harassment policy coverage.",
       },
       {
-        title: "HR Systems and Process Review",
+        title: "ACA Reporting Readiness Check",
         description:
-          "We look at how your HR, payroll, and benefits systems are configured and how your team uses them to find workflow and setup issues.",
+          "We evaluate your ACA eligibility tracking, data accuracy, and reporting process to identify gaps before they create filing problems.",
       },
       {
-        title: "Compliance Posture Assessment",
+        title: "HR System and Technology Review",
         description:
-          "We assess your overall compliance posture across HR, payroll, benefits, and workforce regulations to identify where exposure exists.",
+          "We assess how your HR, payroll, benefits, and time management systems are configured and connected to surface setup gaps and data flow issues.",
       },
       {
-        title: "Prioritized Findings and Recommendations",
+        title: "Multi-Stakeholder Input",
         description:
-          "You receive a clear, ranked report of what needs attention and why, with practical recommendations your team can act on.",
+          "We gather perspective from leadership and key stakeholders to capture a complete picture of how HR responsibilities are actually handled.",
+      },
+      {
+        title: "Prioritized Findings Report",
+        description:
+          "You receive a clear summary of findings, ranked by priority, with practical recommendations for what to address first.",
       },
     ],
     whoItHelps: [
+      "Small and mid-sized businesses without dedicated HR leadership",
+      "Organizations with delegated or decentralized HR responsibilities",
       "Business owners",
-      "Small businesses",
       "Growing businesses",
-      "HR teams",
       "Companies without a dedicated HR department",
       "Multi-state employers",
+      "Employers preparing for audits, growth, or organizational change",
+      "HR teams seeking an objective review",
+      "Companies in healthcare, construction, education, retail, manufacturing, or professional services",
     ],
     challenges: [
       "Outdated or missing employee handbooks and HR policies",
@@ -125,17 +135,22 @@ export const services: Service[] = [
       {
         question: "What is the HR MRI Risk Assessment?",
         answer:
-          "The HR MRI Risk Assessment is a structured review of your HR, payroll, benefits, and compliance operations. It identifies gaps, risks, and priorities across your policies, documentation, systems, and processes so you have a clear, actionable plan for what to address first.",
+          "The HR MRI Risk Assessment is a structured evaluation of your organization's HR practices, policies, systems, and workforce operations designed to identify compliance risks, operational gaps, and areas for improvement. You receive a prioritized findings report with practical next steps.",
+      },
+      {
+        question: "Is the HR MRI Risk Assessment really no cost?",
+        answer:
+          "Yes. The HR MRI Risk Assessment is offered at no cost and with no obligation. Its purpose is to provide clarity and insight so you can make informed decisions, not to pressure you into additional services.",
       },
       {
         question: "What does the HR MRI Risk Assessment include?",
         answer:
-          "The assessment covers your HR policies and documentation, payroll and benefits configuration, ACA reporting readiness, HR system setup, employee handbook and policy gaps, and overall compliance posture. You receive a prioritized list of findings with recommended next steps.",
+          "The assessment covers your HR policies and documentation, payroll and benefits configuration, key compliance areas including I-9s, wage and hour practices, leave administration, and EEO recordkeeping, ACA reporting readiness, HR system setup, and overall workforce operations. You receive a prioritized list of findings with recommended next steps.",
       },
       {
         question: "Who should request an HR MRI Risk Assessment?",
         answer:
-          "The assessment is designed for business owners, HR teams, and growing companies that want to understand their compliance exposure before it becomes a problem. It is especially useful for companies that have grown quickly, changed systems, expanded into new states, or have not had a formal HR review recently.",
+          "The assessment is designed for business owners, HR teams, and growing companies that want to understand their compliance exposure before it becomes a problem. It is especially useful for companies that have grown quickly, changed systems, expanded into new states, delegated HR informally, or have not had a formal HR review recently.",
       },
       {
         question: "How is the HR MRI Risk Assessment different from a standard HR audit?",
@@ -143,34 +158,34 @@ export const services: Service[] = [
           "A standard HR audit typically checks for regulatory compliance in specific areas. The HR MRI Assessment takes a broader view, covering HR, payroll, benefits, ACA, systems, and documentation together, and delivers a prioritized action plan, not just a checklist of findings.",
       },
       {
-        question: "How do I know if my business has HR compliance gaps?",
+        question: "Is this a sales pitch?",
         answer:
-          "Common signals include outdated employee handbooks, inconsistent documentation, payroll errors, manual processes prone to mistakes, system configurations that have never been reviewed, or recent growth that has outpaced your HR infrastructure. The HR MRI Assessment gives you a definitive answer.",
+          "No. The assessment is designed to provide objective insight and decision support. Any next steps are entirely optional and up to you. There is no obligation to engage additional services after the assessment is complete.",
       },
       {
-        question: "What happens after the HR MRI Risk Assessment?",
+        question: "How long does the HR MRI Risk Assessment take?",
         answer:
-          "You receive a prioritized report of findings. From there, Freedom HR Solutions can help you address the gaps through compliance support, system improvements, handbook updates, payroll and benefits review, or ongoing HR technical support, depending on what the assessment identifies.",
+          "The timeline depends on the size and complexity of your business and the systems involved. We begin with a guided intake, conduct the review, and deliver findings. Contact us to discuss your specific situation.",
+      },
+      {
+        question: "What documents are typically needed?",
+        answer:
+          "Common documents include your employee handbook, HR policies, job descriptions, and basic workforce information. Specific requirements are outlined during the intake process.",
+      },
+      {
+        question: "How do I know if my business has HR compliance gaps?",
+        answer:
+          "Common signals include outdated employee handbooks, inconsistent documentation, payroll errors, informal HR responsibilities, system configurations that have never been reviewed, or recent growth that has outpaced your HR infrastructure. The HR MRI Assessment gives you a definitive answer.",
+      },
+      {
+        question: "What happens after the HR MRI Risk Assessment is complete?",
+        answer:
+          "You receive a prioritized findings report. From there, Freedom HR Solutions can help you address the gaps through compliance support, system improvements, handbook updates, payroll and benefits review, or ongoing technical support, depending on what the assessment identifies.",
       },
       {
         question: "Does Freedom HR Solutions provide HR risk assessments in Las Vegas?",
         answer:
           "Yes. Freedom HR Solutions is headquartered in Las Vegas and provides HR MRI Risk Assessments for businesses in Las Vegas, Henderson, North Las Vegas, and across Nevada, as well as for businesses nationwide through remote consulting.",
-      },
-      {
-        question: "How long does the HR MRI Risk Assessment take?",
-        answer:
-          "The timeline depends on the size and complexity of your business and the systems involved. We begin with a discovery conversation to understand your operations, then conduct the review and deliver findings. Contact us to discuss your specific situation.",
-      },
-      {
-        question: "What does an HR compliance gap analysis involve?",
-        answer:
-          "An HR compliance gap analysis reviews your current HR practices, policies, and documentation against applicable requirements and best practices to identify where gaps exist. The HR MRI Assessment includes this as part of a broader review of your payroll, benefits, and systems.",
-      },
-      {
-        question: "Can Freedom HR Solutions help after the assessment is complete?",
-        answer:
-          "Yes. We provide implementation support across HR compliance, payroll and benefits, ACA reporting, system setup, employee handbooks, and ongoing technical support. The assessment is the starting point, not the end of the engagement.",
       },
     ],
     primaryCta: { label: "Request HR MRI Assessment", href: "/request-assessment/" },

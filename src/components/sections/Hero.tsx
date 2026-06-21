@@ -1,6 +1,7 @@
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
+import { CheckCircle2 } from "lucide-react";
 import type { Cta } from "@/types";
 import { cn } from "@/lib/utils";
 
@@ -42,11 +43,13 @@ export function Hero({
           variant === "home" ? "py-20 sm:py-28" : "py-16 sm:py-20",
         )}
       >
-        <div className="max-w-2xl">
+        <div className={cn("mx-auto max-w-2xl", aside ? "text-left" : "text-center")}>
           {eyebrow && (
-            <Badge tone="onDark" className="mb-5">
-              {eyebrow}
-            </Badge>
+            <div className={cn(aside ? "" : "flex justify-center")}>
+              <Badge tone="onDark" className="mb-5">
+                {eyebrow}
+              </Badge>
+            </div>
           )}
           <h1
             className={cn(
@@ -60,21 +63,24 @@ export function Hero({
           </h1>
           <p className="mt-5 text-lg leading-relaxed text-white/85">{description}</p>
           {trustLine && (
-            <p className="mt-3 flex items-center gap-2 text-sm font-medium text-white/75">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
-                <path
-                  d="M20 6L9 17l-5-5"
-                  stroke="#bcd2ff"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
+            <p className={cn(
+              "mt-3 flex items-center gap-2 text-sm font-medium text-white/75",
+              aside ? "" : "justify-center"
+            )}>
+              <CheckCircle2
+                size={16}
+                strokeWidth={2}
+                className="shrink-0 text-white/60"
+                aria-hidden
+              />
               {trustLine}
             </p>
           )}
           {(primaryCta || secondaryCta) && (
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <div className={cn(
+              "mt-8 flex flex-col gap-3 sm:flex-row",
+              aside ? "" : "items-center sm:justify-center"
+            )}>
               {primaryCta && (
                 <Button href={primaryCta.href} variant="white" size="lg">
                   {primaryCta.label}

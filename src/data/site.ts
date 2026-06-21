@@ -3,10 +3,7 @@ import type { Cta } from "@/types";
 /**
  * Global site configuration.
  *
- * NOTE: The contact details below are placeholders using the reserved
- * 555 phone range. Replace phone, email, and address with the client's
- * confirmed business details before launch, and confirm the production
- * domain used for canonical URLs and Open Graph tags.
+ * Contact details and production domain are client-confirmed.
  */
 export const site = {
   name: "Freedom HR Solutions",
@@ -15,10 +12,10 @@ export const site = {
   tagline: "HR, payroll, benefits, and compliance support for growing businesses",
   description:
     "Freedom HR Solutions is a Las Vegas headquartered HR, payroll, benefits, compliance, ACA reporting, and HR technology consulting firm serving businesses locally in Nevada and nationwide.",
-  // Placeholder contact details — confirm before launch.
-  email: "info@freedomhrsolutions.com",
-  phone: "(702) 555-0123",
-  phoneHref: "tel:+17025550123",
+  // Confirmed contact details — client approved.
+  email: "soleil@freedomhrsolutions.com",
+  phone: "(702) 907-0896",
+  phoneHref: "tel:+17029070896",
   address: {
     city: "Las Vegas",
     state: "Nevada",
@@ -53,4 +50,4 @@ export const secondaryCta: Cta = {
 
 /** SMS and communication consent language shown near forms. */
 export const consentLanguage =
-  "By submitting this form, you agree that Freedom HR Solutions may contact you using the information provided. Message and data rates may apply. You may opt out of text messages at any time.";
+  "By submitting this form, you consent to receive SMS and text notifications, alerts, and occasional marketing communications from Freedom HR Solutions. Message frequency may vary, and message and data rates may apply. You can reply HELP for assistance or STOP to unsubscribe at any time. You may also choose to receive news, feature updates, and exclusive offers from Freedom HR Solutions. We respect your privacy and use your personal information only to deliver the products and services you request. You may unsubscribe from communications at any time.";

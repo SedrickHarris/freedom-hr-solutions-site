@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Section } from "@/components/ui/Section";
 import { Button } from "@/components/ui/Button";
 import { servicePath, audiencePath } from "@/lib/routes";
+import { CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Thank You | Freedom HR Solutions",
@@ -25,10 +26,8 @@ export default function ThankYouPage() {
   return (
     <Section containerSize="narrow" spacing="loose">
       <div className="text-center">
-        <span className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-brand-50" aria-hidden>
-          <svg width="34" height="34" viewBox="0 0 24 24" fill="none">
-            <path d="M20 6L9 17l-5-5" stroke="#1f4ed6" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
+        <span className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-brand-50 text-brand-600" aria-hidden>
+          <CheckCircle2 size={34} strokeWidth={2.2} />
         </span>
         <h1 className="mt-6 font-display text-3xl font-extrabold text-ink sm:text-4xl">
           Thank you for contacting Freedom HR Solutions

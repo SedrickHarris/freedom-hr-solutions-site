@@ -39,9 +39,9 @@ export const metadata: Metadata = buildMetadata({
 const trustItems = [
   { label: "Las Vegas Headquartered", Icon: MapPin },
   { label: "Nationwide Service Delivery", Icon: Globe },
-  { label: "HR, Payroll, Benefits and Compliance Support", Icon: Shield },
-  { label: "Founder-led HR Technology Experience", Icon: User },
-  { label: "Support for Growing and Multi-State Employers", Icon: Building2 },
+  { label: "HR, Payroll, Benefits & Compliance", Icon: Shield },
+  { label: "Founder-Led HR Technology", Icon: User },
+  { label: "Multi-State Employer Support", Icon: Building2 },
 ];
 
 const problems = [
@@ -178,11 +178,14 @@ export default function HomePage() {
 
       {/* 2. Trust Bar */}
       <Section tone="muted" className="border-y border-border py-6">
-        <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4 text-sm font-medium text-body">
+        <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm font-medium text-body sm:flex-nowrap">
           {trustItems.map((item, index) => (
-            <Reveal key={item.label} index={index}>
-              <span className="flex items-center gap-2">
-                <item.Icon className="h-4 w-4 text-brand-600" aria-hidden />
+            <Reveal key={item.label} index={index} className="flex items-center gap-x-8">
+              {index > 0 && (
+                <span className="hidden text-border sm:block select-none" aria-hidden>|</span>
+              )}
+              <span className="flex items-center gap-2 whitespace-nowrap">
+                <item.Icon className="h-4 w-4 shrink-0 text-brand-600" aria-hidden />
                 {item.label}
               </span>
             </Reveal>

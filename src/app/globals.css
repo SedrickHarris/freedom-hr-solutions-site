@@ -10,16 +10,16 @@
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-jakarta), var(--font-inter), ui-sans-serif, sans-serif;
 
-  /* Ink / navy text */
-  --color-ink: #0b2545;
-  --color-ink-soft: #1c3a5e;
+  /* Ink / navy — confirmed brand navy #00274D */
+  --color-ink: #00274D;
+  --color-ink-soft: #1a3d6b;
   --color-body: #334155;
   --color-muted-text: #5b6b7f;
 
-  /* Surfaces */
+  /* Surfaces — confirmed */
   --color-surface: #ffffff;
-  --color-muted: #f4f8fc;
-  --color-muted-deep: #eaf1f9;
+  --color-muted: #F5F5F5;
+  --color-muted-deep: #ebebeb;
   --color-border: #dbe4ee;
   --color-border-soft: #e9eff6;
 
@@ -36,18 +36,17 @@
   --color-brand-900: #1b326f;
 
   /* Brand red (primary CTA / highlights) — patriotic red, white, blue, navy system.
-     NOTE: exact hex values should be confirmed against the current site / logo
-     before launch. These are close brand-aligned placeholders. */
+     Confirmed brand hex codes — client approved */
   --color-red-50: #fef2f2;
   --color-red-100: #fee2e2;
   --color-red-200: #fecaca;
   --color-red-300: #fca5a5;
   --color-red-400: #f87171;
-  --color-red-500: #e23b3b;
-  --color-red-600: #c8252b;
-  --color-red-700: #a81d23;
-  --color-red-800: #8a1a20;
-  --color-red-900: #731a1f;
+  --color-red-500: #c42840;
+  --color-red-600: #B22234;
+  --color-red-700: #921c2b;
+  --color-red-800: #7a1826;
+  --color-red-900: #641420;
 
   /* Trust accent now maps to navy/blue (no green) for success and inclusion marks. */
   --color-trust-50: #eef4ff;
@@ -107,7 +106,7 @@ select:focus-visible {
 
 /* Reusable gradient used in hero and CTA bands */
 .bg-brand-gradient {
-  background-image: linear-gradient(135deg, #1b326f 0%, #1f4ed6 55%, #2f63ef 100%);
+  background-image: linear-gradient(135deg, #00274D 0%, #003a73 55%, #00274D 100%);
 }
 
 .bg-grid {

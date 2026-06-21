@@ -1,5 +1,6 @@
 import type { Service } from "@/types";
 import { Hero } from "@/components/sections/Hero";
+import { HrMriHero } from "@/components/sections/HrMriHero";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { FeatureGrid } from "@/components/sections/FeatureGrid";
@@ -14,6 +15,7 @@ import { getServiceHub } from "@/data/serviceHubs";
 import { serviceRefs, audienceRefs, serviceHubRef } from "@/lib/links";
 import { serviceSchema } from "@/lib/schema";
 import { servicePath } from "@/lib/routes";
+import { ctas } from "@/data/shared";
 import { AlertTriangle } from "lucide-react";
 import { getFeatureIcon } from "@/lib/icons";
 
@@ -35,14 +37,25 @@ export function ServicePageTemplate({ service }: { service: Service }) {
         ]}
       />
 
-      <Hero
-        eyebrow={hub ? hub.title : "Services"}
-        title={service.h1}
-        description={service.summary}
-        trustLine={service.trustLine}
-        primaryCta={service.primaryCta}
-        secondaryCta={service.secondaryCta}
-      />
+      {service.slug === "hr-mri-risk-assessment" ? (
+        <HrMriHero
+          eyebrow={hub ? hub.title : "Services"}
+          title={service.h1}
+          description={service.summary}
+          trustLine={service.trustLine}
+          primaryCta={service.primaryCta}
+          secondaryCta={service.secondaryCta}
+        />
+      ) : (
+        <Hero
+          eyebrow={hub ? hub.title : "Services"}
+          title={service.h1}
+          description={service.summary}
+          trustLine={service.trustLine}
+          primaryCta={service.primaryCta}
+          secondaryCta={service.secondaryCta}
+        />
+      )}
 
       <Section containerSize="narrow">
         <p className="text-lg leading-relaxed text-body">{service.intro}</p>
@@ -129,7 +142,16 @@ export function ServicePageTemplate({ service }: { service: Service }) {
 
       <FaqSection faqs={service.faqs} />
 
-      <CtaBand />
+      {service.slug === "hr-mri-risk-assessment" ? (
+        <CtaBand
+          title="Ready to see where your HR stands?"
+          description="Schedule a consultation and we will walk you through what the assessment covers and what to expect."
+          primaryCta={ctas.consultation}
+          secondaryCta={{ label: "Explore All Services", href: "/services/" }}
+        />
+      ) : (
+        <CtaBand />
+      )}
 
       <SchemaScript
         schema={serviceSchema({ name: service.title, description: service.meta.description, path })}

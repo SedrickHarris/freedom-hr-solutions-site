@@ -1,5 +1,6 @@
 import type { Audience } from "@/types";
 import { Hero } from "@/components/sections/Hero";
+import { TrustBar } from "@/components/sections/TrustBar";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { FeatureGrid } from "@/components/sections/FeatureGrid";
@@ -39,6 +40,8 @@ export function AudiencePageTemplate({ audience }: { audience: Audience }) {
         primaryCta={audience.primaryCta ?? ctas.assessment}
         secondaryCta={audience.secondaryCta ?? ctas.consultation}
       />
+
+      <TrustBar />
 
       <Section containerSize="narrow">
         <p className="text-lg leading-relaxed text-body">{audience.intro}</p>

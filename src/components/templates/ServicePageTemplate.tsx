@@ -1,6 +1,7 @@
 import type { Service } from "@/types";
 import { Hero } from "@/components/sections/Hero";
 import { HrMriHero } from "@/components/sections/HrMriHero";
+import { TrustBar } from "@/components/sections/TrustBar";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { FeatureGrid } from "@/components/sections/FeatureGrid";
@@ -56,6 +57,8 @@ export function ServicePageTemplate({ service }: { service: Service }) {
           secondaryCta={service.secondaryCta}
         />
       )}
+
+      <TrustBar />
 
       <Section containerSize="narrow">
         <p className="text-lg leading-relaxed text-body">{service.intro}</p>

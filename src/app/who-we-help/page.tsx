@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Hero } from "@/components/sections/Hero";
+import { TrustBar } from "@/components/sections/TrustBar";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { AudienceCard } from "@/components/cards/AudienceCard";
@@ -42,6 +43,8 @@ export default function WhoWeHelpHubPage() {
         primaryCta={ctas.assessment}
         secondaryCta={ctas.consultation}
       />
+
+      <TrustBar />
 
       {groups.map((group, index) => {
         const items = audiences.filter((audience) => audience.type === group.type);

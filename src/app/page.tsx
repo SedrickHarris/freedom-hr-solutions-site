@@ -13,6 +13,7 @@ import {
   ClipboardList,
 } from "lucide-react";
 import { HomepageHero } from "@/components/sections/HomepageHero";
+import { TrustBar } from "@/components/sections/TrustBar";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { ProcessSteps } from "@/components/sections/ProcessSteps";
@@ -196,6 +197,8 @@ export default function HomePage() {
         primaryCta={{ label: "Request HR MRI Assessment", href: "/request-assessment/" }}
         secondaryCta={{ label: "Schedule Consultation", href: "/contact/" }}
       />
+
+      <TrustBar />
 
       {/* 3. What We Do (Quick Answer Block) */}
       <Section containerSize="narrow">

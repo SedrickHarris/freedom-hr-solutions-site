@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Hero } from "@/components/sections/Hero";
+import { TrustBar } from "@/components/sections/TrustBar";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { FeatureGrid } from "@/components/sections/FeatureGrid";
@@ -40,6 +41,8 @@ export default function AboutPage() {
         primaryCta={ctas.assessment}
         secondaryCta={ctas.consultation}
       />
+
+      <TrustBar />
 
       <Section containerSize="narrow">
         <SectionHeading eyebrow="Who we are" title="Practical HR support for growing businesses" />

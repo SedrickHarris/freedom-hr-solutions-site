@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Hero } from "@/components/sections/Hero";
+import { TrustBar } from "@/components/sections/TrustBar";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { FaqSection } from "@/components/sections/FaqSection";
@@ -46,6 +47,8 @@ export default function ContactPage() {
         description="Tell us what you need help with and we will follow up. For a full HR review, you can also request an HR MRI Assessment."
         primaryCta={ctas.assessment}
       />
+
+      <TrustBar />
 
       <Section>
         <div className="grid gap-12 lg:grid-cols-[1.2fr_0.8fr]">

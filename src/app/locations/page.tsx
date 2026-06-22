@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Hero } from "@/components/sections/Hero";
+import { TrustBar } from "@/components/sections/TrustBar";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { LocationCard } from "@/components/cards/LocationCard";
@@ -42,6 +43,8 @@ export default function LocationsHubPage() {
         primaryCta={ctas.assessment}
         secondaryCta={ctas.consultation}
       />
+
+      <TrustBar />
 
       <Section>
         <SectionHeading

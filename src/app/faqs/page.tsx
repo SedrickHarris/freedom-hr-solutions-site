@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Hero } from "@/components/sections/Hero";
+import { TrustBar } from "@/components/sections/TrustBar";
 import { Section } from "@/components/ui/Section";
 import { CtaBand } from "@/components/sections/CtaBand";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
@@ -28,6 +29,8 @@ export default function FaqsPage() {
         primaryCta={ctas.assessment}
         secondaryCta={ctas.consultation}
       />
+
+      <TrustBar />
 
       <Section containerSize="narrow">
         <div className="space-y-12">

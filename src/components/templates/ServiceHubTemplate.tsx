@@ -1,5 +1,6 @@
 import type { ServiceHub } from "@/types";
 import { Hero } from "@/components/sections/Hero";
+import { TrustBar } from "@/components/sections/TrustBar";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { FeatureGrid } from "@/components/sections/FeatureGrid";
@@ -39,6 +40,8 @@ export function ServiceHubTemplate({ hub }: { hub: ServiceHub }) {
         primaryCta={hub.primaryCta}
         secondaryCta={hub.secondaryCta}
       />
+
+      <TrustBar />
 
       <Section containerSize="narrow">
         <p className="text-lg leading-relaxed text-body">{hub.intro}</p>

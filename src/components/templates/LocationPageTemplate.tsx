@@ -1,5 +1,6 @@
 import type { Location } from "@/types";
 import { Hero } from "@/components/sections/Hero";
+import { TrustBar } from "@/components/sections/TrustBar";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { FeatureGrid } from "@/components/sections/FeatureGrid";
@@ -41,6 +42,8 @@ export function LocationPageTemplate({ location }: { location: Location }) {
         primaryCta={location.primaryCta ?? ctas.assessment}
         secondaryCta={location.secondaryCta ?? ctas.consultation}
       />
+
+      <TrustBar />
 
       <Section containerSize="narrow">
         <p className="text-lg font-medium leading-relaxed text-ink">{location.positioning}</p>

@@ -1,5 +1,6 @@
 import type { Partner } from "@/types";
 import { Hero } from "@/components/sections/Hero";
+import { TrustBar } from "@/components/sections/TrustBar";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { FeatureGrid } from "@/components/sections/FeatureGrid";
@@ -41,6 +42,8 @@ export function PartnerPageTemplate({ partner }: { partner: Partner }) {
         primaryCta={primaryCta}
         secondaryCta={ctas.consultation}
       />
+
+      <TrustBar />
 
       <Section containerSize="narrow">
         <p className="text-lg leading-relaxed text-body">{partner.overview}</p>

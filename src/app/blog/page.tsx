@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Hero } from "@/components/sections/Hero";
+import { TrustBar } from "@/components/sections/TrustBar";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { BlogCard } from "@/components/cards/BlogCard";
@@ -30,6 +31,8 @@ export default function BlogHubPage() {
         primaryCta={ctas.assessment}
         secondaryCta={ctas.consultation}
       />
+
+      <TrustBar />
 
       <Section>
         <SectionHeading eyebrow="Latest" title="Recent articles" />

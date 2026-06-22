@@ -4,7 +4,7 @@ import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { FeatureGrid } from "@/components/sections/FeatureGrid";
 import { FaqSection } from "@/components/sections/FaqSection";
-import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { TrustBar } from "@/components/sections/TrustBar";
 import { AssessmentForm } from "@/components/forms/AssessmentForm";
 import { buildMetadata } from "@/lib/seo";
 
@@ -46,14 +46,14 @@ const assessmentFaqs = [
 export default function RequestAssessmentPage() {
   return (
     <>
-      <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Request HR MRI Assessment", path: "/request-assessment/" }]} />
-
       <HrMriHero
         eyebrow="HR MRI Risk Assessment"
         title="Request Your HR MRI Risk Assessment"
         description="The HR MRI Risk Assessment is a structured evaluation of your HR practices, policies, systems, and compliance operations. We identify your risks, explain why they matter, and give you a prioritized plan to address them."
         trustLine="No cost. No obligation. A prioritized view of your HR, payroll, and compliance health."
       />
+
+      <TrustBar />
 
       <Section>
         <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">

@@ -22,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/services/",
     "/partners/",
     "/who-we-help/",
+    "/who-we-help/small-businesses/hr-outsourcing/",
     "/locations/",
     "/resources/",
     "/blog/",

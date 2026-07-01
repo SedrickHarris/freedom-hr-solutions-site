@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T04:14:05.811Z",
+  "generatedAt": "2026-07-01T20:32:09.613Z",
   "routeCount": 19,
   "routes": [
     {
@@ -8,15 +8,15 @@
       "routerType": "app",
       "possibleTitles": [
         "HR Compliance, Payroll, Benefits & HR Consulting | Freedom HR Solutions",
+        "Payroll errors",
+        "Benefits confusion",
+        "ACA reporting stress",
+        "Disconnected systems",
+        "Outdated policies",
+        "Outgrowing your processes",
         "Business Owners",
         "Small Businesses",
-        "Growing Businesses",
-        "HR Teams",
-        "Payroll Teams",
-        "Multi-State Employers",
-        "Platform-Agnostic Support",
-        "Las Vegas Based. Nationwide Reach.",
-        "HR, Payroll, Benefits, and ACA Under One Firm"
+        "Growing Businesses"
       ],
       "possibleH1s": [],
       "possibleH2s": [],
@@ -29,7 +29,7 @@
         "FAQPage",
         "Service"
       ],
-      "wordEstimate": 163
+      "wordEstimate": 178
     },
     {
       "route": "/about",
@@ -193,21 +193,23 @@
       "routerType": "app",
       "possibleTitles": [
         "Request HR MRI Risk Assessment | Freedom HR Solutions",
-        "HR and compliance",
-        "Payroll and benefits",
-        "Systems and reporting",
-        "Risk and priorities",
-        "You submit the form",
-        "We review your situation",
-        "We follow up"
+        "HR policies and documentation",
+        "Payroll and benefits configuration",
+        "Compliance areas",
+        "ACA reporting readiness",
+        "HR systems and technology",
+        "Risk priorities",
+        "Complete the intake form",
+        "Secure documentation review",
+        "Multi-stakeholder input"
       ],
       "possibleH1s": [],
       "possibleH2s": [
-        "Request your assessment"
+        "Request your HR MRI Assessment"
       ],
       "internalHrefs": [],
       "schemaTypeHints": [],
-      "wordEstimate": 32
+      "wordEstimate": 39
     },
     {
       "route": "/resources",

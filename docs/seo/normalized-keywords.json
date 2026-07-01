@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-06-20T04:14:17.590Z",
-  "sourceCsv": "docs/seo/keyword-exports/hr-mri-assessment-keyword-export.csv",
-  "keywordCount": 25,
+  "generatedAt": "2026-07-01T20:32:09.668Z",
+  "sourceCsv": "docs/seo/keyword-exports/Keyword Stats 2026-07-01 at 13_22_54.csv",
+  "keywordCount": 12,
   "keywords": [
     {
-      "keyword": "hr risk assessment",
+      "keyword": "hris vendor selection",
       "avgMonthlySearches": 50,
       "avgMonthlySearchesRaw": "50",
       "competition": "Low",
-      "competitionIndex": 13,
-      "topOfPageBidLow": "7.24",
-      "topOfPageBidHigh": "46.20",
+      "competitionIndex": 32,
+      "topOfPageBidLow": null,
+      "topOfPageBidHigh": null,
       "threeMonthChange": "0%",
       "yoyChange": "0%",
       "currency": "USD"
     },
     {
-      "keyword": "hr compliance audit",
+      "keyword": "hr technology consultant",
       "avgMonthlySearches": 500,
       "avgMonthlySearchesRaw": "500",
       "competition": "Low",
-      "competitionIndex": 7,
-      "topOfPageBidLow": "5.99",
-      "topOfPageBidHigh": "35.19",
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
+      "competitionIndex": 14,
+      "topOfPageBidLow": "5.54",
+      "topOfPageBidHigh": "22.52",
+      "threeMonthChange": "-90%",
+      "yoyChange": "-90%",
       "currency": "USD"
     },
     {
-      "keyword": "payroll compliance audit",
+      "keyword": "hris implementation support",
       "avgMonthlySearches": 50,
       "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 23,
-      "topOfPageBidLow": "4.03",
-      "topOfPageBidHigh": "28.69",
+      "competition": "Unknown",
+      "competitionIndex": null,
+      "topOfPageBidLow": null,
+      "topOfPageBidHigh": null,
       "threeMonthChange": "0%",
       "yoyChange": "0%",
       "currency": "USD"
     },
     {
-      "keyword": "hr risk assessment template",
+      "keyword": "oracle hr help desk implementation guide",
       "avgMonthlySearches": 50,
       "avgMonthlySearchesRaw": "50",
       "competition": "Low",
@@ -52,31 +52,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "human resources compliance audit",
-      "avgMonthlySearches": 500,
-      "avgMonthlySearchesRaw": "500",
-      "competition": "Low",
-      "competitionIndex": 7,
-      "topOfPageBidLow": "5.99",
-      "topOfPageBidHigh": "35.19",
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "hr risk assessment examples",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 29,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "hr compliance risk assessment",
+      "keyword": "sap hr data migration",
       "avgMonthlySearches": 50,
       "avgMonthlySearchesRaw": "50",
       "competition": "Low",
@@ -88,139 +64,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "human resources risk assessment",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 13,
-      "topOfPageBidLow": "7.24",
-      "topOfPageBidHigh": "46.20",
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "risk assessment for hr department",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Unknown",
-      "competitionIndex": null,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "-100%",
-      "yoyChange": "-100%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "an hr audit",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Unknown",
-      "competitionIndex": null,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "compliance hr audit",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 10,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "hr audit and compliance",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "High",
-      "competitionIndex": 86,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "hr audit list",
-      "avgMonthlySearches": 500,
-      "avgMonthlySearchesRaw": "500",
-      "competition": "Low",
-      "competitionIndex": 24,
-      "topOfPageBidLow": "5.11",
-      "topOfPageBidHigh": "15.76",
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "hr risk analysis",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Unknown",
-      "competitionIndex": null,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "-100%",
-      "yoyChange": "-100%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "hr risk register template",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Unknown",
-      "competitionIndex": null,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "-100%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "risk assessment for hr",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 0,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "∞",
-      "currency": "USD"
-    },
-    {
-      "keyword": "risk assessment in hr",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 13,
-      "topOfPageBidLow": "7.24",
-      "topOfPageBidHigh": "46.20",
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "sample risk assessment for hr department",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Medium",
-      "competitionIndex": 43,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "∞",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "hr compliance gap analysis",
+      "keyword": "hr system migration services",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -232,7 +76,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "hr compliance review small business",
+      "keyword": "payroll migration consultant",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -244,7 +88,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "employee handbook audit",
+      "keyword": "hr platform migration services",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -256,7 +100,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "hr risk assessment consultant",
+      "keyword": "best hris for small business implementation",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -268,7 +112,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "hr compliance checklist employer",
+      "keyword": "hr software setup help",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -280,7 +124,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "hr audit services las vegas",
+      "keyword": "hr system implementation support",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -292,7 +136,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "hr assessment for growing business",
+      "keyword": "ongoing hris support after go live",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",

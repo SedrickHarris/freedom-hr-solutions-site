@@ -63,7 +63,11 @@ export function ServicePageTemplate({ service }: { service: Service }) {
       <TrustBar />
 
       <Section containerSize="narrow">
-        <p className="text-lg leading-relaxed text-body">{service.intro}</p>
+        <Reveal>
+          <div className="rounded-r-xl border-l-4 border-brand-600 bg-muted p-6">
+            <p className="text-lg leading-relaxed text-body">{service.intro}</p>
+          </div>
+        </Reveal>
       </Section>
 
       <Section tone="muted">

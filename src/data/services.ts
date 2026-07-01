@@ -573,9 +573,9 @@ export const services: Service[] = [
     title: "Payroll, Benefits & HR Management",
     h1: "Payroll, Benefits, and HR Management Support",
     meta: {
-      title: "Payroll, Benefits, and HR Management Support",
+      title: "Payroll, Benefits, and HR Management Support | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps businesses manage payroll, benefits, and HR systems with setup, configuration, process support, and optimization.",
+        "Freedom HR Solutions helps businesses set up, configure, and manage payroll and benefits systems with cleaner processes, fewer errors, and better data flow. Based in Las Vegas. Serving nationwide.",
     },
     summary:
       "Better payroll, benefits, and HR administration through stronger systems, cleaner configuration, and reliable processes.",
@@ -615,6 +615,31 @@ export const services: Service[] = [
       { question: "Can Freedom HR Solutions help with benefits administration?", answer: "Yes. We support benefits setup, eligibility, enrollment workflows, and ongoing administration." },
       { question: "What causes payroll and benefits errors?", answer: "Common causes include incomplete configuration, data that does not sync between systems, and undocumented processes. We help fix the root cause." },
       { question: "Can Freedom HR Solutions support growing businesses?", answer: "Yes. We help growing businesses build payroll and benefits processes that scale with new employees and locations." },
+      {
+        question: "How can employers improve payroll accuracy?",
+        answer:
+          "Payroll accuracy starts with clean system configuration, consistent data across platforms, and documented workflows. We review how your payroll is set up and help you fix the root causes of recurring errors rather than just correcting individual mistakes.",
+      },
+      {
+        question: "Can Freedom HR Solutions help document payroll processes?",
+        answer:
+          "Yes. We help you document payroll and benefits workflows so the process does not depend on one person. Documented processes are easier to train, audit, and improve over time.",
+      },
+      {
+        question: "What is benefits eligibility management?",
+        answer:
+          "Benefits eligibility management is the process of tracking which employees qualify for which benefits based on their status, hours, location, and plan rules. When eligibility data is inconsistent, enrollment errors and corrections follow. We help align eligibility data across your systems.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with payroll and benefits reconciliation?",
+        answer:
+          "Yes. We help reconcile payroll and benefits data across systems so deductions, elections, and records line up correctly. Reconciliation issues often point to configuration or data sync problems we can help address.",
+      },
+      {
+        question: "Does Freedom HR Solutions support multi-state payroll and benefits?",
+        answer:
+          "Yes. We help employers manage payroll and benefits across multiple states, including configuration, eligibility, and workflow consistency as teams grow and expand into new locations.",
+      },
     ],
     primaryCta: ctas.systemReview,
     secondaryCta: ctas.consultation,

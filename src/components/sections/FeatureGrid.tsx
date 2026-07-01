@@ -1,6 +1,7 @@
 import type { FeatureItem } from "@/types";
 import { cn } from "@/lib/utils";
 import { getFeatureIcon } from "@/lib/icons";
+import { Reveal } from "@/components/motion/Reveal";
 
 interface FeatureGridProps {
   items: FeatureItem[];
@@ -8,6 +9,8 @@ interface FeatureGridProps {
   /** Visual style for each item. */
   variant?: "card" | "check" | "plain";
   tone?: "default" | "onDark";
+  /** Opt in to staggered scroll-reveal entrance and hover lift for each item. */
+  reveal?: boolean;
 }
 
 export function FeatureGrid({
@@ -15,25 +18,25 @@ export function FeatureGrid({
   columns = 3,
   variant = "card",
   tone = "default",
+  reveal = false,
 }: FeatureGridProps) {
   const onDark = tone === "onDark";
   const cols = columns === 2 ? "sm:grid-cols-2" : "sm:grid-cols-2 lg:grid-cols-3";
 
   return (
     <ul className={cn("grid gap-5", cols)}>
-      {items.map((item) => (
-        <li
-          key={item.title}
-          className={cn(
-            variant === "card" &&
-              (onDark
-                ? "rounded-card border border-white/10 bg-white/5 p-6"
-                : "rounded-card border border-border bg-white p-6 shadow-sm shadow-ink/[0.03] transition-shadow hover:shadow-md hover:shadow-ink/5"),
-            variant === "check" && "flex gap-3",
-            variant === "plain" && "",
-          )}
-        >
-          {variant === "check" ? (
+      {items.map((item, index) => {
+        const itemClass = cn(
+          variant === "card" &&
+            (onDark
+              ? "rounded-card border border-white/10 bg-white/5 p-6"
+              : "rounded-card border border-border bg-white p-6 shadow-sm shadow-ink/[0.03] transition-shadow hover:shadow-md hover:shadow-ink/5"),
+          variant === "check" && "flex gap-3",
+          variant === "plain" && "",
+          // Hover lift reuses the Reveal wrapper's transform transition.
+          reveal && variant === "card" && "hover:-translate-y-0.5",
+        );
+        const inner = variant === "check" ? (
             <>
               <span
                 className={cn(
@@ -77,9 +80,21 @@ export function FeatureGrid({
                 {item.description}
               </p>
             </>
-          )}
-        </li>
-      ))}
+        );
+
+        if (reveal) {
+          return (
+            <Reveal as="li" key={item.title} index={index} className={itemClass}>
+              {inner}
+            </Reveal>
+          );
+        }
+        return (
+          <li key={item.title} className={itemClass}>
+            {inner}
+          </li>
+        );
+      })}
     </ul>
   );
 }

@@ -1,13 +1,16 @@
 import type { ProcessStep } from "@/types";
 import { cn } from "@/lib/utils";
+import { Reveal } from "@/components/motion/Reveal";
 
 interface ProcessStepsProps {
   steps: ProcessStep[];
   tone?: "default" | "onDark";
   columns?: 2 | 3;
+  /** Opt in to staggered scroll-reveal entrance and hover lift for each step. */
+  reveal?: boolean;
 }
 
-export function ProcessSteps({ steps, tone = "default", columns = 3 }: ProcessStepsProps) {
+export function ProcessSteps({ steps, tone = "default", columns = 3, reveal = false }: ProcessStepsProps) {
   const onDark = tone === "onDark";
   return (
     <ol
@@ -16,14 +19,14 @@ export function ProcessSteps({ steps, tone = "default", columns = 3 }: ProcessSt
         columns === 3 && "lg:grid-cols-3",
       )}
     >
-      {steps.map((step, index) => (
-        <li
-          key={step.title}
-          className={cn(
-            "relative rounded-card border p-6",
-            onDark ? "border-white/10 bg-white/5" : "border-border bg-white shadow-sm shadow-ink/[0.03]",
-          )}
-        >
+      {steps.map((step, index) => {
+        const stepClass = cn(
+          "relative rounded-card border p-6",
+          onDark ? "border-white/10 bg-white/5" : "border-border bg-white shadow-sm shadow-ink/[0.03]",
+          reveal && "hover:-translate-y-0.5",
+        );
+        const inner = (
+          <>
           <span
             className={cn(
               "flex h-10 w-10 items-center justify-center rounded-lg font-display text-lg font-bold",
@@ -38,8 +41,22 @@ export function ProcessSteps({ steps, tone = "default", columns = 3 }: ProcessSt
           <p className={cn("mt-2 text-sm leading-relaxed", onDark ? "text-white/75" : "text-body")}>
             {step.description}
           </p>
-        </li>
-      ))}
+          </>
+        );
+
+        if (reveal) {
+          return (
+            <Reveal as="li" key={step.title} index={index} className={stepClass}>
+              {inner}
+            </Reveal>
+          );
+        }
+        return (
+          <li key={step.title} className={stepClass}>
+            {inner}
+          </li>
+        );
+      })}
     </ol>
   );
 }

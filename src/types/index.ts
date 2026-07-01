@@ -90,6 +90,8 @@ export interface Service {
   relatedServiceSlugs: string[];
   relatedAudienceSlugs: string[];
   faqs: Faq[];
+  /** Optional platform partner slugs surfaced as an implementation-support callout. */
+  platformSlugs?: string[];
   primaryCta?: Cta;
   secondaryCta?: Cta;
   /** Marks the highest-priority launch pages. */

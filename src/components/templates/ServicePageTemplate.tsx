@@ -8,7 +8,9 @@ import { FeatureGrid } from "@/components/sections/FeatureGrid";
 import { ProcessSteps } from "@/components/sections/ProcessSteps";
 import { FaqSection } from "@/components/sections/FaqSection";
 import { RelatedPages } from "@/components/sections/RelatedPages";
+import { PlatformCallout } from "@/components/sections/PlatformCallout";
 import { CtaBand } from "@/components/sections/CtaBand";
+import { Reveal } from "@/components/motion/Reveal";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { SchemaScript } from "@/components/seo/SchemaScript";
 import { Badge } from "@/components/ui/Badge";
@@ -65,7 +67,9 @@ export function ServicePageTemplate({ service }: { service: Service }) {
       </Section>
 
       <Section tone="muted">
-        <SectionHeading eyebrow="The problem" title="Common problems we help with" />
+        <Reveal>
+          <SectionHeading eyebrow="The problem" title="Common problems we help with" />
+        </Reveal>
         <ul className="mt-8 grid gap-4 sm:grid-cols-2">
           {service.problems.map((problem) => (
             <li key={problem} className="flex items-start gap-3 rounded-card border border-border bg-white p-4">
@@ -79,15 +83,22 @@ export function ServicePageTemplate({ service }: { service: Service }) {
       </Section>
 
       <Section>
-        <SectionHeading eyebrow="What you get" title="What this service includes" />
+        <Reveal>
+          <SectionHeading eyebrow="What you get" title="What this service includes" />
+        </Reveal>
         <div className="mt-10">
-          <FeatureGrid items={service.includes} columns={2} variant="card" />
+          <FeatureGrid items={service.includes} columns={2} variant="card" reveal />
         </div>
+        {service.platformSlugs && service.platformSlugs.length > 0 && (
+          <Reveal>
+            <PlatformCallout slugs={service.platformSlugs} />
+          </Reveal>
+        )}
       </Section>
 
       <Section tone="muted">
         <div className="grid gap-10 lg:grid-cols-2">
-          <div>
+          <Reveal>
             <SectionHeading eyebrow="Who it helps" title="Who this service is for" />
             <div className="mt-6 flex flex-wrap gap-2">
               {service.whoItHelps.map((who) => (
@@ -96,8 +107,8 @@ export function ServicePageTemplate({ service }: { service: Service }) {
                 </Badge>
               ))}
             </div>
-          </div>
-          <div>
+          </Reveal>
+          <Reveal index={1}>
             <SectionHeading eyebrow="Challenges solved" title="Issues this addresses" as="h2" />
             <ul className="mt-6 space-y-3">
               {service.challenges.map((challenge) => (
@@ -112,21 +123,25 @@ export function ServicePageTemplate({ service }: { service: Service }) {
                 </li>
               ))}
             </ul>
-          </div>
+          </Reveal>
         </div>
       </Section>
 
       <Section>
-        <SectionHeading eyebrow="Our process" title="How we work" description="A clear, practical process from first conversation through ongoing support." />
+        <Reveal>
+          <SectionHeading eyebrow="Our process" title="How we work" description="A clear, practical process from first conversation through ongoing support." />
+        </Reveal>
         <div className="mt-10">
-          <ProcessSteps steps={service.process} />
+          <ProcessSteps steps={service.process} reveal />
         </div>
       </Section>
 
       <Section tone="muted">
-        <SectionHeading eyebrow="Outcomes" title="The benefits" />
+        <Reveal>
+          <SectionHeading eyebrow="Outcomes" title="The benefits" />
+        </Reveal>
         <div className="mt-10">
-          <FeatureGrid items={service.benefits} columns={2} variant="check" />
+          <FeatureGrid items={service.benefits} columns={2} variant="check" reveal />
         </div>
       </Section>
 

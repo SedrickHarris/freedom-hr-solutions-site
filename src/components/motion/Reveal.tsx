@@ -7,6 +7,8 @@ interface RevealProps {
   children: React.ReactNode;
   /** Sibling index for staggered reveals (60ms each, capped at 4). */
   index?: number;
+  /** Element to render as. Defaults to a div; use "li" inside semantic lists. */
+  as?: React.ElementType;
   className?: string;
 }
 
@@ -17,8 +19,9 @@ interface RevealProps {
  * once, respects prefers-reduced-motion, and introduces no animation library.
  * Reduced-motion users and no-JS/no-IO environments render fully visible.
  */
-export function Reveal({ children, index = 0, className }: RevealProps) {
-  const ref = useRef<HTMLDivElement>(null);
+export function Reveal({ children, index = 0, as, className }: RevealProps) {
+  const Tag = as ?? "div";
+  const ref = useRef<HTMLElement>(null);
   const [shown, setShown] = useState(false);
 
   useEffect(() => {
@@ -52,7 +55,7 @@ export function Reveal({ children, index = 0, className }: RevealProps) {
   const delay = Math.min(index, 4) * 60;
 
   return (
-    <div
+    <Tag
       ref={ref}
       style={{ transitionDelay: `${delay}ms` }}
       className={cn(
@@ -64,6 +67,6 @@ export function Reveal({ children, index = 0, className }: RevealProps) {
       )}
     >
       {children}
-    </div>
+    </Tag>
   );
 }

@@ -767,6 +767,237 @@ export const services: Service[] = [
     secondaryCta: exploreSupport,
   },
   {
+    slug: "hris-implementation",
+    hubSlug: "hr-technology-automation",
+    launch: true,
+    title: "HRIS Implementation",
+    h1: "HRIS Implementation Consultant for Growing Businesses",
+    meta: {
+      title: "HRIS Implementation Consultant | HR System Setup & Go-Live Support | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps businesses implement HRIS, payroll, and benefits systems with expert configuration, data migration, testing, and go-live support. Serving Las Vegas, Nevada, and nationwide.",
+    },
+    summary:
+      "Expert HRIS implementation support from vendor selection and system configuration through data migration, testing, training, and go-live.",
+    trustLine:
+      "Platform-agnostic implementation support for ADP, isolved, BambooHR, and other HR and payroll systems. Serving Las Vegas, Nevada, and nationwide.",
+    intro:
+      "HRIS implementations fail when configuration is rushed, data is migrated without validation, or go-live happens before the system is ready. Freedom HR Solutions manages the full implementation process from vendor selection and system configuration through data migration, testing, training, and go-live support so your system is accurate, your team is prepared, and your launch goes smoothly.",
+    problems: [
+      "Configuration was rushed to meet a deadline and the system never matched real workflows.",
+      "Data was migrated without validation and errors carried into the new system.",
+      "The vendor configured the technical setup but no one managed the business logic.",
+      "Integrations were skipped or set up incorrectly.",
+      "Training was minimal and staff never fully adopted the system.",
+      "The implementation stalled mid-project and go-live was delayed or abandoned.",
+      "Post-launch issues were never resolved and workarounds compounded over time.",
+      "The system went live but the configuration was never completed.",
+    ],
+    includes: [
+      {
+        title: "Vendor selection and system readiness",
+        description:
+          "Help evaluating platforms and confirming the selected system fits your workforce, payroll, and benefits requirements before configuration begins.",
+      },
+      {
+        title: "System configuration",
+        description:
+          "Configure the HRIS to match your real org structure, payroll rules, benefits eligibility logic, leave policies, and reporting needs.",
+      },
+      {
+        title: "Data migration",
+        description:
+          "Extract, clean, map, and validate employee records, payroll history, and benefits data so what moves into the new system is accurate.",
+      },
+      {
+        title: "Integration setup",
+        description:
+          "Connect the HRIS to your payroll, benefits, time and attendance, and other systems so data flows correctly between platforms.",
+      },
+      {
+        title: "Testing and parallel processing",
+        description:
+          "Test configurations, run parallel payroll cycles where applicable, and validate results before committing to go-live.",
+      },
+      {
+        title: "Training and documentation",
+        description:
+          "Prepare HR, payroll, and benefits staff to use the system correctly, with documentation that supports the team after launch.",
+      },
+      {
+        title: "Go-live support",
+        description:
+          "Be present at launch to resolve issues in real time and reduce the risk of first-cycle errors.",
+      },
+      {
+        title: "Post-go-live optimization",
+        description:
+          "Identify and resolve issues that surface after launch and refine configurations as your team's usage matures.",
+      },
+    ],
+    whoItHelps: [
+      "Growing businesses adding their first dedicated HRIS",
+      "Companies replacing an outdated or underperforming HR system",
+      "Businesses mid-implementation with a stalled or troubled rollout",
+      "HR and payroll teams without internal implementation expertise",
+      "Multi-state employers needing compliance-aware configuration",
+      "Organizations migrating from spreadsheets or basic payroll tools to a full HRIS",
+      "Businesses that went live on a system but never completed the configuration",
+    ],
+    challenges: [
+      "Configuration rushed to meet an arbitrary go-live date",
+      "Data migrated without validation",
+      "System configured by someone unfamiliar with real business workflows",
+      "Integrations skipped or set up incorrectly",
+      "Training skipped or minimal",
+      "Post-launch issues left unresolved",
+      "Vendor managed technical setup but no one managed business logic",
+    ],
+    process: [
+      {
+        title: "Discovery and scope",
+        description:
+          "We review your current systems, data sources, workforce structure, and go-live requirements to define the implementation scope.",
+      },
+      {
+        title: "Vendor and platform alignment",
+        description:
+          "If a platform is not yet selected, we help evaluate options. If it is selected, we confirm the configuration approach with your provider.",
+      },
+      {
+        title: "Configuration and build",
+        description:
+          "We configure the system to match your real workflows, payroll rules, benefits structure, and reporting requirements.",
+      },
+      {
+        title: "Data extraction and migration",
+        description:
+          "We extract data from your existing systems, clean and map it, and validate it after migration so records are accurate.",
+      },
+      {
+        title: "Integration and testing",
+        description:
+          "We connect platforms and run testing cycles including parallel payroll processing where required before go-live.",
+      },
+      {
+        title: "Training and go-live",
+        description:
+          "We prepare your team, document key processes, and support the launch so your first cycles run correctly.",
+      },
+      {
+        title: "Post-launch support",
+        description:
+          "We remain available after go-live to resolve issues, optimize configurations, and support your team as they build confidence with the system.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Accurate from day one",
+        description:
+          "A system configured to match your real org structure, payroll rules, and benefits logic, not the vendor default template.",
+      },
+      {
+        title: "Clean data migration",
+        description:
+          "Employee records, payroll history, and benefits data validated before and after migration so you are not starting with errors.",
+      },
+      {
+        title: "Fewer go-live surprises",
+        description:
+          "Testing, parallel processing, and pre-launch validation reduce the risk of first-cycle problems.",
+      },
+      {
+        title: "A team that knows the system",
+        description:
+          "Training and documentation so your HR and payroll staff can use the system correctly after launch.",
+      },
+      {
+        title: "Ongoing support after launch",
+        description:
+          "Post-go-live optimization and support so issues that surface after launch get resolved, not ignored.",
+      },
+      {
+        title: "Platform-agnostic perspective",
+        description:
+          "Implementation support aligned to your business, not to a vendor preferred configuration path.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "system-setup-implementation",
+      "hr-technology-automation",
+      "system-audits-improvements",
+      "technical-issue-resolution",
+      "ongoing-technical-support",
+    ],
+    relatedAudienceSlugs: [
+      "growing-businesses",
+      "hr-teams",
+      "payroll-teams",
+      "multi-state-employers",
+    ],
+    faqs: [
+      {
+        question: "What does an HRIS implementation consultant do?",
+        answer:
+          "An HRIS implementation consultant manages the configuration, data migration, integration, testing, training, and go-live process for HR, payroll, and benefits systems. Freedom HR Solutions handles the business logic and workflow alignment that vendors and IT teams often miss, so the system is configured correctly for how your business actually operates.",
+      },
+      {
+        question: "Why do HRIS implementations fail?",
+        answer:
+          "Most HRIS implementations fail because configuration is driven by the vendor default template rather than the business's real workflows, data is migrated without validation, training is skipped or minimal, or go-live is rushed before the system is ready. An independent implementation consultant manages these risks before they become problems.",
+      },
+      {
+        question: "Can Freedom HR Solutions help if our implementation is already in progress?",
+        answer:
+          "Yes. We frequently step in to support or rescue implementations that have stalled, gone off track, or launched with unresolved configuration issues. We assess where things stand and help move the project to a stable go-live or resolve post-launch problems.",
+      },
+      {
+        question: "Which HR and payroll platforms does Freedom HR Solutions support?",
+        answer:
+          "We provide implementation support for ADP, isolved, BambooHR, HiBob, CustomHCM, and other HR, payroll, and benefits platforms. Our support is platform-agnostic and aligned to your business's workflows, not to a single vendor's preferred approach.",
+      },
+      {
+        question: "How is Freedom HR Solutions different from the platform vendor's implementation team?",
+        answer:
+          "Platform vendor implementation teams focus on the technical configuration of their system. Freedom HR Solutions focuses on the business logic, how your org structure, payroll rules, benefits eligibility, and leave policies should actually be configured inside the system. We bridge the gap between what the vendor sets up and what your business needs.",
+      },
+      {
+        question: "What is included in HRIS data migration support?",
+        answer:
+          "Data migration support includes extracting records from your current system, cleaning and mapping data to the new system's structure, loading and validating records after migration, and resolving discrepancies before go-live. The goal is accurate data in the new system, not just data that transferred.",
+      },
+      {
+        question: "Does Freedom HR Solutions provide support after go-live?",
+        answer:
+          "Yes. Post-go-live support includes resolving issues that surface after launch, optimizing configurations as your team's usage matures, and providing ongoing technical support through our support and service continuity services.",
+      },
+      {
+        question: "Can Freedom HR Solutions help a small business implement an HRIS?",
+        answer:
+          "Yes. Small businesses often benefit most from structured implementation support because they do not have internal HR technology expertise. We help right-size the configuration and data migration process for your headcount and complexity so you do not over-engineer the setup or under-prepare for go-live.",
+      },
+      {
+        question: "How long does an HRIS implementation take?",
+        answer:
+          "Implementation timelines vary based on the platform selected, the complexity of your workforce and payroll structure, the state of your existing data, and the number of integrations required. We establish a realistic timeline during the discovery phase based on your specific situation.",
+      },
+      {
+        question: "Does Freedom HR Solutions help with HRIS vendor selection?",
+        answer:
+          "Yes. If a platform has not yet been selected, we help evaluate options based on your workforce size, payroll complexity, benefits structure, budget, and integration requirements so the system you choose fits how your business actually operates.",
+      },
+    ],
+    platformSlugs: [
+      "adp-consulting-support",
+      "isolved-consulting-support",
+      "bamboohr-consulting-support",
+      "hibob-consulting-support",
+      "customhcm-consulting-support",
+    ],
+    primaryCta: { label: "Request System Review", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+  },
+  {
     slug: "streamlining-processes",
     hubSlug: "hr-technology-automation",
     title: "Streamlining HR Processes",

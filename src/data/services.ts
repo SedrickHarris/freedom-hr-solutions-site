@@ -285,53 +285,176 @@ export const services: Service[] = [
     hubSlug: "hr-compliance",
     launch: true,
     title: "Employee Handbook Creation & Management",
-    h1: "Employee Handbook Creation and Management",
+    h1: "Employee Handbook Creation, Review, and Management",
     meta: {
-      title: "Employee Handbook Creation and Management",
+      title: "Employee Handbook Creation, Review, and Updates | Freedom HR Solutions",
       description:
-        "Create, update, manage, and maintain employee handbooks with clear policies, compliance-focused review, version control, and employee acknowledgment support.",
+        "Freedom HR Solutions creates, reviews, updates, and manages employee handbooks for small businesses, growing companies, and multi-state employers. Las Vegas and nationwide.",
     },
     summary:
-      "Clear, current employee handbooks that match how your business runs, with support for updates and acknowledgments.",
+      "Create, review, update, and maintain employee handbooks that reflect how your business actually runs, with support for annual reviews, multi-state policies, and acknowledgment tracking.",
     intro:
-      "An employee handbook sets expectations and supports consistency. Freedom HR Solutions helps you create, update, and manage a handbook that reflects your real policies and stays current as your business changes.",
+      "Most employee handbooks fall behind the moment business changes. Freedom HR Solutions helps you create a handbook from scratch, review and update an existing one, manage annual revisions, account for multi-state policy differences, and maintain version control and acknowledgment records over time. Whether your handbook is missing, outdated, or simply has not been touched in years, we give you a practical path to get it current and keep it that way.",
     problems: [
       "Your handbook is outdated or does not exist.",
-      "Policies do not match how the business actually operates.",
-      "Multi-state policies are hard to keep straight.",
-      "Acknowledgments are not consistently tracked.",
+      "Policies do not reflect how the business actually operates today.",
+      "Multi-state policy differences are hard to track and manage.",
+      "No one owns the annual review and update process.",
+      "Acknowledgments are not consistently collected or tracked.",
+      "The handbook was created once and has not been revisited since.",
     ],
     includes: [
-      { title: "Handbook creation", description: "Build a clear, organized handbook tailored to your business." },
-      { title: "Policy review and updates", description: "Refresh existing policies so they stay current and consistent." },
-      { title: "Multi-state considerations", description: "Account for policy differences across the states you operate in." },
-      { title: "Acknowledgment support", description: "Support digital distribution and acknowledgment tracking." },
+      {
+        title: "Custom Handbook Creation",
+        description:
+          "We build a clear, organized handbook tailored to how your business actually operates, not a generic template that may not fit your team or industry.",
+      },
+      {
+        title: "Policy Review and Updates",
+        description:
+          "We review your existing handbook, identify outdated language, missing sections, and inconsistencies, and update policies to reflect current operations.",
+      },
+      {
+        title: "Annual Handbook Review",
+        description:
+          "We conduct a structured annual review so your handbook does not drift between major changes and stays current year over year.",
+      },
+      {
+        title: "Multi-State Policy Support",
+        description:
+          "We account for state-level policy differences when employees work across jurisdictions so your handbook is appropriate for each location.",
+      },
+      {
+        title: "Digital Distribution and Acknowledgment Tracking",
+        description:
+          "We support distributing the updated handbook digitally and collecting employee acknowledgments so you have a clear record of who received the current version.",
+      },
+      {
+        title: "Version Control and Ongoing Maintenance",
+        description:
+          "We maintain a clear record of what changed, when, and why, so there is always a reliable history of your current and prior handbook versions.",
+      },
     ],
-    whoItHelps: ["Small businesses", "Growing businesses", "Multi-state employers", "HR teams"],
+    whoItHelps: [
+      "Small businesses creating their first employee handbook",
+      "Growing businesses whose handbook has not kept pace with their size",
+      "Multi-state employers managing policy differences across jurisdictions",
+      "HR teams that need a structured update and review process",
+      "Companies without a dedicated HR department",
+      "Business owners who need a practical, documented HR foundation",
+    ],
     challenges: [
       "Outdated or missing policies",
-      "Inconsistent enforcement",
+      "Inconsistent policy enforcement across managers",
       "Multi-state policy complexity",
+      "No annual review process in place",
       "Untracked acknowledgments",
+      "Version history that no one can locate",
     ],
     process: standardProcess,
     benefits: [
-      { title: "Clear expectations", description: "Employees and managers work from the same playbook." },
-      { title: "Current policies", description: "A handbook that reflects how the business runs today." },
-      { title: "Better consistency", description: "More consistent application of policies across the team." },
-      { title: "Easier management", description: "A practical process for keeping the handbook up to date." },
+      {
+        title: "Clear Expectations",
+        description:
+          "Employees and managers work from the same documented playbook, reducing ambiguity and inconsistency.",
+      },
+      {
+        title: "Current Policies",
+        description:
+          "A handbook that reflects how the business runs today, not how it ran three years ago.",
+      },
+      {
+        title: "Better Consistency",
+        description:
+          "More consistent application of policies across the team, regardless of which manager is involved.",
+      },
+      {
+        title: "Annual Review Built In",
+        description:
+          "A structured process that keeps the handbook current year over year without scrambling to catch up.",
+      },
+      {
+        title: "Clean Acknowledgment Records",
+        description:
+          "A clear record of who received and confirmed the current handbook version.",
+      },
+      {
+        title: "Easier Management",
+        description:
+          "Version control and a maintained update process so the handbook is never a project that starts from scratch.",
+      },
     ],
-    relatedServiceSlugs: ["compliance-support", "workforce-compliance-monitoring", "hr-mri-risk-assessment"],
-    relatedAudienceSlugs: ["small-businesses", "multi-state-employers", "hr-teams"],
+    relatedServiceSlugs: [
+      "compliance-support",
+      "workforce-compliance-monitoring",
+      "hr-mri-risk-assessment",
+    ],
+    relatedAudienceSlugs: [
+      "small-businesses",
+      "multi-state-employers",
+      "hr-teams",
+      "growing-businesses",
+    ],
     faqs: [
-      { question: "Why does a business need an employee handbook?", answer: "A handbook sets clear expectations, supports consistency, and documents your policies, which helps both employees and managers." },
-      { question: "How often should an employee handbook be updated?", answer: "At least once a year and after major changes such as new locations, significant growth, or new policies." },
-      { question: "Can Freedom HR Solutions help with multi-state policies?", answer: "Yes. We help account for policy differences across the states where you have employees." },
-      { question: "Can handbooks be managed digitally?", answer: "Yes. We help with digital distribution and acknowledgment tracking so the process is easier to manage." },
-      { question: "Can employee acknowledgments be tracked?", answer: "Yes. We help set up a process to distribute the handbook and track acknowledgments." },
+      {
+        question: "Why does a business need an employee handbook?",
+        answer:
+          "An employee handbook sets clear expectations, supports consistent policy enforcement, and documents how the business handles key workforce matters. Without one, policies rely on memory and individual interpretation, which creates inconsistency and avoidable risk.",
+      },
+      {
+        question: "How often should an employee handbook be updated?",
+        answer:
+          "At minimum, review your handbook once a year. You should also update it after significant changes such as growth into a new state, a change in benefits or leave policies, a policy revision, or any organizational change that affects how people are managed.",
+      },
+      {
+        question: "What is an employee handbook review service?",
+        answer:
+          "A handbook review service is a structured evaluation of your current handbook to identify outdated language, missing sections, policy inconsistencies, and content that no longer matches how the business operates. Freedom HR Solutions reviews what exists and provides practical recommendations and updated content.",
+      },
+      {
+        question: "Can Freedom HR Solutions update an existing employee handbook?",
+        answer:
+          "Yes. We review your current handbook, identify what needs to change, and update it to reflect your current policies and operations. We handle both targeted updates and full handbook revisions.",
+      },
+      {
+        question: "What should be included in an employee handbook?",
+        answer:
+          "Core sections typically include your code of conduct, compensation and pay practices, benefits overview, time off and leave policies, anti-harassment and anti-discrimination policies, and an acknowledgment of receipt. The specific content depends on your business, your state, and how your workforce is structured.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with multi-state employee handbooks?",
+        answer:
+          "Yes. We account for policy differences across the states where you have employees so the handbook is appropriate for each jurisdiction. Multi-state employers often need state-specific addenda or sections to address requirements that vary by location.",
+      },
+      {
+        question: "How are employee handbook acknowledgments tracked?",
+        answer:
+          "We support digital distribution and acknowledgment tracking so there is a clear record of who received and confirmed the current version. Having documented acknowledgments is important when policies need to be enforced.",
+      },
+      {
+        question: "What is employee handbook version control?",
+        answer:
+          "Version control is a system for tracking changes to the handbook over time, including what was updated, when, and why. It ensures there is always a reliable record of the current version and a clear history of prior versions.",
+      },
+      {
+        question: "Can Freedom HR Solutions create an employee handbook from scratch?",
+        answer:
+          "Yes. We build a custom handbook tailored to how your business operates rather than a generic template. We gather input on your policies, structure, and workforce, then create a handbook that reflects your actual operations.",
+      },
+      {
+        question: "What happens if a business does not have an employee handbook?",
+        answer:
+          "Without a handbook, policies exist only in memory and are applied inconsistently. This makes it harder to enforce expectations, train managers, and demonstrate consistent treatment of employees. An HR MRI Risk Assessment is a good starting point to identify this and other gaps.",
+      },
     ],
-    primaryCta: ctas.assessment,
-    secondaryCta: ctas.complianceConsult,
+    primaryCta: {
+      label: "Request HR MRI Assessment",
+      href: "/request-assessment/",
+    },
+    secondaryCta: {
+      label: "Schedule Consultation",
+      href: "/contact/",
+    },
   },
   {
     slug: "workforce-compliance-monitoring",

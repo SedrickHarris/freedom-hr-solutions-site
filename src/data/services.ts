@@ -393,9 +393,9 @@ export const services: Service[] = [
     title: "ACA Reporting Consultant",
     h1: "ACA Reporting Consultant Services for Employers",
     meta: {
-      title: "ACA Reporting Consultant Services",
+      title: "ACA Reporting Consultant Services for Employers | Freedom HR Solutions",
       description:
-        "Get ACA reporting support, Applicable Large Employer reviews, IRS 1094 and 1095 filing guidance, affordability reviews, and penalty response support.",
+        "Freedom HR Solutions helps employers with ACA reporting, Applicable Large Employer reviews, IRS 1094 and 1095 filing preparation, and ACA notice response. Based in Las Vegas. Serving nationwide.",
     },
     summary:
       "Support understanding ACA reporting responsibilities, organizing data, and preparing accurate filing information.",
@@ -435,6 +435,31 @@ export const services: Service[] = [
       { question: "What is an Applicable Large Employer?", answer: "Generally, an employer that averaged 50 or more full-time and full-time equivalent employees in the prior year. We help you review your numbers." },
       { question: "Can Freedom HR Solutions help with ACA penalty notices?", answer: "Yes. We help you understand the notice and organize a practical response. We do not provide legal advice or guarantee outcomes." },
       { question: "What information is needed for ACA reporting?", answer: "Reporting generally relies on workforce data, coverage offers, and eligibility information. We help you organize what is needed." },
+      {
+        question: "When are IRS Forms 1094 and 1095 due?",
+        answer:
+          "Filing deadlines for Forms 1094 and 1095 vary by year and filing method. Electronic filers generally have a later deadline than paper filers. We help you organize your data so you are ready ahead of your deadline. Check the IRS website for the current filing year deadline.",
+      },
+      {
+        question: "What is the Employer Shared Responsibility Payment?",
+        answer:
+          "The Employer Shared Responsibility Payment is a payment the IRS may assess when an Applicable Large Employer does not offer minimum essential coverage to eligible employees or the coverage offered does not meet affordability or minimum value standards. We help employers understand their situation and organize a practical response.",
+      },
+      {
+        question: "What should I do if I receive an ACA penalty notice from the IRS?",
+        answer:
+          "Do not ignore it. Read the notice carefully, note the response deadline, and gather your coverage and eligibility data. We help you understand what the notice is asking for and organize a practical, organized response. We do not provide legal advice or guarantee outcomes.",
+      },
+      {
+        question: "Does ACA reporting apply to multi-state employers?",
+        answer:
+          "Yes. ACA reporting responsibilities apply regardless of how many states you operate in. Multi-state employers often have more complex eligibility and coverage data to organize. We help you pull that data together across systems.",
+      },
+      {
+        question: "Do employees need Form 1095-C to file their taxes?",
+        answer:
+          "Employees generally do not need Form 1095-C to file their personal tax return, but it provides useful coverage information. As an employer, your responsibility is to furnish the form accurately and on time. We help you prepare the underlying data so your forms are accurate.",
+      },
     ],
     primaryCta: ctas.acaReview,
     secondaryCta: ctas.consultation,

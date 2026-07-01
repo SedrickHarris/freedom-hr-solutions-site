@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "seo:scan": "node seo-automation/scripts/scan-routes.mjs",
+    "seo:parse": "node seo-automation/scripts/parse-keyword-csv.mjs",
+    "seo:cluster": "node seo-automation/scripts/cluster-keywords.mjs",
+    "seo:score": "node seo-automation/scripts/score-opportunities.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.21.0",

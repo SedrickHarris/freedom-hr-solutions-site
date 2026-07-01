@@ -1,13 +1,228 @@
 {
-  "generatedAt": "2026-07-01T20:32:09.801Z",
-  "opportunityCount": 12,
+  "generatedAt": "2026-07-01T21:57:36.479Z",
+  "opportunityCount": 40,
   "opportunities": [
     {
-      "opportunityId": "o-002",
+      "opportunityId": "o-004",
+      "clusterId": "c-006",
+      "recommendedPageTitle": "C Filing Deadline",
+      "recommendedSlug": "1095-c-filing-deadline-2022",
+      "primaryKeyword": "1095 c filing deadline 2022",
+      "supportingKeywords": [
+        "1095 c filing deadline",
+        "1094 c filing deadline",
+        "1094 c filing deadline 2021",
+        "1094 c filing deadline 2022",
+        "1095 c filing deadline 2021",
+        "filing deadline for 1095 c"
+      ],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": null,
+      "score": 8,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 3,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": 0,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 8. Signals: intent=general, pageType=pillar, keywords=7, volumeData=supplied, existingOverlap=0. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-005",
+      "clusterId": "c-007",
+      "recommendedPageTitle": "Filing Deadline",
+      "recommendedSlug": "1094-and-1095-filing-deadline",
+      "primaryKeyword": "1094 and 1095 filing deadline",
+      "supportingKeywords": [
+        "1095 filing deadline 2023",
+        "1094 filing deadline",
+        "1094 filing deadline 2021",
+        "1095 filing deadline",
+        "1095 filing deadline 2021"
+      ],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": null,
+      "score": 8,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 3,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": 0,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 8. Signals: intent=general, pageType=pillar, keywords=6, volumeData=supplied, existingOverlap=0. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-009",
+      "clusterId": "c-014",
+      "recommendedPageTitle": "B Filing Deadline",
+      "recommendedSlug": "1094-b-filing-deadline",
+      "primaryKeyword": "1094 b filing deadline",
+      "supportingKeywords": [
+        "1095 b filing deadline 2021",
+        "1095 b filing deadline 2022"
+      ],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": null,
+      "score": 6,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 1,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": 0,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 6. Signals: intent=general, pageType=pillar, keywords=3, volumeData=supplied, existingOverlap=0. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-001",
+      "clusterId": "c-003",
+      "recommendedPageTitle": "Reporting",
+      "recommendedSlug": "1095-reporting",
+      "primaryKeyword": "1095 reporting",
+      "supportingKeywords": [
+        "1094 and 1095 reporting",
+        "6056 reporting",
+        "1094 1095 reporting",
+        "1095 reporting 2021",
+        "1095 reporting 2022",
+        "6055 6056 reporting",
+        "6055 and 6056 reporting"
+      ],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 2,
+        "overlapRatio": 0.5
+      },
+      "score": 5,
+      "scoreBreakdown": {
+        "serviceFitHint": 2,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 3,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -2,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 5. Signals: intent=general, pageType=pillar, keywords=8, volumeData=supplied, existingOverlap=0.5. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-006",
+      "clusterId": "c-004",
+      "recommendedPageTitle": "C Reporting",
+      "recommendedSlug": "1095-c-reporting",
+      "primaryKeyword": "1095 c reporting",
+      "supportingKeywords": [
+        "1094 c reporting"
+      ],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/thank-you",
+        "sourceFile": "src/app/thank-you/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 3,
+        "overlapRatio": 0.33
+      },
+      "score": 5,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 1,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 5. Signals: intent=general, pageType=pillar, keywords=2, volumeData=supplied, existingOverlap=0.33. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-007",
+      "clusterId": "c-009",
+      "recommendedPageTitle": "Section Reporting",
+      "recommendedSlug": "section-6055-and-6056-reporting",
+      "primaryKeyword": "section 6055 and 6056 reporting",
+      "supportingKeywords": [
+        "section 6056 reporting"
+      ],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.25
+      },
+      "score": 5,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 1,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 5. Signals: intent=general, pageType=pillar, keywords=2, volumeData=supplied, existingOverlap=0.25. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-008",
+      "clusterId": "c-020",
+      "recommendedPageTitle": "Irs Reporting",
+      "recommendedSlug": "1095-irs-reporting",
+      "primaryKeyword": "1095 irs reporting",
+      "supportingKeywords": [
+        "irs 1095 reporting"
+      ],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/thank-you",
+        "sourceFile": "src/app/thank-you/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 3,
+        "overlapRatio": 0.33
+      },
+      "score": 5,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 1,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 5. Signals: intent=general, pageType=pillar, keywords=2, volumeData=supplied, existingOverlap=0.33. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-010",
       "clusterId": "c-001",
-      "recommendedPageTitle": "Hris Vendor Selection",
-      "recommendedSlug": "hris-vendor-selection",
-      "primaryKeyword": "hris vendor selection",
+      "recommendedPageTitle": "Ale Status Determination",
+      "recommendedSlug": "ale-status-determination",
+      "primaryKeyword": "ale status determination",
       "supportingKeywords": [],
       "pageType": "pillar",
       "intent": "general",
@@ -26,17 +241,247 @@
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     },
     {
-      "opportunityId": "o-003",
-      "clusterId": "c-003",
-      "recommendedPageTitle": "Hris Implementation Support",
-      "recommendedSlug": "hris-implementation-support",
-      "primaryKeyword": "hris implementation support",
+      "opportunityId": "o-013",
+      "clusterId": "c-010",
+      "recommendedPageTitle": "Irs",
+      "recommendedSlug": "irs-6055-and-6056",
+      "primaryKeyword": "irs 6055 and 6056",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": null,
+      "score": 5,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": 0,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 5. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-016",
+      "clusterId": "c-015",
+      "recommendedPageTitle": "C C Filing Deadline",
+      "recommendedSlug": "1094-c-and-1095-c-filing-deadline",
+      "primaryKeyword": "1094 c and 1095 c filing deadline",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": null,
+      "score": 5,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": 0,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 5. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-018",
+      "clusterId": "c-018",
+      "recommendedPageTitle": "C Rules",
+      "recommendedSlug": "1095-c-rules",
+      "primaryKeyword": "1095 c rules",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": null,
+      "score": 5,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": 0,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 5. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-019",
+      "clusterId": "c-019",
+      "recommendedPageTitle": "Electronic Filing Deadline",
+      "recommendedSlug": "1095-electronic-filing-deadline",
+      "primaryKeyword": "1095 electronic filing deadline",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": null,
+      "score": 5,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": 0,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 5. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-020",
+      "clusterId": "c-021",
+      "recommendedPageTitle": "Submission Deadline",
+      "recommendedSlug": "1095-submission-deadline",
+      "primaryKeyword": "1095 submission deadline",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": null,
+      "score": 5,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": 0,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 5. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-025",
+      "clusterId": "c-028",
+      "recommendedPageTitle": "Employees Need C File Taxes",
+      "recommendedSlug": "do-employees-need-1095-c-to-file-taxes",
+      "primaryKeyword": "do employees need 1095 c to file taxes",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": null,
+      "score": 5,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": 0,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 5. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-027",
+      "clusterId": "c-030",
+      "recommendedPageTitle": "Internal Revenue Code Section",
+      "recommendedSlug": "internal-revenue-code-section-6056",
+      "primaryKeyword": "internal revenue code section 6056",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": null,
+      "score": 5,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": 0,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 5. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-028",
+      "clusterId": "c-032",
+      "recommendedPageTitle": "Www Irs Gov Form1094b",
+      "recommendedSlug": "www-irs-gov-form1094b",
+      "primaryKeyword": "www irs gov form1094b",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": null,
+      "score": 5,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": 0,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 5. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-030",
+      "clusterId": "c-017",
+      "recommendedPageTitle": "C Filing Deadline Irs",
+      "recommendedSlug": "1095-c-filing-deadline-2022-irs",
+      "primaryKeyword": "1095 c filing deadline 2022 irs",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": null,
+      "score": 5,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": 0,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 5. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-032",
+      "clusterId": "c-031",
+      "recommendedPageTitle": "Irs Filing Deadline",
+      "recommendedSlug": "irs-1095-filing-deadline-2022",
+      "primaryKeyword": "irs 1095 filing deadline 2022",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": null,
+      "score": 5,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": 0,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 5. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-012",
+      "clusterId": "c-005",
+      "recommendedPageTitle": "Employer Reporting",
+      "recommendedSlug": "employer-1095-reporting",
+      "primaryKeyword": "employer 1095 reporting",
       "supportingKeywords": [],
       "pageType": "pillar",
       "intent": "general",
       "existingRouteOverlap": {
-        "route": "/who-we-help",
-        "sourceFile": "src/app/who-we-help/page.tsx",
+        "route": "/thank-you",
+        "sourceFile": "src/app/thank-you/page.tsx",
         "matchedTokens": 1,
         "baseTokenCount": 3,
         "overlapRatio": 0.33
@@ -55,19 +500,19 @@
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     },
     {
-      "opportunityId": "o-004",
-      "clusterId": "c-004",
-      "recommendedPageTitle": "Oracle Hr Help Desk Implementation Guide",
-      "recommendedSlug": "oracle-hr-help-desk-implementation-guide",
-      "primaryKeyword": "oracle hr help desk implementation guide",
+      "opportunityId": "o-014",
+      "clusterId": "c-011",
+      "recommendedPageTitle": "Reporting Deadline",
+      "recommendedSlug": "1095-reporting-deadline",
+      "primaryKeyword": "1095 reporting deadline",
       "supportingKeywords": [],
       "pageType": "pillar",
       "intent": "general",
       "existingRouteOverlap": {
-        "route": "/who-we-help",
-        "sourceFile": "src/app/who-we-help/page.tsx",
-        "matchedTokens": 2,
-        "baseTokenCount": 6,
+        "route": "/thank-you",
+        "sourceFile": "src/app/thank-you/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 3,
         "overlapRatio": 0.33
       },
       "score": 4,
@@ -84,11 +529,40 @@
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     },
     {
-      "opportunityId": "o-005",
-      "clusterId": "c-005",
-      "recommendedPageTitle": "Sap Hr Data Migration",
-      "recommendedSlug": "sap-hr-data-migration",
-      "primaryKeyword": "sap hr data migration",
+      "opportunityId": "o-015",
+      "clusterId": "c-013",
+      "recommendedPageTitle": "B Reporting",
+      "recommendedSlug": "1095-b-reporting",
+      "primaryKeyword": "1095 b reporting",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/thank-you",
+        "sourceFile": "src/app/thank-you/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 3,
+        "overlapRatio": 0.33
+      },
+      "score": 4,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 4. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.33. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-017",
+      "clusterId": "c-016",
+      "recommendedPageTitle": "B C Reporting",
+      "recommendedSlug": "1095-b-and-c-reporting",
+      "primaryKeyword": "1095 b and c reporting",
       "supportingKeywords": [],
       "pageType": "pillar",
       "intent": "general",
@@ -113,20 +587,159 @@
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     },
     {
-      "opportunityId": "o-009",
-      "clusterId": "c-009",
-      "recommendedPageTitle": "Hris Small Implementation",
-      "recommendedSlug": "best-hris-for-small-business-implementation",
-      "primaryKeyword": "best hris for small business implementation",
+      "opportunityId": "o-021",
+      "clusterId": "c-022",
+      "recommendedPageTitle": "1094c",
+      "recommendedSlug": "2022-1094c",
+      "primaryKeyword": "2022 1094c",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": null,
+      "score": 4,
+      "scoreBreakdown": {
+        "serviceFitHint": 2,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": 0,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 4. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-024",
+      "clusterId": "c-025",
+      "recommendedPageTitle": "Aca Filing Deadline",
+      "recommendedSlug": "aca-filing-deadline",
+      "primaryKeyword": "aca filing deadline",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/thank-you",
+        "sourceFile": "src/app/thank-you/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 3,
+        "overlapRatio": 0.33
+      },
+      "score": 4,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 4. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.33. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-026",
+      "clusterId": "c-029",
+      "recommendedPageTitle": "Employer Shared Responsibility Reporting",
+      "recommendedSlug": "employer-shared-responsibility-reporting",
+      "primaryKeyword": "employer shared responsibility reporting",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.25
+      },
+      "score": 4,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 4. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.25. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-029",
+      "clusterId": "c-008",
+      "recommendedPageTitle": "C Reporting Deadline",
+      "recommendedSlug": "1095-c-reporting-deadline-2022",
+      "primaryKeyword": "1095 c reporting deadline 2022",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 5,
+        "overlapRatio": 0.2
+      },
+      "score": 4,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 4. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.2. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-031",
+      "clusterId": "c-026",
+      "recommendedPageTitle": "Aca Irs Filing Deadline",
+      "recommendedSlug": "aca-irs-filing-deadline-2022",
+      "primaryKeyword": "aca irs filing deadline 2022",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 5,
+        "overlapRatio": 0.2
+      },
+      "score": 4,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 4. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.2. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-038",
+      "clusterId": "c-038",
+      "recommendedPageTitle": "Applicable Large Employer",
+      "recommendedSlug": "applicable-large-employer-review",
+      "primaryKeyword": "applicable large employer review",
       "supportingKeywords": [],
       "pageType": "comparison",
       "intent": "commercial-comparison",
       "existingRouteOverlap": {
-        "route": "/",
-        "sourceFile": "src/app/page.tsx",
-        "matchedTokens": 2,
-        "baseTokenCount": 5,
-        "overlapRatio": 0.4
+        "route": "/request-assessment",
+        "sourceFile": "src/app/request-assessment/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.25
       },
       "score": 4,
       "scoreBreakdown": {
@@ -134,25 +747,83 @@
         "buyerIntentHint": 1,
         "localIntentHint": 0,
         "clusterDepth": 0,
-        "modifierStrength": 2,
-        "existingOverlapPenalty": -2,
+        "modifierStrength": 1,
+        "existingOverlapPenalty": -1,
         "dataCompleteness": 0
       },
-      "rationale": "Priority heuristic 4. Signals: intent=commercial-comparison, pageType=comparison, keywords=1, volumeData=none, existingOverlap=0.4. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "rationale": "Priority heuristic 4. Signals: intent=commercial-comparison, pageType=comparison, keywords=1, volumeData=none, existingOverlap=0.25. Score ranks build priority only and is not an SEO difficulty estimate.",
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     },
     {
-      "opportunityId": "o-001",
+      "opportunityId": "o-011",
       "clusterId": "c-002",
-      "recommendedPageTitle": "Hr Technology Consultant",
-      "recommendedSlug": "hr-technology-consultant",
-      "primaryKeyword": "hr technology consultant",
+      "recommendedPageTitle": "Irs Aca Reporting Requirements",
+      "recommendedSlug": "irs-aca-reporting-requirements",
+      "primaryKeyword": "irs aca reporting requirements",
       "supportingKeywords": [],
       "pageType": "pillar",
       "intent": "general",
       "existingRouteOverlap": {
-        "route": "/request-assessment",
-        "sourceFile": "src/app/request-assessment/page.tsx",
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 2,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.5
+      },
+      "score": 3,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -2,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 3. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.5. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-022",
+      "clusterId": "c-023",
+      "recommendedPageTitle": "Aca C Reporting",
+      "recommendedSlug": "aca-1095-c-reporting",
+      "primaryKeyword": "aca 1095 c reporting",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 2,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.5
+      },
+      "score": 3,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -2,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 3. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.5. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-002",
+      "clusterId": "c-012",
+      "recommendedPageTitle": "Irs Aca Reporting",
+      "recommendedSlug": "irs-aca-reporting",
+      "primaryKeyword": "irs aca reporting",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
         "matchedTokens": 2,
         "baseTokenCount": 3,
         "overlapRatio": 0.67
@@ -171,20 +842,78 @@
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     },
     {
-      "opportunityId": "o-012",
-      "clusterId": "c-012",
-      "recommendedPageTitle": "Ongoing Hris Support After Go Live",
-      "recommendedSlug": "ongoing-hris-support-after-go-live",
-      "primaryKeyword": "ongoing hris support after go live",
+      "opportunityId": "o-003",
+      "clusterId": "c-027",
+      "recommendedPageTitle": "Aca Reporting Deadline",
+      "recommendedSlug": "aca-reporting-deadline",
+      "primaryKeyword": "aca reporting deadline",
       "supportingKeywords": [],
       "pageType": "pillar",
       "intent": "general",
       "existingRouteOverlap": {
-        "route": "/about",
-        "sourceFile": "src/app/about/page.tsx",
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 2,
+        "baseTokenCount": 3,
+        "overlapRatio": 0.67
+      },
+      "score": 2,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -3,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.67. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-023",
+      "clusterId": "c-024",
+      "recommendedPageTitle": "Aca Reporting",
+      "recommendedSlug": "aca-1095-reporting",
+      "primaryKeyword": "aca 1095 reporting",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 2,
+        "baseTokenCount": 3,
+        "overlapRatio": 0.67
+      },
+      "score": 2,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -3,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.67. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-033",
+      "clusterId": "c-033",
+      "recommendedPageTitle": "Irs Form Filing Help",
+      "recommendedSlug": "irs-form-1095-filing-help",
+      "primaryKeyword": "irs form 1095 filing help",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/request-assessment",
+        "sourceFile": "src/app/request-assessment/page.tsx",
         "matchedTokens": 1,
-        "baseTokenCount": 6,
-        "overlapRatio": 0.17
+        "baseTokenCount": 5,
+        "overlapRatio": 0.2
       },
       "score": 2,
       "scoreBreakdown": {
@@ -196,73 +925,102 @@
         "existingOverlapPenalty": -1,
         "dataCompleteness": 0
       },
-      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.17. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.2. Score ranks build priority only and is not an SEO difficulty estimate.",
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     },
     {
-      "opportunityId": "o-006",
-      "clusterId": "c-006",
-      "recommendedPageTitle": "Hr System Migration Services",
-      "recommendedSlug": "hr-system-migration-services",
-      "primaryKeyword": "hr system migration services",
+      "opportunityId": "o-034",
+      "clusterId": "c-034",
+      "recommendedPageTitle": "Irs Form Filing Services",
+      "recommendedSlug": "irs-form-1094-filing-services",
+      "primaryKeyword": "irs form 1094 filing services",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/request-assessment",
+        "sourceFile": "src/app/request-assessment/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 5,
+        "overlapRatio": 0.2
+      },
+      "score": 2,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 0
+      },
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.2. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-036",
+      "clusterId": "c-036",
+      "recommendedPageTitle": "Aca C Filing Support",
+      "recommendedSlug": "aca-1095-c-filing-support",
+      "primaryKeyword": "aca 1095 c filing support",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 5,
+        "overlapRatio": 0.2
+      },
+      "score": 2,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 0
+      },
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.2. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-037",
+      "clusterId": "c-037",
+      "recommendedPageTitle": "Filing Services Employers",
+      "recommendedSlug": "1095-filing-services-for-employers",
+      "primaryKeyword": "1095 filing services for employers",
       "supportingKeywords": [],
       "pageType": "pillar",
       "intent": "general",
       "existingRouteOverlap": {
         "route": "/services",
         "sourceFile": "src/app/services/page.tsx",
-        "matchedTokens": 2,
+        "matchedTokens": 1,
         "baseTokenCount": 4,
-        "overlapRatio": 0.5
+        "overlapRatio": 0.25
       },
-      "score": 1,
+      "score": 2,
       "scoreBreakdown": {
         "serviceFitHint": 3,
         "buyerIntentHint": 0,
         "localIntentHint": 0,
         "clusterDepth": 0,
         "modifierStrength": 0,
-        "existingOverlapPenalty": -2,
+        "existingOverlapPenalty": -1,
         "dataCompleteness": 0
       },
-      "rationale": "Priority heuristic 1. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.5. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.25. Score ranks build priority only and is not an SEO difficulty estimate.",
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     },
     {
-      "opportunityId": "o-008",
-      "clusterId": "c-008",
-      "recommendedPageTitle": "Hr Platform Migration Services",
-      "recommendedSlug": "hr-platform-migration-services",
-      "primaryKeyword": "hr platform migration services",
-      "supportingKeywords": [],
-      "pageType": "pillar",
-      "intent": "general",
-      "existingRouteOverlap": {
-        "route": "/partners",
-        "sourceFile": "src/app/partners/page.tsx",
-        "matchedTokens": 2,
-        "baseTokenCount": 4,
-        "overlapRatio": 0.5
-      },
-      "score": 1,
-      "scoreBreakdown": {
-        "serviceFitHint": 3,
-        "buyerIntentHint": 0,
-        "localIntentHint": 0,
-        "clusterDepth": 0,
-        "modifierStrength": 0,
-        "existingOverlapPenalty": -2,
-        "dataCompleteness": 0
-      },
-      "rationale": "Priority heuristic 1. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.5. Score ranks build priority only and is not an SEO difficulty estimate.",
-      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
-    },
-    {
-      "opportunityId": "o-010",
-      "clusterId": "c-010",
-      "recommendedPageTitle": "Hr Software Setup Help",
-      "recommendedSlug": "hr-software-setup-help",
-      "primaryKeyword": "hr software setup help",
+      "opportunityId": "o-035",
+      "clusterId": "c-035",
+      "recommendedPageTitle": "Reporting Consultant",
+      "recommendedSlug": "1094-1095-reporting-consultant",
+      "primaryKeyword": "1094 1095 reporting consultant",
       "supportingKeywords": [],
       "pageType": "pillar",
       "intent": "general",
@@ -287,17 +1045,17 @@
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     },
     {
-      "opportunityId": "o-011",
-      "clusterId": "c-011",
-      "recommendedPageTitle": "Hr System Implementation Support",
-      "recommendedSlug": "hr-system-implementation-support",
-      "primaryKeyword": "hr system implementation support",
+      "opportunityId": "o-039",
+      "clusterId": "c-039",
+      "recommendedPageTitle": "Aca Employer Mandate Compliance",
+      "recommendedSlug": "aca-employer-mandate-compliance",
+      "primaryKeyword": "aca employer mandate compliance",
       "supportingKeywords": [],
       "pageType": "pillar",
       "intent": "general",
       "existingRouteOverlap": {
-        "route": "/about",
-        "sourceFile": "src/app/about/page.tsx",
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
         "matchedTokens": 2,
         "baseTokenCount": 4,
         "overlapRatio": 0.5
@@ -316,11 +1074,11 @@
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     },
     {
-      "opportunityId": "o-007",
-      "clusterId": "c-007",
-      "recommendedPageTitle": "Payroll Migration Consultant",
-      "recommendedSlug": "payroll-migration-consultant",
-      "primaryKeyword": "payroll migration consultant",
+      "opportunityId": "o-040",
+      "clusterId": "c-040",
+      "recommendedPageTitle": "Aca Filing Deadline Help",
+      "recommendedSlug": "aca-filing-deadline-help",
+      "primaryKeyword": "aca filing deadline help",
       "supportingKeywords": [],
       "pageType": "pillar",
       "intent": "general",
@@ -328,20 +1086,20 @@
         "route": "/thank-you",
         "sourceFile": "src/app/thank-you/page.tsx",
         "matchedTokens": 2,
-        "baseTokenCount": 3,
-        "overlapRatio": 0.67
+        "baseTokenCount": 4,
+        "overlapRatio": 0.5
       },
-      "score": 0,
+      "score": 1,
       "scoreBreakdown": {
         "serviceFitHint": 3,
         "buyerIntentHint": 0,
         "localIntentHint": 0,
         "clusterDepth": 0,
         "modifierStrength": 0,
-        "existingOverlapPenalty": -3,
+        "existingOverlapPenalty": -2,
         "dataCompleteness": 0
       },
-      "rationale": "Priority heuristic 0. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.67. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "rationale": "Priority heuristic 1. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.5. Score ranks build priority only and is not an SEO difficulty estimate.",
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     }
   ],

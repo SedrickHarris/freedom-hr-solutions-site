@@ -806,9 +806,9 @@ export const services: Service[] = [
     title: "System Set-Up & Implementation",
     h1: "HR, Payroll, and Benefits System Set-Up and Implementation",
     meta: {
-      title: "HR System Set-Up and Implementation",
+      title: "HR System Set-Up and Implementation | Freedom HR Solutions",
       description:
-        "Get support with HR, payroll, benefits, and HCM system setup, configuration, data migration, integrations, testing, training, and launch.",
+        "Freedom HR Solutions supports HR, payroll, benefits, and HCM system implementation: configuration, data migration, integrations, testing, training, and go-live. Based in Las Vegas. Serving nationwide.",
     },
     summary:
       "Implement HR, payroll, benefits, and HCM systems accurately, from configuration and data migration through testing and go-live.",
@@ -840,7 +840,7 @@ export const services: Service[] = [
       { title: "Smoother launch", description: "Testing and training that reduce go-live surprises." },
       { title: "Faster value", description: "Reach a usable, productive system sooner." },
     ],
-    relatedServiceSlugs: ["hr-technology-automation", "system-audits-improvements", "technical-issue-resolution", "ongoing-technical-support"],
+    relatedServiceSlugs: ["hr-technology-automation", "system-audits-improvements", "technical-issue-resolution", "ongoing-technical-support", "reporting-data-insights"],
     relatedAudienceSlugs: ["growing-businesses", "hr-teams", "payroll-teams"],
     faqs: [
       { question: "Can Freedom HR Solutions help implement a new HR system?", answer: "Yes. We help with configuration, data migration, integration, testing, training, and go-live support." },
@@ -848,6 +848,31 @@ export const services: Service[] = [
       { question: "Can you help test payroll and benefits configurations?", answer: "Yes. We help test configurations before launch to reduce errors at go-live." },
       { question: "What happens after go-live?", answer: "We can provide ongoing support and optimization so the system continues to deliver value." },
       { question: "Can Freedom HR Solutions work with our software provider?", answer: "Yes. We frequently coordinate with your platform provider during implementation." },
+      {
+        question: "Can Freedom HR Solutions help implement ADP?",
+        answer:
+          "Yes. We help businesses configure, migrate data, test, and launch ADP payroll and HR systems. Our ADP support page covers the specific workflows we assist with in more detail.",
+      },
+      {
+        question: "Can Freedom HR Solutions help implement isolved or BambooHR?",
+        answer:
+          "Yes. We support implementation, configuration, and go-live for isolved, BambooHR, and other HCM platforms. Each platform has its own setup requirements and we help you work through them accurately.",
+      },
+      {
+        question: "What is involved in HR system data migration?",
+        answer:
+          "Data migration involves extracting employee, payroll, and benefits data from your existing system, cleaning and validating it, and loading it accurately into the new platform. We help plan and execute each step so data integrity is maintained through go-live.",
+      },
+      {
+        question: "Can Freedom HR Solutions support multi-state HR system implementation?",
+        answer:
+          "Yes. Multi-state implementations require additional configuration for state-specific payroll rules, eligibility, and compliance settings. We help ensure those configurations are set up correctly across every state where you have employees.",
+      },
+      {
+        question: "What happens after the system goes live?",
+        answer:
+          "Go-live is not the end of the engagement. We help your team troubleshoot early issues, refine configurations, and ensure the system is running as expected. Ongoing support is available if your team needs a reliable resource after launch.",
+      },
     ],
     primaryCta: ctas.systemReview,
     secondaryCta: exploreSupport,

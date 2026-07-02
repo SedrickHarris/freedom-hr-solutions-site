@@ -346,62 +346,71 @@ export const serviceHubs: ServiceHub[] = [
     title: "Support & Service Continuity",
     h1: "HR, Payroll, and Benefits Support and Service Continuity",
     meta: {
-      title: "HR, Payroll, and Benefits Support Services",
+      title: "HR, Payroll & Benefits Support Services",
       description:
-        "Get ongoing technical support, troubleshooting, open enrollment support, and service continuity for HR, payroll, and benefits systems.",
+        "Freedom HR Solutions provides ongoing HR, payroll, and benefits support - including troubleshooting, open enrollment help, and system maintenance - so your operations stay on track.",
     },
     summary:
-      "Keep your systems running smoothly after launch with troubleshooting, open enrollment support, and ongoing help.",
+      "Keep your systems running smoothly after launch with troubleshooting, open enrollment support, and ongoing help when you need it.",
     intro:
-      "Implementation is the beginning, not the end. Systems need maintenance, issues come up, and open enrollment arrives every year. Freedom HR Solutions provides ongoing support so your HR, payroll, and benefits systems stay reliable and your team always has somewhere to turn.",
+      "Implementation is the beginning, not the end. Systems need maintenance, issues come up, and open enrollment arrives every year whether your team is ready or not. Freedom HR Solutions provides ongoing HR, payroll, and benefits support so your systems stay reliable, your team has somewhere to turn when problems arise, and annual deadlines do not catch you unprepared. Freedom HR Solutions provides independent consulting support and is not affiliated with or endorsed by any of the platforms referenced on this page.",
     problems: [
-      { title: "Issues with no owner", description: "System problems that linger because no one has time to dig in." },
-      { title: "Open enrollment pressure", description: "An annual deadline that strains the team and the systems." },
-      { title: "Downtime and delays", description: "Errors that slow payroll, benefits, or HR operations." },
-      { title: "Lost momentum after launch", description: "A new system that never reached its full value after go-live." },
+      { title: "Issues with no owner", description: "System problems that linger because no one on the internal team has time or expertise to resolve them." },
+      { title: "Open enrollment pressure", description: "An annual deadline that strains the team and exposes configuration gaps in the system." },
+      { title: "Errors that slow operations", description: "Payroll, benefits, or HR system errors that create downstream problems and take time to correct." },
+      { title: "Lost momentum after launch", description: "A new system that was never fully configured or adopted, and has been underperforming since go-live." },
     ],
     helps: [
-      { title: "Ongoing technical support", description: "A reliable resource for questions, troubleshooting, and improvements." },
-      { title: "Technical issue resolution", description: "Root-cause analysis and correction for urgent or recurring problems." },
-      { title: "Open enrollment support", description: "Setup, testing, communication, and reconciliation help for enrollment." },
-      { title: "System maintenance", description: "Regular attention so configurations and data stay accurate." },
+      { title: "Ongoing technical support", description: "A reliable resource for questions, troubleshooting, and system improvements after go-live." },
+      { title: "Technical issue resolution", description: "Root-cause analysis and correction for urgent or recurring HR, payroll, and benefits system problems." },
+      { title: "Open enrollment support", description: "Configuration, testing, and communication support so enrollment runs smoothly each year." },
+      { title: "Service continuity", description: "Consistent support that keeps HR operations running even when internal capacity is stretched." },
     ],
     whoItHelps: ["HR teams", "Payroll teams", "Benefits administrators", "Growing businesses", "Companies without a dedicated HR department"],
     process: standardProcess,
-    serviceSlugs: ["ongoing-technical-support", "technical-issue-resolution", "open-enrollment-setup"],
-    relatedAudienceSlugs: ["payroll-teams", "benefits-administrators", "hr-teams"],
+    serviceSlugs: ["technical-issue-resolution", "ongoing-technical-support", "open-enrollment-setup", "system-audits-improvements"],
+    relatedAudienceSlugs: ["hr-teams", "payroll-teams", "benefits-administrators"],
     searchThemes: [
-      "Ongoing HR system support",
-      "Payroll technical support",
-      "Benefits technical support",
-      "Open enrollment setup support",
-      "HCM support services",
+      "HR and payroll support services",
+      "ongoing HR support",
+      "HR technical support services",
+      "payroll system troubleshooting",
+      "open enrollment support",
+      "HR system troubleshooting",
+      "benefits system support",
+      "post-implementation HR support",
+      "HR support for small business",
     ],
     faqs: [
       {
-        question: "What is ongoing HR system support?",
+        question: "What does HR support and service continuity include?",
         answer:
-          "Ongoing support gives your team a reliable resource for troubleshooting, updates, and improvements to your HR, payroll, and benefits systems over time.",
+          "It includes ongoing troubleshooting, technical issue resolution, open enrollment support, system maintenance help, and a reliable resource your team can turn to when HR, payroll, or benefits problems arise.",
       },
       {
-        question: "Can Freedom HR Solutions help troubleshoot payroll errors?",
+        question: "Can Freedom HR Solutions help after a system has already been implemented?",
         answer:
-          "Yes. We help diagnose the root cause of payroll errors, correct the issue, test the fix, and recommend ways to prevent it from recurring.",
+          "Yes. Post-implementation support is one of the most common ways businesses engage us. We help resolve configuration issues, address lingering problems, and improve how the system works in practice.",
       },
       {
-        question: "Can Freedom HR Solutions help during open enrollment?",
+        question: "What is open enrollment support?",
         answer:
-          "Yes. We help set up benefits plans, test configurations, support employee communication, and reconcile data after enrollment closes.",
+          "Open enrollment support covers benefits configuration, eligibility review, system testing, and employee communication support so your annual enrollment period runs without the errors and delays that catch teams off guard.",
       },
       {
-        question: "What happens after system implementation?",
+        question: "How does ongoing HR technical support work?",
         answer:
-          "After launch, we can provide ongoing support, maintenance, and optimization so the system continues to deliver value as your business changes.",
+          "We serve as an ongoing resource for questions, troubleshooting, and improvements. When HR, payroll, or benefits system problems come up, you have somewhere to turn rather than waiting for a vendor queue or working around the issue.",
       },
       {
-        question: "Can Freedom HR Solutions work with existing payroll and HR providers?",
+        question: "Can Freedom HR Solutions help fix payroll or benefits errors?",
         answer:
-          "Yes. We frequently work alongside your existing providers and systems to support your workflows and resolve issues.",
+          "Yes. We help identify the root cause of payroll and benefits errors, correct the underlying configuration or data issue, and put steps in place to prevent the same problem from recurring.",
+      },
+      {
+        question: "Do you support specific HR and payroll platforms?",
+        answer:
+          "We work with businesses using ADP, isolved, BambooHR, HiBob, and CustomHCM, among others. We are not affiliated with or endorsed by those platforms, but we provide independent support for businesses using them.",
       },
     ],
     primaryCta: ctas.technicalSupport,

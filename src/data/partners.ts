@@ -297,21 +297,72 @@ export const partners: Partner[] = [
     name: "HiBob",
     category: "HR platform",
     meta: {
-      title: "HiBob Consulting and Support",
+      title: "HiBob Consulting and Support | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps businesses implement, configure, optimize, and support HR workflows involving HiBob.",
+        "Freedom HR Solutions helps businesses implement, configure, optimize, and support HR workflows involving HiBob, including onboarding, people data, workflow automation, integrations, and ongoing platform support.",
     },
     summary:
-      "Support for HR workflows, people data, and processes involving the HiBob platform.",
+      "Implementation, configuration, workflow automation, and ongoing support for HiBob HR platform workflows.",
     overview:
-      "Freedom HR Solutions helps businesses implement, configure, optimize, and support HR workflows involving HiBob, including people data, workflows, and reporting. We help your team get more from the platform.",
-    supportAreas: safeSupportAreas("HiBob"),
-    relatedServiceSlugs: ["system-setup-implementation", "hr-technology-automation", "streamlining-processes", "reporting-data-insights", "ongoing-technical-support"],
+      "Freedom HR Solutions helps businesses implement, configure, optimize, and support HR workflows involving HiBob. Whether you are setting up the platform for the first time, configuring onboarding and approval workflows, connecting HiBob to payroll and benefits systems, or improving people data reporting, we help your team get more from the platform.",
+    supportAreas: [
+      {
+        title: "HiBob implementation",
+        description: "Help planning and coordinating HiBob setup so your people data structure, workflows, and configurations reflect how your organization actually operates.",
+      },
+      {
+        title: "Workflow configuration",
+        description: "Support configuring HiBob workflows, including onboarding, approvals, and HR processes, so they run consistently and reduce manual follow-up.",
+      },
+      {
+        title: "People data and org setup",
+        description: "Help organizing employee records, org structure, and data fields in HiBob so your people data stays accurate and accessible across the platform.",
+      },
+      {
+        title: "Integration support",
+        description: "Help reviewing and connecting HiBob with your payroll, benefits, and other systems so data flows more cleanly and reduces duplicate entry.",
+      },
+      {
+        title: "Reporting and analytics",
+        description: "Support building HiBob reports and dashboards that give HR leadership clearer visibility into headcount, performance, and workforce trends.",
+      },
+      {
+        title: "Ongoing platform support",
+        description: "Continued help troubleshooting issues, maintaining configurations, and supporting HiBob as your team grows or your HR workflows evolve.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "system-setup-implementation",
+      "hr-technology-automation",
+      "reporting-data-insights",
+      "ongoing-technical-support",
+      "streamlining-processes",
+    ],
     faqs: [
-      { question: "Is Freedom HR Solutions an official HiBob partner?", answer: "We help businesses implement, configure, optimize, and support workflows involving HiBob. We do not claim official partnership or certification unless confirmed." },
-      { question: "Can Freedom HR Solutions help configure HiBob?", answer: "Yes. We help configure workflows and settings so the platform fits your processes." },
-      { question: "Can you help automate HR workflows in HiBob?", answer: "Yes. We help identify and set up automation for repetitive HR workflows." },
-      { question: "Can you support HiBob over time?", answer: "Yes. We provide ongoing support and improvements for workflows involving the platform." },
+      {
+        question: "Is Freedom HR Solutions an official HiBob partner?",
+        answer: "We help businesses implement, configure, optimize, and support workflows involving HiBob. We do not claim official partnership or certification unless confirmed.",
+      },
+      {
+        question: "Can Freedom HR Solutions help configure HiBob?",
+        answer: "Yes. We help configure workflows, settings, and people data structures in HiBob so the platform reflects how your HR team operates.",
+      },
+      {
+        question: "Can you help automate HR workflows in HiBob?",
+        answer: "Yes. We help identify repetitive HR workflows in HiBob and configure automation so your team spends less time on manual follow-up.",
+      },
+      {
+        question: "Can you help connect HiBob to payroll or benefits systems?",
+        answer: "Yes. We help review integration options between HiBob and your payroll, benefits, and other HR systems so data flows more cleanly.",
+      },
+      {
+        question: "Can Freedom HR Solutions improve our HiBob reporting?",
+        answer: "Yes. We help build reports and dashboards in HiBob that give HR leaders clearer visibility into people data, headcount, and workforce trends.",
+      },
+      {
+        question: "Can you support HiBob over time?",
+        answer: "Yes. We provide ongoing support and improvements for workflows involving HiBob, including troubleshooting, configuration updates, and platform optimization as your team changes.",
+      },
     ],
   },
   {

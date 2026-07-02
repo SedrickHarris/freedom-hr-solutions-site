@@ -716,71 +716,71 @@ export const partners: Partner[] = [
   {
     slug: "champion-insurance",
     name: "Champion Insurance",
-    category: "Insurance and employee benefits partner",
+    category: "Medicare and employee benefits transition partner",
     externalUrl: "https://www.championinsurances.com",
     contactName: "Ron Filice",
     meta: {
-      title: "Champion Insurance Partner | Freedom HR Solutions",
+      title: "Champion Insurance Medicare Partner | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions partners with Champion Insurance to help clients access insurance and employee benefits support alongside HR, payroll, compliance, and benefits administration services.",
+        "Freedom HR Solutions works alongside Champion Insurance to help connect employees approaching Medicare eligibility with licensed guidance on Medicare plan options, enrollment, and coverage decisions.",
     },
     summary:
-      "An insurance and employee benefits partnership that gives Freedom HR Solutions clients access to insurance guidance alongside HR and benefits administration support.",
+      "A Medicare guidance partnership that gives Freedom HR Solutions clients a trusted resource when employees are approaching 65 and need help navigating Medicare plan options and enrollment.",
     overview:
-      "Freedom HR Solutions works alongside Champion Insurance to help clients access insurance and employee benefits expertise that complements HR, payroll, and benefits administration services. Ron Filice leads Champion Insurance and brings insurance advisory experience across employee benefits, group coverage, and related business insurance needs. For businesses that want to coordinate HR and benefits administration support with insurance guidance from a trusted source, Champion Insurance provides that resource. Freedom HR Solutions and Champion Insurance are independent organizations that collaborate on behalf of shared clients. This is not a joint venture or exclusive arrangement.",
+      "Freedom HR Solutions works alongside Champion Insurance to support clients whose employees are approaching Medicare eligibility and need guidance that falls outside the scope of HR and payroll consulting. Ron Filice leads Champion Insurance Agency Inc, DBA Insurance Champion Services, Medicare Division, and works as a licensed independent Medicare agent helping individuals turning 65 understand their coverage options, avoid enrollment mistakes, and choose the right plan for their doctors, prescriptions, and budget. For Freedom HR Solutions clients whose HR teams are fielding employee Medicare questions, navigating Medicare coordination with employer group health plans, or supporting employees through COBRA-to-Medicare transitions, Champion Insurance provides a knowledgeable and licensed resource. Freedom HR Solutions provides HR, payroll, benefits, and compliance support for employers. Champion Insurance provides individual Medicare guidance for employees. Both firms operate independently and collaborate on behalf of shared clients.",
     supportAreas: [
       {
-        title: "Employee benefits insurance guidance",
+        title: "Medicare plan selection guidance",
         description:
-          "Champion Insurance helps businesses evaluate and access group insurance and employee benefits coverage that supports workforce retention and benefits program goals alongside HR administration.",
+          "Ron Filice helps individuals turning 65 compare Original Medicare, Medicare Advantage, Prescription Drug Plans, and Medigap supplement options based on their specific doctors, prescriptions, and budget, so coverage decisions are made with full information.",
       },
       {
-        title: "Group coverage and plan coordination",
+        title: "Medicare enrollment support",
         description:
-          "Support navigating group insurance plan options, coverage coordination, and benefits structure so businesses can align their insurance and HR benefits programs more effectively.",
+          "Guidance through Medicare enrollment timelines, paperwork, and deadlines so employees avoid coverage gaps, late enrollment penalties, and costly mistakes during their transition to Medicare.",
       },
       {
-        title: "Business insurance advisory",
+        title: "Medicare and employer coverage coordination",
         description:
-          "Guidance on business insurance needs that affect workforce and HR operations, helping employers understand coverage options relevant to their industry and workforce size.",
+          "Support understanding how Medicare interacts with employer-sponsored group health plans, when employees should take Medicare Part B versus staying on employer coverage, and how to navigate the transition without disruption.",
       },
       {
-        title: "Complementary HR and insurance support",
+        title: "Ongoing Medicare advocacy and plan reviews",
         description:
-          "When Freedom HR Solutions clients need insurance expertise alongside benefits administration and HR support, Champion Insurance provides a trusted collaborative resource.",
+          "Annual plan reviews, support for plan changes, and ongoing advocacy so employees have a knowledgeable resource to call when Medicare questions arise after enrollment.",
       },
     ],
     relatedServiceSlugs: [
       "payroll-benefits-hr-management",
-      "open-enrollment-setup",
       "hr-mri-risk-assessment",
       "compliance-support",
+      "open-enrollment-setup",
     ],
     faqs: [
       {
         question: "What is the relationship between Freedom HR Solutions and Champion Insurance?",
         answer:
-          "Freedom HR Solutions and Champion Insurance are independent firms that collaborate to support shared clients. When clients need insurance guidance alongside HR and benefits administration, Champion Insurance provides that expertise.",
+          "Freedom HR Solutions and Champion Insurance are independent firms that collaborate to support shared clients. Freedom HR Solutions provides HR, payroll, benefits, and compliance support for employers. Champion Insurance provides individual Medicare guidance for employees approaching Medicare eligibility.",
       },
       {
         question: "Who leads Champion Insurance?",
         answer:
-          "Ron Filice leads Champion Insurance and brings insurance advisory experience across employee benefits, group coverage, and business insurance to clients who need both insurance and HR support.",
+          "Ron Filice leads Champion Insurance Agency Inc, DBA Insurance Champion Services, Medicare Division. He works as a licensed independent Medicare agent helping individuals turning 65 navigate Medicare plan options, enrollment timelines, and coverage decisions.",
       },
       {
-        question: "Can Freedom HR Solutions refer me to Champion Insurance for employee benefits?",
+        question: "What does Champion Insurance help employees with?",
         answer:
-          "Yes. If your organization needs insurance and employee benefits guidance alongside HR and benefits administration support, Freedom HR Solutions can connect you with Champion Insurance.",
+          "Champion Insurance helps individuals approaching Medicare eligibility understand their plan options, compare coverage based on their doctors and prescriptions, navigate enrollment timelines, and avoid costly mistakes during the transition to Medicare.",
       },
       {
-        question: "Does Freedom HR Solutions sell insurance?",
+        question: "How does Freedom HR Solutions decide when to refer a client to Champion Insurance?",
         answer:
-          "No. Freedom HR Solutions provides HR, payroll, benefits administration, compliance, and HR technology support. Insurance guidance is provided through our collaborative relationship with Champion Insurance, which operates as an independent firm.",
+          "When Freedom HR Solutions clients have employees approaching 65 who need Medicare guidance, or when HR teams are navigating Medicare coordination with employer group health coverage, Champion Insurance may be a relevant referral. We do not require clients to engage any partner firm.",
       },
       {
-        question: "Where can I learn more about Champion Insurance?",
+        question: "Does Freedom HR Solutions provide Medicare advice or enrollment support?",
         answer:
-          "You can visit Champion Insurance at championinsurances.com to learn more about their insurance and employee benefits services.",
+          "No. Freedom HR Solutions provides HR, payroll, benefits, and compliance support for employers. Individual Medicare guidance and enrollment support is Champion Insurance's scope. We refer clients when that need surfaces.",
       },
     ],
   },
@@ -794,5 +794,5 @@ export function getPartner(slug: string): Partner | undefined {
 
 /** Benefits-focused partners use a benefits-specific CTA. */
 export function isBenefitsPartner(slug: string): boolean {
-  return slug.endsWith("benefits-support") || slug === "champion-insurance";
+  return slug.endsWith("benefits-support");
 }

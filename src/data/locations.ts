@@ -340,52 +340,53 @@ export const locations: Location[] = [
     meta: {
       title: "HR Consulting for Nevada Employers | Freedom HR Solutions",
       description:
-        "Headquartered in Las Vegas, Freedom HR Solutions supports Nevada employers with HR compliance, payroll, benefits, ACA reporting, HR technology, and workforce support.",
+        "Freedom HR Solutions supports Nevada employers with HR consulting, payroll, benefits administration, ACA reporting, employee handbooks, HR technology, and statewide workforce support. Headquartered in Las Vegas.",
     },
     summary:
-      "Statewide HR, payroll, benefits, compliance, and HR technology support for Nevada employers, anchored by our Las Vegas headquarters.",
-    intro:
-      "Freedom HR Solutions is headquartered in Las Vegas and supports employers across Nevada with HR compliance, payroll, benefits, ACA reporting, and HR technology. We work with companies from the Las Vegas Valley to Reno, Carson City, and rural communities statewide. Our consulting model lets us deliver consistent support to Nevada employers wherever they operate.",
+      "Statewide HR consulting, payroll support, benefits administration, compliance guidance, and HR technology services for Nevada employers, from a Las Vegas-based firm that works across the state.",
     positioning:
-      "From our Las Vegas headquarters, we extend dependable HR support to employers throughout Nevada. Businesses across the state get the resources of a focused HR consulting firm without needing to build everything internally.",
+      "From our Las Vegas headquarters, Freedom HR Solutions delivers dependable HR support to employers throughout Nevada. Businesses across the state get the resources of a focused HR consulting firm without needing to build a full internal HR department.",
+    intro:
+      "Freedom HR Solutions is headquartered in Las Vegas and supports employers across Nevada with HR compliance, payroll, benefits, ACA reporting, employee handbooks, and HR technology. We work with companies from the Las Vegas Valley to Reno, Carson City, and rural communities statewide. Nevada employers face a mix of state-specific labor requirements, industry-driven workforce challenges, and growing pressure to modernize HR systems. Our consulting model delivers consistent, practical support to employers wherever they operate across the state.",
     localChallenges: [
       {
-        title: "Serving employers across a large state",
+        title: "Nevada labor and compliance requirements",
         description:
-          "Nevada businesses are spread across distant regions. Our consulting and system support model delivers consistent HR help to employers statewide, no matter where they are located.",
+          "Nevada employers must maintain current labor law postings, compliant employee handbooks, and accurate HR practices. We help review policies and practices, identify potential gaps, and strengthen compliance processes. We provide guidance, not legal advice.",
       },
       {
-        title: "Industry diversity",
+        title: "Payroll, deductions, and benefits administration",
         description:
-          "From gaming and tourism to mining, logistics, and healthcare, Nevada employers vary widely. We tailor HR, payroll, and benefits support to the realities of each industry we serve.",
+          "Managing payroll deductions, benefits eligibility, and enrollment accurately across a Nevada workforce takes structured processes. We help employers set up and maintain payroll and benefits workflows so records stay organized and reporting stays reliable.",
       },
       {
-        title: "Managing compliance obligations",
+        title: "ACA reporting and 1095-C filing for Nevada employers",
         description:
-          "Employers must keep handbooks, policies, and reporting practices current. We help review HR practices, identify potential gaps, and strengthen compliance processes. We provide guidance, not legal advice.",
+          "Nevada applicable large employers face annual ACA reporting obligations including 1095-C preparation and filing. We serve as an ACA reporting consultant, helping with data preparation, applicable large employer review, and reporting workflows. We provide guidance, not legal or tax advice.",
       },
       {
-        title: "Modernizing HR systems",
+        title: "HR technology across a distributed workforce",
         description:
-          "Many Nevada employers run on aging or disconnected tools. We help implement and streamline HR technology so payroll, benefits, and reporting data stay accurate and accessible.",
+          "Many Nevada employers operate across multiple locations or remote teams and run on disconnected HR tools. We help implement and streamline HR technology so payroll, benefits, and employee data stay aligned statewide.",
       },
     ],
     industries: [
       "Hospitality, gaming, and tourism",
+      "Mining and natural resources",
       "Healthcare and medical practices",
       "Construction and trades",
-      "Mining and natural resources",
       "Warehousing and logistics",
       "Professional and business services",
     ],
     serviceSlugs: [
+      "hr-mri-risk-assessment",
       "compliance-support",
       "aca-reporting-consultant",
       "payroll-benefits-hr-management",
-      "hr-technology-automation",
       "employee-handbook-creation-management",
-      "reporting-data-insights",
-      "technical-issue-resolution",
+      "system-setup-implementation",
+      "hr-technology-automation",
+      "ongoing-technical-support",
     ],
     nearbySlugs: [
       "las-vegas-nv",
@@ -397,34 +398,33 @@ export const locations: Location[] = [
       "growing-businesses",
       "multi-state-employers",
       "business-owners",
+      "companies-without-hr-departments",
     ],
     faqs: [
       {
         question: "Is Freedom HR Solutions based in Nevada?",
         answer:
-          "Yes. Freedom HR Solutions is headquartered in Las Vegas, Nevada, and supports employers across the state as well as nationwide.",
+          "Yes. Freedom HR Solutions is headquartered in Las Vegas, Nevada, and supports employers across the state as well as nationwide through remote consulting and system support.",
       },
       {
         question: "Does Freedom HR Solutions support employers across Nevada?",
         answer:
-          "Yes. From our Las Vegas headquarters, we support employers throughout Nevada, including Reno, Carson City, and rural areas, using a consulting model that delivers consistent statewide support.",
+          "Yes. From our Las Vegas headquarters, we support employers throughout Nevada, including Reno, Carson City, Henderson, North Las Vegas, and rural areas, using a consulting model that delivers consistent statewide HR, payroll, benefits, and compliance support.",
       },
       {
-        question:
-          "Can Freedom HR Solutions help Nevada employers with ACA reporting?",
+        question: "Can Freedom HR Solutions help Nevada employers with ACA reporting and 1095-C filing?",
         answer:
-          "Yes. We serve as an ACA reporting consultant for Nevada employers, helping with applicable large employer review, data preparation, and reporting workflows. We provide guidance, not legal or tax advice.",
+          "Yes. We serve as an ACA reporting consultant for Nevada applicable large employers, helping with 1095-C data preparation, employer mandate review, and reporting workflows. We provide guidance and process support, not legal or tax advice.",
       },
       {
-        question:
-          "Can Freedom HR Solutions help Nevada businesses with HR technology?",
+        question: "Does Nevada require employers to have an employee handbook?",
         answer:
-          "Yes. We help Nevada employers select, implement, and streamline HR technology, and we provide ongoing technical support so payroll, benefits, and reporting systems stay reliable.",
+          "Nevada does not legally require employers to maintain an employee handbook, but documented policies help manage employee expectations and reduce compliance risk. We help Nevada employers create and maintain handbooks that reflect current law and company practice. We provide guidance, not legal advice.",
       },
       {
-        question: "Does Freedom HR Solutions serve employers outside Nevada?",
+        question: "What HR services does Freedom HR Solutions provide for Nevada businesses?",
         answer:
-          "Yes. While Nevada is our home state, we also support multi state and out of state employers nationwide through remote consulting and system support.",
+          "We provide HR compliance support, payroll and benefits administration, ACA reporting, employee handbook creation, HR technology implementation, system setup, and ongoing technical support for Nevada employers of all sizes.",
       },
     ],
     primaryCta: { label: "Request HR MRI Assessment", href: "/request-assessment/" },

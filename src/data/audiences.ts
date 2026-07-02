@@ -586,12 +586,12 @@ export const audiences: Audience[] = [
     meta: {
       title: "Multi-State Employer HR Support | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps multi-state employers with payroll workflows, ACA reporting, employee handbooks, workforce compliance, HR systems, and reporting.",
+        "Freedom HR Solutions helps multi-state employers coordinate payroll, ACA reporting, employee handbooks, and workforce compliance across every state where they operate.",
     },
     summary:
-      "Coordinated payroll, ACA reporting, handbook, and compliance support across multiple states.",
+      "Coordinated payroll, ACA reporting, handbook, and compliance support for employers operating across multiple states.",
     intro:
-      "Operating across state lines multiplies the rules you have to track. Freedom HR Solutions helps multi-state employers coordinate payroll, ACA reporting, handbooks, and workforce compliance across locations. We help bring consistency to processes that vary from state to state.",
+      "Operating across state lines multiplies the compliance rules, payroll requirements, and policy differences you have to manage. Freedom HR Solutions helps multi-state employers coordinate payroll setup and registrations, ACA reporting across locations, employee handbooks that address state-specific requirements, and workforce compliance processes. We work with employers operating in two states or twenty, helping bring consistency to HR processes that would otherwise vary by location.",
     painPoints: [
       {
         title: "Different rules in every state",
@@ -611,7 +611,7 @@ export const audiences: Audience[] = [
       {
         title: "Fragmented reporting across sites",
         description:
-          "Pulling a clear, company-wide view is difficult when each location reports differently.",
+          "Pulling a clear company-wide view is difficult when each location reports differently.",
       },
     ],
     scenarios: [
@@ -619,6 +619,8 @@ export const audiences: Audience[] = [
       "Your handbook does not address state-specific leave policies.",
       "ACA reporting spans several locations and the data lives in different systems.",
       "Leadership wants one consolidated workforce report across all sites.",
+      "Payroll is set up differently in each state and errors keep appearing at month-end.",
+      "You are expanding to a new state and need to get payroll and compliance set up correctly before the first hire.",
     ],
     recommendedServiceSlugs: [
       "aca-reporting-consultant",
@@ -626,7 +628,7 @@ export const audiences: Audience[] = [
       "employee-handbook-creation-management",
       "workforce-compliance-monitoring",
       "reporting-data-insights",
-      "hr-technology-automation",
+      "payroll-benefits-hr-management",
     ],
     relatedAudienceSlugs: [
       "growing-businesses",
@@ -635,29 +637,34 @@ export const audiences: Audience[] = [
     ],
     faqs: [
       {
-        question: "Can Freedom HR Solutions help multi-state employers?",
+        question: "Can Freedom HR Solutions help multi-state employers manage HR compliance?",
         answer:
-          "Yes. We help coordinate payroll, compliance, handbooks, and reporting across states so your processes stay more consistent.",
+          "Yes. We help coordinate payroll, compliance documentation, employee handbooks, and reporting across the states where you operate so your processes stay more consistent and aligned.",
       },
       {
-        question: "Can Freedom HR Solutions help with multi-state payroll support?",
+        question: "Can Freedom HR Solutions help with multi-state payroll setup and registrations?",
         answer:
-          "We support multi-state payroll setup, registrations, and workflows so you can manage employees across locations with more confidence.",
+          "We support multi-state payroll setup, including registrations and workflow configuration, so you can add employees in new states with a clearer process in place.",
       },
       {
-        question: "Can employee handbooks be reviewed for multi-state operations?",
+        question: "Can employee handbooks be structured for multi-state operations?",
         answer:
-          "Yes. We help structure handbooks so they account for differences across the states where your employees work.",
+          "Yes. We help review and organize handbooks so they address differences in leave policies, employment requirements, and other state-specific rules across your locations.",
       },
       {
         question: "Can Freedom HR Solutions help with ACA reporting for multi-state employers?",
         answer:
-          "We help organize hours, coverage data, and forms across locations to support your ACA reporting readiness.",
+          "We help organize hours, coverage eligibility data, and forms across locations to support your ACA reporting readiness. We provide guidance and not legal or tax advice.",
       },
       {
-        question: "Can Freedom HR Solutions help improve workforce reporting across locations?",
+        question: "Can Freedom HR Solutions help improve workforce reporting across multiple locations?",
         answer:
-          "Yes. We help consolidate data from multiple sites so leadership gets a clearer company-wide view.",
+          "Yes. We help consolidate data from multiple sites so leadership gets a clearer company-wide view of workforce metrics and reporting.",
+      },
+      {
+        question: "Does Freedom HR Solutions work with companies that have employees in just two or three states?",
+        answer:
+          "Yes. We support employers at any stage of multi-state operations, whether you have employees in two states or are managing a workforce spread across many locations.",
       },
     ],
     primaryCta: { label: "Request Compliance Review", href: "/request-assessment/" },

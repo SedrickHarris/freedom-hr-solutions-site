@@ -645,71 +645,71 @@ export const partners: Partner[] = [
   {
     slug: "pursuit-pathways",
     name: "PursuitPathways",
-    category: "Career and workforce pathways partner",
+    category: "Workplace violence defensibility partner",
     externalUrl: "https://www.pursuitpathways.com",
     contactName: "Dave Miller",
     meta: {
-      title: "PursuitPathways Partner | Freedom HR Solutions",
+      title: "PursuitPathways Workplace Violence Defensibility Partner | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions partners with PursuitPathways to support clients with career development and workforce pathways resources alongside HR, payroll, and compliance services.",
+        "Freedom HR Solutions works alongside PursuitPathways to help clients identify workplace violence preparedness gaps and build the documentation, plans, and training records needed for legal defensibility.",
     },
     summary:
-      "A career and workforce pathways partnership that helps Freedom HR Solutions clients connect employees and organizations with career development and workforce support resources.",
+      "A workplace violence defensibility partnership that helps Freedom HR Solutions clients identify exposure gaps in planning, training, and documentation before those gaps are tested in a post-incident review.",
     overview:
-      "Freedom HR Solutions works alongside PursuitPathways to help clients access career development, workforce pathways, and employee growth resources that complement internal HR programs. Dave Miller leads PursuitPathways and brings career coaching, workforce navigation, and development pathway expertise that supports employees at key career transitions. For businesses that want to invest in employee growth alongside their HR and compliance infrastructure, PursuitPathways provides a trusted resource. Freedom HR Solutions and PursuitPathways are independent organizations that collaborate to support shared clients.",
+      "Freedom HR Solutions works alongside PursuitPathways to support clients who need to address workplace violence preparedness as part of a broader HR and compliance foundation. Dave Miller leads PursuitPathways, a workplace violence defensibility platform that helps organizations identify exposure across planning, training, and documentation, and build the site-specific systems needed to demonstrate preparedness under legal and regulatory scrutiny. For Freedom HR Solutions clients who surface Emergency Action Plan gaps, incomplete workplace violence policies, or unvalidated training records during an HR review, PursuitPathways provides a structured path to close those gaps. Freedom HR Solutions handles the HR, payroll, benefits, and compliance foundation. PursuitPathways handles the workplace violence defensibility layer. Both firms operate independently and collaborate on behalf of shared clients.",
     supportAreas: [
       {
-        title: "Career development and coaching",
+        title: "Liability exposure identification",
         description:
-          "PursuitPathways provides career development coaching and guidance for employees navigating career transitions, growth opportunities, or workforce re-entry alongside their employer's HR programs.",
+          "PursuitPathways runs a Liability Exposure Scan that evaluates an organization's planning, training, documentation, and response readiness gaps, producing a profile that reflects the same structure used to evaluate organizations after a workplace incident occurs.",
       },
       {
-        title: "Workforce pathways support",
+        title: "Defensibility system structuring",
         description:
-          "Support identifying and navigating workforce pathways, training opportunities, and career progression resources for employees and organizations focused on internal mobility and development.",
+          "Site-specific Emergency Action Plans, threat response protocols, and operational plans aligned to the actual environment, built to hold up under legal and regulatory review, not just check-the-box compliance.",
       },
       {
-        title: "Employee development resources",
+        title: "Training validation and conditioning",
         description:
-          "Tools and guidance to help businesses and employees build development plans, identify skills gaps, and pursue career advancement alongside existing HR infrastructure.",
+          "Micro-drills, scenario-based response exercises, and ongoing conditioning that produce documented, validated training records, so organizations can demonstrate preparedness, not just assert it.",
       },
       {
-        title: "Complementary workforce and HR support",
+        title: "Documentation and defensibility records",
         description:
-          "When Freedom HR Solutions clients need workforce development or employee career support beyond traditional HR scope, PursuitPathways provides a trusted collaborative resource.",
+          "Centralized documentation of plans, training, and response systems that creates an audit-ready defensibility record for use in post-incident legal and regulatory review.",
       },
     ],
     relatedServiceSlugs: [
-      "employee-handbook-creation-management",
       "hr-mri-risk-assessment",
       "compliance-support",
-      "payroll-benefits-hr-management",
+      "employee-handbook-creation-management",
+      "ongoing-technical-support",
     ],
     faqs: [
       {
         question: "What is the relationship between Freedom HR Solutions and PursuitPathways?",
         answer:
-          "Freedom HR Solutions and PursuitPathways are independent organizations that collaborate to support clients who need both HR infrastructure and career or workforce development resources.",
+          "Freedom HR Solutions and PursuitPathways are independent firms that collaborate to support shared clients. Freedom HR Solutions provides HR, payroll, benefits, and compliance support. PursuitPathways provides workplace violence defensibility systems, including exposure scanning, site-specific planning, and validated training documentation.",
       },
       {
         question: "Who leads PursuitPathways?",
         answer:
-          "Dave Miller leads PursuitPathways and brings career coaching and workforce pathways expertise to employees and organizations navigating development and transition.",
+          "Dave Miller leads PursuitPathways, a workplace violence defensibility platform that helps organizations identify preparedness gaps and build the documentation, plans, and training records needed to demonstrate defensibility under legal and regulatory scrutiny.",
       },
       {
-        question: "Can Freedom HR Solutions refer me to PursuitPathways?",
+        question: "What does PursuitPathways help organizations with?",
         answer:
-          "Yes. If your organization or employees need career development or workforce pathways support alongside your HR program, Freedom HR Solutions can connect you with PursuitPathways.",
+          "PursuitPathways helps organizations identify exposure across workplace violence planning, training, and documentation, and build site-specific systems that hold up under post-incident review. Their platform covers liability exposure scanning, defensibility structuring, and training validation.",
       },
       {
-        question: "What does PursuitPathways help with?",
+        question: "How does Freedom HR Solutions decide when to refer a client to PursuitPathways?",
         answer:
-          "PursuitPathways focuses on career coaching, workforce development pathways, and employee growth resources. Freedom HR Solutions handles the HR, payroll, and compliance foundation, and the two collaborate where client needs overlap.",
+          "When a Freedom HR Solutions client surfaces gaps in workplace violence policies, Emergency Action Plans, or training documentation during an HR review, PursuitPathways may be a relevant next step. We do not require clients to engage any partner firm.",
       },
       {
-        question: "Where can I learn more about PursuitPathways?",
+        question: "Does Freedom HR Solutions provide workplace violence training or defensibility services?",
         answer:
-          "You can visit PursuitPathways at pursuitpathways.com to learn more about their career and workforce development services.",
+          "No. Freedom HR Solutions provides HR, payroll, benefits, and compliance support. Workplace violence defensibility planning, exposure scanning, and training validation are PursuitPathways' scope. We refer clients when that need surfaces.",
       },
     ],
   },

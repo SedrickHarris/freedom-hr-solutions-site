@@ -135,21 +135,80 @@ export const partners: Partner[] = [
     name: "isolved",
     category: "HCM & payroll platform",
     meta: {
-      title: "isolved Consulting and Support",
+      title: "isolved Consulting and Support | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps businesses implement, configure, optimize, and support payroll, HR, and benefits workflows involving isolved.",
+        "Freedom HR Solutions helps businesses implement, configure, optimize, and support payroll, HR, and benefits workflows involving isolved, including setup, integration, reporting, and ongoing platform support.",
     },
     summary:
-      "Support for HR, payroll, and benefits workflows involving the isolved platform.",
+      "Implementation, configuration, integration, and ongoing support for isolved payroll, HR, and benefits workflows.",
     overview:
-      "Freedom HR Solutions helps businesses implement, configure, optimize, and support HR, payroll, and benefits workflows involving isolved. We help your team get more value from the platform and keep workflows running accurately.",
-    supportAreas: safeSupportAreas("isolved"),
-    relatedServiceSlugs: standardPartnerServices,
+      "Freedom HR Solutions helps businesses implement, configure, optimize, and support HR, payroll, and benefits workflows involving isolved. Whether you are setting up the platform for the first time, configuring payroll and benefits, connecting isolved to other systems, or resolving recurring issues, we help your team get more value from the platform and keep workflows running accurately.",
+    supportAreas: [
+      {
+        title: "isolved implementation",
+        description: "Help planning and coordinating isolved setup so your payroll, HR, and benefits configurations reflect how your business actually operates, from go-live preparation through post-launch stabilization.",
+      },
+      {
+        title: "Payroll configuration support",
+        description: "Support configuring payroll workflows in isolved, including pay rules, deductions, tax settings, and multi-state configurations so payroll runs accurately.",
+      },
+      {
+        title: "Benefits setup and administration",
+        description: "Help configuring benefits plans, eligibility rules, and enrollment workflows in isolved, including open enrollment setup and ongoing benefits administration support.",
+      },
+      {
+        title: "System integration support",
+        description: "Help reviewing and connecting isolved with your other systems, including time and attendance, general ledger, and third-party platforms, so data flows more cleanly.",
+      },
+      {
+        title: "Reporting and data accuracy",
+        description: "Support building custom reports and improving data accuracy in isolved so HR, payroll, and benefits teams have reliable visibility into workforce and compensation data.",
+      },
+      {
+        title: "Ongoing platform support",
+        description: "Continued help troubleshooting issues, maintaining configurations, and supporting isolved workflows as your workforce, payroll structure, or benefits program changes.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "system-setup-implementation",
+      "payroll-benefits-hr-management",
+      "hr-technology-automation",
+      "reporting-data-insights",
+      "ongoing-technical-support",
+    ],
     faqs: [
-      { question: "Is Freedom HR Solutions an official isolved partner?", answer: "We help businesses implement, configure, optimize, and support workflows involving isolved. We do not claim official partnership or certification unless confirmed." },
-      { question: "Can Freedom HR Solutions help configure isolved?", answer: "Yes. We help configure the platform so it reflects your payroll, HR, and benefits workflows." },
-      { question: "Can you help integrate isolved with other systems?", answer: "Yes. We help review integration options so your systems share data more cleanly." },
-      { question: "Can you support isolved after implementation?", answer: "Yes. We offer ongoing support and troubleshooting for workflows involving the platform." },
+      {
+        question: "Is Freedom HR Solutions an official isolved partner?",
+        answer: "We help businesses implement, configure, optimize, and support workflows involving isolved. We do not claim official partnership or certification unless confirmed.",
+      },
+      {
+        question: "Can Freedom HR Solutions help configure isolved?",
+        answer: "Yes. We help configure the platform so it accurately reflects your payroll, HR, and benefits workflows, including pay rules, deductions, eligibility, and reporting.",
+      },
+      {
+        question: "Can you help integrate isolved with other systems?",
+        answer: "Yes. We help review integration options between isolved and your other platforms, such as time and attendance, general ledger, or benefits carriers, so data flows more cleanly.",
+      },
+      {
+        question: "Can you support isolved after implementation?",
+        answer: "Yes. We provide ongoing support and troubleshooting for workflows involving isolved, including post-go-live stabilization, configuration updates, and recurring issue resolution.",
+      },
+      {
+        question: "Can Freedom HR Solutions help set up isolved payroll?",
+        answer: "Yes. We help configure payroll settings, pay rules, deductions, and tax configurations in isolved so your payroll runs accurately from the start.",
+      },
+      {
+        question: "Can you help with isolved benefits and open enrollment?",
+        answer: "Yes. We help configure benefits plans and eligibility rules in isolved, and we support open enrollment setup, testing, and post-enrollment reconciliation.",
+      },
+      {
+        question: "Can Freedom HR Solutions improve our isolved reporting?",
+        answer: "Yes. We help build custom reports and address data accuracy issues in isolved so your team has reliable visibility into payroll, HR, and benefits data.",
+      },
+      {
+        question: "Do you support isolved for multi-state employers?",
+        answer: "Yes. isolved supports multi-state payroll configurations, and we help employers set up and maintain those configurations accurately as they operate or expand across multiple states.",
+      },
     ],
   },
   {

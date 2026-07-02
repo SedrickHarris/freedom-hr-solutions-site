@@ -109,6 +109,10 @@ export interface Partner {
   supportAreas: FeatureItem[];
   relatedServiceSlugs: string[];
   faqs: Faq[];
+  /** Optional URL to the partner's own website. Rendered as an outbound link with rel="noopener noreferrer". */
+  externalUrl?: string;
+  /** Optional named principal or primary contact at the partner organization. */
+  contactName?: string;
 }
 
 export type AudienceType = "role" | "company" | "industry";

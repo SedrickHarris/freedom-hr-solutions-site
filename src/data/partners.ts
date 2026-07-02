@@ -330,6 +330,8 @@ export const partners: Partner[] = [
     slug: "customhcm-consulting-support",
     name: "CustomHCM",
     category: "HCM platform",
+    externalUrl: "https://www.customhcm.com",
+    contactName: "Michael Migdol",
     meta: {
       title: "CustomHCM Consulting and Support | Freedom HR Solutions",
       description:
@@ -338,7 +340,7 @@ export const partners: Partner[] = [
     summary:
       "Implementation, configuration, integration, and ongoing support for CustomHCM payroll, HR, and benefits workflows.",
     overview:
-      "Freedom HR Solutions helps businesses implement, configure, optimize, and support HR, payroll, and benefits workflows involving CustomHCM. Whether you are setting up the platform for the first time, configuring payroll and benefits, connecting CustomHCM to other systems, or resolving recurring issues, we help your team configure the platform and keep workflows accurate.",
+      "Freedom HR Solutions helps businesses implement, configure, optimize, and support HR, payroll, and benefits workflows involving CustomHCM. Michael Migdol leads the Custom HCM team and works alongside Freedom HR Solutions to support clients using the platform. Whether you are setting up the platform for the first time, configuring payroll and benefits, connecting CustomHCM to other systems, or resolving recurring issues, we help your team configure the platform and keep workflows accurate.",
     supportAreas: [
       {
         title: "CustomHCM implementation",
@@ -569,6 +571,219 @@ export const partners: Partner[] = [
       },
     ],
   },
+  {
+    slug: "haniel-consulting",
+    name: "Haniel Consulting",
+    category: "Business consulting partner",
+    externalUrl: "https://www.hanielconsulting.com",
+    contactName: "Claudia Brown",
+    meta: {
+      title: "Haniel Consulting Partner | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions partners with Haniel Consulting to provide clients with expanded business consulting support alongside HR, payroll, benefits, and compliance services.",
+    },
+    summary:
+      "A business consulting partnership that broadens the support available to Freedom HR Solutions clients across operations, strategy, and workforce planning.",
+    overview:
+      "Freedom HR Solutions works alongside Haniel Consulting to provide clients with access to broader business consulting expertise. Claudia Brown leads Haniel Consulting and brings operational and strategic consulting experience that complements the HR, payroll, benefits, and compliance support Freedom HR Solutions provides. Together, the two firms can support clients who need both HR infrastructure and broader business advisory guidance at the same time. Freedom HR Solutions and Haniel Consulting are independent organizations that collaborate on behalf of shared clients.",
+    supportAreas: [
+      {
+        title: "Business operations consulting",
+        description:
+          "Haniel Consulting provides operational consulting support that helps businesses improve processes, identify inefficiencies, and build more sustainable operating structures alongside HR and workforce systems.",
+      },
+      {
+        title: "Workforce and organizational planning",
+        description:
+          "Support planning workforce structure, organizational design, and growth-stage transitions so businesses can scale without losing operational control.",
+      },
+      {
+        title: "Strategic advisory support",
+        description:
+          "Guidance on business strategy, service delivery models, and decision-making frameworks for business owners who need outside perspective alongside their HR and compliance work.",
+      },
+      {
+        title: "Complementary HR and business support",
+        description:
+          "When Freedom HR Solutions clients need business consulting support beyond HR scope, Haniel Consulting provides a trusted referral and collaborative resource.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "hr-mri-risk-assessment",
+      "compliance-support",
+      "employee-handbook-creation-management",
+      "payroll-benefits-hr-management",
+    ],
+    faqs: [
+      {
+        question: "What is the relationship between Freedom HR Solutions and Haniel Consulting?",
+        answer:
+          "Freedom HR Solutions and Haniel Consulting are independent firms that collaborate to support shared clients. When clients need business consulting support alongside HR and compliance services, Haniel Consulting provides that expertise.",
+      },
+      {
+        question: "Who leads Haniel Consulting?",
+        answer:
+          "Claudia Brown leads Haniel Consulting and brings business operations and strategic consulting experience to clients who need broader advisory support alongside HR services.",
+      },
+      {
+        question: "Can Freedom HR Solutions refer me to Haniel Consulting?",
+        answer:
+          "Yes. If your situation calls for both HR support and broader business consulting, Freedom HR Solutions can connect you with Haniel Consulting as a trusted collaborative partner.",
+      },
+      {
+        question: "Is Haniel Consulting an HR firm?",
+        answer:
+          "Haniel Consulting focuses on business operations and strategy consulting. Freedom HR Solutions handles the HR, payroll, benefits, and compliance side, and the two firms collaborate where client needs overlap.",
+      },
+      {
+        question: "Where can I learn more about Haniel Consulting?",
+        answer:
+          "You can visit Haniel Consulting at hanielconsulting.com to learn more about their services and approach.",
+      },
+    ],
+  },
+  {
+    slug: "pursuit-pathways",
+    name: "PursuitPathways",
+    category: "Career and workforce pathways partner",
+    externalUrl: "https://www.pursuitpathways.com",
+    contactName: "Dave Miller",
+    meta: {
+      title: "PursuitPathways Partner | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions partners with PursuitPathways to support clients with career development and workforce pathways resources alongside HR, payroll, and compliance services.",
+    },
+    summary:
+      "A career and workforce pathways partnership that helps Freedom HR Solutions clients connect employees and organizations with career development and workforce support resources.",
+    overview:
+      "Freedom HR Solutions works alongside PursuitPathways to help clients access career development, workforce pathways, and employee growth resources that complement internal HR programs. Dave Miller leads PursuitPathways and brings career coaching, workforce navigation, and development pathway expertise that supports employees at key career transitions. For businesses that want to invest in employee growth alongside their HR and compliance infrastructure, PursuitPathways provides a trusted resource. Freedom HR Solutions and PursuitPathways are independent organizations that collaborate to support shared clients.",
+    supportAreas: [
+      {
+        title: "Career development and coaching",
+        description:
+          "PursuitPathways provides career development coaching and guidance for employees navigating career transitions, growth opportunities, or workforce re-entry alongside their employer's HR programs.",
+      },
+      {
+        title: "Workforce pathways support",
+        description:
+          "Support identifying and navigating workforce pathways, training opportunities, and career progression resources for employees and organizations focused on internal mobility and development.",
+      },
+      {
+        title: "Employee development resources",
+        description:
+          "Tools and guidance to help businesses and employees build development plans, identify skills gaps, and pursue career advancement alongside existing HR infrastructure.",
+      },
+      {
+        title: "Complementary workforce and HR support",
+        description:
+          "When Freedom HR Solutions clients need workforce development or employee career support beyond traditional HR scope, PursuitPathways provides a trusted collaborative resource.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "employee-handbook-creation-management",
+      "hr-mri-risk-assessment",
+      "compliance-support",
+      "payroll-benefits-hr-management",
+    ],
+    faqs: [
+      {
+        question: "What is the relationship between Freedom HR Solutions and PursuitPathways?",
+        answer:
+          "Freedom HR Solutions and PursuitPathways are independent organizations that collaborate to support clients who need both HR infrastructure and career or workforce development resources.",
+      },
+      {
+        question: "Who leads PursuitPathways?",
+        answer:
+          "Dave Miller leads PursuitPathways and brings career coaching and workforce pathways expertise to employees and organizations navigating development and transition.",
+      },
+      {
+        question: "Can Freedom HR Solutions refer me to PursuitPathways?",
+        answer:
+          "Yes. If your organization or employees need career development or workforce pathways support alongside your HR program, Freedom HR Solutions can connect you with PursuitPathways.",
+      },
+      {
+        question: "What does PursuitPathways help with?",
+        answer:
+          "PursuitPathways focuses on career coaching, workforce development pathways, and employee growth resources. Freedom HR Solutions handles the HR, payroll, and compliance foundation, and the two collaborate where client needs overlap.",
+      },
+      {
+        question: "Where can I learn more about PursuitPathways?",
+        answer:
+          "You can visit PursuitPathways at pursuitpathways.com to learn more about their career and workforce development services.",
+      },
+    ],
+  },
+  {
+    slug: "champion-insurance",
+    name: "Champion Insurance",
+    category: "Insurance and employee benefits partner",
+    externalUrl: "https://www.championinsurances.com",
+    contactName: "Ron Filice",
+    meta: {
+      title: "Champion Insurance Partner | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions partners with Champion Insurance to help clients access insurance and employee benefits support alongside HR, payroll, compliance, and benefits administration services.",
+    },
+    summary:
+      "An insurance and employee benefits partnership that gives Freedom HR Solutions clients access to insurance guidance alongside HR and benefits administration support.",
+    overview:
+      "Freedom HR Solutions works alongside Champion Insurance to help clients access insurance and employee benefits expertise that complements HR, payroll, and benefits administration services. Ron Filice leads Champion Insurance and brings insurance advisory experience across employee benefits, group coverage, and related business insurance needs. For businesses that want to coordinate HR and benefits administration support with insurance guidance from a trusted source, Champion Insurance provides that resource. Freedom HR Solutions and Champion Insurance are independent organizations that collaborate on behalf of shared clients. This is not a joint venture or exclusive arrangement.",
+    supportAreas: [
+      {
+        title: "Employee benefits insurance guidance",
+        description:
+          "Champion Insurance helps businesses evaluate and access group insurance and employee benefits coverage that supports workforce retention and benefits program goals alongside HR administration.",
+      },
+      {
+        title: "Group coverage and plan coordination",
+        description:
+          "Support navigating group insurance plan options, coverage coordination, and benefits structure so businesses can align their insurance and HR benefits programs more effectively.",
+      },
+      {
+        title: "Business insurance advisory",
+        description:
+          "Guidance on business insurance needs that affect workforce and HR operations, helping employers understand coverage options relevant to their industry and workforce size.",
+      },
+      {
+        title: "Complementary HR and insurance support",
+        description:
+          "When Freedom HR Solutions clients need insurance expertise alongside benefits administration and HR support, Champion Insurance provides a trusted collaborative resource.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "payroll-benefits-hr-management",
+      "open-enrollment-setup",
+      "hr-mri-risk-assessment",
+      "compliance-support",
+    ],
+    faqs: [
+      {
+        question: "What is the relationship between Freedom HR Solutions and Champion Insurance?",
+        answer:
+          "Freedom HR Solutions and Champion Insurance are independent firms that collaborate to support shared clients. When clients need insurance guidance alongside HR and benefits administration, Champion Insurance provides that expertise.",
+      },
+      {
+        question: "Who leads Champion Insurance?",
+        answer:
+          "Ron Filice leads Champion Insurance and brings insurance advisory experience across employee benefits, group coverage, and business insurance to clients who need both insurance and HR support.",
+      },
+      {
+        question: "Can Freedom HR Solutions refer me to Champion Insurance for employee benefits?",
+        answer:
+          "Yes. If your organization needs insurance and employee benefits guidance alongside HR and benefits administration support, Freedom HR Solutions can connect you with Champion Insurance.",
+      },
+      {
+        question: "Does Freedom HR Solutions sell insurance?",
+        answer:
+          "No. Freedom HR Solutions provides HR, payroll, benefits administration, compliance, and HR technology support. Insurance guidance is provided through our collaborative relationship with Champion Insurance, which operates as an independent firm.",
+      },
+      {
+        question: "Where can I learn more about Champion Insurance?",
+        answer:
+          "You can visit Champion Insurance at championinsurances.com to learn more about their insurance and employee benefits services.",
+      },
+    ],
+  },
 ];
 
 export const partnersBySlug = Object.fromEntries(partners.map((partner) => [partner.slug, partner]));
@@ -579,5 +794,5 @@ export function getPartner(slug: string): Partner | undefined {
 
 /** Benefits-focused partners use a benefits-specific CTA. */
 export function isBenefitsPartner(slug: string): boolean {
-  return slug.endsWith("benefits-support");
+  return slug.endsWith("benefits-support") || slug === "champion-insurance";
 }

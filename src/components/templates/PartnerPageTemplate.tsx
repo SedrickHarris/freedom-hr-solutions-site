@@ -52,6 +52,19 @@ export function PartnerPageTemplate({ partner }: { partner: Partner }) {
           workflows involving this platform. We do not claim official partnership, certification, or
           endorsement unless that status has been confirmed.
         </p>
+        {partner.externalUrl && (
+          <p className="mt-4 text-sm text-body">
+            Visit the {partner.name} website:{" "}
+            <a
+              href={partner.externalUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-brand-700 underline-offset-2 hover:underline"
+            >
+              {partner.externalUrl.replace(/^https?:\/\//, "")}
+            </a>
+          </p>
+        )}
       </Section>
 
       <Section tone="muted">

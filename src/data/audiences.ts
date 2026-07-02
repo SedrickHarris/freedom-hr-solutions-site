@@ -653,41 +653,48 @@ export const audiences: Audience[] = [
     navLabel: "Companies Without HR",
     type: "company",
     meta: {
-      title: "HR Support Without an HR Department | Freedom HR Solutions",
+      title: "HR Support for Companies Without an HR Department | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps companies without dedicated HR teams manage HR compliance, payroll, benefits, employee handbooks, systems, and workforce processes.",
+        "Freedom HR Solutions helps companies without a dedicated HR team manage compliance, payroll, benefits, employee handbooks, and HR systems. Practical HR support built for businesses without HR staff. Las Vegas and nationwide.",
     },
     summary:
-      "A complete HR resource for companies that have no dedicated HR staff.",
+      "A complete HR resource for companies that have no dedicated HR staff, handling compliance, payroll, benefits, handbooks, and core processes.",
     intro:
-      "When no one owns HR, important tasks fall to whoever has time, and gaps form quietly. Freedom HR Solutions becomes your outsourced HR resource, handling compliance, payroll, benefits, handbooks, and core processes. We help you build the HR foundation you never had the staff to create.",
+      "When no one is assigned to HR, the work does not disappear: it falls to whoever has time, gets deferred until something breaks, or simply does not get done. Freedom HR Solutions serves as the HR resource for companies that have never had dedicated HR staff. We handle compliance, payroll, benefits, employee handbooks, and core HR processes so your team is not managing these responsibilities on top of everything else. We provide practical guidance, not legal advice, and we work with businesses across Las Vegas, Nevada, and nationwide.",
     painPoints: [
       {
         title: "No clear owner for HR",
         description:
-          "Tasks get split among people who already have full-time roles, so things slip through the cracks.",
+          "HR tasks get split among people who already have full-time roles, so responsibilities slip through the cracks and gaps accumulate quietly.",
       },
       {
         title: "Processes built on memory, not documents",
         description:
-          "Without written procedures, HR depends on individuals knowing how things have always been done.",
+          "Without written procedures, HR depends on whoever has been around the longest knowing how things have always been done. That knowledge walks out the door when people leave.",
       },
       {
         title: "Reactive instead of proactive",
         description:
-          "HR issues only get attention once they become problems, rather than being prevented up front.",
+          "HR issues only get attention once they become problems. Compliance gaps, missing documentation, and payroll errors surface at the worst possible time.",
       },
       {
         title: "Uncertainty about what to prioritize",
         description:
-          "You know HR matters but have no roadmap for which gaps to address first.",
+          "You know HR matters but have no roadmap for which gaps to address first, so the list grows without a clear plan to work through it.",
+      },
+      {
+        title: "No one to call when an HR situation arises",
+        description:
+          "When an employee issue, payroll question, or compliance concern comes up, there is no internal HR resource to turn to and no established process to follow.",
       },
     ],
     scenarios: [
-      "An employee issue comes up and no one is sure who should handle it.",
-      "You realize you have never had a written set of HR policies.",
-      "Onboarding looks different every time because there is no standard process.",
-      "You want to fix your HR setup but do not know where to begin.",
+      "An employee issue comes up and no one on your team is sure who should handle it or how.",
+      "You realize you have never had a written set of HR policies and your team is operating on informal expectations.",
+      "Onboarding looks different every time a new person joins because there is no standard process.",
+      "You want to fix your HR setup but do not know where to start or which gaps are most urgent.",
+      "A payroll question, a classification concern, or a benefits enrollment issue surfaces and you have no clear path forward.",
+      "You are growing and need an HR foundation before the next hire makes the gaps more expensive.",
     ],
     recommendedServiceSlugs: [
       "hr-mri-risk-assessment",
@@ -706,27 +713,42 @@ export const audiences: Audience[] = [
       {
         question: "Can Freedom HR Solutions help if we do not have an HR department?",
         answer:
-          "Yes. We serve as your outsourced HR resource, handling compliance, payroll, benefits, and core processes so you do not need internal HR staff.",
+          "Yes. We serve as the HR resource for companies that have no dedicated HR staff. We handle compliance, payroll, benefits, employee handbooks, and core HR processes so your team is not managing these responsibilities on top of everything else.",
       },
       {
-        question: "What HR tasks should a business owner not ignore?",
+        question: "Does a small business actually need HR support?",
         answer:
-          "Key areas include worker classification, a written handbook, accurate records, and proper payroll setup. These are common sources of avoidable problems.",
+          "Yes. Employment laws, payroll requirements, benefits compliance, and documentation standards apply regardless of whether you have a dedicated HR team. Without support, gaps form quietly until something goes wrong. Most companies without HR find that the risk of going without support outweighs the cost of getting it.",
+      },
+      {
+        question: "What should HR be handling in a company without an HR department?",
+        answer:
+          "Core HR responsibilities include compliance monitoring, payroll accuracy, benefits administration, employee handbook maintenance, onboarding processes, recordkeeping, and worker classification. When no one is assigned to these, they either go unmanaged or get handled inconsistently.",
+      },
+      {
+        question: "What happens if a company has no HR department?",
+        answer:
+          "Common outcomes include missing or outdated policies, inconsistent onboarding, payroll errors, worker misclassification, incomplete records, and compliance gaps that surface only when they have already become problems. Freedom HR Solutions helps address these before they create larger issues.",
       },
       {
         question: "Can Freedom HR Solutions help create HR processes from scratch?",
         answer:
-          "Yes. We help build core HR processes, from onboarding to documentation, so your operations no longer rely on memory alone.",
+          "Yes. We help build core HR processes from the ground up, including onboarding procedures, documentation standards, and written policies, so your operations are no longer dependent on memory or informal habits.",
       },
       {
         question: "Can Freedom HR Solutions help with employee handbooks?",
         answer:
-          "We create and maintain handbooks so your policies are documented clearly and stay consistent as your team changes.",
+          "Yes. We help companies create and maintain employee handbooks that document policies clearly and consistently. A handbook is one of the most important tools a company without HR can have, because it sets expectations and creates a record that does not depend on any single person.",
       },
       {
-        question: "What should we review first?",
+        question: "Does Freedom HR Solutions work with companies outside of Las Vegas?",
         answer:
-          "Start with an HR MRI risk assessment. It identifies your biggest gaps and gives you a prioritized plan to build a solid HR foundation.",
+          "Yes. We are headquartered in Las Vegas and support companies across Nevada and nationwide through remote HR consulting, compliance reviews, system support, handbook creation, and ongoing HR assistance.",
+      },
+      {
+        question: "What is the best first step for a company without an HR department?",
+        answer:
+          "The best starting point is an HR MRI Risk Assessment. It gives you a structured review of your HR, payroll, benefits, and compliance setup so you know exactly where your gaps are and what to address first, rather than guessing at priorities.",
       },
     ],
     primaryCta: { label: "Find Hidden HR Risks", href: "/request-assessment/" },

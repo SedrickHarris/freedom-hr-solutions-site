@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-02T16:18:52.765Z",
-  "opportunityCount": 11,
+  "generatedAt": "2026-07-02T16:30:27.069Z",
+  "opportunityCount": 14,
   "opportunities": [
     {
       "opportunityId": "o-001",
       "clusterId": "c-001",
-      "recommendedPageTitle": "Can Hr Support Growth",
-      "recommendedSlug": "how-can-hr-support-business-growth",
-      "primaryKeyword": "how can hr support business growth",
+      "recommendedPageTitle": "Companies Without Hr Department",
+      "recommendedSlug": "companies-without-hr-department",
+      "primaryKeyword": "companies without hr department",
       "supportingKeywords": [],
-      "pageType": "audience-service",
-      "intent": "audience-specific",
+      "pageType": "pillar",
+      "intent": "general",
       "existingRouteOverlap": {
-        "route": "/about",
-        "sourceFile": "src/app/about/page.tsx",
-        "matchedTokens": 3,
-        "baseTokenCount": 6,
-        "overlapRatio": 0.5
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.25
       },
       "score": 4,
       "scoreBreakdown": {
@@ -24,19 +24,135 @@
         "buyerIntentHint": 0,
         "localIntentHint": 0,
         "clusterDepth": 0,
-        "modifierStrength": 1,
-        "existingOverlapPenalty": -2,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
         "dataCompleteness": 2
       },
-      "rationale": "Priority heuristic 4. Signals: intent=audience-specific, pageType=audience-service, keywords=1, volumeData=supplied, existingOverlap=0.5. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "rationale": "Priority heuristic 4. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.25. Score ranks build priority only and is not an SEO difficulty estimate.",
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-003",
+      "clusterId": "c-003",
+      "recommendedPageTitle": "Companies Without Hr",
+      "recommendedSlug": "companies-without-hr",
+      "primaryKeyword": "companies without hr",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/who-we-help/small-businesses/hr-outsourcing",
+        "sourceFile": "src/app/who-we-help/small-businesses/hr-outsourcing/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 3,
+        "overlapRatio": 0.33
+      },
+      "score": 4,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 4. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.33. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-004",
+      "clusterId": "c-004",
+      "recommendedPageTitle": "List Companies Without Hr Department",
+      "recommendedSlug": "list-of-companies-without-hr-department",
+      "primaryKeyword": "list of companies without hr department",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 5,
+        "overlapRatio": 0.2
+      },
+      "score": 4,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 4. Signals: intent=general, pageType=pillar, keywords=1, volumeData=supplied, existingOverlap=0.2. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-002",
+      "clusterId": "c-002",
+      "recommendedPageTitle": "Small Without Hr",
+      "recommendedSlug": "small-business-without-hr",
+      "primaryKeyword": "small business without hr",
+      "supportingKeywords": [],
+      "pageType": "audience-service",
+      "intent": "audience-specific",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 3,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.75
+      },
+      "score": 3,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 1,
+        "existingOverlapPenalty": -3,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 3. Signals: intent=audience-specific, pageType=audience-service, keywords=1, volumeData=supplied, existingOverlap=0.75. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Review the existing overlapping route for expansion instead of creating a duplicate page."
     },
     {
       "opportunityId": "o-005",
       "clusterId": "c-005",
-      "recommendedPageTitle": "Hr Planning Growth",
-      "recommendedSlug": "hr-planning-for-business-growth",
-      "primaryKeyword": "hr planning for business growth",
+      "recommendedPageTitle": "Small No Hr",
+      "recommendedSlug": "small-business-no-hr",
+      "primaryKeyword": "small business no hr",
+      "supportingKeywords": [],
+      "pageType": "audience-service",
+      "intent": "audience-specific",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 3,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.75
+      },
+      "score": 3,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 1,
+        "existingOverlapPenalty": -3,
+        "dataCompleteness": 2
+      },
+      "rationale": "Priority heuristic 3. Signals: intent=audience-specific, pageType=audience-service, keywords=1, volumeData=supplied, existingOverlap=0.75. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Review the existing overlapping route for expansion instead of creating a duplicate page."
+    },
+    {
+      "opportunityId": "o-006",
+      "clusterId": "c-006",
+      "recommendedPageTitle": "Without Hr Department",
+      "recommendedSlug": "business-without-hr-department",
+      "primaryKeyword": "business without hr department",
       "supportingKeywords": [],
       "pageType": "audience-service",
       "intent": "audience-specific",
@@ -61,17 +177,17 @@
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     },
     {
-      "opportunityId": "o-006",
-      "clusterId": "c-006",
-      "recommendedPageTitle": "Hiring Support Small Owner",
-      "recommendedSlug": "hiring-support-for-small-business-owner",
-      "primaryKeyword": "hiring support for small business owner",
+      "opportunityId": "o-007",
+      "clusterId": "c-007",
+      "recommendedPageTitle": "No Hr Department Small",
+      "recommendedSlug": "no-hr-department-small-business",
+      "primaryKeyword": "no hr department small business",
       "supportingKeywords": [],
       "pageType": "audience-service",
       "intent": "audience-specific",
       "existingRouteOverlap": {
-        "route": "/who-we-help/small-businesses/hr-outsourcing",
-        "sourceFile": "src/app/who-we-help/small-businesses/hr-outsourcing/page.tsx",
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
         "matchedTokens": 3,
         "baseTokenCount": 5,
         "overlapRatio": 0.6
@@ -90,11 +206,40 @@
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     },
     {
-      "opportunityId": "o-007",
-      "clusterId": "c-007",
-      "recommendedPageTitle": "Hr Adding Employees",
-      "recommendedSlug": "hr-for-businesses-adding-employees",
-      "primaryKeyword": "hr for businesses adding employees",
+      "opportunityId": "o-009",
+      "clusterId": "c-009",
+      "recommendedPageTitle": "No Dedicated Hr Team",
+      "recommendedSlug": "no-dedicated-hr-team",
+      "primaryKeyword": "no dedicated hr team",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.25
+      },
+      "score": 2,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 0
+      },
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.25. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-010",
+      "clusterId": "c-010",
+      "recommendedPageTitle": "Without Hr Staff",
+      "recommendedSlug": "business-without-hr-staff",
+      "primaryKeyword": "business without hr staff",
       "supportingKeywords": [],
       "pageType": "audience-service",
       "intent": "audience-specific",
@@ -119,162 +264,104 @@
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     },
     {
-      "opportunityId": "o-002",
-      "clusterId": "c-002",
-      "recommendedPageTitle": "Hr Support Growing",
-      "recommendedSlug": "hr-support-for-growing-business",
-      "primaryKeyword": "hr support for growing business",
+      "opportunityId": "o-011",
+      "clusterId": "c-011",
+      "recommendedPageTitle": "Company Without Human Resources Department",
+      "recommendedSlug": "company-without-human-resources-department",
+      "primaryKeyword": "company without human resources department",
       "supportingKeywords": [],
-      "pageType": "audience-service",
-      "intent": "audience-specific",
+      "pageType": "pillar",
+      "intent": "general",
       "existingRouteOverlap": {
-        "route": "/",
-        "sourceFile": "src/app/page.tsx",
-        "matchedTokens": 3,
-        "baseTokenCount": 4,
-        "overlapRatio": 0.75
+        "route": "/resources",
+        "sourceFile": "src/app/resources/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 5,
+        "overlapRatio": 0.2
       },
-      "score": 1,
+      "score": 2,
       "scoreBreakdown": {
         "serviceFitHint": 3,
         "buyerIntentHint": 0,
         "localIntentHint": 0,
         "clusterDepth": 0,
-        "modifierStrength": 1,
-        "existingOverlapPenalty": -3,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
         "dataCompleteness": 0
       },
-      "rationale": "Priority heuristic 1. Signals: intent=audience-specific, pageType=audience-service, keywords=1, volumeData=none, existingOverlap=0.75. Score ranks build priority only and is not an SEO difficulty estimate.",
-      "recommendedNextAction": "Review the existing overlapping route for expansion instead of creating a duplicate page."
-    },
-    {
-      "opportunityId": "o-003",
-      "clusterId": "c-003",
-      "recommendedPageTitle": "Hr Scaling",
-      "recommendedSlug": "hr-for-scaling-business",
-      "primaryKeyword": "hr for scaling business",
-      "supportingKeywords": [],
-      "pageType": "audience-service",
-      "intent": "audience-specific",
-      "existingRouteOverlap": {
-        "route": "/",
-        "sourceFile": "src/app/page.tsx",
-        "matchedTokens": 2,
-        "baseTokenCount": 3,
-        "overlapRatio": 0.67
-      },
-      "score": 1,
-      "scoreBreakdown": {
-        "serviceFitHint": 3,
-        "buyerIntentHint": 0,
-        "localIntentHint": 0,
-        "clusterDepth": 0,
-        "modifierStrength": 1,
-        "existingOverlapPenalty": -3,
-        "dataCompleteness": 0
-      },
-      "rationale": "Priority heuristic 1. Signals: intent=audience-specific, pageType=audience-service, keywords=1, volumeData=none, existingOverlap=0.67. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.2. Score ranks build priority only and is not an SEO difficulty estimate.",
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     },
     {
-      "opportunityId": "o-008",
-      "clusterId": "c-008",
-      "recommendedPageTitle": "Workforce Compliance Growing",
-      "recommendedSlug": "workforce-compliance-for-growing-business",
-      "primaryKeyword": "workforce compliance for growing business",
-      "supportingKeywords": [],
-      "pageType": "audience-service",
-      "intent": "audience-specific",
-      "existingRouteOverlap": {
-        "route": "/",
-        "sourceFile": "src/app/page.tsx",
-        "matchedTokens": 3,
-        "baseTokenCount": 4,
-        "overlapRatio": 0.75
-      },
-      "score": 1,
-      "scoreBreakdown": {
-        "serviceFitHint": 3,
-        "buyerIntentHint": 0,
-        "localIntentHint": 0,
-        "clusterDepth": 0,
-        "modifierStrength": 1,
-        "existingOverlapPenalty": -3,
-        "dataCompleteness": 0
-      },
-      "rationale": "Priority heuristic 1. Signals: intent=audience-specific, pageType=audience-service, keywords=1, volumeData=none, existingOverlap=0.75. Score ranks build priority only and is not an SEO difficulty estimate.",
-      "recommendedNextAction": "Review the existing overlapping route for expansion instead of creating a duplicate page."
-    },
-    {
-      "opportunityId": "o-009",
-      "clusterId": "c-009",
-      "recommendedPageTitle": "Hr Roadmap Small",
-      "recommendedSlug": "hr-roadmap-for-small-business",
-      "primaryKeyword": "hr roadmap for small business",
-      "supportingKeywords": [],
-      "pageType": "audience-service",
-      "intent": "audience-specific",
-      "existingRouteOverlap": {
-        "route": "/",
-        "sourceFile": "src/app/page.tsx",
-        "matchedTokens": 3,
-        "baseTokenCount": 4,
-        "overlapRatio": 0.75
-      },
-      "score": 1,
-      "scoreBreakdown": {
-        "serviceFitHint": 3,
-        "buyerIntentHint": 0,
-        "localIntentHint": 0,
-        "clusterDepth": 0,
-        "modifierStrength": 1,
-        "existingOverlapPenalty": -3,
-        "dataCompleteness": 0
-      },
-      "rationale": "Priority heuristic 1. Signals: intent=audience-specific, pageType=audience-service, keywords=1, volumeData=none, existingOverlap=0.75. Score ranks build priority only and is not an SEO difficulty estimate.",
-      "recommendedNextAction": "Review the existing overlapping route for expansion instead of creating a duplicate page."
-    },
-    {
-      "opportunityId": "o-010",
-      "clusterId": "c-010",
-      "recommendedPageTitle": "Onboarding Support Small",
-      "recommendedSlug": "onboarding-support-for-small-business",
-      "primaryKeyword": "onboarding support for small business",
-      "supportingKeywords": [],
-      "pageType": "audience-service",
-      "intent": "audience-specific",
-      "existingRouteOverlap": {
-        "route": "/who-we-help/small-businesses/hr-outsourcing",
-        "sourceFile": "src/app/who-we-help/small-businesses/hr-outsourcing/page.tsx",
-        "matchedTokens": 3,
-        "baseTokenCount": 4,
-        "overlapRatio": 0.75
-      },
-      "score": 1,
-      "scoreBreakdown": {
-        "serviceFitHint": 3,
-        "buyerIntentHint": 0,
-        "localIntentHint": 0,
-        "clusterDepth": 0,
-        "modifierStrength": 1,
-        "existingOverlapPenalty": -3,
-        "dataCompleteness": 0
-      },
-      "rationale": "Priority heuristic 1. Signals: intent=audience-specific, pageType=audience-service, keywords=1, volumeData=none, existingOverlap=0.75. Score ranks build priority only and is not an SEO difficulty estimate.",
-      "recommendedNextAction": "Review the existing overlapping route for expansion instead of creating a duplicate page."
-    },
-    {
-      "opportunityId": "o-011",
-      "clusterId": "c-011",
-      "recommendedPageTitle": "Hr Setup Growing Company",
-      "recommendedSlug": "hr-setup-for-growing-company",
-      "primaryKeyword": "hr setup for growing company",
+      "opportunityId": "o-012",
+      "clusterId": "c-012",
+      "recommendedPageTitle": "No Internal Hr Team",
+      "recommendedSlug": "no-internal-hr-team",
+      "primaryKeyword": "no internal hr team",
       "supportingKeywords": [],
       "pageType": "pillar",
       "intent": "general",
       "existingRouteOverlap": {
         "route": "/",
         "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.25
+      },
+      "score": 2,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 0
+      },
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.25. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-014",
+      "clusterId": "c-014",
+      "recommendedPageTitle": "No Hr Person Staff",
+      "recommendedSlug": "no-hr-person-on-staff",
+      "primaryKeyword": "no hr person on staff",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/",
+        "sourceFile": "src/app/page.tsx",
+        "matchedTokens": 1,
+        "baseTokenCount": 4,
+        "overlapRatio": 0.25
+      },
+      "score": 2,
+      "scoreBreakdown": {
+        "serviceFitHint": 3,
+        "buyerIntentHint": 0,
+        "localIntentHint": 0,
+        "clusterDepth": 0,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -1,
+        "dataCompleteness": 0
+      },
+      "rationale": "Priority heuristic 2. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.25. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
+    },
+    {
+      "opportunityId": "o-008",
+      "clusterId": "c-008",
+      "recommendedPageTitle": "Company No Hr Staff",
+      "recommendedSlug": "company-with-no-hr-staff",
+      "primaryKeyword": "company with no hr staff",
+      "supportingKeywords": [],
+      "pageType": "pillar",
+      "intent": "general",
+      "existingRouteOverlap": {
+        "route": "/who-we-help",
+        "sourceFile": "src/app/who-we-help/page.tsx",
         "matchedTokens": 2,
         "baseTokenCount": 4,
         "overlapRatio": 0.5
@@ -293,33 +380,33 @@
       "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     },
     {
-      "opportunityId": "o-004",
-      "clusterId": "c-004",
-      "recommendedPageTitle": "Hr Consulting Growing Small",
-      "recommendedSlug": "hr-consulting-for-growing-small-business",
-      "primaryKeyword": "hr consulting for growing small business",
+      "opportunityId": "o-013",
+      "clusterId": "c-013",
+      "recommendedPageTitle": "Hr Support Companies Without Hr",
+      "recommendedSlug": "hr-support-for-companies-without-hr",
+      "primaryKeyword": "hr support for companies without hr",
       "supportingKeywords": [],
-      "pageType": "audience-service",
-      "intent": "audience-specific",
+      "pageType": "pillar",
+      "intent": "general",
       "existingRouteOverlap": {
-        "route": "/",
-        "sourceFile": "src/app/page.tsx",
-        "matchedTokens": 5,
+        "route": "/about",
+        "sourceFile": "src/app/about/page.tsx",
+        "matchedTokens": 3,
         "baseTokenCount": 5,
-        "overlapRatio": 1
+        "overlapRatio": 0.6
       },
-      "score": 0,
+      "score": 1,
       "scoreBreakdown": {
         "serviceFitHint": 3,
         "buyerIntentHint": 0,
         "localIntentHint": 0,
         "clusterDepth": 0,
-        "modifierStrength": 1,
-        "existingOverlapPenalty": -4,
+        "modifierStrength": 0,
+        "existingOverlapPenalty": -2,
         "dataCompleteness": 0
       },
-      "rationale": "Priority heuristic 0. Signals: intent=audience-specific, pageType=audience-service, keywords=1, volumeData=none, existingOverlap=1. Score ranks build priority only and is not an SEO difficulty estimate.",
-      "recommendedNextAction": "Review the existing overlapping route for expansion instead of creating a duplicate page."
+      "rationale": "Priority heuristic 1. Signals: intent=general, pageType=pillar, keywords=1, volumeData=none, existingOverlap=0.6. Score ranks build priority only and is not an SEO difficulty estimate.",
+      "recommendedNextAction": "Create a new pillar page SEO brief for this cluster."
     }
   ],
   "warnings": []

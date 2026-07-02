@@ -234,40 +234,39 @@ export const locations: Location[] = [
   },
   {
     slug: "north-las-vegas-nv",
-    title:
-      "HR, Payroll, Benefits, and Compliance Support in North Las Vegas, Nevada",
+    title: "HR, Payroll, Benefits, and Compliance Support in North Las Vegas, Nevada",
     region: "local",
     meta: {
       title: "HR Consulting in North Las Vegas, NV | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions supports North Las Vegas businesses with HR compliance, payroll, benefits, ACA reporting, HR technology, and system support.",
+        "Freedom HR Solutions supports North Las Vegas businesses with HR compliance, payroll for hourly and shift workforces, benefits administration, employee handbooks, HR technology, and system support.",
     },
     summary:
-      "HR, payroll, benefits, compliance, and HR technology support for businesses in North Las Vegas and across the Las Vegas Valley.",
-    intro:
-      "Freedom HR Solutions supports businesses in North Las Vegas and across the Las Vegas Valley with HR compliance, payroll, benefits, and HR technology. Our Las Vegas based team helps North Las Vegas employers strengthen day to day HR operations and clean up systems and records. We work with each business in the way that suits them, whether that is on site in the valley or remotely.",
+      "HR consulting, payroll support for hourly and shift workforces, benefits administration, compliance guidance, and HR technology services for businesses in North Las Vegas and across the Las Vegas Valley.",
     positioning:
-      "North Las Vegas is home to a strong base of industrial, logistics, and trade employers, and we tailor our support to those workforces. We bring headquartered firm resources to one of the valley's most active employment hubs.",
+      "North Las Vegas is one of the valley's most active industrial and logistics employment hubs, and Freedom HR Solutions tailors HR, payroll, and compliance support to the workforces that operate there. We bring the resources of a Las Vegas-headquartered firm to employers in North Las Vegas who need structured HR support without building a full internal department.",
+    intro:
+      "Freedom HR Solutions supports businesses in North Las Vegas and across the Las Vegas Valley with HR compliance, payroll, benefits, employee handbooks, and HR technology. North Las Vegas is home to a strong base of warehousing, logistics, manufacturing, construction, and transportation employers, industries that manage large hourly and shift-based workforces with demanding compliance and record-keeping requirements. Our Las Vegas-based team helps North Las Vegas employers strengthen HR operations and clean up systems and records. We work on site in the valley or remotely, depending on what fits your team.",
     localChallenges: [
       {
-        title: "Large hourly and shift based workforces",
+        title: "Payroll for large hourly and shift-based workforces",
         description:
-          "Warehousing, logistics, and manufacturing employers manage many hourly workers. We help keep payroll, time and attendance support, and HR records accurate across shifts and roles.",
+          "Warehousing, logistics, and manufacturing employers in North Las Vegas manage many hourly and shift workers. We help keep payroll accurate across roles and shifts, support time and attendance processes, and make sure HR records stay organized as headcounts change.",
       },
       {
-        title: "Safety sensitive and trade workforces",
+        title: "HR compliance for safety-sensitive and trade workforces",
         description:
-          "Industrial and construction employers face detailed policy and documentation needs. We help build and maintain employee handbooks and HR practices suited to these environments.",
+          "Industrial, construction, and transportation employers face detailed policy and documentation requirements. We help build and maintain employee handbooks and HR practices suited to safety-sensitive environments. We provide guidance, not legal advice.",
       },
       {
-        title: "Cleaning up HR records and systems",
+        title: "Cleaning up HR records and system data",
         description:
-          "Fast growth can leave records scattered. We perform system audits and improvements so payroll, benefits, and employee data are accurate, organized, and easier to report on.",
+          "Rapid growth can leave payroll records, benefits enrollment, and employee data scattered across disconnected systems. We perform system audits and improvements so data is accurate, organized, and easier to report on.",
       },
       {
-        title: "Scaling HR with the business",
+        title: "Scaling HR processes with the business",
         description:
-          "As North Las Vegas employers expand, informal processes break down. We help formalize compliance workflows and ongoing technical support so HR keeps pace with growth.",
+          "As North Las Vegas employers expand headcount or add locations, informal processes break down. We help formalize compliance workflows, configure HR systems, and put ongoing support in place so HR keeps pace with growth.",
       },
     ],
     industries: [
@@ -283,7 +282,9 @@ export const locations: Location[] = [
       "compliance-support",
       "payroll-benefits-hr-management",
       "employee-handbook-creation-management",
+      "system-setup-implementation",
       "system-audits-improvements",
+      "hr-technology-automation",
       "ongoing-technical-support",
     ],
     nearbySlugs: [
@@ -294,31 +295,28 @@ export const locations: Location[] = [
     ],
     relatedAudienceSlugs: [
       "small-businesses",
-      "construction-companies",
+      "growing-businesses",
       "business-owners",
+      "companies-without-hr-departments",
     ],
     faqs: [
       {
-        question:
-          "Does Freedom HR Solutions serve North Las Vegas businesses?",
+        question: "Does Freedom HR Solutions serve North Las Vegas businesses?",
         answer:
-          "Yes. We support businesses in North Las Vegas and across the Las Vegas Valley with HR, payroll, benefits, compliance, and HR technology services, delivered on site in the valley or remotely.",
+          "Yes. We support businesses in North Las Vegas and across the Las Vegas Valley with HR compliance, payroll, benefits, employee handbooks, and HR technology services, delivered on site in the valley or remotely.",
       },
       {
-        question:
-          "Can Freedom HR Solutions help with HR compliance in North Las Vegas?",
+        question: "Can Freedom HR Solutions help with payroll for hourly and shift workers in North Las Vegas?",
         answer:
-          "Yes. We help North Las Vegas employers review policies, handbooks, and HR practices, identify potential gaps, and build clearer compliance processes. We provide consulting support, not legal advice.",
+          "Yes. We help North Las Vegas employers manage payroll for hourly and shift-based workforces, support time and attendance processes, and keep HR records organized as headcounts change.",
       },
       {
-        question:
-          "Can Freedom HR Solutions support payroll and benefits systems?",
+        question: "Can Freedom HR Solutions help with HR compliance in North Las Vegas?",
         answer:
-          "Yes. We help North Las Vegas businesses manage payroll and benefits administration, audit and improve systems, and keep their HR data accurate and organized.",
+          "Yes. We help North Las Vegas employers review policies, employee handbooks, and HR practices, identify potential gaps, and build clearer compliance processes. We provide consulting support, not legal advice.",
       },
       {
-        question:
-          "Can North Las Vegas employers request an HR MRI Assessment?",
+        question: "Can North Las Vegas employers request an HR MRI Assessment?",
         answer:
           "Yes. North Las Vegas employers can request an HR MRI risk assessment, which reviews HR, payroll, benefits, and compliance practices to highlight potential gaps and improvement opportunities.",
       },

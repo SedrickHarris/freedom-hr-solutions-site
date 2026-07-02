@@ -13,14 +13,14 @@ export const serviceHubs: ServiceHub[] = [
     title: "HR Compliance & Risk Management",
     h1: "HR Compliance and Risk Management Support for Growing Businesses",
     meta: {
-      title: "HR Compliance and Risk Management Support",
+      title: "HR Compliance and Risk Management Consulting",
       description:
-        "Identify HR risks, improve workforce compliance, update employee handbooks, and strengthen HR policies with practical HR compliance support from Freedom HR Solutions.",
+        "Freedom HR Solutions helps businesses identify HR compliance risks, update employee handbooks, strengthen workforce documentation, and prepare for audits. Serving Las Vegas, Nevada, and businesses nationwide.",
     },
     summary:
-      "Find HR risks before they become costly, strengthen your policies, and keep documentation current as your team grows.",
+      "Find HR compliance risks before they become costly problems, strengthen your policies, and keep documentation current as your team grows.",
     intro:
-      "HR compliance is easy to overlook until something goes wrong. As your business adds employees, locations, and policies, small gaps in documentation and process can turn into real risk. Freedom HR Solutions helps you find those gaps early, organize your HR foundation, and keep it current so your team can focus on running the business.",
+      "HR compliance is easy to overlook until something goes wrong. As your business adds employees, locations, and policies, small gaps in documentation and process can turn into real risk. Freedom HR Solutions helps you identify those gaps early, organize your HR foundation, and keep it current so your team can focus on running the business. Whether you need a compliance review for a growing company, help updating an employee handbook, or support preparing for a potential audit, this is where to start.",
     problems: [
       { title: "Outdated or missing policies", description: "Handbooks and policies that no longer match how the business actually operates or current requirements." },
       { title: "Unclear documentation", description: "Inconsistent records, acknowledgments, and employee files that are hard to rely on during a review." },
@@ -51,39 +51,45 @@ export const serviceHubs: ServiceHub[] = [
     searchThemes: [
       "HR compliance consultant",
       "HR risk assessment",
+      "HR compliance review for growing companies",
       "Employee handbook consultant",
       "Workforce compliance support",
-      "Employment policy review",
+      "Multi-state HR compliance",
     ],
     faqs: [
       {
-        question: "What is HR compliance support?",
+        question: "What does HR compliance support include?",
         answer:
-          "HR compliance support is practical help reviewing your policies, documentation, and processes so they stay clear, consistent, and current. Freedom HR Solutions helps you identify gaps, organize records, and improve how HR responsibilities are handled day to day.",
+          "HR compliance support includes reviewing your policies, documentation, and processes to identify gaps, organizing employee records, updating handbooks, and giving you a prioritized plan for what to address first. It is practical help keeping HR responsibilities clear and current as your business grows.",
       },
       {
         question: "How do I know if my business has HR compliance risks?",
         answer:
-          "Common signs include an outdated handbook, inconsistent employee records, growth into new states, or no one clearly responsible for HR. An HR MRI Risk Assessment is a straightforward way to see where your risks are.",
+          "Common signs include an outdated handbook, inconsistent employee records, growth into new states, or no one clearly responsible for HR. An HR MRI Risk Assessment is a direct way to see where your gaps are and what to address first.",
       },
       {
-        question: "What is included in an HR risk assessment?",
+        question: "What is included in an HR compliance review for a growing company?",
         answer:
-          "The assessment reviews your policies, documentation, processes, and systems to identify gaps and improvement opportunities, then gives you a prioritized list of practical next steps.",
+          "A compliance review for a growing company typically covers your employee handbook and policies, documentation practices, record-keeping, and how HR responsibilities are assigned as your team expands. You receive a prioritized list of findings and practical next steps.",
       },
       {
         question: "How often should employee handbooks be reviewed?",
         answer:
-          "A good practice is to review your handbook at least once a year and after major changes such as new locations, significant growth, or new policies. We help you keep it current.",
+          "A good practice is to review your handbook at least once a year and after major changes such as new locations, significant growth, or new policies. We help you keep it current without letting it fall behind.",
+      },
+      {
+        question: "Can Freedom HR Solutions help multi-state employers with HR compliance?",
+        answer:
+          "Yes. Multi-state employers face additional compliance complexity as they expand. We help review documentation, policies, and processes so your HR foundation holds up across the states where you operate.",
       },
       {
         question: "Can Freedom HR Solutions help companies without an HR department?",
         answer:
-          "Yes. Many of the businesses we support do not have an internal HR team. We help you build practical HR processes, documentation, and systems so the essentials are covered.",
+          "Yes. Many of the businesses we support do not have an internal HR team. We help you build practical HR processes, documentation, and systems so the essentials are covered without needing a full-time hire.",
       },
     ],
-    primaryCta: ctas.assessment,
-    secondaryCta: ctas.complianceConsult,
+    primaryCta: { label: "Request HR Compliance Review", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
   },
   {
     slug: "aca-reporting-compliance",

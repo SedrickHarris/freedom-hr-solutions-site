@@ -233,12 +233,12 @@ export const serviceHubs: ServiceHub[] = [
     meta: {
       title: "HR Technology and Automation Consulting",
       description:
-        "Improve HR workflows, system integrations, reporting, automation, and data accuracy with HR technology consulting from Freedom HR Solutions.",
+        "Freedom HR Solutions helps businesses automate HR workflows, connect payroll and HR systems, streamline operations, and improve reporting. HR technology consulting for teams in Las Vegas and nationwide.",
     },
     summary:
       "Reduce manual work, connect your systems, and turn HR data into reporting you can actually use.",
     intro:
-      "Manual HR work adds up: rekeying data, chasing approvals, and building reports by hand. Freedom HR Solutions helps you automate repetitive workflows, connect your HR, payroll, and benefits systems, and improve the reporting that leadership relies on.",
+      "HR technology should reduce work, not create it. When systems do not connect, reporting is manual, and workflows require constant rekeying, your team pays the price in time and errors. Freedom HR Solutions helps businesses streamline HR operations by automating repetitive tasks, connecting HR and payroll platforms, and building the reporting leaders need to make decisions. Whether you are trying to get more out of existing technology or need help getting a stalled implementation across the finish line, we bring structure and accountability to the process.",
     problems: [
       { title: "Too much manual work", description: "Repetitive tasks that consume time and introduce errors." },
       { title: "Disconnected systems", description: "Platforms that do not talk to each other, forcing duplicate data entry." },
@@ -270,19 +270,29 @@ export const serviceHubs: ServiceHub[] = [
     ],
     faqs: [
       {
-        question: "What is HR technology consulting?",
+        question: "What is HR technology and automation consulting?",
         answer:
-          "HR technology consulting is help choosing, configuring, connecting, and improving the systems that run your HR, payroll, and benefits processes so they work better together.",
+          "HR technology and automation consulting is hands-on help choosing, connecting, configuring, and improving the systems that run your HR, payroll, and benefits operations so your team spends less time on manual work.",
       },
       {
-        question: "Which HR processes can be automated?",
+        question: "Which HR workflows can be automated?",
         answer:
-          "Onboarding, approvals, data updates, reporting, and parts of benefits and payroll workflows can often be automated. We help you find the highest-impact opportunities first.",
+          "Onboarding steps, approval routing, data updates, reporting generation, and parts of payroll and benefits workflows are commonly automated. The right targets depend on your current systems and where manual effort is highest.",
       },
       {
-        question: "Can Freedom HR Solutions help connect HR, payroll, and benefits systems?",
+        question: "Can Freedom HR Solutions help connect HR and payroll systems?",
         answer:
-          "Yes. We review your systems and integration options so data flows more cleanly and your team spends less time on duplicate entry.",
+          "Yes. We review your current platforms and integration options and help configure or improve the connections so data flows more cleanly between systems.",
+      },
+      {
+        question: "Can HR automation help reduce payroll and benefits errors?",
+        answer:
+          "Often yes. Automating manual steps reduces the opportunities for rekeying errors and inconsistent data across platforms.",
+      },
+      {
+        question: "Can Freedom HR Solutions help improve HR reporting?",
+        answer:
+          "Yes. We help build reports and dashboards that give leaders clearer visibility into workforce costs, trends, and performance without requiring manual data assembly each time.",
       },
       {
         question: "How do system audits improve HR operations?",
@@ -290,9 +300,9 @@ export const serviceHubs: ServiceHub[] = [
           "A system audit surfaces configuration gaps, data issues, and workflow problems, then gives you a prioritized plan to fix them and improve accuracy.",
       },
       {
-        question: "Can Freedom HR Solutions help with HR reporting dashboards?",
+        question: "Do we need to switch systems to benefit from HR technology consulting?",
         answer:
-          "Yes. We help build reports and dashboards that give leaders clear visibility into payroll, workforce, and compliance data.",
+          "Not necessarily. Many improvements come from better configuration and use of the platforms you already have. We evaluate what you have in place before recommending any changes.",
       },
     ],
     primaryCta: ctas.techReview,

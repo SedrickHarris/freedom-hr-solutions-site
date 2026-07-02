@@ -115,14 +115,14 @@ export const audiences: Audience[] = [
     navLabel: "HR Teams",
     type: "role",
     meta: {
-      title: "Support for HR Teams | Freedom HR Solutions",
+      title: "HR Team Support Services | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps HR teams with compliance, HR technology, system implementation, reporting, employee handbooks, training, and workforce processes.",
+        "Freedom HR Solutions supports HR teams with system implementation, open enrollment setup, reporting, compliance, and handbook management, so your team can stay focused on daily operations.",
     },
     summary:
-      "Extra capacity and specialized support so your HR team can move faster on systems, compliance, and reporting.",
+      "Project support, system implementation, open enrollment, reporting, and compliance assistance for HR teams that need extra capacity without adding headcount.",
     intro:
-      "Your HR team already carries a full workload, and big projects often compete with daily demands. Freedom HR Solutions acts as an extension of your team, supporting system implementation, compliance work, reporting, and workforce programs. We help you deliver projects without pulling staff away from the work that keeps the business running.",
+      "HR teams carry the day-to-day load of employee relations, payroll coordination, benefits, and compliance, and still get handed implementation projects, system rollouts, and open enrollment on top of it all. Freedom HR Solutions works as an extension of your team, taking on the project and system work so your staff can stay focused on the people. We help HR teams move faster on the things that have been stalled, without adding permanent headcount.",
     painPoints: [
       {
         title: "Project work crowded out by daily tasks",
@@ -137,12 +137,12 @@ export const audiences: Audience[] = [
       {
         title: "Handbooks and policies fall behind",
         description:
-          "Keeping documents current across changing requirements is hard when no one owns the update cycle.",
+          "Keeping documents current is hard when no one owns the update cycle and daily tasks take priority.",
       },
       {
         title: "Open enrollment strains the team",
         description:
-          "Configuration, communication, and troubleshooting pile up during a short, high-pressure window.",
+          "Configuration, communication, and troubleshooting pile up during a short, high-pressure window every year.",
       },
     ],
     scenarios: [
@@ -150,6 +150,8 @@ export const audiences: Audience[] = [
       "Leadership wants better workforce reporting but your data lives in several places.",
       "Your handbook has not been updated since your last round of hires.",
       "Open enrollment is six weeks out and your team is already stretched thin.",
+      "A system upgrade is coming and your team does not have bandwidth to manage the rollout alongside daily work.",
+      "You need to clean up HR data across platforms before a compliance review or audit.",
     ],
     recommendedServiceSlugs: [
       "compliance-support",
@@ -157,7 +159,7 @@ export const audiences: Audience[] = [
       "system-setup-implementation",
       "reporting-data-insights",
       "employee-handbook-creation-management",
-      "training-development-programs",
+      "open-enrollment-setup",
     ],
     relatedAudienceSlugs: [
       "payroll-teams",
@@ -168,27 +170,32 @@ export const audiences: Audience[] = [
       {
         question: "Can Freedom HR Solutions support an existing HR team?",
         answer:
-          "Yes. We work as an extension of your team, taking on projects and specialized tasks so your staff can stay focused on daily operations.",
+          "Yes. We work as an extension of your team, handling project and system work so your staff can stay focused on daily employee needs and not fall behind on both.",
       },
       {
         question: "Can Freedom HR Solutions help with HR system implementation?",
         answer:
-          "Yes. We support setup, configuration, and rollout of HR systems and help your team adopt new tools with less disruption.",
+          "Yes. We support setup, configuration, and rollout of HRIS and HR platforms so your team has hands-on help getting the system live without pulling staff off other work.",
       },
       {
         question: "Can Freedom HR Solutions help improve HR reporting?",
         answer:
-          "We help streamline how data is pulled and presented so your team spends less time reconciling and more time acting on insights.",
+          "We help streamline how workforce data is pulled and structured so your team spends less time reconciling across systems and more time acting on what the data shows.",
       },
       {
-        question: "Can Freedom HR Solutions help with employee handbooks?",
+        question: "Can Freedom HR Solutions help with employee handbooks and HR policies?",
         answer:
-          "Yes. We help create and maintain handbooks so policies stay organized, consistent, and aligned with your operations.",
+          "Yes. We help create and maintain handbooks and policy documents so they stay current, consistent, and aligned with how your organization actually operates.",
       },
       {
         question: "Can Freedom HR Solutions help HR teams during open enrollment?",
         answer:
-          "We support open enrollment setup, configuration, and communication so the process runs more smoothly during a busy window.",
+          "We support open enrollment setup, plan configuration, and workflow coordination so the process runs more smoothly during the busiest window of the benefits year.",
+      },
+      {
+        question: "Can Freedom HR Solutions help an HR team prepare for a compliance review or system audit?",
+        answer:
+          "Yes. We help organize HR data, documentation, and system records so your team is better prepared when a review, audit, or system change requires clean, reliable information.",
       },
     ],
     primaryCta: { label: "Request HR Systems Review", href: "/request-assessment/" },

@@ -137,57 +137,58 @@ export const locations: Location[] = [
   },
   {
     slug: "henderson-nv",
-    title:
-      "HR, Payroll, Benefits, and Compliance Support in Henderson, Nevada",
+    title: "HR, Payroll, Benefits, and Compliance Support in Henderson, Nevada",
     region: "local",
     meta: {
       title: "HR Consulting in Henderson, NV | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions supports Henderson businesses with HR compliance, payroll, benefits, ACA reporting, HR technology, system implementation, and ongoing support.",
+        "Freedom HR Solutions supports Henderson businesses with HR compliance, payroll, benefits administration, employee handbooks, HR technology, and ongoing support, serving Henderson and across the Las Vegas Valley.",
     },
     summary:
-      "HR, payroll, benefits, compliance, and HR technology support for businesses in Henderson and across the Las Vegas Valley.",
-    intro:
-      "Freedom HR Solutions supports businesses in Henderson and across the Las Vegas Valley with HR compliance, payroll, benefits, and HR technology. Our Las Vegas based team works closely with Henderson employers to build dependable processes and well configured systems. We deliver this support both on site in the valley and remotely, depending on what works best for your team.",
+      "HR consulting, payroll support, benefits administration, compliance guidance, and HR technology services for businesses in Henderson and across the Las Vegas Valley.",
     positioning:
-      "We serve Henderson as part of our greater Las Vegas service area, bringing the resources of a headquartered firm to one of Nevada's fastest growing business communities. Henderson employers get focused HR support without managing it all in house.",
+      "Freedom HR Solutions serves Henderson as part of our greater Las Vegas service area, bringing structured HR, payroll, and compliance support to one of Nevada's fastest-growing business communities. Henderson employers get the resources of a focused HR consulting firm without building a full internal HR department.",
+    intro:
+      "Freedom HR Solutions supports businesses in Henderson and across the Las Vegas Valley with HR compliance, payroll, benefits, employee handbooks, and HR technology. Our Las Vegas-based team works closely with Henderson employers to build dependable processes and well-configured systems. Henderson has grown rapidly into one of Nevada's most active business markets, and many companies here are scaling faster than their HR infrastructure can keep up. We deliver support both on site in the valley and remotely, depending on what works best for your team.",
     localChallenges: [
       {
-        title: "Rapid business growth",
+        title: "Rapid business growth outpacing HR structure",
         description:
-          "Henderson continues to attract expanding companies. We help growing employers formalize handbooks, processes, and HR systems so structure keeps up with new hires and new locations.",
+          "Henderson continues to attract expanding companies across professional services, healthcare, and technology. We help growing employers formalize handbooks, HR processes, and system configurations so structure keeps up with new hires and new locations.",
       },
       {
-        title: "Building HR for the first time",
+        title: "Building HR processes from the ground up",
         description:
-          "Many Henderson businesses scale before they have a dedicated HR function. We help establish core policies, payroll and benefits workflows, and compliance processes from the ground up.",
+          "Many Henderson businesses scale before they have a dedicated HR function. We help establish core HR policies, payroll and benefits workflows, and compliance processes from the beginning so the foundation is solid before the team gets larger.",
       },
       {
-        title: "Connecting payroll, benefits, and HR data",
+        title: "Payroll, benefits, and HR data on disconnected systems",
         description:
-          "Disconnected tools create duplicate entry and reporting headaches. We help implement and streamline HR technology so payroll, benefits, and employee data stay aligned.",
+          "Disconnected tools create duplicate entry, reporting gaps, and enrollment errors. We help Henderson employers implement and streamline HR technology so payroll, benefits, and employee data stay aligned and accessible.",
       },
       {
-        title: "Keeping policies current",
+        title: "Keeping employee handbooks and policies current",
         description:
-          "As teams grow, outdated handbooks create risk. We help review and update employee handbooks and HR practices so policies reflect how the business runs today.",
+          "As Henderson businesses grow, outdated handbooks and informal policies create risk. We help review and update employee handbooks and HR practices so documentation reflects how the business actually operates today.",
       },
     ],
     industries: [
       "Professional and business services",
       "Healthcare and medical practices",
+      "Technology and startups",
       "Retail and consumer services",
       "Construction and trades",
-      "Technology and startups",
       "Manufacturing and distribution",
     ],
     serviceSlugs: [
+      "hr-mri-risk-assessment",
       "compliance-support",
       "payroll-benefits-hr-management",
+      "employee-handbook-creation-management",
       "system-setup-implementation",
       "hr-technology-automation",
-      "employee-handbook-creation-management",
-      "technical-issue-resolution",
+      "aca-reporting-consultant",
+      "ongoing-technical-support",
     ],
     nearbySlugs: [
       "las-vegas-nv",
@@ -199,36 +200,33 @@ export const locations: Location[] = [
       "small-businesses",
       "growing-businesses",
       "business-owners",
+      "companies-without-hr-departments",
     ],
     faqs: [
       {
         question: "Does Freedom HR Solutions serve businesses in Henderson?",
         answer:
-          "Yes. We support businesses in Henderson and across the Las Vegas Valley with HR, payroll, benefits, compliance, and HR technology services, delivered on site in the valley or remotely.",
+          "Yes. We support businesses in Henderson and across the Las Vegas Valley with HR compliance, payroll, benefits, employee handbooks, and HR technology services, delivered on site in the valley or remotely.",
       },
       {
-        question:
-          "Can Freedom HR Solutions help Henderson businesses with HR compliance?",
+        question: "Can Freedom HR Solutions help Henderson businesses with HR compliance?",
         answer:
-          "Yes. We help Henderson employers review handbooks, policies, and HR practices, identify potential gaps, and improve their compliance processes. We provide consulting support and not legal advice.",
+          "Yes. We help Henderson employers review handbooks, policies, and HR practices, identify potential gaps, and improve their compliance processes. We provide consulting support, not legal advice.",
       },
       {
-        question:
-          "Can Freedom HR Solutions help with payroll and benefits systems?",
+        question: "Can Henderson businesses get HR support without a full internal HR department?",
         answer:
-          "Yes. We help Henderson businesses manage payroll and benefits administration, implement and configure systems, and keep their HR data accurate and well organized.",
+          "Yes. Many Henderson businesses work with us precisely because they do not have a dedicated HR function. We help establish and maintain HR, payroll, and benefits processes so employers have the structure they need without hiring a full in-house team.",
       },
       {
-        question:
-          "Can Henderson businesses work with Freedom HR Solutions remotely?",
+        question: "Can Freedom HR Solutions help Henderson employers with payroll and benefits systems?",
         answer:
-          "Yes. We work with Henderson employers both in person within the Las Vegas Valley and remotely, so you can choose the approach that fits your team and schedule.",
+          "Yes. We help Henderson businesses manage payroll and benefits administration, implement and configure HR systems, and keep employee data accurate and well organized.",
       },
       {
-        question:
-          "Does Freedom HR Solutions support companies outside Nevada?",
+        question: "Can Henderson businesses work with Freedom HR Solutions remotely?",
         answer:
-          "Yes. While we are headquartered in Las Vegas and serve Henderson locally, we also support multi state and out of state employers through remote consulting and system support.",
+          "Yes. We work with Henderson employers both on site within the Las Vegas Valley and remotely, so you can choose the approach that fits your team and schedule.",
       },
     ],
     primaryCta: { label: "Request HR MRI Assessment", href: "/request-assessment/" },

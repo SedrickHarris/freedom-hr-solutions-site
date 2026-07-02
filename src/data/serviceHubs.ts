@@ -264,48 +264,52 @@ export const serviceHubs: ServiceHub[] = [
     title: "HR Technology & Automation",
     h1: "HR Technology and Automation Consulting",
     meta: {
-      title: "HR Technology and Automation Consulting",
+      title: "HR Technology & Automation Consulting",
       description:
-        "Freedom HR Solutions helps businesses automate HR workflows, connect payroll and HR systems, streamline operations, and improve reporting. HR technology consulting for teams in Las Vegas and nationwide.",
+        "Freedom HR Solutions helps businesses automate HR workflows, connect systems, improve reporting, and get more value from their HR technology investments.",
     },
     summary:
       "Reduce manual work, connect your systems, and turn HR data into reporting you can actually use.",
     intro:
-      "HR technology should reduce work, not create it. When systems do not connect, reporting is manual, and workflows require constant rekeying, your team pays the price in time and errors. Freedom HR Solutions helps businesses streamline HR operations by automating repetitive tasks, connecting HR and payroll platforms, and building the reporting leaders need to make decisions. Whether you are trying to get more out of existing technology or need help getting a stalled implementation across the finish line, we bring structure and accountability to the process.",
+      "Manual HR work adds up: rekeying data between systems, chasing approvals by email, and building reports by hand each week. Freedom HR Solutions helps businesses automate repetitive HR workflows, connect HR, payroll, and benefits systems so data flows cleanly, and build reporting that gives leadership clear visibility without manual effort. Whether your current system is underused or your workflows never recovered from a rushed implementation, we help you get more value from the technology you already have. Freedom HR Solutions provides independent consulting support and is not affiliated with or endorsed by any of the platforms referenced on this page.",
     problems: [
-      { title: "Too much manual work", description: "Repetitive tasks that consume time and introduce errors." },
-      { title: "Disconnected systems", description: "Platforms that do not talk to each other, forcing duplicate data entry." },
-      { title: "Weak reporting", description: "Reports that are hard to build and difficult to trust." },
-      { title: "Setup that never finished", description: "Implementations that stalled before the system was fully usable." },
+      { title: "Too much manual work", description: "Repetitive tasks that consume time and introduce errors every time someone re-enters data." },
+      { title: "Disconnected systems", description: "Platforms that do not communicate, forcing duplicate entry and manual reconciliation." },
+      { title: "Weak reporting", description: "Reports that are slow to build, hard to trust, and require manual data assembly." },
+      { title: "Setup that never finished", description: "Implementations that stalled before the system reached its full capability." },
     ],
     helps: [
-      { title: "Workflow automation", description: "Identify and automate repetitive HR, payroll, and benefits tasks." },
-      { title: "System implementation", description: "Stand up new systems with proper configuration, testing, and training." },
-      { title: "Integrations", description: "Connect systems so data flows cleanly between them." },
-      { title: "Reporting and dashboards", description: "Build reporting that gives leaders clear visibility." },
+      { title: "Workflow automation", description: "Identify and automate repetitive HR, payroll, and benefits tasks so your team focuses on higher-value work." },
+      { title: "System integration", description: "Connect platforms so data flows cleanly between HR, payroll, and benefits systems." },
+      { title: "Reporting and dashboards", description: "Build reports that give leaders clear visibility into workforce costs, trends, and performance." },
+      { title: "System implementation and audits", description: "Stand up new systems correctly or surface what is holding back existing ones." },
     ],
     whoItHelps: ["HR teams", "Growing businesses", "Payroll teams", "Multi-state employers", "Business owners"],
     process: standardProcess,
     serviceSlugs: [
-      "hr-technology-automation",
       "system-setup-implementation",
-      "streamlining-processes",
       "reporting-data-insights",
       "system-audits-improvements",
+      "streamlining-processes",
+      "hris-implementation",
     ],
     relatedAudienceSlugs: ["hr-teams", "growing-businesses", "payroll-teams"],
     searchThemes: [
-      "HR technology consultant",
-      "HR automation consultant",
-      "HCM implementation support",
-      "HR system integration",
-      "HR reporting dashboards",
+      "HR technology and automation consulting",
+      "HR workflow automation consulting",
+      "HR system integration support",
+      "HR automation for small business",
+      "HR process improvement consulting",
+      "HR reporting and dashboards consulting",
+      "HCM implementation consultant",
+      "HR system audit and optimization",
+      "automate HR workflows",
     ],
     faqs: [
       {
         question: "What is HR technology and automation consulting?",
         answer:
-          "HR technology and automation consulting is hands-on help choosing, connecting, configuring, and improving the systems that run your HR, payroll, and benefits operations so your team spends less time on manual work.",
+          "HR technology and automation consulting is hands-on help choosing, configuring, connecting, and improving the systems that run your HR, payroll, and benefits operations so your team spends less time on manual work.",
       },
       {
         question: "Which HR workflows can be automated?",
@@ -326,11 +330,6 @@ export const serviceHubs: ServiceHub[] = [
         question: "Can Freedom HR Solutions help improve HR reporting?",
         answer:
           "Yes. We help build reports and dashboards that give leaders clearer visibility into workforce costs, trends, and performance without requiring manual data assembly each time.",
-      },
-      {
-        question: "How do system audits improve HR operations?",
-        answer:
-          "A system audit surfaces configuration gaps, data issues, and workflow problems, then gives you a prioritized plan to fix them and improve accuracy.",
       },
       {
         question: "Do we need to switch systems to benefit from HR technology consulting?",

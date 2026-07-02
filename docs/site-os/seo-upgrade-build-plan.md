@@ -70,7 +70,6 @@ Every page follows the same three-step cycle:
 | 15 | HiBob Consulting Support | `/partners/hibob-consulting-support/` | Level 4 | Required | PENDING |
 | 16 | CustomHCM Consulting Support | `/partners/customhcm-consulting-support/` | Level 4 | Required | PENDING |
 | 17 | LegalShield Benefits Support | `/partners/legalshield-benefits-support/` | Level 4 | Required | PENDING |
-| 18 | Impact Health Benefits Support | `/partners/impact-health-benefits-support/` | Level 4 | Required | PENDING |
 
 ---
 

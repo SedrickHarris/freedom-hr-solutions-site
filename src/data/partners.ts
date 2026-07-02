@@ -30,14 +30,6 @@ const safeSupportAreas = (platform: string) => [
   },
 ];
 
-const standardPartnerServices = [
-  "system-setup-implementation",
-  "payroll-benefits-hr-management",
-  "hr-technology-automation",
-  "technical-issue-resolution",
-  "ongoing-technical-support",
-];
-
 const benefitsPartnerServices = [
   "benefits-administration-support",
   "open-enrollment-setup",
@@ -370,21 +362,72 @@ export const partners: Partner[] = [
     name: "CustomHCM",
     category: "HCM platform",
     meta: {
-      title: "CustomHCM Consulting and Support",
+      title: "CustomHCM Consulting and Support | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps businesses implement, configure, optimize, and support payroll, HR, and benefits workflows involving CustomHCM.",
+        "Freedom HR Solutions helps businesses implement, configure, optimize, and support payroll, HR, and benefits workflows involving CustomHCM, including setup, integration, reporting, and ongoing platform support.",
     },
     summary:
-      "Support for payroll, HR, and benefits workflows involving the CustomHCM platform.",
+      "Implementation, configuration, integration, and ongoing support for CustomHCM payroll, HR, and benefits workflows.",
     overview:
-      "Freedom HR Solutions helps businesses implement, configure, optimize, and support HR, payroll, and benefits workflows involving CustomHCM. We help your team configure the platform and keep workflows accurate.",
-    supportAreas: safeSupportAreas("CustomHCM"),
-    relatedServiceSlugs: standardPartnerServices,
+      "Freedom HR Solutions helps businesses implement, configure, optimize, and support HR, payroll, and benefits workflows involving CustomHCM. Whether you are setting up the platform for the first time, configuring payroll and benefits, connecting CustomHCM to other systems, or resolving recurring issues, we help your team configure the platform and keep workflows accurate.",
+    supportAreas: [
+      {
+        title: "CustomHCM implementation",
+        description: "Help planning and coordinating CustomHCM setup so your payroll, HR, and benefits configurations are accurate and reflect how your business actually operates.",
+      },
+      {
+        title: "Payroll configuration support",
+        description: "Support configuring payroll workflows in CustomHCM, including pay rules, deductions, tax settings, and workflow sequencing so payroll runs accurately.",
+      },
+      {
+        title: "Benefits setup and administration",
+        description: "Help configuring benefits plans, eligibility rules, and enrollment workflows in CustomHCM, including open enrollment preparation and ongoing benefits administration.",
+      },
+      {
+        title: "System integration support",
+        description: "Help reviewing and connecting CustomHCM with your other systems so data flows more cleanly between payroll, HR, and benefits platforms.",
+      },
+      {
+        title: "Reporting and data accuracy",
+        description: "Support building reports and improving data accuracy in CustomHCM so payroll, HR, and benefits teams have reliable visibility into workforce data.",
+      },
+      {
+        title: "Ongoing platform support",
+        description: "Continued help troubleshooting issues, maintaining configurations, and supporting CustomHCM workflows as your workforce or payroll structure changes over time.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "system-setup-implementation",
+      "payroll-benefits-hr-management",
+      "hr-technology-automation",
+      "technical-issue-resolution",
+      "ongoing-technical-support",
+    ],
     faqs: [
-      { question: "Is Freedom HR Solutions an official CustomHCM partner?", answer: "We help businesses implement, configure, optimize, and support workflows involving CustomHCM. We do not claim official partnership or certification unless confirmed." },
-      { question: "Can Freedom HR Solutions help implement CustomHCM?", answer: "Yes. We help plan and coordinate implementation, configuration, testing, and training." },
-      { question: "Can you support payroll and benefits in CustomHCM?", answer: "Yes. We help configure and support payroll and benefits workflows in the platform." },
-      { question: "Can you help after go-live?", answer: "Yes. We provide ongoing support and troubleshooting for workflows involving the platform." },
+      {
+        question: "Is Freedom HR Solutions an official CustomHCM partner?",
+        answer: "We help businesses implement, configure, optimize, and support workflows involving CustomHCM. We do not claim official partnership or certification unless confirmed.",
+      },
+      {
+        question: "Can Freedom HR Solutions help implement CustomHCM?",
+        answer: "Yes. We help plan and coordinate CustomHCM implementation, including configuration, data migration, testing, and go-live support so the platform reflects your payroll and HR workflows from the start.",
+      },
+      {
+        question: "Can you support payroll and benefits in CustomHCM?",
+        answer: "Yes. We help configure and support payroll and benefits workflows in CustomHCM, including pay rules, deductions, eligibility, and enrollment setup.",
+      },
+      {
+        question: "Can you help integrate CustomHCM with other systems?",
+        answer: "Yes. We help review integration options between CustomHCM and your other platforms so data flows more cleanly and reduces duplicate manual work.",
+      },
+      {
+        question: "Can Freedom HR Solutions improve our CustomHCM reporting?",
+        answer: "Yes. We help build reports and address data accuracy issues in CustomHCM so your team has reliable visibility into payroll, HR, and benefits data.",
+      },
+      {
+        question: "Can you help after CustomHCM go-live?",
+        answer: "Yes. We provide ongoing support and troubleshooting for CustomHCM workflows after implementation, including configuration updates and recurring issue resolution.",
+      },
     ],
   },
   {

@@ -420,64 +420,73 @@ export const serviceHubs: ServiceHub[] = [
     slug: "talent-workforce-development",
     navLabel: "Talent & Workforce Development",
     title: "Talent & Workforce Development",
-    h1: "Talent, Training, and Workforce Development Support",
+    h1: "Workforce Development Programs and Staff Training Support",
     meta: {
-      title: "Talent and Workforce Development Support",
+      title: "Workforce Development Programs for Businesses",
       description:
-        "Support recruiting, onboarding, employee engagement, performance management, training, leadership development, and organizational change.",
+        "Freedom HR Solutions helps businesses build workforce development programs, staff training, manager development, onboarding processes, and performance management support. Las Vegas and nationwide.",
     },
     summary:
-      "Strengthen the employee experience with better onboarding, training, engagement, and performance support.",
+      "Build workforce development programs that improve onboarding, staff training, manager development, and performance management across your organization.",
     intro:
-      "Your people are the business. Freedom HR Solutions helps you improve how you recruit, onboard, train, engage, and develop employees so your team is set up to succeed and your organization is ready for change.",
+      "Workforce development programs help businesses improve how they recruit, onboard, train, and develop their employees so the team performs well and the organization is ready for growth. Freedom HR Solutions supports this across the full employee lifecycle: building consistent onboarding processes for new hires, creating staff training and leadership development programs, supporting employee engagement and performance management, and helping teams navigate organizational change. We work alongside HR teams and business owners who need practical support, not a course catalog.",
     problems: [
-      { title: "Rough onboarding", description: "New hires who start without a clear, consistent onboarding experience." },
-      { title: "Limited training", description: "Few structured opportunities for employees and leaders to grow." },
-      { title: "Unclear performance process", description: "Reviews and expectations that are inconsistent or informal." },
-      { title: "Change without a plan", description: "Reorganizations and system changes that are hard on employees." },
+      { title: "Inconsistent onboarding", description: "New hires who start without a clear, structured process that prepares them for the role." },
+      { title: "No staff training structure", description: "Training that is informal, one-off, or dependent on a single person rather than a repeatable program." },
+      { title: "Unsupported managers", description: "Employees promoted into leadership roles without the development support they need to lead effectively." },
+      { title: "Unclear performance process", description: "Reviews, expectations, and feedback that are inconsistent or too informal to drive accountability." },
     ],
     helps: [
-      { title: "Recruiting and onboarding", description: "Build consistent, welcoming processes for hiring and onboarding." },
-      { title: "Training and development", description: "Create practical training and leadership development programs." },
-      { title: "Engagement and performance", description: "Support engagement, feedback, and performance management processes." },
-      { title: "Change management", description: "Help your team navigate organizational and system change." },
+      { title: "Recruiting and onboarding", description: "Build consistent, welcoming processes for hiring and onboarding new employees." },
+      { title: "Staff training and development", description: "Create practical, repeatable training programs tailored to your team and roles." },
+      { title: "Manager and leadership development", description: "Support employees moving into management with the structure and tools they need." },
+      { title: "Engagement and performance", description: "Build clear expectations, feedback processes, and consistent performance reviews." },
+      { title: "Change management", description: "Help your team navigate organizational and system changes with less disruption." },
     ],
-    whoItHelps: ["HR teams", "Growing businesses", "Healthcare companies", "Retail businesses", "Manufacturing companies"],
+    whoItHelps: ["HR teams", "Business owners", "Growing businesses", "Healthcare companies", "Retail businesses", "Manufacturing companies"],
     process: standardProcess,
     serviceSlugs: ["recruiting-onboarding-solutions", "training-development-programs", "employee-engagement-performance-management"],
     relatedAudienceSlugs: ["hr-teams", "growing-businesses", "retail-businesses"],
     searchThemes: [
-      "Recruiting and onboarding solutions",
-      "Employee engagement consulting",
+      "Workforce development programs",
+      "Staff training and development",
+      "Manager training and development",
+      "Employee onboarding consulting",
       "Performance management support",
-      "Training and development programs",
       "Organizational change management",
+      "Leadership development programs",
+      "Employee engagement consulting",
     ],
     faqs: [
       {
-        question: "Can Freedom HR Solutions help improve onboarding?",
+        question: "What does a workforce development program include?",
         answer:
-          "Yes. We help you build a consistent onboarding process so new hires have a clear, welcoming start and reach productivity sooner.",
+          "A workforce development program typically covers recruiting and onboarding, staff training, leadership development, performance management, and change management. Freedom HR Solutions helps businesses build practical programs across these areas so employees are set up to succeed and the organization can grow without being held back by people operations gaps.",
       },
       {
-        question: "What training programs can be created?",
+        question: "What is staff training and development?",
         answer:
-          "We help design practical training for employees and leaders, including onboarding training, role-based training, and leadership development.",
+          "Staff training and development is the process of building the skills, knowledge, and capabilities your employees need to perform their roles and grow within the organization. This includes onboarding training, role-based training, compliance training, and leadership development programs tailored to your team and goals.",
+      },
+      {
+        question: "How does manager training help a growing business?",
+        answer:
+          "Managers set the tone for employee performance, retention, and engagement. Without structured support, employees promoted into management often struggle with accountability, communication, and leading teams effectively. We help growing businesses build manager training programs that give new and developing leaders practical tools and a consistent foundation.",
+      },
+      {
+        question: "Can Freedom HR Solutions help improve onboarding?",
+        answer:
+          "Yes. We help build consistent onboarding processes so new hires have a clear, welcoming start and reach productivity sooner. Onboarding support includes process design, documentation, and automation of repetitive setup steps.",
       },
       {
         question: "How does performance management support employee accountability?",
         answer:
-          "Clear expectations, regular feedback, and a consistent review process help employees understand goals and stay accountable. We help you put that structure in place.",
+          "Clear expectations, regular feedback, and a consistent review process help employees understand their goals and stay accountable to them. We help businesses put that structure in place so performance conversations are consistent and tied to real outcomes, not just an annual review cycle.",
       },
       {
-        question: "Can Freedom HR Solutions help with organizational change?",
+        question: "Can Freedom HR Solutions help with organizational change management?",
         answer:
-          "Yes. We help plan and support organizational and system changes so they are clearer and less disruptive for your team.",
-      },
-      {
-        question: "Can Freedom HR Solutions help with compliance training?",
-        answer:
-          "Yes. We help create practical training that reinforces your policies and supports a consistent, compliant workplace.",
+          "Yes. We help plan and support organizational and system changes so they are clearer and less disruptive for your team. Change management support includes communication planning, process documentation, and helping employees understand what is changing and why.",
       },
     ],
     primaryCta: ctas.workforceConsult,

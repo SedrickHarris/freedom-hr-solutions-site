@@ -3,49 +3,60 @@ import type { Location } from "@/types";
 export const locations: Location[] = [
   {
     slug: "las-vegas-nv",
-    title:
-      "HR, Payroll, Benefits, and Compliance Support in Las Vegas, Nevada",
+    title: "HR Consulting and HR Support Services in Las Vegas, Nevada",
     region: "local",
     meta: {
-      title: "HR Consulting in Las Vegas, NV | Freedom HR Solutions",
+      title: "HR Consulting in Las Vegas, NV | HR, Payroll, Benefits & Compliance Support | Freedom HR Solutions",
       description:
-        "Headquartered in Las Vegas, Freedom HR Solutions supports local businesses with HR compliance, payroll, benefits, ACA reporting, HR technology, and system support.",
+        "Freedom HR Solutions is a Las Vegas HR consulting firm providing HR compliance, payroll, benefits, ACA reporting, HR technology, and system support for Las Vegas businesses and employers statewide.",
     },
     summary:
-      "Las Vegas headquarters delivering HR, payroll, benefits, compliance, and HR technology support to local employers.",
-    intro:
-      "Freedom HR Solutions is headquartered in Las Vegas, Nevada, where our team works directly with local employers on HR compliance, payroll, benefits, and HR technology. We help Las Vegas businesses build practical processes that match how they actually operate. From the home base in the valley, we support companies across Nevada and nationwide.",
+      "Las Vegas headquarters delivering HR compliance, payroll, benefits, ACA reporting, HR technology, and system support to local employers and businesses statewide.",
     positioning:
-      "As a Las Vegas based firm, we bring hands on, locally rooted HR support to employers throughout the Las Vegas Valley. Our headquarters keeps us close to the businesses and industries that drive the local economy.",
+      "Freedom HR Solutions is headquartered in Las Vegas, Nevada, where our team works directly with local employers on HR compliance, payroll, benefits, ACA reporting, and HR technology. As a Las Vegas based firm, we bring hands-on, locally rooted HR support to businesses throughout the Las Vegas Valley and serve employers statewide and nationwide.",
+    intro:
+      "Las Vegas employers face a distinct mix of HR challenges: high-turnover workforces in hospitality and gaming, rapid growth across multiple locations, complex payroll structures, and expanding compliance obligations as businesses scale into new states. Freedom HR Solutions helps Las Vegas businesses build practical HR, payroll, and benefits operations that match how they actually operate. We serve businesses across the Las Vegas Valley, including Henderson and North Las Vegas, and support Nevada employers and multi-state companies nationwide through remote consulting.",
     localChallenges: [
       {
-        title: "High turnover service workforce",
+        title: "High-Turnover Service Workforce",
         description:
-          "Hospitality, gaming, and entertainment employers in Las Vegas manage constant hiring and onboarding. We help structure recruiting, onboarding, and HR records so high turnover stays organized and compliant.",
+          "Hospitality, gaming, and service employers in Las Vegas manage constant hiring and onboarding cycles. We help structure recruiting, onboarding documentation, and HR records so high turnover stays organized and compliance obligations are met consistently.",
       },
       {
-        title: "Seasonal and event driven staffing",
+        title: "Seasonal and Event-Driven Staffing Swings",
         description:
-          "Conventions, tourism peaks, and events create staffing swings. We help align payroll, scheduling support, and benefits eligibility tracking so changing headcounts are handled consistently.",
+          "Conventions, tourism peaks, and large events create headcount fluctuations. We help align payroll configuration, benefits eligibility tracking, and scheduling documentation so changing staffing levels are handled accurately.",
       },
       {
-        title: "Multi location and growing teams",
+        title: "Multi-Location and Expanding Teams",
         description:
-          "Many valley businesses expand across several sites or beyond Nevada. We help standardize handbooks, processes, and HR systems so policies stay consistent as the company grows.",
+          "Many Las Vegas valley businesses expand across multiple sites or into other states. We help standardize handbooks, compliance processes, and HR systems so policies stay consistent as the business grows.",
       },
       {
-        title: "Keeping pace with HR technology",
+        title: "Disconnected HR and Payroll Technology",
         description:
-          "Local employers often run payroll, benefits, and HR data across disconnected tools. We help assess, set up, and streamline systems so information flows accurately and reporting becomes easier.",
+          "Local employers often run payroll, benefits, and HR data across disconnected tools. We assess, implement, and streamline HR systems so data flows accurately, reporting improves, and manual entry decreases.",
+      },
+      {
+        title: "ACA Reporting Complexity as Headcount Grows",
+        description:
+          "Las Vegas businesses that cross ACA applicable large employer thresholds need accurate eligibility tracking and timely filing. We help employers review ACA readiness, organize data, and prepare accurate reports.",
+      },
+      {
+        title: "HR Foundation Gaps in Fast-Growing Companies",
+        description:
+          "Growth-stage Las Vegas businesses frequently outgrow the informal HR practices they started with. We help build the compliance, documentation, payroll, and system foundation that supports the next stage.",
       },
     ],
     industries: [
       "Hospitality and gaming",
       "Restaurants and food service",
-      "Retail and consumer services",
-      "Construction and trades",
-      "Professional and business services",
       "Healthcare and medical practices",
+      "Construction and trades",
+      "Retail and consumer services",
+      "Professional and business services",
+      "Technology and startups",
+      "Manufacturing and distribution",
     ],
     serviceSlugs: [
       "hr-mri-risk-assessment",
@@ -53,9 +64,9 @@ export const locations: Location[] = [
       "aca-reporting-consultant",
       "payroll-benefits-hr-management",
       "system-setup-implementation",
-      "hr-technology-automation",
+      "employee-handbook-creation-management",
       "open-enrollment-setup",
-      "ongoing-technical-support",
+      "hr-technology-automation",
     ],
     nearbySlugs: [
       "henderson-nv",
@@ -64,38 +75,61 @@ export const locations: Location[] = [
       "nationwide-hr-consulting",
     ],
     relatedAudienceSlugs: [
-      "business-owners",
       "small-businesses",
       "growing-businesses",
+      "business-owners",
+      "multi-state-employers",
     ],
     faqs: [
       {
-        question: "Is Freedom HR Solutions headquartered in Las Vegas?",
+        question: "Does Freedom HR Solutions provide HR consulting in Las Vegas?",
         answer:
-          "Yes. Freedom HR Solutions is headquartered in Las Vegas, Nevada. From our home base, we support businesses locally, across the state, and nationwide.",
+          "Yes. Freedom HR Solutions is headquartered in Las Vegas, Nevada, and provides HR compliance, payroll and benefits support, ACA reporting, HR technology consulting, system implementation, and employee handbook services for Las Vegas businesses.",
       },
       {
-        question:
-          "Does Freedom HR Solutions help Las Vegas businesses with HR compliance?",
+        question: "What HR services does Freedom HR Solutions offer in Las Vegas?",
         answer:
-          "Yes. We help Las Vegas employers review policies, handbooks, and HR practices, identify potential gaps, and build clearer compliance processes. We provide consulting support and do not offer legal advice.",
+          "We provide HR compliance and risk assessments, ACA reporting support, payroll and benefits administration, HR system setup and implementation, employee handbook creation and management, open enrollment support, and ongoing HR technology consulting for Las Vegas employers.",
       },
       {
-        question:
-          "Can Freedom HR Solutions support payroll and benefits systems for Las Vegas businesses?",
+        question: "Can Freedom HR Solutions help Las Vegas small businesses with HR?",
         answer:
-          "Yes. We help local employers manage payroll and benefits administration, set up and configure systems, and keep records and reporting organized as the business grows.",
+          "Yes. We work with small businesses throughout the Las Vegas Valley that do not have a dedicated HR team. We help establish compliance foundations, review payroll and benefits processes, create employee handbooks, and support HR system setup.",
       },
       {
-        question:
-          "Can Freedom HR Solutions help Las Vegas employers with ACA reporting?",
+        question: "Does Freedom HR Solutions work with Las Vegas employers in hospitality and gaming?",
         answer:
-          "Yes. We act as an ACA reporting consultant for Las Vegas employers, helping with applicable large employer review, data preparation, and reporting workflows. We provide guidance, not legal or tax advice.",
+          "Yes. We support Las Vegas employers in hospitality, gaming, and service industries with HR compliance, payroll support, onboarding documentation, and benefits administration for high-turnover and shift-based workforces.",
       },
       {
-        question: "Does Freedom HR Solutions only serve Las Vegas?",
+        question: "Can Freedom HR Solutions help Las Vegas businesses with ACA reporting?",
         answer:
-          "No. We are based in Las Vegas but serve employers nationwide through remote consulting and system support, so distance is not a barrier to working with us.",
+          "Yes. We help Las Vegas employers review ACA eligibility thresholds, organize hours and coverage data, and prepare accurate ACA reports so filings reflect actual workforce data. We provide guidance and not legal or tax advice.",
+      },
+      {
+        question: "Does Freedom HR Solutions serve Henderson and North Las Vegas?",
+        answer:
+          "Yes. We support businesses throughout the Las Vegas Valley, including Henderson and North Las Vegas, both on-site and remotely.",
+      },
+      {
+        question: "Can Freedom HR Solutions help Las Vegas businesses implement HR software?",
+        answer:
+          "Yes. We help Las Vegas employers select, configure, migrate data to, and launch HR and payroll systems including ADP, isolved, BambooHR, HiBob, and CustomHCM.",
+      },
+      {
+        question: "How does Freedom HR Solutions work with Las Vegas businesses?",
+        answer:
+          "We start with a structured review of your current HR, payroll, benefits, and compliance setup. From there we build support around what your business actually needs, whether that is a one-time project or ongoing consulting.",
+      },
+      {
+        question: "Can Freedom HR Solutions support Nevada employers outside of Las Vegas?",
+        answer:
+          "Yes. While headquartered in Las Vegas, we serve employers throughout Nevada and support multi-state and out-of-state businesses through remote HR consulting and system support.",
+      },
+      {
+        question: "How do I get started with an HR consultant in Las Vegas?",
+        answer:
+          "Request an HR MRI Risk Assessment. It gives you a clear picture of your HR, payroll, benefits, and compliance health and identifies the highest-priority gaps before you invest in new systems or processes.",
       },
     ],
     primaryCta: { label: "Request HR MRI Assessment", href: "/request-assessment/" },

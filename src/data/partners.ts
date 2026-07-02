@@ -157,21 +157,80 @@ export const partners: Partner[] = [
     name: "BambooHR",
     category: "HR platform",
     meta: {
-      title: "BambooHR Consulting and Support",
+      title: "BambooHR Consulting and Support | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps businesses implement, configure, optimize, and support HR workflows involving BambooHR.",
+        "Freedom HR Solutions helps businesses implement, configure, optimize, and support BambooHR workflows, including onboarding setup, payroll integration, reporting, and ongoing platform support.",
     },
     summary:
-      "Support for HR workflows, onboarding, and data involving the BambooHR platform.",
+      "Implementation, configuration, integration, and ongoing support for BambooHR HR workflows.",
     overview:
-      "Freedom HR Solutions helps businesses implement, configure, optimize, and support HR workflows involving BambooHR, including onboarding, employee records, and reporting. We help the platform fit how your team works.",
-    supportAreas: safeSupportAreas("BambooHR"),
-    relatedServiceSlugs: ["system-setup-implementation", "hr-technology-automation", "recruiting-onboarding-solutions", "reporting-data-insights", "ongoing-technical-support"],
+      "Freedom HR Solutions helps businesses implement, configure, optimize, and support HR workflows involving BambooHR. Whether you are setting up the platform for the first time, connecting it to payroll, improving onboarding workflows, or getting more from reporting, we help the platform fit how your team actually works.",
+    supportAreas: [
+      {
+        title: "BambooHR implementation",
+        description: "Help planning and coordinating BambooHR setup so your configuration reflects how onboarding, records, and workflows actually operate in your business.",
+      },
+      {
+        title: "Onboarding workflow setup",
+        description: "Support configuring BambooHR onboarding workflows, including new hire tasks, document collection, and self-service setup, so the process runs consistently.",
+      },
+      {
+        title: "Payroll and benefits integration",
+        description: "Help reviewing and connecting BambooHR to your payroll and benefits systems so employee data flows more cleanly and reduces manual entry.",
+      },
+      {
+        title: "Reporting and data visibility",
+        description: "Support building custom reports and dashboards in BambooHR that give HR and leadership clearer visibility into headcount, turnover, and workforce data.",
+      },
+      {
+        title: "System optimization",
+        description: "Review how your team currently uses BambooHR and identify underutilized features, workflow gaps, or configuration issues worth addressing.",
+      },
+      {
+        title: "Ongoing platform support",
+        description: "Continued help troubleshooting issues, maintaining configurations, and supporting BambooHR as your workforce or workflows change over time.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "system-setup-implementation",
+      "hr-technology-automation",
+      "reporting-data-insights",
+      "ongoing-technical-support",
+      "payroll-benefits-hr-management",
+    ],
     faqs: [
-      { question: "Is Freedom HR Solutions an official BambooHR partner?", answer: "We help businesses implement, configure, optimize, and support workflows involving BambooHR. We do not claim official partnership or certification unless confirmed." },
-      { question: "Can Freedom HR Solutions help set up BambooHR?", answer: "Yes. We help with configuration, onboarding workflows, and reporting setup." },
-      { question: "Can you help connect BambooHR to payroll?", answer: "Yes. We help review integration options between BambooHR and your payroll and benefits systems." },
-      { question: "Can you improve our BambooHR reporting?", answer: "Yes. We help build reporting that gives your team clearer visibility." },
+      {
+        question: "Is Freedom HR Solutions an official BambooHR partner?",
+        answer: "We help businesses implement, configure, optimize, and support workflows involving BambooHR. We do not claim official partnership or certification unless confirmed.",
+      },
+      {
+        question: "Can Freedom HR Solutions help set up BambooHR?",
+        answer: "Yes. We help with initial configuration, onboarding workflows, employee records setup, and reporting so the platform reflects how your team works from day one.",
+      },
+      {
+        question: "Can you help connect BambooHR to payroll?",
+        answer: "Yes. We help review integration options between BambooHR and your payroll and benefits systems so employee data flows more cleanly.",
+      },
+      {
+        question: "Can you improve our BambooHR reporting?",
+        answer: "Yes. We help build reporting and dashboards in BambooHR that give your HR team and leadership clearer visibility into workforce data.",
+      },
+      {
+        question: "Can Freedom HR Solutions help optimize an existing BambooHR setup?",
+        answer: "Yes. We review your current configuration, identify underutilized features, and help address workflow gaps or settings that are not working well for your team.",
+      },
+      {
+        question: "Do you support BambooHR onboarding workflows?",
+        answer: "Yes. We help configure onboarding task lists, new hire workflows, document collection, and self-service settings in BambooHR.",
+      },
+      {
+        question: "Can you help with BambooHR employee data and records?",
+        answer: "Yes. We help review data structure, field setup, and records organization in BambooHR so your employee data stays accurate and accessible.",
+      },
+      {
+        question: "Do you support BambooHR for small businesses?",
+        answer: "Yes. BambooHR is widely used by small and mid-sized businesses, and we help teams at that scale configure and support the platform without needing a dedicated HRIS administrator.",
+      },
     ],
   },
   {

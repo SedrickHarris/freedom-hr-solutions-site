@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-02T16:30:26.921Z",
-  "sourceCsv": "docs/seo/keyword-exports/Keyword Stats 2026-07-02 at 09_24_16.csv",
-  "keywordCount": 14,
+  "generatedAt": "2026-07-02T16:38:13.277Z",
+  "sourceCsv": "docs/seo/keyword-exports/Keyword Stats 2026-07-02 at 09_36_06.csv",
+  "keywordCount": 11,
   "keywords": [
     {
-      "keyword": "companies without hr department",
+      "keyword": "how can hr support business growth",
       "avgMonthlySearches": 50,
       "avgMonthlySearchesRaw": "50",
       "competition": "Low",
@@ -16,55 +16,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "small business without hr",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 0,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "∞",
-      "yoyChange": "∞",
-      "currency": "USD"
-    },
-    {
-      "keyword": "companies without hr",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 0,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "list of companies without hr department",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 0,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "small business no hr",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 0,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "business without hr department",
+      "keyword": "hr support for growing business",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -76,7 +28,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "no hr department small business",
+      "keyword": "hr help for growing business",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -88,7 +40,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "company with no hr staff",
+      "keyword": "hr consulting for growing business",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -100,7 +52,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "no dedicated hr team",
+      "keyword": "hr services for growing business",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -112,7 +64,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "business without hr staff",
+      "keyword": "hr for scaling business",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -124,7 +76,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "company without human resources department",
+      "keyword": "hr for fast growing company",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -136,7 +88,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "no internal hr team",
+      "keyword": "hr support for scaling company",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -148,7 +100,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "hr support for companies without hr",
+      "keyword": "hr consulting growing company",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -160,7 +112,19 @@
       "currency": "USD"
     },
     {
-      "keyword": "no hr person on staff",
+      "keyword": "hr for businesses that are growing",
+      "avgMonthlySearches": null,
+      "avgMonthlySearchesRaw": null,
+      "competition": "Unknown",
+      "competitionIndex": null,
+      "topOfPageBidLow": null,
+      "topOfPageBidHigh": null,
+      "threeMonthChange": "--",
+      "yoyChange": "--",
+      "currency": "USD"
+    },
+    {
+      "keyword": "outsourced hr for growing business",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",

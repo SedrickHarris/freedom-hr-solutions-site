@@ -483,39 +483,46 @@ export const audiences: Audience[] = [
     meta: {
       title: "HR Support for Growing Businesses | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps growing businesses improve HR systems, payroll workflows, benefits administration, compliance, reporting, and workforce processes.",
+        "Freedom HR Solutions helps growing businesses scale HR systems, payroll, benefits, and compliance processes to keep pace with headcount. Las Vegas and nationwide.",
     },
     summary:
-      "HR systems, payroll, benefits, and compliance support that scales as your headcount grows.",
+      "HR systems, payroll, benefits, and compliance support that scales as your headcount grows, so your operations keep pace with your business.",
     intro:
-      "Growth is exciting, but it stretches processes that worked when you were smaller. Freedom HR Solutions helps growing businesses implement HR systems, strengthen payroll and benefits workflows, and prepare for new compliance requirements. We help your operations keep pace with your headcount instead of falling behind it.",
+      "Growth puts pressure on every HR process you have. Payroll workflows that handled ten employees strain at thirty. Onboarding that worked informally breaks down when hiring accelerates. Compliance requirements shift as you cross new headcount thresholds. Freedom HR Solutions helps growing businesses upgrade their HR systems, strengthen payroll and benefits workflows, and prepare for new compliance requirements before gaps become problems. We work with growing businesses in Las Vegas, across Nevada, and nationwide.",
     painPoints: [
       {
         title: "Processes built for a smaller team",
         description:
-          "Manual habits that worked at ten employees start breaking down as you scale.",
+          "Manual habits and informal workflows that worked at ten employees start breaking down as your team grows. What was manageable becomes a bottleneck.",
       },
       {
-        title: "Systems not keeping up",
+        title: "HR systems not keeping up",
         description:
-          "Tools you outgrew create bottlenecks in payroll, benefits, and onboarding.",
+          "Tools you outgrew create friction in payroll, benefits, and onboarding. Workarounds pile up and errors become more frequent.",
       },
       {
-        title: "New compliance thresholds",
+        title: "New compliance thresholds you did not plan for",
         description:
-          "Crossing headcount milestones can trigger requirements you did not face before.",
+          "Crossing headcount milestones can trigger ACA requirements, leave mandates, and other obligations that did not apply at your previous size.",
       },
       {
-        title: "Reporting cannot answer leadership questions",
+        title: "Reporting that cannot answer leadership questions",
         description:
-          "As decisions get bigger, you need workforce data your current setup cannot easily provide.",
+          "As decisions get bigger, you need workforce data your current setup cannot easily provide. Leaders are making calls without reliable numbers.",
+      },
+      {
+        title: "No clear HR roadmap for the next stage",
+        description:
+          "You know the current setup will not hold but have no structured plan for which systems, processes, and compliance areas to address as you scale.",
       },
     ],
     scenarios: [
-      "You doubled your headcount this year and onboarding feels chaotic.",
-      "Your payroll system is straining under the new volume.",
-      "You are approaching a size where new compliance rules may apply.",
-      "Leadership wants workforce metrics your current tools cannot deliver.",
+      "You doubled your headcount this year and onboarding feels chaotic and inconsistent.",
+      "Your payroll system is straining under the new volume and errors are increasing.",
+      "You are approaching a size where new compliance requirements may apply and are not sure where you stand.",
+      "Leadership wants workforce metrics and reporting your current tools cannot reliably deliver.",
+      "You are evaluating HR systems for the next stage of growth and need guidance before committing.",
+      "Your current HR processes were built for a smaller team and are no longer keeping up.",
     ],
     recommendedServiceSlugs: [
       "system-setup-implementation",
@@ -532,29 +539,39 @@ export const audiences: Audience[] = [
     ],
     faqs: [
       {
-        question: "How can Freedom HR Solutions help a growing business?",
+        question: "How can HR support business growth?",
         answer:
-          "We help upgrade systems, refine payroll and benefits workflows, and prepare for new compliance requirements so your operations scale with your growth.",
+          "HR supports growth by scaling the systems and processes that payroll, benefits, onboarding, and compliance run on. As headcount increases, Freedom HR Solutions helps growing businesses upgrade their HR technology, refine workflows, and prepare for new compliance requirements so operations keep pace with the team.",
       },
       {
         question: "When should a growing business review its HR systems?",
         answer:
-          "A good time is when manual workarounds increase, headcount jumps, or current tools start causing bottlenecks. Earlier reviews prevent bigger issues later.",
+          "A good time to review is when manual workarounds start increasing, headcount jumps significantly, errors become more frequent, or current tools are causing bottlenecks in payroll or onboarding. Earlier reviews prevent larger problems later.",
       },
       {
-        question: "Can Freedom HR Solutions help implement payroll and HR systems?",
+        question: "What HR challenges do growing businesses face?",
         answer:
-          "Yes. We support setup, configuration, and rollout so new systems fit your processes and adoption goes more smoothly.",
+          "Common challenges include payroll systems that cannot handle higher volume, onboarding processes that break down under rapid hiring, compliance requirements triggered by headcount thresholds, and reporting gaps that leave leadership without reliable workforce data.",
       },
       {
-        question: "Can Freedom HR Solutions help improve reporting?",
+        question: "Can Freedom HR Solutions help implement payroll and HR systems for a growing business?",
         answer:
-          "We help structure workforce data so leadership gets the clear, reliable reporting they need to make decisions as you grow.",
+          "Yes. We support system selection, setup, configuration, and rollout so new HR and payroll platforms fit your processes and adoption goes more smoothly as your team grows.",
       },
       {
-        question: "Can Freedom HR Solutions help prepare for more compliance requirements?",
+        question: "Can Freedom HR Solutions help with ACA compliance as a business grows?",
         answer:
-          "Yes. We help identify requirements tied to your size and support your readiness as new thresholds come into view.",
+          "Yes. Crossing the 50 full-time employee threshold can trigger ACA reporting requirements. We help growing businesses review their ACA status, understand their obligations, and prepare their reporting processes.",
+      },
+      {
+        question: "Does Freedom HR Solutions work with growing businesses outside of Las Vegas?",
+        answer:
+          "Yes. We are headquartered in Las Vegas and support growing businesses across Nevada and nationwide through remote HR consulting, system support, compliance reviews, and ongoing HR assistance.",
+      },
+      {
+        question: "What is the best first step for a growing business that needs HR support?",
+        answer:
+          "The best starting point is an HR MRI Risk Assessment. It gives you a structured review of your current HR, payroll, benefits, and compliance setup so you know exactly which gaps to address as you scale.",
       },
     ],
     primaryCta: { label: "Request HR Systems Review", href: "/request-assessment/" },

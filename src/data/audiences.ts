@@ -208,14 +208,14 @@ export const audiences: Audience[] = [
     navLabel: "Payroll Teams",
     type: "role",
     meta: {
-      title: "Payroll Team Support | Freedom HR Solutions",
+      title: "Payroll System Support and Technical Help for Payroll Teams | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps payroll teams improve payroll workflows, system accuracy, reporting, compliance, configuration, and technical issue resolution.",
+        "Freedom HR Solutions helps payroll teams troubleshoot system issues, reduce recurring errors, improve multi-state payroll workflows, strengthen reporting, and resolve technical problems faster.",
     },
     summary:
       "Hands-on help to troubleshoot payroll systems, tighten workflows, and reduce recurring errors.",
     intro:
-      "Payroll has zero tolerance for mistakes, yet teams often work around clunky systems and manual steps. Freedom HR Solutions helps payroll teams resolve technical issues, refine workflows, and improve reporting accuracy. We support the configuration and processes that keep each cycle running cleanly.",
+      "Payroll runs on accuracy, and when something breaks in the system, the clock is already running. Freedom HR Solutions helps payroll teams get to the root of recurring errors, resolve configuration problems, and improve the workflows that slow each cycle down. We also support multi-state payroll setup and help teams produce the reporting that finance and leadership need. Whether the issue is in the system or the process, we help your team find it and fix it.",
     painPoints: [
       {
         title: "Recurring errors that resist fixing",
@@ -243,6 +243,8 @@ export const audiences: Audience[] = [
       "You added employees in two new states and need to confirm the setup is right.",
       "Finance asks for a custom payroll report your current system does not produce easily.",
       "A system update changed a setting and now your workflow is broken.",
+      "A payroll audit is coming up and you need your system configuration reviewed before it starts.",
+      "Your team is spending hours on manual reconciliation every cycle because the system and the spreadsheet do not match.",
     ],
     recommendedServiceSlugs: [
       "payroll-benefits-hr-management",
@@ -261,27 +263,32 @@ export const audiences: Audience[] = [
       {
         question: "Can Freedom HR Solutions help troubleshoot payroll system issues?",
         answer:
-          "Yes. We help diagnose technical problems and address the underlying configuration so recurring issues are less likely to return.",
+          "Yes. We help diagnose technical problems and work through the underlying configuration so recurring issues are less likely to return after each payroll cycle.",
       },
       {
-        question: "Can Freedom HR Solutions help with payroll reporting?",
+        question: "Can Freedom HR Solutions help with payroll reporting for finance and leadership?",
         answer:
-          "We help improve how payroll data is structured and reported so your team can produce reliable reports for finance and leadership.",
+          "We help improve how payroll data is structured and reported so your team can produce reliable, consistent reports without pulling information from multiple places.",
       },
       {
         question: "Can Freedom HR Solutions help reduce recurring payroll errors?",
         answer:
-          "Yes. We review workflows and system settings to identify error sources and help reduce avoidable mistakes across cycles.",
+          "Yes. We review workflows and system settings to identify where errors originate and help reduce avoidable mistakes across future cycles.",
       },
       {
         question: "Can Freedom HR Solutions help with multi-state payroll support?",
         answer:
-          "We support multi-state payroll setup and workflows so your team can manage employees across locations with more confidence.",
+          "We support multi-state payroll setup, registrations, and workflow configuration so your team can manage employees across locations with a more reliable process in place.",
       },
       {
-        question: "Can Freedom HR Solutions support payroll teams after implementation?",
+        question: "Can Freedom HR Solutions support payroll teams after a system goes live?",
         answer:
-          "Yes. We provide ongoing technical support to keep systems running well and to resolve issues that come up after go-live.",
+          "Yes. We provide ongoing technical support to keep systems running well and to resolve issues that come up after implementation or following a system update.",
+      },
+      {
+        question: "Can Freedom HR Solutions help payroll teams prepare for a payroll audit or configuration review?",
+        answer:
+          "Yes. We help review your payroll system configuration, workflows, and records so your team is better prepared when an audit or compliance review requires accurate, organized data.",
       },
     ],
     primaryCta: { label: "Request Payroll Workflow Review", href: "/request-assessment/" },

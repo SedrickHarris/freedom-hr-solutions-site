@@ -52,21 +52,82 @@ export const partners: Partner[] = [
     name: "ADP",
     category: "Payroll & HCM platform",
     meta: {
-      title: "ADP Consulting and Support",
+      title: "ADP Consulting and Support | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps businesses implement, configure, optimize, and support payroll, HR, and benefits workflows involving ADP.",
+        "Freedom HR Solutions helps businesses implement, configure, optimize, integrate, and troubleshoot ADP Workforce Now, ADP Run, ADP Vantage, and ADP TotalSource. Payroll, HR, and benefits workflow support.",
     },
     summary:
-      "Support for payroll, HR, and benefits workflows involving ADP, from configuration to troubleshooting.",
+      "Implementation, configuration, integration, troubleshooting, and ongoing support for ADP Workforce Now, ADP Run, ADP Vantage, and ADP TotalSource.",
     overview:
-      "Freedom HR Solutions helps businesses implement, configure, optimize, and support HR, payroll, and benefits workflows involving ADP. The goal is to help the platform work better for your team, not to replace the tools you already rely on.",
-    supportAreas: safeSupportAreas("ADP"),
-    relatedServiceSlugs: standardPartnerServices,
+      "Freedom HR Solutions helps businesses implement, configure, optimize, integrate, and support HR, payroll, and benefits workflows involving ADP. We work with ADP Workforce Now, ADP Run, ADP Vantage, and ADP TotalSource, helping teams get more from the platform they already have and resolve the issues that slow them down. We are not an official ADP partner or reseller. We are an independent HR consulting firm that works alongside the platforms and providers our clients use.",
+    supportAreas: [
+      {
+        title: "ADP implementation and go-live support",
+        description:
+          "Help planning, coordinating, and executing ADP setup, including Workforce Now, Run, Vantage, and TotalSource. We support configuration, data migration, testing, and go-live so the system launches accurately and your team is ready to use it.",
+      },
+      {
+        title: "ADP configuration and workflow optimization",
+        description:
+          "Support configuring ADP payroll, HR, and benefits settings so they reflect how your business actually operates. We review existing configurations, identify setup gaps or errors, and help optimize workflows to reduce manual work and improve accuracy.",
+      },
+      {
+        title: "ADP integration support",
+        description:
+          "Help connecting ADP with your other systems, including BambooHR, NetSuite, benefits platforms, and third-party tools, so data flows more cleanly, reduces duplicate entry, and stays synchronized across platforms.",
+      },
+      {
+        title: "ADP troubleshooting and issue resolution",
+        description:
+          "Help diagnosing recurring ADP payroll problems, calculation errors, direct deposit issues, data sync failures, and configuration problems. We work to identify root causes and help resolve issues so they are less likely to return.",
+      },
+      {
+        title: "ADP multi-state payroll and compliance support",
+        description:
+          "Support configuring ADP for multi-state payroll, including state-specific tax rules, withholding settings, and ACA reporting workflows such as 1095-C setup. We provide guidance and process support, not legal or tax advice.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "system-setup-implementation",
+      "payroll-benefits-hr-management",
+      "hr-technology-automation",
+      "system-audits-improvements",
+      "technical-issue-resolution",
+      "ongoing-technical-support",
+      "reporting-data-insights",
+      "aca-reporting-consultant",
+    ],
     faqs: [
-      { question: "Is Freedom HR Solutions an official ADP partner?", answer: "We help businesses implement, configure, optimize, and support workflows involving ADP. We do not claim official partnership or certification unless that has been confirmed." },
-      { question: "Can Freedom HR Solutions help configure ADP?", answer: "Yes. We help configure settings and workflows so the platform reflects how your business operates." },
-      { question: "Can you work alongside our current ADP setup?", answer: "Yes. We frequently work alongside your existing platform and providers to support and improve your workflows." },
-      { question: "Can you help troubleshoot ADP payroll issues?", answer: "Yes. We help diagnose the root cause of recurring workflow issues and recommend practical fixes." },
+      {
+        question: "Is Freedom HR Solutions an official ADP partner?",
+        answer:
+          "No. Freedom HR Solutions is an independent HR consulting firm. We help businesses implement, configure, optimize, integrate, and support workflows involving ADP, but we are not an official ADP partner, certified reseller, or authorized provider unless that is confirmed.",
+      },
+      {
+        question: "What ADP products does Freedom HR Solutions support?",
+        answer:
+          "We support workflows involving ADP Workforce Now, ADP Run, ADP Vantage, and ADP TotalSource, covering implementation, configuration, integration, troubleshooting, and ongoing support.",
+      },
+      {
+        question: "Can Freedom HR Solutions help implement ADP Workforce Now?",
+        answer:
+          "Yes. We help with Workforce Now configuration, data migration, payroll and benefits setup, testing, and go-live support so the system launches accurately and your team is prepared to use it.",
+      },
+      {
+        question: "Can Freedom HR Solutions help fix ADP payroll problems?",
+        answer:
+          "Yes. We help diagnose recurring ADP payroll errors, calculation issues, direct deposit problems, and configuration gaps. We work to identify root causes so issues are resolved rather than patched.",
+      },
+      {
+        question: "Can Freedom HR Solutions connect ADP to other systems?",
+        answer:
+          "Yes. We help support ADP integration with third-party platforms such as BambooHR, NetSuite, benefits carriers, and other HR or finance tools so data flows more cleanly between systems.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with ADP multi-state payroll configuration?",
+        answer:
+          "Yes. We help configure ADP for multi-state payroll, including state tax settings, withholding rules, and ACA reporting workflows such as 1095-C setup. We provide guidance and process support, not legal or tax advice.",
+      },
     ],
   },
   {

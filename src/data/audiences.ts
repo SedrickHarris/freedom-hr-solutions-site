@@ -297,51 +297,51 @@ export const audiences: Audience[] = [
   },
   {
     slug: "benefits-administrators",
-    title: "Benefits Administration and Open Enrollment Support",
+    title: "Benefits Administration Support and Open Enrollment Help",
     navLabel: "Benefits Administrators",
     type: "role",
     meta: {
-      title: "Benefits Administrator Support | Freedom HR Solutions",
+      title: "Benefits Administrator Support | Open Enrollment and ACA Help | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps benefits administrators with open enrollment setup, benefits workflows, ACA reporting, employee communication, and system support.",
+        "Freedom HR Solutions helps benefits administrators manage open enrollment setup, eligibility data, ACA reporting, and benefits workflows. Remote support for plan administrators nationwide.",
     },
     summary:
-      "Support for open enrollment setup, benefits workflows, ACA reporting, and employee communication.",
+      "Support for open enrollment setup, eligibility data, ACA reporting, and benefits workflows so your busiest periods run more smoothly.",
     intro:
-      "Benefits administration runs on tight deadlines, detailed data, and clear communication. Freedom HR Solutions helps benefits administrators configure open enrollment, manage eligibility data, and support ACA reporting. We take pressure off the busiest parts of your year so the process stays accurate and organized.",
+      "Benefits administrators carry one of the most deadline-driven roles in HR. Open enrollment windows are short, eligibility data has to be exact, and ACA reporting adds a layer of complexity that does not slow down for busy seasons. Freedom HR Solutions works alongside benefits administrators to configure enrollment periods, reconcile eligibility records, support ACA filing preparation, and help employees understand their options clearly. Whether you need help before open enrollment opens or support throughout the plan year, we handle the details so you can stay focused on accuracy and communication.",
     painPoints: [
       {
-        title: "Open enrollment crunch",
+        title: "Open enrollment window is too short",
         description:
-          "Setup, testing, and employee questions all land in a narrow window that strains your time.",
+          "Configuration, testing, employee questions, and carrier deadlines all compress into a period where there is no room for delays or errors.",
       },
       {
-        title: "Eligibility data is hard to verify",
+        title: "Eligibility data is difficult to verify",
         description:
-          "Confirming who is eligible and what changed across systems takes careful, repetitive checking.",
+          "Confirming who is eligible, what changed, and whether carrier records match your system takes careful checking that is hard to do quickly under pressure.",
       },
       {
-        title: "ACA reporting pressure",
+        title: "ACA reporting adds work on top of regular benefits tasks",
         description:
-          "Tracking hours, coverage offers, and forms adds complexity on top of regular benefits work.",
+          "Tracking hours, coverage offers, and 1094 and 1095 forms requires organized data and consistent processes that compete with everything else on your plate.",
       },
       {
-        title: "Communicating clearly with employees",
+        title: "Employee communication takes more time than expected",
         description:
-          "Explaining options and deadlines in plain language is essential but time-consuming to do well.",
+          "Explaining plan options, deadlines, and changes in plain language requires clear materials and follow-through that can overwhelm a small team.",
       },
     ],
     scenarios: [
-      "Open enrollment opens in three weeks and the new plan year is not configured yet.",
-      "You need to reconcile eligibility data before sending it to carriers.",
-      "ACA filing season is approaching and your hours tracking needs review.",
-      "Employees are confused about their options and your inbox is overflowing.",
+      "Open enrollment starts in three weeks and the new plan year is not fully configured in your system.",
+      "You need to reconcile eligibility records across HR and payroll platforms before sending files to carriers.",
+      "ACA filing season is approaching and your hours-tracking data needs a careful review before submission.",
+      "Employees are asking questions you do not have time to answer individually and enrollment confusion is growing.",
     ],
     recommendedServiceSlugs: [
       "open-enrollment-setup",
       "benefits-administration-support",
-      "payroll-benefits-hr-management",
       "aca-reporting-consultant",
+      "payroll-benefits-hr-management",
       "technical-issue-resolution",
       "ongoing-technical-support",
     ],
@@ -352,29 +352,34 @@ export const audiences: Audience[] = [
     ],
     faqs: [
       {
+        question: "What does a benefits administrator do?",
+        answer:
+          "A benefits administrator manages employee benefit programs, including health insurance enrollment, eligibility tracking, carrier data reconciliation, ACA reporting, and employee communication around plan options and deadlines.",
+      },
+      {
         question: "Can Freedom HR Solutions help with open enrollment setup?",
         answer:
-          "Yes. We support plan configuration, testing, and workflow setup so your open enrollment period runs more smoothly.",
+          "Yes. We support plan year configuration, system testing, and workflow setup so your open enrollment period is organized and ready before the window opens.",
       },
       {
-        question: "Can Freedom HR Solutions help benefits administrators manage employee communication?",
+        question: "Can Freedom HR Solutions help reconcile benefits eligibility data?",
         answer:
-          "We help structure clear communication around options and deadlines so employees understand their choices and your inbox stays manageable.",
+          "Yes. We help verify eligibility records across HR and payroll systems so the data sent to carriers is accurate and discrepancies are caught before they become problems.",
       },
       {
-        question: "Can Freedom HR Solutions help review benefits eligibility data?",
+        question: "Can Freedom HR Solutions support ACA reporting for benefits administrators?",
         answer:
-          "Yes. We help reconcile and verify eligibility data across systems so the information sent to carriers is more accurate.",
+          "We support ACA reporting preparation by helping review hours-tracking data, coverage offers, and 1094 and 1095 form readiness so your filing process is more organized.",
       },
       {
-        question: "Can Freedom HR Solutions help with ACA reporting?",
+        question: "Can Freedom HR Solutions help benefits administrators improve employee communication?",
         answer:
-          "We support ACA reporting by helping organize hours tracking, coverage data, and forms to support your filing readiness.",
+          "We help structure enrollment communication so employees receive clear, timely information about their options and deadlines, reducing confusion and last-minute requests.",
       },
       {
-        question: "Can Freedom HR Solutions support benefits systems after open enrollment?",
+        question: "Can Freedom HR Solutions provide ongoing support after open enrollment closes?",
         answer:
-          "Yes. We provide ongoing support to resolve issues and keep benefits workflows running well throughout the plan year.",
+          "Yes. We provide support throughout the plan year to resolve system issues, handle mid-year changes, and keep benefits workflows running accurately between enrollment periods.",
       },
     ],
     primaryCta: { label: "Request Benefits Workflow Review", href: "/request-assessment/" },

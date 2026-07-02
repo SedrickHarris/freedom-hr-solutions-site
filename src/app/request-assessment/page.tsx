@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { HrMriHero } from "@/components/sections/HrMriHero";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
@@ -6,12 +7,15 @@ import { FeatureGrid } from "@/components/sections/FeatureGrid";
 import { FaqSection } from "@/components/sections/FaqSection";
 import { TrustBar } from "@/components/sections/TrustBar";
 import { AssessmentForm } from "@/components/forms/AssessmentForm";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { SchemaScript } from "@/components/seo/SchemaScript";
+import { site } from "@/data/site";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "Request HR MRI Risk Assessment | Freedom HR Solutions",
   description:
-    "Request an HR MRI Risk Assessment to identify HR risks, compliance gaps, payroll and benefits process issues, system concerns, and workforce support needs.",
+    "Request a no-cost HR MRI Risk Assessment. We review your HR compliance, payroll, benefits, systems, and documentation and give you a prioritized plan to address what we find.",
   path: "/request-assessment/",
 });
 
@@ -34,22 +38,108 @@ const steps = [
 ];
 
 const assessmentFaqs = [
-  { question: "What is an HR MRI Risk Assessment?", answer: "It is a structured evaluation of your HR, payroll, benefits, systems, and compliance operations that identifies gaps and gives you a prioritized plan to address them. It is offered at no cost and with no obligation." },
-  { question: "Is this really no cost?", answer: "Yes. The HR MRI Risk Assessment is offered at no cost and with no obligation. Its purpose is to give you clarity and insight, not to pressure you into additional services." },
-  { question: "Is this a sales pitch?", answer: "No. The assessment is designed to provide objective insight and decision support. Any next steps after the assessment are entirely optional and up to you." },
-  { question: "Who should request an HR MRI Assessment?", answer: "Business owners, HR teams, payroll teams, and benefits administrators who want a clear picture of their HR health. It is especially useful if your company has grown quickly, delegated HR informally, or has not had a formal review recently." },
-  { question: "What information do I need to provide?", answer: "Basic details about your company, the HR and payroll systems you use, the number of employees and locations, and your primary challenge. The more context you share, the more focused the review." },
-  { question: "What happens after I submit the form?", answer: "We review your information and follow up using your preferred contact method to discuss findings and next steps." },
-  { question: "Can Freedom HR Solutions support businesses outside Nevada?", answer: "Yes. We are headquartered in Las Vegas and support businesses nationwide through remote consulting and system support." },
+  {
+    question: "What is an HR MRI Risk Assessment?",
+    answer:
+      "It is a structured evaluation of your HR, payroll, benefits, systems, and compliance operations that identifies gaps and gives you a prioritized plan to address them. It is offered at no cost and with no obligation.",
+  },
+  {
+    question: "How do I request an HR compliance review or audit?",
+    answer:
+      "Complete the intake form on this page. Share details about your company, your current HR and payroll systems, your employee count, and the primary challenge you want addressed. We review the information and follow up using your preferred contact method to walk through findings and next steps. The review is no cost and carries no obligation.",
+  },
+  {
+    question: "Is this really no cost?",
+    answer:
+      "Yes. The HR MRI Risk Assessment is offered at no cost and with no obligation. Its purpose is to give you clarity and insight, not to pressure you into additional services.",
+  },
+  {
+    question: "Is this a sales pitch?",
+    answer:
+      "No. The assessment is designed to provide objective insight and decision support. Any next steps after the assessment are entirely optional and up to you.",
+  },
+  {
+    question: "Who should request an HR MRI Assessment?",
+    answer:
+      "Business owners, HR teams, payroll teams, and benefits administrators who want a clear picture of their HR health. It is especially useful if your company has grown quickly, delegated HR informally, or has not had a formal review recently.",
+  },
+  {
+    question: "What information do I need to provide?",
+    answer:
+      "Basic details about your company, the HR and payroll systems you use, the number of employees and locations, and your primary challenge. The more context you share, the more focused the review.",
+  },
+  {
+    question: "What happens after I submit the form?",
+    answer:
+      "We review your information and follow up using your preferred contact method to discuss findings and next steps.",
+  },
+  {
+    question: "Can Freedom HR Solutions support businesses outside Nevada?",
+    answer:
+      "Yes. We are headquartered in Las Vegas and support businesses nationwide through remote consulting and system support.",
+  },
 ];
+
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Request HR MRI Risk Assessment",
+  description:
+    "Request a no-cost HR MRI Risk Assessment from Freedom HR Solutions. We review your HR compliance, payroll, benefits, systems, and documentation and give you a prioritized plan to address what we find.",
+  url: `${site.url}/request-assessment/`,
+  breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: `${site.url}/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Request HR MRI Assessment",
+        item: `${site.url}/request-assessment/`,
+      },
+    ],
+  },
+};
+
+const assessmentServiceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "HR MRI Risk Assessment",
+  description:
+    "A structured, no-cost review of HR compliance, payroll, benefits, systems, and documentation that identifies gaps and produces a prioritized findings report.",
+  provider: {
+    "@type": "ProfessionalService",
+    name: site.name,
+    url: site.url,
+  },
+  areaServed: "US",
+  offers: {
+    "@type": "Offer",
+    price: "0",
+    priceCurrency: "USD",
+    description: "No cost. No obligation.",
+  },
+};
 
 export default function RequestAssessmentPage() {
   return (
     <>
+      <Breadcrumbs
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Request HR MRI Assessment", path: "/request-assessment/" },
+        ]}
+      />
+
       <HrMriHero
         eyebrow="HR MRI Risk Assessment"
         title="Request Your HR MRI Risk Assessment"
-        description="The HR MRI Risk Assessment is a structured evaluation of your HR practices, policies, systems, and compliance operations. We identify your risks, explain why they matter, and give you a prioritized plan to address them."
+        description="The HR MRI Risk Assessment is a structured, no-cost review of your HR practices, payroll, benefits, systems, and compliance operations. We identify your risks, explain why they matter, and give you a prioritized plan to address them. No obligation. Results in hand before you commit to anything."
         trustLine="No cost. No obligation. A prioritized view of your HR, payroll, and compliance health."
       />
 
@@ -59,11 +149,41 @@ export default function RequestAssessmentPage() {
         <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="space-y-10">
             <div>
-              <SectionHeading eyebrow="What it reviews" title="What the assessment covers" as="h2" />
+              <SectionHeading eyebrow="What it reviews" title="What the HR MRI Assessment reviews" as="h2" />
               <div className="mt-8">
                 <FeatureGrid items={reviews} columns={2} variant="check" />
               </div>
+
+              <p className="mt-6 text-sm leading-relaxed text-body">
+                The HR MRI Assessment is the starting point for all Freedom HR Solutions engagements.
+                If you already know the area you want to focus on, you can learn more about our{" "}
+                <Link href="/services/compliance-support/" className="text-brand-700 underline hover:text-brand-800">
+                  HR compliance support
+                </Link>
+                ,{" "}
+                <Link href="/services/aca-reporting-consultant/" className="text-brand-700 underline hover:text-brand-800">
+                  ACA reporting consulting
+                </Link>
+                ,{" "}
+                <Link href="/services/payroll-benefits-hr-management/" className="text-brand-700 underline hover:text-brand-800">
+                  payroll and benefits HR management
+                </Link>
+                , or{" "}
+                <Link href="/services/employee-handbook-creation-management/" className="text-brand-700 underline hover:text-brand-800">
+                  employee handbook creation and management
+                </Link>{" "}
+                services. For businesses with HR system concerns, our{" "}
+                <Link href="/services/hris-implementation/" className="text-brand-700 underline hover:text-brand-800">
+                  HRIS implementation
+                </Link>{" "}
+                and{" "}
+                <Link href="/services/system-setup-implementation/" className="text-brand-700 underline hover:text-brand-800">
+                  system setup support
+                </Link>{" "}
+                pages outline what that work looks like.
+              </p>
             </div>
+
             <div>
               <SectionHeading eyebrow="What happens next" title="How the assessment works" as="h2" />
               <ol className="mt-6 space-y-4">
@@ -95,6 +215,9 @@ export default function RequestAssessmentPage() {
       </Section>
 
       <FaqSection faqs={assessmentFaqs} />
+
+      <SchemaScript schema={webPageSchema} id="schema-webpage" />
+      <SchemaScript schema={assessmentServiceSchema} id="schema-service" />
     </>
   );
 }

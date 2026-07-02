@@ -1,234 +1,14 @@
 {
-  "generatedAt": "2026-07-01T21:57:36.423Z",
-  "clusterCount": 40,
+  "generatedAt": "2026-07-01T23:58:24.525Z",
+  "clusterCount": 20,
   "clusters": [
     {
-      "clusterId": "c-003",
-      "clusterName": "Reporting",
-      "primaryKeyword": "1095 reporting",
-      "keywords": [
-        "1095 reporting",
-        "1094 and 1095 reporting",
-        "6056 reporting",
-        "1094 1095 reporting",
-        "1095 reporting 2021",
-        "1095 reporting 2022",
-        "6055 6056 reporting",
-        "6055 and 6056 reporting"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 8,
-        "keywordsWithVolume": 8,
-        "totalAvgMonthlySearches": 800,
-        "maxAvgMonthlySearches": 500,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: reporting. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-012",
-      "clusterName": "Irs Aca Reporting",
-      "primaryKeyword": "irs aca reporting",
-      "keywords": [
-        "irs aca reporting"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 500,
-        "maxAvgMonthlySearches": 500,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: irs, aca, reporting. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-027",
-      "clusterName": "Aca Reporting Deadline",
-      "primaryKeyword": "aca reporting deadline",
-      "keywords": [
-        "aca reporting deadline"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 500,
-        "maxAvgMonthlySearches": 500,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: aca, reporting, deadline. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-006",
-      "clusterName": "C Filing Deadline",
-      "primaryKeyword": "1095 c filing deadline 2022",
-      "keywords": [
-        "1095 c filing deadline 2022",
-        "1095 c filing deadline",
-        "1094 c filing deadline",
-        "1094 c filing deadline 2021",
-        "1094 c filing deadline 2022",
-        "1095 c filing deadline 2021",
-        "filing deadline for 1095 c"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 7,
-        "keywordsWithVolume": 7,
-        "totalAvgMonthlySearches": 300,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: c, filing, deadline. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-007",
-      "clusterName": "Filing Deadline",
-      "primaryKeyword": "1094 and 1095 filing deadline",
-      "keywords": [
-        "1095 filing deadline 2023",
-        "1094 and 1095 filing deadline",
-        "1094 filing deadline",
-        "1094 filing deadline 2021",
-        "1095 filing deadline",
-        "1095 filing deadline 2021"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 6,
-        "keywordsWithVolume": 6,
-        "totalAvgMonthlySearches": 200,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: filing, deadline. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-004",
-      "clusterName": "C Reporting",
-      "primaryKeyword": "1095 c reporting",
-      "keywords": [
-        "1095 c reporting",
-        "1094 c reporting"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 2,
-        "keywordsWithVolume": 2,
-        "totalAvgMonthlySearches": 100,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: c, reporting. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-009",
-      "clusterName": "Section Reporting",
-      "primaryKeyword": "section 6055 and 6056 reporting",
-      "keywords": [
-        "section 6055 and 6056 reporting",
-        "section 6056 reporting"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 2,
-        "keywordsWithVolume": 2,
-        "totalAvgMonthlySearches": 100,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: section, reporting. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-020",
-      "clusterName": "Irs Reporting",
-      "primaryKeyword": "1095 irs reporting",
-      "keywords": [
-        "1095 irs reporting",
-        "irs 1095 reporting"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 2,
-        "keywordsWithVolume": 2,
-        "totalAvgMonthlySearches": 100,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: irs, reporting. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-014",
-      "clusterName": "B Filing Deadline",
-      "primaryKeyword": "1094 b filing deadline",
-      "keywords": [
-        "1094 b filing deadline",
-        "1095 b filing deadline 2021",
-        "1095 b filing deadline 2022"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 3,
-        "keywordsWithVolume": 3,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: b, filing, deadline. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
       "clusterId": "c-001",
-      "clusterName": "Ale Status Determination",
-      "primaryKeyword": "ale status determination",
+      "clusterName": "Hr Consultant",
+      "primaryKeyword": "what does an hr consultant do",
       "keywords": [
-        "ale status determination"
+        "what does an hr consultant do",
+        "what hr consultant do"
       ],
       "modifiers": [],
       "intentHints": [
@@ -236,21 +16,65 @@
       ],
       "metricsSummary": {
         "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
+        "keywordCount": 2,
+        "keywordsWithVolume": 2,
+        "totalAvgMonthlySearches": 550,
+        "maxAvgMonthlySearches": 500,
         "note": "Aggregated only from supplied Keyword Planner volumes."
       },
-      "notes": "Grouped on shared base tokens: ale, status, determination. Clustering is a deterministic heuristic, not a semantic model.",
+      "notes": "Grouped on shared base tokens: hr, consultant. Clustering is a deterministic heuristic, not a semantic model.",
       "_categories": []
     },
     {
       "clusterId": "c-002",
-      "clusterName": "Irs Aca Reporting Requirements",
-      "primaryKeyword": "irs aca reporting requirements",
+      "clusterName": "Hr Consultants",
+      "primaryKeyword": "what do hr consultants do",
       "keywords": [
-        "irs aca reporting requirements"
+        "what do hr consultants do"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 500,
+        "maxAvgMonthlySearches": 500,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: hr, consultants. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-004",
+      "clusterName": "Human Resource Consultants",
+      "primaryKeyword": "what do human resource consultants do",
+      "keywords": [
+        "what do human resource consultants do"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 500,
+        "maxAvgMonthlySearches": 500,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: human, resource, consultants. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-003",
+      "clusterName": "Hr Consulting Firms",
+      "primaryKeyword": "what do hr consulting firms do",
+      "keywords": [
+        "what do hr consulting firms do"
       ],
       "modifiers": [],
       "intentHints": [
@@ -264,15 +88,15 @@
         "maxAvgMonthlySearches": 50,
         "note": "Aggregated only from supplied Keyword Planner volumes."
       },
-      "notes": "Grouped on shared base tokens: irs, aca, reporting, requirements. Clustering is a deterministic heuristic, not a semantic model.",
+      "notes": "Grouped on shared base tokens: hr, consulting, firms. Clustering is a deterministic heuristic, not a semantic model.",
       "_categories": []
     },
     {
       "clusterId": "c-005",
-      "clusterName": "Employer Reporting",
-      "primaryKeyword": "employer 1095 reporting",
+      "clusterName": "Human Resource Consultant",
+      "primaryKeyword": "what does a human resource consultant do",
       "keywords": [
-        "employer 1095 reporting"
+        "what does a human resource consultant do"
       ],
       "modifiers": [],
       "intentHints": [
@@ -286,15 +110,15 @@
         "maxAvgMonthlySearches": 50,
         "note": "Aggregated only from supplied Keyword Planner volumes."
       },
-      "notes": "Grouped on shared base tokens: employer, reporting. Clustering is a deterministic heuristic, not a semantic model.",
+      "notes": "Grouped on shared base tokens: human, resource, consultant. Clustering is a deterministic heuristic, not a semantic model.",
       "_categories": []
     },
     {
-      "clusterId": "c-010",
-      "clusterName": "Irs",
-      "primaryKeyword": "irs 6055 and 6056",
+      "clusterId": "c-006",
+      "clusterName": "Human Capital Consultants",
+      "primaryKeyword": "what do human capital consultants do",
       "keywords": [
-        "irs 6055 and 6056"
+        "what do human capital consultants do"
       ],
       "modifiers": [],
       "intentHints": [
@@ -308,15 +132,15 @@
         "maxAvgMonthlySearches": 50,
         "note": "Aggregated only from supplied Keyword Planner volumes."
       },
-      "notes": "Grouped on shared base tokens: irs. Clustering is a deterministic heuristic, not a semantic model.",
+      "notes": "Grouped on shared base tokens: human, capital, consultants. Clustering is a deterministic heuristic, not a semantic model.",
       "_categories": []
     },
     {
-      "clusterId": "c-011",
-      "clusterName": "Reporting Deadline",
-      "primaryKeyword": "1095 reporting deadline",
+      "clusterId": "c-007",
+      "clusterName": "Human Capital Consultant",
+      "primaryKeyword": "what does a human capital consultant do",
       "keywords": [
-        "1095 reporting deadline"
+        "what does a human capital consultant do"
       ],
       "modifiers": [],
       "intentHints": [
@@ -330,323 +154,15 @@
         "maxAvgMonthlySearches": 50,
         "note": "Aggregated only from supplied Keyword Planner volumes."
       },
-      "notes": "Grouped on shared base tokens: reporting, deadline. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-013",
-      "clusterName": "B Reporting",
-      "primaryKeyword": "1095 b reporting",
-      "keywords": [
-        "1095 b reporting"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: b, reporting. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-015",
-      "clusterName": "C C Filing Deadline",
-      "primaryKeyword": "1094 c and 1095 c filing deadline",
-      "keywords": [
-        "1094 c and 1095 c filing deadline"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: c, c, filing, deadline. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-016",
-      "clusterName": "B C Reporting",
-      "primaryKeyword": "1095 b and c reporting",
-      "keywords": [
-        "1095 b and c reporting"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: b, c, reporting. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-018",
-      "clusterName": "C Rules",
-      "primaryKeyword": "1095 c rules",
-      "keywords": [
-        "1095 c rules"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: c, rules. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-019",
-      "clusterName": "Electronic Filing Deadline",
-      "primaryKeyword": "1095 electronic filing deadline",
-      "keywords": [
-        "1095 electronic filing deadline"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: electronic, filing, deadline. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-021",
-      "clusterName": "Submission Deadline",
-      "primaryKeyword": "1095 submission deadline",
-      "keywords": [
-        "1095 submission deadline"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: submission, deadline. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-022",
-      "clusterName": "1094c",
-      "primaryKeyword": "2022 1094c",
-      "keywords": [
-        "2022 1094c"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: 1094c. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-023",
-      "clusterName": "Aca C Reporting",
-      "primaryKeyword": "aca 1095 c reporting",
-      "keywords": [
-        "aca 1095 c reporting"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: aca, c, reporting. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-024",
-      "clusterName": "Aca Reporting",
-      "primaryKeyword": "aca 1095 reporting",
-      "keywords": [
-        "aca 1095 reporting"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: aca, reporting. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-025",
-      "clusterName": "Aca Filing Deadline",
-      "primaryKeyword": "aca filing deadline",
-      "keywords": [
-        "aca filing deadline"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: aca, filing, deadline. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-028",
-      "clusterName": "Employees Need C File Taxes",
-      "primaryKeyword": "do employees need 1095 c to file taxes",
-      "keywords": [
-        "do employees need 1095 c to file taxes"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: employees, need, c, file, taxes. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-029",
-      "clusterName": "Employer Shared Responsibility Reporting",
-      "primaryKeyword": "employer shared responsibility reporting",
-      "keywords": [
-        "employer shared responsibility reporting"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: employer, shared, responsibility, reporting. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-030",
-      "clusterName": "Internal Revenue Code Section",
-      "primaryKeyword": "internal revenue code section 6056",
-      "keywords": [
-        "internal revenue code section 6056"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: internal, revenue, code, section. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-032",
-      "clusterName": "Www Irs Gov Form1094b",
-      "primaryKeyword": "www irs gov form1094b",
-      "keywords": [
-        "www irs gov form1094b"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: www, irs, gov, form1094b. Clustering is a deterministic heuristic, not a semantic model.",
+      "notes": "Grouped on shared base tokens: human, capital, consultant. Clustering is a deterministic heuristic, not a semantic model.",
       "_categories": []
     },
     {
       "clusterId": "c-008",
-      "clusterName": "C Reporting Deadline",
-      "primaryKeyword": "1095 c reporting deadline 2022",
+      "clusterName": "Resource Consultant",
+      "primaryKeyword": "what does a resource consultant do",
       "keywords": [
-        "1095 c reporting deadline 2022"
+        "what does a resource consultant do"
       ],
       "modifiers": [],
       "intentHints": [
@@ -656,198 +172,260 @@
         "dataAvailable": true,
         "keywordCount": 1,
         "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 0,
-        "maxAvgMonthlySearches": 0,
+        "totalAvgMonthlySearches": 50,
+        "maxAvgMonthlySearches": 50,
         "note": "Aggregated only from supplied Keyword Planner volumes."
       },
-      "notes": "Grouped on shared base tokens: c, reporting, deadline. Clustering is a deterministic heuristic, not a semantic model.",
+      "notes": "Grouped on shared base tokens: resource, consultant. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-009",
+      "clusterName": "Employee Relations Consultant",
+      "primaryKeyword": "what does an employee relations consultant do",
+      "keywords": [
+        "what does an employee relations consultant do"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 50,
+        "maxAvgMonthlySearches": 50,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: employee, relations, consultant. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-010",
+      "clusterName": "Hr Consulting Firm",
+      "primaryKeyword": "what does an hr consulting firm do",
+      "keywords": [
+        "what does an hr consulting firm do"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 50,
+        "maxAvgMonthlySearches": 50,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: hr, consulting, firm. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-011",
+      "clusterName": "Independent Hr Consultant",
+      "primaryKeyword": "what does an independent hr consultant do",
+      "keywords": [
+        "what does an independent hr consultant do"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": true,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 50,
+        "maxAvgMonthlySearches": 50,
+        "note": "Aggregated only from supplied Keyword Planner volumes."
+      },
+      "notes": "Grouped on shared base tokens: independent, hr, consultant. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-012",
+      "clusterName": "Find Hr Consultant Las Vegas",
+      "primaryKeyword": "how to find an hr consultant las vegas",
+      "keywords": [
+        "how to find an hr consultant las vegas"
+      ],
+      "modifiers": [
+        "how to"
+      ],
+      "intentHints": [
+        "informational"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: find, hr, consultant, las, vegas. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": [
+        "problem"
+      ]
+    },
+    {
+      "clusterId": "c-013",
+      "clusterName": "Small Need Hr Consultant",
+      "primaryKeyword": "do small businesses need an hr consultant",
+      "keywords": [
+        "do small businesses need an hr consultant"
+      ],
+      "modifiers": [
+        "businesses"
+      ],
+      "intentHints": [
+        "audience-specific"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: small, need, hr, consultant. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": [
+        "audience"
+      ]
+    },
+    {
+      "clusterId": "c-014",
+      "clusterName": "Hr Consulting House Hr",
+      "primaryKeyword": "hr consulting vs in house hr",
+      "keywords": [
+        "hr consulting vs in house hr"
+      ],
+      "modifiers": [
+        "vs"
+      ],
+      "intentHints": [
+        "commercial-comparison",
+        "local"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: hr, consulting, house, hr. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": [
+        "comparison",
+        "location"
+      ]
+    },
+    {
+      "clusterId": "c-015",
+      "clusterName": "When Hire Hr Consultant",
+      "primaryKeyword": "when to hire an hr consultant",
+      "keywords": [
+        "when to hire an hr consultant"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: when, hire, hr, consultant. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-016",
+      "clusterName": "Outsourced Hr Consulting Las Vegas",
+      "primaryKeyword": "outsourced hr consulting las vegas",
+      "keywords": [
+        "outsourced hr consulting las vegas"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: outsourced, hr, consulting, las, vegas. Clustering is a deterministic heuristic, not a semantic model.",
       "_categories": []
     },
     {
       "clusterId": "c-017",
-      "clusterName": "C Filing Deadline Irs",
-      "primaryKeyword": "1095 c filing deadline 2022 irs",
+      "clusterName": "Hr Compliance Consultant",
+      "primaryKeyword": "hr compliance consultant near me",
       "keywords": [
-        "1095 c filing deadline 2022 irs"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 0,
-        "maxAvgMonthlySearches": 0,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: c, filing, deadline, irs. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-026",
-      "clusterName": "Aca Irs Filing Deadline",
-      "primaryKeyword": "aca irs filing deadline 2022",
-      "keywords": [
-        "aca irs filing deadline 2022"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 0,
-        "maxAvgMonthlySearches": 0,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: aca, irs, filing, deadline. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-031",
-      "clusterName": "Irs Filing Deadline",
-      "primaryKeyword": "irs 1095 filing deadline 2022",
-      "keywords": [
-        "irs 1095 filing deadline 2022"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 0,
-        "maxAvgMonthlySearches": 0,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: irs, filing, deadline. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-033",
-      "clusterName": "Irs Form Filing Help",
-      "primaryKeyword": "irs form 1095 filing help",
-      "keywords": [
-        "irs form 1095 filing help"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": false,
-        "keywordCount": 1,
-        "keywordsWithVolume": 0,
-        "totalAvgMonthlySearches": null,
-        "maxAvgMonthlySearches": null,
-        "note": "No numeric volume supplied. Volume is not estimated or invented."
-      },
-      "notes": "Grouped on shared base tokens: irs, form, filing, help. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-034",
-      "clusterName": "Irs Form Filing Services",
-      "primaryKeyword": "irs form 1094 filing services",
-      "keywords": [
-        "irs form 1094 filing services"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": false,
-        "keywordCount": 1,
-        "keywordsWithVolume": 0,
-        "totalAvgMonthlySearches": null,
-        "maxAvgMonthlySearches": null,
-        "note": "No numeric volume supplied. Volume is not estimated or invented."
-      },
-      "notes": "Grouped on shared base tokens: irs, form, filing, services. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-035",
-      "clusterName": "Reporting Consultant",
-      "primaryKeyword": "1094 1095 reporting consultant",
-      "keywords": [
-        "1094 1095 reporting consultant"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": false,
-        "keywordCount": 1,
-        "keywordsWithVolume": 0,
-        "totalAvgMonthlySearches": null,
-        "maxAvgMonthlySearches": null,
-        "note": "No numeric volume supplied. Volume is not estimated or invented."
-      },
-      "notes": "Grouped on shared base tokens: reporting, consultant. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-036",
-      "clusterName": "Aca C Filing Support",
-      "primaryKeyword": "aca 1095 c filing support",
-      "keywords": [
-        "aca 1095 c filing support"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": false,
-        "keywordCount": 1,
-        "keywordsWithVolume": 0,
-        "totalAvgMonthlySearches": null,
-        "maxAvgMonthlySearches": null,
-        "note": "No numeric volume supplied. Volume is not estimated or invented."
-      },
-      "notes": "Grouped on shared base tokens: aca, c, filing, support. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-037",
-      "clusterName": "Filing Services Employers",
-      "primaryKeyword": "1095 filing services for employers",
-      "keywords": [
-        "1095 filing services for employers"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": false,
-        "keywordCount": 1,
-        "keywordsWithVolume": 0,
-        "totalAvgMonthlySearches": null,
-        "maxAvgMonthlySearches": null,
-        "note": "No numeric volume supplied. Volume is not estimated or invented."
-      },
-      "notes": "Grouped on shared base tokens: filing, services, employers. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-038",
-      "clusterName": "Applicable Large Employer",
-      "primaryKeyword": "applicable large employer review",
-      "keywords": [
-        "applicable large employer review"
+        "hr compliance consultant near me"
       ],
       "modifiers": [
-        "review"
+        "near me"
+      ],
+      "intentHints": [
+        "local"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: hr, compliance, consultant. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": [
+        "location"
+      ]
+    },
+    {
+      "clusterId": "c-018",
+      "clusterName": "Hr Consulting Services Las Vegas",
+      "primaryKeyword": "hr consulting services near las vegas",
+      "keywords": [
+        "hr consulting services near las vegas"
+      ],
+      "modifiers": [],
+      "intentHints": [
+        "general"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: hr, consulting, services, las, vegas. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": []
+    },
+    {
+      "clusterId": "c-019",
+      "clusterName": "Hr Consulting Firm Las Vegas",
+      "primaryKeyword": "best hr consulting firm las vegas",
+      "keywords": [
+        "best hr consulting firm las vegas"
+      ],
+      "modifiers": [
+        "best"
       ],
       "intentHints": [
         "commercial-comparison"
@@ -860,17 +438,17 @@
         "maxAvgMonthlySearches": null,
         "note": "No numeric volume supplied. Volume is not estimated or invented."
       },
-      "notes": "Grouped on shared base tokens: applicable, large, employer. Clustering is a deterministic heuristic, not a semantic model.",
+      "notes": "Grouped on shared base tokens: hr, consulting, firm, las, vegas. Clustering is a deterministic heuristic, not a semantic model.",
       "_categories": [
         "comparison"
       ]
     },
     {
-      "clusterId": "c-039",
-      "clusterName": "Aca Employer Mandate Compliance",
-      "primaryKeyword": "aca employer mandate compliance",
+      "clusterId": "c-020",
+      "clusterName": "Hr Support Nevada Employers",
+      "primaryKeyword": "hr support for nevada employers",
       "keywords": [
-        "aca employer mandate compliance"
+        "hr support for nevada employers"
       ],
       "modifiers": [],
       "intentHints": [
@@ -884,29 +462,7 @@
         "maxAvgMonthlySearches": null,
         "note": "No numeric volume supplied. Volume is not estimated or invented."
       },
-      "notes": "Grouped on shared base tokens: aca, employer, mandate, compliance. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-040",
-      "clusterName": "Aca Filing Deadline Help",
-      "primaryKeyword": "aca filing deadline help",
-      "keywords": [
-        "aca filing deadline help"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": false,
-        "keywordCount": 1,
-        "keywordsWithVolume": 0,
-        "totalAvgMonthlySearches": null,
-        "maxAvgMonthlySearches": null,
-        "note": "No numeric volume supplied. Volume is not estimated or invented."
-      },
-      "notes": "Grouped on shared base tokens: aca, filing, deadline, help. Clustering is a deterministic heuristic, not a semantic model.",
+      "notes": "Grouped on shared base tokens: hr, support, nevada, employers. Clustering is a deterministic heuristic, not a semantic model.",
       "_categories": []
     }
   ],

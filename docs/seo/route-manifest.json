@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T21:57:36.297Z",
-  "routeCount": 19,
+  "generatedAt": "2026-07-01T23:58:24.380Z",
+  "routeCount": 20,
   "routes": [
     {
       "route": "/",
@@ -305,6 +305,30 @@
       "internalHrefs": [],
       "schemaTypeHints": [],
       "wordEstimate": 35
+    },
+    {
+      "route": "/who-we-help/small-businesses/hr-outsourcing",
+      "sourceFile": "src/app/who-we-help/small-businesses/hr-outsourcing/page.tsx",
+      "routerType": "app",
+      "possibleTitles": [
+        "Small Business HR Outsourcing | Outsourced HR Services | Freedom HR Solutions",
+        "HR Compliance and Policy",
+        "Payroll and Benefits Administration",
+        "Employee Handbook Creation and Updates",
+        "HR System Setup and Support",
+        "ACA Reporting",
+        "Open Enrollment Support"
+      ],
+      "possibleH1s": [],
+      "possibleH2s": [],
+      "internalHrefs": [
+        "/request-assessment/",
+        "/contact/"
+      ],
+      "schemaTypeHints": [
+        "Organization"
+      ],
+      "wordEstimate": 131
     }
   ],
   "warnings": []

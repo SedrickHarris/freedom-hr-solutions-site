@@ -353,46 +353,53 @@ export const audiences: Audience[] = [
     meta: {
       title: "HR Support for Small Businesses | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps small businesses manage HR compliance, payroll, benefits, employee handbooks, HR systems, and workforce risk.",
+        "Freedom HR Solutions helps small businesses handle HR compliance, payroll, benefits, employee handbooks, HR systems, and workforce risk without a full-time HR team. Las Vegas and nationwide.",
     },
     summary:
-      "Right-sized HR, payroll, benefits, and compliance support for small businesses without a full HR department.",
+      "Right-sized HR, payroll, benefits, and compliance support for small businesses, without the cost or complexity of a full in-house HR team.",
     intro:
-      "Small businesses get the same HR responsibilities as large companies but rarely the same resources. Freedom HR Solutions helps you handle compliance, payroll, benefits, and handbooks without hiring a full HR department. We meet you where you are and build processes that fit your size and budget.",
+      "Small businesses carry the same HR responsibilities as larger employers but rarely have the staff to manage them. Compliance requirements, payroll accuracy, benefits administration, employee policies, and HR system decisions all need attention whether you have five employees or fifty. Freedom HR Solutions helps small businesses build the HR foundation they need: practical, right-sized support that fits your headcount, budget, and the way your business actually operates. We work with small businesses in Las Vegas, across Nevada, and nationwide.",
     painPoints: [
       {
-        title: "Big-company rules, small-company resources",
+        title: "Same rules, fewer resources",
         description:
-          "You face many of the same requirements as larger employers but have far fewer people to manage them.",
+          "Employment laws, payroll requirements, and benefits compliance apply to small businesses the same as large ones. Without a dedicated HR team, gaps build quietly until they become problems.",
       },
       {
-        title: "No written policies",
+        title: "No written policies or handbook",
         description:
-          "Without a handbook, expectations and procedures live in people's heads instead of a clear document.",
+          "Without documented policies, expectations and procedures live in people's heads. That creates inconsistency, disputes, and exposure when situations arise that your business has not planned for.",
       },
       {
-        title: "DIY payroll and benefits",
+        title: "Payroll and benefits set up without expert guidance",
         description:
-          "Software choices and setup decisions are hard to make confidently without HR expertise on hand.",
+          "Many small businesses choose payroll software and set up benefits without HR expertise on hand. Configuration mistakes and missing steps cause errors that compound over time.",
       },
       {
         title: "Compliance blind spots",
         description:
-          "It is easy to miss requirements simply because no one is tracking them day to day.",
+          "Worker classification, ACA status, leave requirements, and recordkeeping rules are easy to miss when no one is tracking them. A single blind spot can create outsized risk.",
+      },
+      {
+        title: "No clear HR plan as headcount grows",
+        description:
+          "What works at five employees breaks at fifteen. Without a scalable HR foundation, growth creates confusion around policies, systems, and who is responsible for what.",
       },
     ],
     scenarios: [
-      "You are growing past a handful of employees and policies are still informal.",
-      "You need an employee handbook but do not know where to start.",
-      "You are comparing payroll software and want guidance before committing.",
-      "A former employee raises a question that makes you review your records.",
+      "You are growing past a handful of employees and HR processes are still informal or nonexistent.",
+      "You have a handbook from years ago that no longer reflects how your business operates.",
+      "You are comparing payroll platforms and want guidance before making a commitment.",
+      "A payroll error, a classification question, or a benefits issue has surfaced and you are not sure of your footing.",
+      "An employee situation arose that your current policies do not clearly address.",
+      "You want to know where your HR, payroll, and compliance setup stands before something goes wrong.",
     ],
     recommendedServiceSlugs: [
       "hr-mri-risk-assessment",
       "compliance-support",
       "employee-handbook-creation-management",
       "payroll-benefits-hr-management",
-      "hr-technology-automation",
+      "system-setup-implementation",
       "ongoing-technical-support",
     ],
     relatedAudienceSlugs: [
@@ -402,29 +409,44 @@ export const audiences: Audience[] = [
     ],
     faqs: [
       {
-        question: "Can Freedom HR Solutions help a small business without an HR department?",
+        question: "What HR services do small businesses typically need?",
         answer:
-          "Yes. We are built for businesses that do not have dedicated HR staff and provide right-sized support that fits your size and budget.",
+          "Small businesses commonly need support with HR compliance, employee handbooks, payroll setup and accuracy, benefits administration, worker classification, recordkeeping, and HR system selection. The right mix depends on your headcount, growth stage, and current gaps. An HR MRI Risk Assessment helps identify where to focus first.",
       },
       {
-        question: "What HR compliance risks do small businesses often miss?",
+        question: "Can Freedom HR Solutions help a small business that has no HR staff?",
         answer:
-          "Common gaps include missing handbooks, worker classification, incomplete records, and payroll setup. An assessment helps surface these areas.",
+          "Yes. Most of the small businesses we support do not have a dedicated HR person. We provide right-sized HR, payroll, benefits, and compliance support that fits your size and budget without requiring you to hire full-time.",
       },
       {
-        question: "Can Freedom HR Solutions help create an employee handbook?",
+        question: "Does a small business need an employee handbook?",
         answer:
-          "Yes. We help create and maintain a handbook so your policies and expectations are documented clearly and consistently.",
+          "Yes. An employee handbook documents your policies, expectations, and procedures so they are consistent and clear. Without one, small businesses face inconsistency, disputes, and exposure when employee situations arise. We help small businesses create and maintain handbooks that reflect how they actually operate.",
       },
       {
-        question: "Can Freedom HR Solutions help small businesses choose payroll software?",
+        question: "What are the most common HR compliance risks for small businesses?",
         answer:
-          "We help you evaluate options and set up the right tools so your payroll and HR systems fit how your business actually works.",
+          "Common small business HR compliance risks include missing or outdated employee handbooks, worker misclassification, incomplete payroll and benefits records, ACA reporting gaps, leave policy errors, and hiring documentation problems. Our HR MRI Risk Assessment is designed to surface these gaps systematically.",
       },
       {
-        question: "What is the best first step for a small business?",
+        question: "Can Freedom HR Solutions help a small business choose payroll software?",
         answer:
-          "Most small businesses start with an HR MRI risk assessment to get a clear picture of priorities and a practical plan to act on.",
+          "Yes. We help small businesses evaluate payroll and HR platforms, understand configuration requirements, and get the system set up correctly so it fits how your business operates and reduces the likelihood of recurring errors.",
+      },
+      {
+        question: "Does Freedom HR Solutions work with small businesses outside of Las Vegas?",
+        answer:
+          "Yes. We are headquartered in Las Vegas and support small businesses across Nevada and nationwide through remote HR consulting, system support, compliance reviews, and ongoing HR assistance.",
+      },
+      {
+        question: "What is the best first step for a small business that needs HR help?",
+        answer:
+          "The best starting point is an HR MRI Risk Assessment. It gives you a structured review of your HR, payroll, benefits, and compliance setup so you know exactly where your gaps are and what to address first, before committing to new systems or processes.",
+      },
+      {
+        question: "How is Freedom HR Solutions different from a PEO for small businesses?",
+        answer:
+          "A PEO co-employs your workforce and bundles services under their systems. Freedom HR Solutions is an independent HR consulting firm. We work with your existing payroll and HR systems to improve compliance, accuracy, and processes without requiring you to change platforms or enter a co-employment arrangement.",
       },
     ],
     primaryCta: { label: "Find Hidden HR Risks", href: "/request-assessment/" },

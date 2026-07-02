@@ -167,3 +167,22 @@ export function articleSchema(input: {
     },
   };
 }
+
+export function collectionPageSchema(input: {
+  name: string;
+  description: string;
+  path: string;
+}): Json {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: input.name,
+    description: input.description,
+    url: absolute(input.path),
+    provider: {
+      "@type": "Organization",
+      name: site.name,
+      url: site.url,
+    },
+  };
+}

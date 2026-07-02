@@ -1,38 +1,14 @@
 {
-  "generatedAt": "2026-07-01T23:58:24.453Z",
-  "sourceCsv": "docs/seo/keyword-exports/Keyword Stats 2026-07-01 at 16_57_53.csv",
-  "keywordCount": 21,
+  "generatedAt": "2026-07-02T16:18:52.611Z",
+  "sourceCsv": "docs/seo/keyword-exports/Keyword Stats 2026-07-02 at 09_18_32.csv",
+  "keywordCount": 11,
   "keywords": [
     {
-      "keyword": "what does an hr consultant do",
-      "avgMonthlySearches": 500,
-      "avgMonthlySearchesRaw": "500",
-      "competition": "Low",
-      "competitionIndex": 9,
-      "topOfPageBidLow": "2.90",
-      "topOfPageBidHigh": "18.36",
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "what do hr consultants do",
-      "avgMonthlySearches": 500,
-      "avgMonthlySearchesRaw": "500",
-      "competition": "Low",
-      "competitionIndex": 9,
-      "topOfPageBidLow": "2.90",
-      "topOfPageBidHigh": "18.36",
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "what hr consultant do",
+      "keyword": "how can hr support business growth",
       "avgMonthlySearches": 50,
       "avgMonthlySearchesRaw": "50",
       "competition": "Low",
-      "competitionIndex": 29,
+      "competitionIndex": 0,
       "topOfPageBidLow": null,
       "topOfPageBidHigh": null,
       "threeMonthChange": "0%",
@@ -40,115 +16,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "what do hr consulting firms do",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 14,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "what do human resource consultants do",
-      "avgMonthlySearches": 500,
-      "avgMonthlySearchesRaw": "500",
-      "competition": "Low",
-      "competitionIndex": 9,
-      "topOfPageBidLow": "2.90",
-      "topOfPageBidHigh": "18.36",
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "what does a human resource consultant do",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 11,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "what do human capital consultants do",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 5,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "what does a human capital consultant do",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 5,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "what does a resource consultant do",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Unknown",
-      "competitionIndex": null,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "-100%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "what does an employee relations consultant do",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 4,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "what does an hr consulting firm do",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Medium",
-      "competitionIndex": 50,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "0%",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "what does an independent hr consultant do",
-      "avgMonthlySearches": 50,
-      "avgMonthlySearchesRaw": "50",
-      "competition": "Low",
-      "competitionIndex": 10,
-      "topOfPageBidLow": null,
-      "topOfPageBidHigh": null,
-      "threeMonthChange": "∞",
-      "yoyChange": "0%",
-      "currency": "USD"
-    },
-    {
-      "keyword": "how to find an hr consultant las vegas",
+      "keyword": "hr support for growing business",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -160,7 +28,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "do small businesses need an hr consultant",
+      "keyword": "hr for scaling business",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -172,7 +40,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "hr consulting vs in house hr",
+      "keyword": "hr consulting for growing small business",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -184,7 +52,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "when to hire an hr consultant",
+      "keyword": "hr planning for business growth",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -196,7 +64,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "outsourced hr consulting las vegas",
+      "keyword": "hiring support for small business owner",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -208,7 +76,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "hr compliance consultant near me",
+      "keyword": "hr for businesses adding employees",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -220,7 +88,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "hr consulting services near las vegas",
+      "keyword": "workforce compliance for growing business",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -232,7 +100,7 @@
       "currency": "USD"
     },
     {
-      "keyword": "best hr consulting firm las vegas",
+      "keyword": "hr roadmap for small business",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",
@@ -244,7 +112,19 @@
       "currency": "USD"
     },
     {
-      "keyword": "hr support for nevada employers",
+      "keyword": "onboarding support for small business",
+      "avgMonthlySearches": null,
+      "avgMonthlySearchesRaw": null,
+      "competition": "Unknown",
+      "competitionIndex": null,
+      "topOfPageBidLow": null,
+      "topOfPageBidHigh": null,
+      "threeMonthChange": "--",
+      "yoyChange": "--",
+      "currency": "USD"
+    },
+    {
+      "keyword": "hr setup for growing company",
       "avgMonthlySearches": null,
       "avgMonthlySearchesRaw": null,
       "competition": "Unknown",

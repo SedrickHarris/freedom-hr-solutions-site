@@ -1,262 +1,45 @@
 {
-  "generatedAt": "2026-07-01T23:58:24.525Z",
-  "clusterCount": 20,
+  "generatedAt": "2026-07-02T16:18:52.684Z",
+  "clusterCount": 11,
   "clusters": [
     {
       "clusterId": "c-001",
-      "clusterName": "Hr Consultant",
-      "primaryKeyword": "what does an hr consultant do",
+      "clusterName": "Can Hr Support Growth",
+      "primaryKeyword": "how can hr support business growth",
       "keywords": [
-        "what does an hr consultant do",
-        "what hr consultant do"
+        "how can hr support business growth"
       ],
-      "modifiers": [],
+      "modifiers": [
+        "business"
+      ],
       "intentHints": [
-        "general"
+        "audience-specific"
       ],
       "metricsSummary": {
         "dataAvailable": true,
-        "keywordCount": 2,
-        "keywordsWithVolume": 2,
-        "totalAvgMonthlySearches": 550,
-        "maxAvgMonthlySearches": 500,
+        "keywordCount": 1,
+        "keywordsWithVolume": 1,
+        "totalAvgMonthlySearches": 50,
+        "maxAvgMonthlySearches": 50,
         "note": "Aggregated only from supplied Keyword Planner volumes."
       },
-      "notes": "Grouped on shared base tokens: hr, consultant. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
+      "notes": "Grouped on shared base tokens: can, hr, support, growth. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": [
+        "audience"
+      ]
     },
     {
       "clusterId": "c-002",
-      "clusterName": "Hr Consultants",
-      "primaryKeyword": "what do hr consultants do",
+      "clusterName": "Hr Support Growing",
+      "primaryKeyword": "hr support for growing business",
       "keywords": [
-        "what do hr consultants do"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 500,
-        "maxAvgMonthlySearches": 500,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: hr, consultants. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-004",
-      "clusterName": "Human Resource Consultants",
-      "primaryKeyword": "what do human resource consultants do",
-      "keywords": [
-        "what do human resource consultants do"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 500,
-        "maxAvgMonthlySearches": 500,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: human, resource, consultants. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-003",
-      "clusterName": "Hr Consulting Firms",
-      "primaryKeyword": "what do hr consulting firms do",
-      "keywords": [
-        "what do hr consulting firms do"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: hr, consulting, firms. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-005",
-      "clusterName": "Human Resource Consultant",
-      "primaryKeyword": "what does a human resource consultant do",
-      "keywords": [
-        "what does a human resource consultant do"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: human, resource, consultant. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-006",
-      "clusterName": "Human Capital Consultants",
-      "primaryKeyword": "what do human capital consultants do",
-      "keywords": [
-        "what do human capital consultants do"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: human, capital, consultants. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-007",
-      "clusterName": "Human Capital Consultant",
-      "primaryKeyword": "what does a human capital consultant do",
-      "keywords": [
-        "what does a human capital consultant do"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: human, capital, consultant. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-008",
-      "clusterName": "Resource Consultant",
-      "primaryKeyword": "what does a resource consultant do",
-      "keywords": [
-        "what does a resource consultant do"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: resource, consultant. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-009",
-      "clusterName": "Employee Relations Consultant",
-      "primaryKeyword": "what does an employee relations consultant do",
-      "keywords": [
-        "what does an employee relations consultant do"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: employee, relations, consultant. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-010",
-      "clusterName": "Hr Consulting Firm",
-      "primaryKeyword": "what does an hr consulting firm do",
-      "keywords": [
-        "what does an hr consulting firm do"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: hr, consulting, firm. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-011",
-      "clusterName": "Independent Hr Consultant",
-      "primaryKeyword": "what does an independent hr consultant do",
-      "keywords": [
-        "what does an independent hr consultant do"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": true,
-        "keywordCount": 1,
-        "keywordsWithVolume": 1,
-        "totalAvgMonthlySearches": 50,
-        "maxAvgMonthlySearches": 50,
-        "note": "Aggregated only from supplied Keyword Planner volumes."
-      },
-      "notes": "Grouped on shared base tokens: independent, hr, consultant. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-012",
-      "clusterName": "Find Hr Consultant Las Vegas",
-      "primaryKeyword": "how to find an hr consultant las vegas",
-      "keywords": [
-        "how to find an hr consultant las vegas"
+        "hr support for growing business"
       ],
       "modifiers": [
-        "how to"
+        "business"
       ],
       "intentHints": [
-        "informational"
+        "audience-specific"
       ],
       "metricsSummary": {
         "dataAvailable": false,
@@ -266,17 +49,121 @@
         "maxAvgMonthlySearches": null,
         "note": "No numeric volume supplied. Volume is not estimated or invented."
       },
-      "notes": "Grouped on shared base tokens: find, hr, consultant, las, vegas. Clustering is a deterministic heuristic, not a semantic model.",
+      "notes": "Grouped on shared base tokens: hr, support, growing. Clustering is a deterministic heuristic, not a semantic model.",
       "_categories": [
-        "problem"
+        "audience"
       ]
     },
     {
-      "clusterId": "c-013",
-      "clusterName": "Small Need Hr Consultant",
-      "primaryKeyword": "do small businesses need an hr consultant",
+      "clusterId": "c-003",
+      "clusterName": "Hr Scaling",
+      "primaryKeyword": "hr for scaling business",
       "keywords": [
-        "do small businesses need an hr consultant"
+        "hr for scaling business"
+      ],
+      "modifiers": [
+        "business"
+      ],
+      "intentHints": [
+        "audience-specific"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: hr, scaling. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": [
+        "audience"
+      ]
+    },
+    {
+      "clusterId": "c-004",
+      "clusterName": "Hr Consulting Growing Small",
+      "primaryKeyword": "hr consulting for growing small business",
+      "keywords": [
+        "hr consulting for growing small business"
+      ],
+      "modifiers": [
+        "business"
+      ],
+      "intentHints": [
+        "audience-specific"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: hr, consulting, growing, small. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": [
+        "audience"
+      ]
+    },
+    {
+      "clusterId": "c-005",
+      "clusterName": "Hr Planning Growth",
+      "primaryKeyword": "hr planning for business growth",
+      "keywords": [
+        "hr planning for business growth"
+      ],
+      "modifiers": [
+        "business"
+      ],
+      "intentHints": [
+        "audience-specific"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: hr, planning, growth. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": [
+        "audience"
+      ]
+    },
+    {
+      "clusterId": "c-006",
+      "clusterName": "Hiring Support Small Owner",
+      "primaryKeyword": "hiring support for small business owner",
+      "keywords": [
+        "hiring support for small business owner"
+      ],
+      "modifiers": [
+        "business"
+      ],
+      "intentHints": [
+        "audience-specific"
+      ],
+      "metricsSummary": {
+        "dataAvailable": false,
+        "keywordCount": 1,
+        "keywordsWithVolume": 0,
+        "totalAvgMonthlySearches": null,
+        "maxAvgMonthlySearches": null,
+        "note": "No numeric volume supplied. Volume is not estimated or invented."
+      },
+      "notes": "Grouped on shared base tokens: hiring, support, small, owner. Clustering is a deterministic heuristic, not a semantic model.",
+      "_categories": [
+        "audience"
+      ]
+    },
+    {
+      "clusterId": "c-007",
+      "clusterName": "Hr Adding Employees",
+      "primaryKeyword": "hr for businesses adding employees",
+      "keywords": [
+        "hr for businesses adding employees"
       ],
       "modifiers": [
         "businesses"
@@ -292,24 +179,23 @@
         "maxAvgMonthlySearches": null,
         "note": "No numeric volume supplied. Volume is not estimated or invented."
       },
-      "notes": "Grouped on shared base tokens: small, need, hr, consultant. Clustering is a deterministic heuristic, not a semantic model.",
+      "notes": "Grouped on shared base tokens: hr, adding, employees. Clustering is a deterministic heuristic, not a semantic model.",
       "_categories": [
         "audience"
       ]
     },
     {
-      "clusterId": "c-014",
-      "clusterName": "Hr Consulting House Hr",
-      "primaryKeyword": "hr consulting vs in house hr",
+      "clusterId": "c-008",
+      "clusterName": "Workforce Compliance Growing",
+      "primaryKeyword": "workforce compliance for growing business",
       "keywords": [
-        "hr consulting vs in house hr"
+        "workforce compliance for growing business"
       ],
       "modifiers": [
-        "vs"
+        "business"
       ],
       "intentHints": [
-        "commercial-comparison",
-        "local"
+        "audience-specific"
       ],
       "metricsSummary": {
         "dataAvailable": false,
@@ -319,68 +205,23 @@
         "maxAvgMonthlySearches": null,
         "note": "No numeric volume supplied. Volume is not estimated or invented."
       },
-      "notes": "Grouped on shared base tokens: hr, consulting, house, hr. Clustering is a deterministic heuristic, not a semantic model.",
+      "notes": "Grouped on shared base tokens: workforce, compliance, growing. Clustering is a deterministic heuristic, not a semantic model.",
       "_categories": [
-        "comparison",
-        "location"
+        "audience"
       ]
     },
     {
-      "clusterId": "c-015",
-      "clusterName": "When Hire Hr Consultant",
-      "primaryKeyword": "when to hire an hr consultant",
+      "clusterId": "c-009",
+      "clusterName": "Hr Roadmap Small",
+      "primaryKeyword": "hr roadmap for small business",
       "keywords": [
-        "when to hire an hr consultant"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": false,
-        "keywordCount": 1,
-        "keywordsWithVolume": 0,
-        "totalAvgMonthlySearches": null,
-        "maxAvgMonthlySearches": null,
-        "note": "No numeric volume supplied. Volume is not estimated or invented."
-      },
-      "notes": "Grouped on shared base tokens: when, hire, hr, consultant. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-016",
-      "clusterName": "Outsourced Hr Consulting Las Vegas",
-      "primaryKeyword": "outsourced hr consulting las vegas",
-      "keywords": [
-        "outsourced hr consulting las vegas"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": false,
-        "keywordCount": 1,
-        "keywordsWithVolume": 0,
-        "totalAvgMonthlySearches": null,
-        "maxAvgMonthlySearches": null,
-        "note": "No numeric volume supplied. Volume is not estimated or invented."
-      },
-      "notes": "Grouped on shared base tokens: outsourced, hr, consulting, las, vegas. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-017",
-      "clusterName": "Hr Compliance Consultant",
-      "primaryKeyword": "hr compliance consultant near me",
-      "keywords": [
-        "hr compliance consultant near me"
+        "hr roadmap for small business"
       ],
       "modifiers": [
-        "near me"
+        "business"
       ],
       "intentHints": [
-        "local"
+        "audience-specific"
       ],
       "metricsSummary": {
         "dataAvailable": false,
@@ -390,45 +231,23 @@
         "maxAvgMonthlySearches": null,
         "note": "No numeric volume supplied. Volume is not estimated or invented."
       },
-      "notes": "Grouped on shared base tokens: hr, compliance, consultant. Clustering is a deterministic heuristic, not a semantic model.",
+      "notes": "Grouped on shared base tokens: hr, roadmap, small. Clustering is a deterministic heuristic, not a semantic model.",
       "_categories": [
-        "location"
+        "audience"
       ]
     },
     {
-      "clusterId": "c-018",
-      "clusterName": "Hr Consulting Services Las Vegas",
-      "primaryKeyword": "hr consulting services near las vegas",
+      "clusterId": "c-010",
+      "clusterName": "Onboarding Support Small",
+      "primaryKeyword": "onboarding support for small business",
       "keywords": [
-        "hr consulting services near las vegas"
-      ],
-      "modifiers": [],
-      "intentHints": [
-        "general"
-      ],
-      "metricsSummary": {
-        "dataAvailable": false,
-        "keywordCount": 1,
-        "keywordsWithVolume": 0,
-        "totalAvgMonthlySearches": null,
-        "maxAvgMonthlySearches": null,
-        "note": "No numeric volume supplied. Volume is not estimated or invented."
-      },
-      "notes": "Grouped on shared base tokens: hr, consulting, services, las, vegas. Clustering is a deterministic heuristic, not a semantic model.",
-      "_categories": []
-    },
-    {
-      "clusterId": "c-019",
-      "clusterName": "Hr Consulting Firm Las Vegas",
-      "primaryKeyword": "best hr consulting firm las vegas",
-      "keywords": [
-        "best hr consulting firm las vegas"
+        "onboarding support for small business"
       ],
       "modifiers": [
-        "best"
+        "business"
       ],
       "intentHints": [
-        "commercial-comparison"
+        "audience-specific"
       ],
       "metricsSummary": {
         "dataAvailable": false,
@@ -438,17 +257,17 @@
         "maxAvgMonthlySearches": null,
         "note": "No numeric volume supplied. Volume is not estimated or invented."
       },
-      "notes": "Grouped on shared base tokens: hr, consulting, firm, las, vegas. Clustering is a deterministic heuristic, not a semantic model.",
+      "notes": "Grouped on shared base tokens: onboarding, support, small. Clustering is a deterministic heuristic, not a semantic model.",
       "_categories": [
-        "comparison"
+        "audience"
       ]
     },
     {
-      "clusterId": "c-020",
-      "clusterName": "Hr Support Nevada Employers",
-      "primaryKeyword": "hr support for nevada employers",
+      "clusterId": "c-011",
+      "clusterName": "Hr Setup Growing Company",
+      "primaryKeyword": "hr setup for growing company",
       "keywords": [
-        "hr support for nevada employers"
+        "hr setup for growing company"
       ],
       "modifiers": [],
       "intentHints": [
@@ -462,7 +281,7 @@
         "maxAvgMonthlySearches": null,
         "note": "No numeric volume supplied. Volume is not estimated or invented."
       },
-      "notes": "Grouped on shared base tokens: hr, support, nevada, employers. Clustering is a deterministic heuristic, not a semantic model.",
+      "notes": "Grouped on shared base tokens: hr, setup, growing, company. Clustering is a deterministic heuristic, not a semantic model.",
       "_categories": []
     }
   ],

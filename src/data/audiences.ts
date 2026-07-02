@@ -9,32 +9,37 @@ export const audiences: Audience[] = [
     meta: {
       title: "HR Support for Business Owners | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps business owners identify HR risks, improve payroll and benefits processes, strengthen compliance, and prepare for growth.",
+        "Freedom HR Solutions helps business owners identify HR risks, strengthen payroll and benefits processes, improve compliance, and build the HR foundation their business needs. Las Vegas and nationwide.",
     },
     summary:
-      "Practical HR, payroll, benefits, and compliance support so owners can run the business instead of chasing paperwork.",
+      "Practical HR, payroll, benefits, and compliance support so business owners can run the business instead of chasing HR paperwork.",
     intro:
-      "As a business owner, HR is often one more responsibility stacked on top of everything else you manage. Freedom HR Solutions helps you find hidden risks, tighten payroll and benefits processes, and build a foundation that supports growth. We work alongside you with clear, practical guidance, not legal advice.",
+      "Most business owners become HR managers by default. Hiring, payroll, benefits, policies, and compliance all land on your desk alongside everything else you manage. Freedom HR Solutions helps you identify where your HR setup has gaps, tighten payroll and benefits processes, and build a foundation that supports growth without requiring you to become an HR expert. We work alongside you with clear, practical guidance: not legal advice, not guesswork.",
     painPoints: [
       {
         title: "HR is a side job, not your focus",
         description:
-          "You handle hiring, payroll, and policies between everything else, so gaps quietly build up over time.",
+          "You handle hiring, payroll, and policies between everything else you manage, so small gaps accumulate quietly until they become real problems.",
       },
       {
         title: "Uncertain compliance footing",
         description:
-          "You are not always sure whether your handbook, classifications, and records would hold up if reviewed.",
+          "Worker classification, recordkeeping, ACA status, and handbook requirements are easy to miss when no one on your team is tracking them day to day.",
       },
       {
         title: "Payroll and benefits feel disconnected",
         description:
-          "Separate systems and manual steps make it hard to trust that the numbers and deductions are right.",
+          "Separate systems and manual steps make it hard to trust that deductions, eligibility, and records are consistently accurate.",
       },
       {
-        title: "No clear plan for growth",
+        title: "No clear HR plan as the business grows",
         description:
-          "As headcount changes, you lack a roadmap for the HR processes and systems your business will need next.",
+          "Adding employees without a scalable HR foundation creates confusion around policies, systems, and who is responsible for what.",
+      },
+      {
+        title: "No one to call when an HR issue surfaces",
+        description:
+          "When an employee situation, payroll question, or compliance concern comes up, there is no internal resource to turn to and no clear path forward.",
       },
     ],
     scenarios: [
@@ -42,6 +47,8 @@ export const audiences: Audience[] = [
       "An employee asks a benefits question you cannot confidently answer.",
       "You suspect some workers may be misclassified but are not sure how to check.",
       "Tax season arrives and your payroll records are scattered across spreadsheets.",
+      "You want to know where your HR and compliance setup stands before something goes wrong.",
+      "You are comparing HR systems and need guidance before committing to a platform.",
     ],
     recommendedServiceSlugs: [
       "hr-mri-risk-assessment",
@@ -60,27 +67,42 @@ export const audiences: Audience[] = [
       {
         question: "How can Freedom HR Solutions help business owners?",
         answer:
-          "We help owners identify HR gaps, organize payroll and benefits processes, and strengthen compliance readiness. The goal is to take routine HR burdens off your plate so you can focus on running the business.",
+          "We help owners identify HR gaps, organize payroll and benefits processes, and strengthen compliance readiness. The goal is to take the HR burden off your plate so you can focus on running the business rather than managing paperwork.",
       },
       {
         question: "Do I need an internal HR team to work with Freedom HR Solutions?",
         answer:
-          "No. Many of our clients have no dedicated HR staff, and we are built to support owners who manage HR themselves alongside their other duties.",
+          "No. Many of the business owners we support have no dedicated HR staff and manage HR themselves alongside everything else. We are built to work with owners who handle HR on their own.",
       },
       {
-        question: "What HR risks should business owners be aware of?",
+        question: "What HR risks should business owners watch for?",
         answer:
-          "Common areas include worker classification, missing or outdated handbooks, incomplete records, and payroll setup. An assessment helps surface these gaps before they grow.",
+          "Common areas include worker misclassification, missing or outdated employee handbooks, incomplete payroll and benefits records, ACA reporting gaps, and hiring documentation problems. An HR MRI Risk Assessment is designed to surface these gaps systematically.",
       },
       {
-        question: "Can Freedom HR Solutions help review payroll and benefits processes?",
+        question: "Can Freedom HR Solutions review payroll and benefits processes?",
         answer:
-          "Yes. We review how your payroll and benefits workflows run today and recommend changes that help reduce avoidable errors and manual work.",
+          "Yes. We review how your payroll and benefits workflows run today, identify where errors or manual steps are creating risk, and recommend changes that reduce avoidable problems.",
       },
       {
-        question: "What is the best first step for a business owner?",
+        question: "Can Freedom HR Solutions help with employee handbooks?",
         answer:
-          "Most owners start with an HR MRI risk assessment. It gives you a clear picture of where things stand and a prioritized list of what to address.",
+          "Yes. We help business owners create and maintain employee handbooks that document policies clearly and consistently so expectations are set and records exist if situations arise.",
+      },
+      {
+        question: "Does Freedom HR Solutions work with business owners outside of Las Vegas?",
+        answer:
+          "Yes. We are headquartered in Las Vegas and support business owners across Nevada and nationwide through remote HR consulting, compliance reviews, system support, and ongoing HR assistance.",
+      },
+      {
+        question: "What is the best first step for a business owner who needs HR help?",
+        answer:
+          "The best starting point is an HR MRI Risk Assessment. It gives you a structured review of your HR, payroll, benefits, and compliance setup so you know exactly where your gaps are and what to address first, before committing to new systems or processes.",
+      },
+      {
+        question: "How is Freedom HR Solutions different from a PEO for business owners?",
+        answer:
+          "A PEO co-employs your workforce and bundles services under their systems and contracts. Freedom HR Solutions is an independent HR consulting firm. We work with your existing payroll and HR systems to improve compliance, accuracy, and processes without requiring you to change platforms or enter a co-employment arrangement.",
       },
     ],
     primaryCta: { label: "Find Hidden HR Risks", href: "/request-assessment/" },

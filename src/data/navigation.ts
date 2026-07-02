@@ -26,7 +26,6 @@ export const headerNav: NavLink[] = [
       { label: "HiBob", href: "/partners/hibob-consulting-support/" },
       { label: "CustomHCM", href: "/partners/customhcm-consulting-support/" },
       { label: "LegalShield", href: "/partners/legalshield-benefits-support/" },
-      { label: "Impact Health", href: "/partners/impact-health-benefits-support/" },
       { label: "Champion Insurance", href: "/partners/champion-insurance/" },
       { label: "Haniel Consulting", href: "/partners/haniel-consulting/" },
       { label: "PursuitPathways", href: "/partners/pursuit-pathways/" },

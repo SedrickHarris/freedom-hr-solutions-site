@@ -31,7 +31,6 @@
 - HiBob — /partners/hibob-consulting-support/
 - CustomHCM — /partners/customhcm-consulting-support/
 - LegalShield — /partners/legalshield-benefits-support/
-- Impact Health — /partners/impact-health-benefits-support/
 
 ## Service Areas
 

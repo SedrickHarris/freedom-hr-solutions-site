@@ -31,7 +31,6 @@ const PLATFORM_SLUGS = [
   "hibob-consulting-support",
   "isolved-consulting-support",
   "legalshield-benefits-support",
-  "impact-health-benefits-support",
 ];
 
 const CONSULTING_SLUGS = [

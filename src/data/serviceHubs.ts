@@ -183,66 +183,80 @@ export const serviceHubs: ServiceHub[] = [
     title: "Payroll, Benefits & HR Systems",
     h1: "Payroll, Benefits, and HR System Support",
     meta: {
-      title: "Payroll, Benefits, and HR System Support",
+      title: "Payroll, Benefits & HR System Support",
       description:
-        "Freedom HR Solutions helps businesses select, configure, manage, and optimize payroll, benefits, and HR systems for better accuracy and efficiency.",
+        "Freedom HR Solutions helps businesses select, configure, and manage payroll, benefits, and HR systems so data stays accurate and teams spend less time fixing errors.",
     },
     summary:
-      "Choose the right systems, configure them correctly, and keep payroll and benefits accurate as you grow.",
+      "Choose the right systems, configure them correctly, and keep payroll and benefits accurate as your business grows.",
     intro:
-      "Payroll and benefits run on systems, and when those systems are set up well, everything downstream gets easier. Freedom HR Solutions helps you select the right platforms, configure them for how your business operates, and keep payroll and benefits accurate across locations and states.",
+      "Payroll and benefits run on systems. When those systems are set up correctly, everything downstream gets easier: deductions are right, enrollment works, and data flows between platforms without manual intervention. When they are not set up correctly, errors compound and corrections take time your team does not have. Freedom HR Solutions helps businesses select, configure, and manage payroll, benefits, and HR systems so operations stay accurate across locations and states. Freedom HR Solutions provides independent consulting support and is not affiliated with or endorsed by any of the platforms referenced on this page.",
     problems: [
-      { title: "The wrong fit", description: "A payroll or HR platform that does not match how your business actually works." },
-      { title: "Configuration errors", description: "Settings, deductions, and rules that were never fully aligned to your needs." },
-      { title: "Disconnected data", description: "HR, payroll, and benefits systems that do not share data cleanly." },
-      { title: "Multi-state complexity", description: "Payroll across states that introduces rules the current setup struggles with." },
+      { title: "The wrong fit", description: "A payroll or HR platform that does not match how the business actually operates, creating workarounds from day one." },
+      { title: "Configuration errors", description: "Settings, deductions, and rules that were never fully aligned to the real workflow." },
+      { title: "Disconnected data", description: "HR, payroll, and benefits systems that do not share data cleanly, requiring manual reconciliation." },
+      { title: "Multi-state complexity", description: "Payroll across states that introduces rules the current setup was not built to handle." },
     ],
     helps: [
-      { title: "System selection", description: "Help comparing and choosing payroll, HR, and benefits platforms that fit your business." },
-      { title: "Configuration support", description: "Setup and configuration so the system reflects your real workflows." },
+      { title: "System selection support", description: "Help comparing and choosing payroll, HR, and benefits platforms that fit the business, not just the vendor demo." },
+      { title: "Configuration and setup", description: "Setup and configuration so the system reflects real workflows, not default settings." },
       { title: "Benefits administration", description: "Support managing benefits setup, eligibility, and enrollment workflows." },
-      { title: "Multi-state payroll", description: "Help managing payroll across multiple states and locations." },
+      { title: "Multi-state payroll support", description: "Help managing payroll across multiple states and locations consistently." },
     ],
-    whoItHelps: ["Growing businesses", "Payroll teams", "Benefits administrators", "Multi-state employers", "Business owners"],
+    whoItHelps: ["Payroll teams", "Benefits administrators", "HR teams", "Growing businesses", "Multi-state employers"],
     process: standardProcess,
-    serviceSlugs: ["payroll-benefits-hr-management", "benefits-administration-support", "multi-state-payroll-support"],
+    serviceSlugs: ["payroll-benefits-hr-management", "benefits-administration-support", "multi-state-payroll-support", "open-enrollment-setup", "system-setup-implementation"],
     relatedAudienceSlugs: ["payroll-teams", "benefits-administrators", "growing-businesses", "multi-state-employers"],
     searchThemes: [
-      "Payroll system consultant",
-      "Benefits administration support",
-      "HCM system consulting",
-      "Multi-state payroll support",
-      "HR management systems",
+      "payroll and benefits system support",
+      "HR system configuration support",
+      "benefits administration support",
+      "payroll system setup consulting",
+      "multi-state payroll support",
+      "HRIS payroll systems consulting",
+      "payroll and HR integration support",
+      "benefits enrollment configuration",
+      "payroll benefits consultant",
     ],
     faqs: [
       {
-        question: "Can Freedom HR Solutions help choose a payroll system?",
+        question: "What does payroll and benefits system support include?",
         answer:
-          "Yes. We help you compare platforms based on your size, structure, and goals so you can choose a system that fits how your business actually operates.",
+          "It includes help selecting the right platforms, configuring payroll and benefits settings, managing eligibility and enrollment workflows, reconciling data across systems, and supporting multi-state payroll consistency.",
       },
       {
-        question: "Can Freedom HR Solutions help with benefits administration setup?",
+        question: "How does Freedom HR Solutions help with payroll configuration?",
         answer:
-          "Yes. We help configure benefits plans, eligibility rules, and enrollment workflows, and we support you through open enrollment.",
+          "We review your current setup, identify configuration gaps, and work through corrections so deductions, rules, and workflows reflect how your business actually operates.",
       },
       {
-        question: "What causes payroll and benefits system errors?",
+        question: "What is benefits administration support?",
         answer:
-          "Common causes include incomplete configuration, data that does not sync between systems, and processes that were never documented. We help identify and correct the root cause.",
+          "Benefits administration support covers benefits setup, eligibility management, enrollment configuration, employee communication support, and ongoing maintenance so benefits data stays accurate.",
       },
       {
-        question: "Can payroll, HR, and benefits systems be connected?",
+        question: "Can Freedom HR Solutions help connect HR and payroll systems?",
         answer:
-          "In many cases, yes. We help review integration options so your systems share data more cleanly and reduce duplicate manual work.",
+          "Yes. We review your systems and integration options so data flows more cleanly between HR, payroll, and benefits platforms and your team spends less time on duplicate entry or manual corrections.",
       },
       {
-        question: "Can Freedom HR Solutions help with multi-state payroll support?",
+        question: "Does Freedom HR Solutions support multi-state payroll?",
         answer:
-          "Yes. We help employers manage payroll workflows across multiple states and keep configurations consistent as they expand.",
+          "Yes. We help employers manage payroll across multiple states, including configuration, eligibility, and workflow consistency as teams grow and expand into new locations.",
+      },
+      {
+        question: "What HR and payroll platforms does Freedom HR Solutions work with?",
+        answer:
+          "We work with businesses using ADP, isolved, BambooHR, HiBob, and CustomHCM. We help with configuration, audits, troubleshooting, and ongoing support. We are not affiliated with or endorsed by those platforms.",
+      },
+      {
+        question: "What happens when payroll and benefits data does not line up?",
+        answer:
+          "Misaligned data between HR, payroll, and benefits systems is usually a configuration or integration problem. We help identify the root cause and correct it so deductions, elections, and records are consistent.",
       },
     ],
-    primaryCta: ctas.systemReview,
-    secondaryCta: ctas.consultation,
+    primaryCta: { label: "Request Payroll and Benefits Review", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
   },
   {
     slug: "hr-technology-automation",

@@ -7,37 +7,6 @@ import type { Partner } from "@/types";
  * certified provider for these platforms unless the client confirms otherwise.
  * All copy uses safe "supports workflows involving this platform" language.
  */
-const safeSupportAreas = (platform: string) => [
-  {
-    title: "Implementation support",
-    description: `Help planning and coordinating ${platform} setup so your configuration reflects how your business actually operates.`,
-  },
-  {
-    title: "Configuration support",
-    description: `Support configuring ${platform} settings, rules, and workflows for payroll, HR, and benefits accuracy.`,
-  },
-  {
-    title: "Integration support",
-    description: `Help connecting ${platform} with your other systems so data flows more cleanly and reduces duplicate entry.`,
-  },
-  {
-    title: "Optimization support",
-    description: `Review how you use ${platform} today and identify ways to streamline workflows and improve reporting.`,
-  },
-  {
-    title: "Troubleshooting support",
-    description: `Help diagnosing and resolving recurring workflow issues involving ${platform}, working alongside your existing providers.`,
-  },
-];
-
-const benefitsPartnerServices = [
-  "benefits-administration-support",
-  "open-enrollment-setup",
-  "payroll-benefits-hr-management",
-  "technical-issue-resolution",
-  "ongoing-technical-support",
-];
-
 export const partners: Partner[] = [
   {
     slug: "adp-consulting-support",
@@ -520,20 +489,84 @@ export const partners: Partner[] = [
     name: "Impact Health",
     category: "Health benefits",
     meta: {
-      title: "Impact Health Benefits Support",
+      title: "Impact Health Benefits Administration Support | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps businesses support and administer health benefits workflows involving Impact Health as part of their benefits program.",
+        "Freedom HR Solutions helps businesses set up, administer, and manage employee health benefits workflows involving Impact Health. Support for eligibility, open enrollment, payroll deduction coordination, and ongoing administration. Las Vegas and nationwide.",
     },
     summary:
-      "Support for administering and communicating health benefits workflows involving Impact Health.",
+      "Support for setting up, administering, and managing employee health benefits workflows involving Impact Health, including eligibility, enrollment, and payroll deduction coordination.",
     overview:
-      "Freedom HR Solutions helps businesses support and administer health benefits workflows involving Impact Health, including setup, eligibility, employee communication, and ongoing administration.",
-    supportAreas: safeSupportAreas("Impact Health"),
-    relatedServiceSlugs: benefitsPartnerServices,
+      "Impact Health offers supplemental and alternative health benefit options that employers can make available to their workforce. Freedom HR Solutions helps businesses support the administration side: coordinating benefit setup, managing eligibility, communicating options clearly during open enrollment, and ensuring payroll deductions flow accurately through your existing systems. We work alongside your HR and payroll setup so the Impact Health benefit runs without unnecessary friction for your team or your employees.",
+    supportAreas: [
+      {
+        title: "Benefits setup support",
+        description:
+          "Help coordinating the initial setup of Impact Health as an employee benefit, including how it fits within your existing benefits package and what your HR and payroll systems need to support it.",
+      },
+      {
+        title: "Eligibility administration support",
+        description:
+          "Support managing and reconciling employee eligibility data so the right employees are enrolled, eligibility changes are reflected accurately, and carrier data stays aligned with your HR records.",
+      },
+      {
+        title: "Open enrollment support",
+        description:
+          "Support configuring, communicating, and administering Impact Health benefit options during open enrollment so employees understand what is available, how to compare options, and how to enroll.",
+      },
+      {
+        title: "Payroll deduction coordination",
+        description:
+          "Help reviewing how Impact Health payroll deductions are set up and flow through your payroll system to reduce setup errors, missed deductions, and reconciliation problems.",
+      },
+      {
+        title: "Ongoing administration support",
+        description:
+          "Ongoing help managing health benefits workflows involving Impact Health throughout the plan year, including enrollment changes, eligibility updates, deduction adjustments, and employee questions.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "benefits-administration-support",
+      "open-enrollment-setup",
+      "payroll-benefits-hr-management",
+      "technical-issue-resolution",
+      "ongoing-technical-support",
+    ],
     faqs: [
-      { question: "Is Freedom HR Solutions an official Impact Health partner?", answer: "We help businesses support and administer benefits workflows involving Impact Health. We do not claim official partnership or certification unless confirmed." },
-      { question: "Can Freedom HR Solutions help administer Impact Health benefits?", answer: "Yes. We help with setup, eligibility, employee communication, and ongoing administration." },
-      { question: "Can you help connect benefits data to payroll?", answer: "Yes. We help review how benefits data flows into your payroll and HR systems." },
+      {
+        question: "Is Freedom HR Solutions an official Impact Health partner?",
+        answer:
+          "We help businesses support and administer benefits workflows involving Impact Health. We do not claim official partnership or certification unless confirmed.",
+      },
+      {
+        question: "Can Freedom HR Solutions help set up Impact Health as an employee benefit?",
+        answer:
+          "Yes. We help coordinate the setup process, review how Impact Health fits into your existing benefits package, and support configuration of eligibility rules and payroll deductions.",
+      },
+      {
+        question: "Can you help manage employee eligibility for Impact Health benefits?",
+        answer:
+          "Yes. We help manage and reconcile eligibility data so the right employees are enrolled, eligibility changes are processed accurately, and your HR records stay aligned with carrier data.",
+      },
+      {
+        question: "Can Freedom HR Solutions support Impact Health benefits during open enrollment?",
+        answer:
+          "Yes. We support open enrollment by helping configure available health benefit options, preparing employee communications, and managing the enrollment workflow so employees can make informed choices and enroll accurately.",
+      },
+      {
+        question: "How does Freedom HR Solutions help with Impact Health payroll deductions?",
+        answer:
+          "We review how Impact Health deductions are configured in your payroll system and help identify and resolve setup issues that cause errors, missed deductions, or reconciliation problems.",
+      },
+      {
+        question: "What types of businesses does Freedom HR Solutions help with Impact Health benefits?",
+        answer:
+          "We work with small businesses, growing companies, HR teams, benefits administrators, and business owners across Nevada and nationwide that need support administering health benefits like Impact Health.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with Impact Health benefits throughout the year?",
+        answer:
+          "Yes. Beyond open enrollment, we provide ongoing support for eligibility changes, enrollment updates, deduction adjustments, and employee questions related to Impact Health benefits throughout the plan year.",
+      },
     ],
   },
 ];

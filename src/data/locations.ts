@@ -432,94 +432,96 @@ export const locations: Location[] = [
   },
   {
     slug: "nationwide-hr-consulting",
-    title:
-      "Nationwide HR, Payroll, Benefits, Compliance, and HR Technology Support",
+    title: "Nationwide HR, Payroll, Benefits, Compliance, and HR Technology Support",
     region: "national",
     meta: {
       title: "Nationwide HR Consulting and Support | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions serves employers nationwide with HR compliance, payroll, benefits, ACA reporting, HR technology, system implementation, and technical support.",
+        "Freedom HR Solutions provides remote HR consulting, multi-state payroll compliance, employee handbook creation, ACA reporting, HR technology implementation, and ongoing support for employers nationwide.",
     },
     summary:
-      "Remote HR, payroll, benefits, compliance, and HR technology support for employers across the country.",
-    intro:
-      "Freedom HR Solutions serves employers nationwide with HR compliance, payroll, benefits, ACA reporting, and HR technology support. From our Las Vegas headquarters, we deliver consulting and system support remotely, so location is never a barrier. We help companies in any state run consistent HR processes and keep their systems and reporting on track.",
+      "Remote HR consulting, multi-state payroll and compliance support, employee handbooks, ACA reporting, and HR technology services for employers anywhere in the country, delivered from our Las Vegas headquarters.",
     positioning:
-      "Our remote delivery model brings the same structured HR support to employers anywhere in the country. We work with multi state and single location companies alike, keeping processes consistent across every site and state.",
+      "Freedom HR Solutions delivers the same structured HR support to employers anywhere in the country. Our remote consulting model means location is never a barrier. Whether you operate in one state or twenty, we help build consistent payroll, benefits, compliance, and HR technology processes across your entire workforce.",
+    intro:
+      "Freedom HR Solutions serves employers nationwide with HR compliance, payroll, benefits, ACA reporting, employee handbooks, and HR technology support. From our Las Vegas headquarters, we deliver consulting and system support remotely so location is never a barrier. Multi-state employers face additional complexity: varied payroll tax rules, unemployment tax obligations, and the challenge of maintaining one employee handbook that works across jurisdictions. We help employers in any state build consistent, compliant HR processes and keep their systems and reporting on track.",
     localChallenges: [
       {
-        title: "Multi state payroll and compliance",
+        title: "Multi-state payroll and tax compliance",
         description:
-          "Employers operating in several states juggle varied payroll and reporting needs. We support multi state payroll and help build processes that stay consistent across locations.",
+          "Employers operating across multiple states must navigate varied payroll tax rules, unemployment tax obligations, and withholding requirements by jurisdiction. We help build structured payroll processes and support the platforms you use to keep multi-state payroll organized and consistent.",
       },
       {
-        title: "Consistent processes across locations",
+        title: "Multi-state employee handbooks",
         description:
-          "Distributed teams often develop different habits site to site. We help standardize handbooks, workflows, and HR systems so policies and data stay aligned company wide.",
+          "A single-state handbook rarely covers every location. We help employers create and maintain employee handbooks that account for state-specific policy differences so documentation stays accurate across every jurisdiction where you operate.",
       },
       {
-        title: "Working with existing platforms",
+        title: "Nationwide ACA reporting and compliance",
         description:
-          "Most companies already use HR, payroll, or benefits software. We work within your existing platforms to set up, streamline, and support them rather than forcing a rip and replace.",
+          "Multi-state applicable large employers face ACA reporting obligations regardless of where employees are located. We serve as an ACA reporting consultant nationwide, helping with applicable large employer review, data preparation, and 1095-C reporting workflows. We provide guidance, not legal or tax advice.",
       },
       {
-        title: "Reliable remote support",
+        title: "Remote HR technology and system support",
         description:
-          "Remote teams need responsive help when systems break or questions arise. We provide ongoing technical support and technical issue resolution delivered entirely remotely.",
+          "Distributed workforces need HR, payroll, and benefits systems that stay aligned across locations. We help implement, configure, and support HR technology remotely so your data and reporting stay consistent company-wide, no matter which platform you use.",
       },
     ],
     industries: [
       "Professional and business services",
-      "Technology and software",
       "Healthcare and medical practices",
-      "Retail and e-commerce",
+      "Technology and software",
       "Manufacturing and distribution",
-      "Multi state and distributed employers",
+      "Retail and multi-location businesses",
+      "Multi-state and distributed employers",
     ],
     serviceSlugs: [
-      "aca-reporting-consultant",
+      "hr-mri-risk-assessment",
       "compliance-support",
+      "aca-reporting-consultant",
       "payroll-benefits-hr-management",
+      "employee-handbook-creation-management",
       "system-setup-implementation",
       "hr-technology-automation",
-      "reporting-data-insights",
       "ongoing-technical-support",
-      "technical-issue-resolution",
     ],
-    nearbySlugs: ["nevada", "las-vegas-nv"],
+    nearbySlugs: [
+      "nevada",
+      "las-vegas-nv",
+      "henderson-nv",
+      "north-las-vegas-nv",
+    ],
     relatedAudienceSlugs: [
       "multi-state-employers",
+      "companies-without-hr-departments",
       "growing-businesses",
-      "hr-teams",
+      "business-owners",
     ],
     faqs: [
       {
         question: "Does Freedom HR Solutions serve businesses nationwide?",
         answer:
-          "Yes. We are headquartered in Las Vegas and serve employers nationwide. Our services are delivered through remote consulting and system support, so we can work with companies in any state.",
+          "Yes. We are headquartered in Las Vegas and serve employers nationwide through remote consulting and system support. We can work with companies in any state.",
       },
       {
         question: "How does remote HR consulting work?",
         answer:
-          "We connect with your team through video calls, secure file sharing, and remote access to your HR and payroll systems. This lets us assess, set up, and support your processes without needing to be on site.",
+          "We connect with your team through video calls, secure file sharing, and remote access to your HR and payroll systems. This lets us assess, set up, and support your processes without being on site.",
       },
       {
-        question:
-          "Can Freedom HR Solutions support multi-state employers?",
+        question: "Can Freedom HR Solutions support multi-state employers?",
         answer:
-          "Yes. We support multi state employers with payroll across locations, consistent handbooks and processes, and HR systems that keep data aligned across every state where you operate.",
+          "Yes. We support multi-state employers with payroll across locations, multi-state employee handbooks, and HR systems that keep data aligned across every state where you operate.",
       },
       {
-        question:
-          "Can Freedom HR Solutions help with nationwide ACA reporting support?",
+        question: "What is a multi-state employee handbook and do I need one?",
         answer:
-          "Yes. We provide ACA reporting consulting nationwide, helping with applicable large employer review, data preparation, and reporting workflows. We offer guidance and not legal or tax advice.",
+          "A multi-state employee handbook includes state-specific policies for each jurisdiction where you have employees, rather than applying one state's rules everywhere. Employers with workers in multiple states generally need handbook language that reflects each state's requirements. We help create and maintain handbooks that account for these differences. We provide guidance, not legal advice.",
       },
       {
-        question:
-          "Can Freedom HR Solutions work with our existing HR, payroll, or benefits platform?",
+        question: "Can Freedom HR Solutions help with ACA reporting for employers in multiple states?",
         answer:
-          "Yes. We work within the platforms you already use, helping configure, streamline, audit, and support them so you get more value from your current HR technology.",
+          "Yes. We provide ACA reporting consulting for multi-state applicable large employers, helping with applicable large employer review, data preparation across locations, and 1095-C reporting workflows. We provide guidance, not legal or tax advice.",
       },
     ],
     primaryCta: { label: "Request Nationwide HR Support", href: "/request-assessment/" },

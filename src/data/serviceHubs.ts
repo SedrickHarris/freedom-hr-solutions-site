@@ -97,19 +97,19 @@ export const serviceHubs: ServiceHub[] = [
     title: "ACA Reporting & Compliance",
     h1: "ACA Reporting and Compliance Support for Employers",
     meta: {
-      title: "ACA Reporting and Compliance Support",
+      title: "ACA Reporting and Compliance Support for Employers",
       description:
-        "Get support with ACA reporting, Applicable Large Employer reviews, IRS 1094 and 1095 filing, affordability reviews, and ACA penalty response.",
+        "Freedom HR Solutions helps employers determine ALE status, organize workforce data, prepare IRS 1094 and 1095 filings, and respond to ACA penalty notices. Serving Las Vegas, Nevada, and nationwide.",
     },
     summary:
-      "Understand your ACA reporting responsibilities, organize the data, and prepare accurate filings with experienced support.",
+      "Understand your ACA reporting responsibilities, determine ALE status, organize workforce data, and prepare accurate IRS filings with experienced support.",
     intro:
-      "ACA reporting can be confusing, especially for employers who are growing or managing coverage across multiple states. Freedom HR Solutions helps you understand your responsibilities, organize workforce and coverage data, prepare filing information, and respond if reporting issues come up.",
+      "ACA reporting starts with one question: are you an Applicable Large Employer? If your business averaged 50 or more full-time and full-time equivalent employees in the prior year, reporting requirements likely apply. From there, the process involves organizing coverage and eligibility data, preparing IRS Forms 1094 and 1095, and staying current each filing cycle. Freedom HR Solutions helps employers work through each step, whether you are determining ALE status for the first time, cleaning up data before a deadline, or responding to a notice. We support businesses in Las Vegas, Nevada, and nationwide.",
     problems: [
-      { title: "Unclear ALE status", description: "Uncertainty about whether your business is an Applicable Large Employer and what that requires." },
-      { title: "Messy workforce data", description: "Employee, coverage, and eligibility data spread across systems that do not line up cleanly." },
-      { title: "Filing errors", description: "Mistakes on IRS Forms 1094 and 1095 that can lead to notices and follow up." },
-      { title: "Penalty notices", description: "IRS notices that arrive without a clear plan for how to respond." },
+      { title: "Unclear ALE status", description: "Uncertainty about whether your business qualifies as an Applicable Large Employer and what ACA reporting that triggers." },
+      { title: "Messy workforce data", description: "Employee, coverage, and eligibility data spread across systems that do not line up when it is time to file." },
+      { title: "Filing errors", description: "Mistakes on IRS Forms 1094 and 1095 that result in notices and follow-up from the IRS." },
+      { title: "Penalty notices", description: "IRS ACA notices that arrive without a clear plan for how to review, respond, or correct the underlying issue." },
     ],
     helps: [
       { title: "ALE review", description: "Help determining Applicable Large Employer status and what it means for your reporting." },
@@ -119,36 +119,49 @@ export const serviceHubs: ServiceHub[] = [
     ],
     whoItHelps: [
       "Applicable Large Employers",
-      "Growing businesses",
+      "Growing businesses approaching the ALE threshold",
       "Multi-state employers",
       "Benefits administrators",
       "HR teams",
+      "Businesses without a dedicated HR department",
     ],
     process: standardProcess,
     serviceSlugs: ["aca-reporting-consultant", "aca-compliance-review", "applicable-large-employer-review"],
     relatedAudienceSlugs: ["multi-state-employers", "benefits-administrators", "growing-businesses", "hr-teams"],
     searchThemes: [
       "ACA reporting consultant",
-      "IRS 1094 1095 filing",
-      "ACA penalty response",
       "Applicable Large Employer review",
+      "ALE status determination",
+      "IRS 1094 and 1095 filing help",
+      "ACA penalty response",
+      "ACA reporting for growing businesses",
       "ACA compliance review",
     ],
     faqs: [
       {
         question: "What is ACA reporting?",
         answer:
-          "ACA reporting is the process employers use to report health coverage offers, employee eligibility, and coverage information to the IRS. We help employers review requirements, organize data, and prepare filing information.",
+          "ACA reporting is the process employers use to report health coverage offers, employee eligibility, and coverage details to the IRS each year. Applicable Large Employers file IRS Forms 1094-C and 1095-C. Freedom HR Solutions helps employers review requirements, organize data, and prepare filing information.",
       },
       {
         question: "Who is considered an Applicable Large Employer?",
         answer:
-          "Generally, an employer that averaged 50 or more full-time and full-time equivalent employees in the prior year may be an Applicable Large Employer. We help you review your numbers so you understand where you stand.",
+          "Generally, an employer that averaged 50 or more full-time and full-time equivalent employees in the prior calendar year is considered an Applicable Large Employer under the ACA. Full-time equivalent employees are calculated by combining part-time hours. We help employers review their workforce numbers to understand where they stand.",
+      },
+      {
+        question: "Am I an Applicable Large Employer?",
+        answer:
+          "Whether you qualify as an Applicable Large Employer depends on your average employee count from the prior year, including full-time equivalent calculations for part-time workers. If you averaged 50 or more, ACA reporting requirements likely apply. Freedom HR Solutions helps you review your workforce data to make that determination.",
+      },
+      {
+        question: "How is the ALE threshold calculated?",
+        answer:
+          "The ALE threshold is generally 50 full-time and full-time equivalent employees averaged across the prior calendar year. Full-time equivalent employees are calculated by dividing total part-time hours worked in a month by 120. We help employers work through this calculation so they have a clear picture of their status.",
       },
       {
         question: "What are IRS Forms 1094 and 1095?",
         answer:
-          "Forms 1094 and 1095 are used to report health coverage information to the IRS and to employees. We help you organize the data needed and prepare accurate filing information.",
+          "Forms 1094 and 1095 are used to report health coverage information to the IRS and to employees. Form 1095-C is provided to each full-time employee; Form 1094-C is the transmittal filed with the IRS. We help employers organize the data needed to prepare accurate filing information.",
       },
       {
         question: "Can Freedom HR Solutions help with ACA penalty notices?",
@@ -158,7 +171,7 @@ export const serviceHubs: ServiceHub[] = [
       {
         question: "How can employers reduce ACA reporting errors?",
         answer:
-          "Clean data, clear eligibility tracking, and an annual review of your reporting process all help. We support each of these so your filings are better organized.",
+          "Clean eligibility data, consistent tracking of full-time and part-time hours, and an annual review of your reporting process all help reduce avoidable errors. We support each of these so your filings are better organized before the deadline.",
       },
     ],
     primaryCta: ctas.acaReview,

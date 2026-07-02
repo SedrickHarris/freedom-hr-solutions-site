@@ -4,17 +4,20 @@ import { TrustBar } from "@/components/sections/TrustBar";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { FaqSection } from "@/components/sections/FaqSection";
+import { CtaBand } from "@/components/sections/CtaBand";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { SchemaScript } from "@/components/seo/SchemaScript";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { Button } from "@/components/ui/Button";
 import { site } from "@/data/site";
 import { ctas } from "@/data/shared";
 import { buildMetadata } from "@/lib/seo";
+import { professionalServiceSchema } from "@/lib/schema";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Contact Freedom HR Solutions | HR, Payroll, Benefits, and Compliance Support",
+  title: "Contact Freedom HR Solutions | HR Consulting Support, Las Vegas and Nationwide",
   description:
-    "Contact Freedom HR Solutions for HR compliance, payroll, benefits, ACA reporting, HR technology, system implementation, and workforce support.",
+    "Reach Freedom HR Solutions by form or phone for HR compliance, payroll, benefits, ACA reporting, HR technology, and workforce support. We serve Las Vegas and businesses nationwide.",
   path: "/contact/",
 });
 
@@ -26,14 +29,40 @@ const reasons = [
   "You are implementing a new HR or payroll system.",
   "You want to review employee handbook or policy gaps.",
   "You need ongoing technical support.",
+  "You are not sure where to start and want a clear next step.",
 ];
 
 const contactFaqs = [
-  { question: "How do I request support from Freedom HR Solutions?", answer: "Use the form on this page or request an HR MRI Assessment. We will follow up using the contact details you provide." },
-  { question: "Can I request an HR MRI Assessment from this page?", answer: "Yes. You can use this contact form, or go to the Request HR MRI Assessment page for the full assessment form." },
-  { question: "Does Freedom HR Solutions work with businesses outside Las Vegas?", answer: "Yes. We are headquartered in Las Vegas and support businesses nationwide through remote consulting and system support." },
-  { question: "What information should I include in my message?", answer: "Share your company, the systems you use, and the main challenge you want help with. The more context, the better we can prepare." },
-  { question: "Can Freedom HR Solutions support my existing HR or payroll platform?", answer: "Yes. We frequently work alongside your existing systems and providers." },
+  {
+    question: "How do I request support from Freedom HR Solutions?",
+    answer:
+      "Use the contact form on this page, call or email us directly, or request an HR MRI Assessment for a structured review of your HR, payroll, benefits, and compliance operations. We will follow up using the contact details you provide.",
+  },
+  {
+    question: "What happens after I submit the contact form?",
+    answer:
+      "We review your message and follow up using the contact method you provided, typically by email or phone. If you described a specific challenge or system, we will come prepared to discuss it. There is no obligation and no sales pressure.",
+  },
+  {
+    question: "Can I request an HR MRI Assessment from this page?",
+    answer:
+      "Yes. You can submit a general message using this form, or go directly to the Request HR MRI Assessment page for the full structured assessment form. The HR MRI Assessment is a detailed review of your HR, payroll, benefits, and compliance operations.",
+  },
+  {
+    question: "Does Freedom HR Solutions work with businesses outside Las Vegas?",
+    answer:
+      "Yes. We are headquartered in Las Vegas, Nevada and support businesses nationwide through remote consulting and system support. Multi-state employers and businesses in any state are welcome to reach out.",
+  },
+  {
+    question: "What information should I include in my message?",
+    answer:
+      "Share your company name, the HR or payroll systems you currently use, and the main challenge you need help with. The more context you provide, the better we can prepare for the follow-up conversation.",
+  },
+  {
+    question: "Can Freedom HR Solutions work with my existing HR or payroll platform?",
+    answer:
+      "Yes. We are platform-agnostic and work alongside the systems you already use, including ADP, isolved, BambooHR, HiBob, CustomHCM, and other HR and payroll platforms. You are not required to change your technology to work with us.",
+  },
 ];
 
 export default function ContactPage() {
@@ -44,7 +73,7 @@ export default function ContactPage() {
       <Hero
         eyebrow="Contact"
         title="Contact Freedom HR Solutions"
-        description="Tell us what you need help with and we will follow up. For a full HR review, you can also request an HR MRI Assessment."
+        description="Tell us what you need help with and we will follow up using the contact details you provide. You can also call or email directly, or request an HR MRI Assessment for a structured review of your HR, payroll, benefits, and compliance operations."
         primaryCta={ctas.assessment}
       />
 
@@ -99,6 +128,17 @@ export default function ContactPage() {
       </Section>
 
       <FaqSection faqs={contactFaqs} />
+
+      <CtaBand />
+
+      <SchemaScript
+        schema={professionalServiceSchema({
+          name: site.name,
+          description:
+            "Freedom HR Solutions provides HR compliance, payroll, benefits, ACA reporting, HR technology, and workforce support for businesses in Las Vegas, Nevada, and nationwide.",
+          path: "/contact/",
+        })}
+      />
     </>
   );
 }

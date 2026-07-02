@@ -574,38 +574,38 @@ export const partners: Partner[] = [
   {
     slug: "haniel-consulting",
     name: "Haniel Consulting",
-    category: "Business consulting partner",
+    category: "Business and leadership coaching partner",
     externalUrl: "https://www.hanielconsulting.com",
-    contactName: "Claudia Brown",
+    contactName: "Claudia Esser Brown, MBA",
     meta: {
-      title: "Haniel Consulting Partner | Freedom HR Solutions",
+      title: "Haniel Consulting Business Coaching Partner | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions partners with Haniel Consulting to provide clients with expanded business consulting support alongside HR, payroll, benefits, and compliance services.",
+        "Freedom HR Solutions works alongside Haniel Consulting to give business owner clients access to strategic business coaching and leadership support alongside HR, payroll, and compliance services.",
     },
     summary:
-      "A business consulting partnership that broadens the support available to Freedom HR Solutions clients across operations, strategy, and workforce planning.",
+      "A business and leadership coaching partnership that gives Freedom HR Solutions clients access to strategic coaching support for scaling, leadership, and work-life alignment.",
     overview:
-      "Freedom HR Solutions works alongside Haniel Consulting to provide clients with access to broader business consulting expertise. Claudia Brown leads Haniel Consulting and brings operational and strategic consulting experience that complements the HR, payroll, benefits, and compliance support Freedom HR Solutions provides. Together, the two firms can support clients who need both HR infrastructure and broader business advisory guidance at the same time. Freedom HR Solutions and Haniel Consulting are independent organizations that collaborate on behalf of shared clients.",
+      "Freedom HR Solutions works alongside Haniel Consulting to support business owners who need more than HR infrastructure. Claudia Esser Brown, MBA, founded Haniel Consulting and brings over 18 years of experience helping established business owners scale with strategy, strengthen their leadership, and build businesses that do not consume their lives. For Freedom HR Solutions clients who are managing HR and payroll challenges alongside broader questions about leadership direction, team structure, or sustainable growth, Haniel Consulting offers a trusted next step. Freedom HR Solutions handles the HR, payroll, benefits, and compliance foundation. Haniel Consulting helps business owners work on the leadership and strategy layer that sits above it. Both firms operate independently and collaborate on behalf of shared clients.",
     supportAreas: [
       {
-        title: "Business operations consulting",
+        title: "Strategic business coaching",
         description:
-          "Haniel Consulting provides operational consulting support that helps businesses improve processes, identify inefficiencies, and build more sustainable operating structures alongside HR and workforce systems.",
+          "Claudia Esser Brown works with established business owners to clarify growth strategy, build systems that reduce owner dependency, strengthen team performance, and create a business that operates without requiring constant owner involvement.",
       },
       {
-        title: "Workforce and organizational planning",
+        title: "Leadership development and clarity",
         description:
-          "Support planning workforce structure, organizational design, and growth-stage transitions so businesses can scale without losing operational control.",
+          "Coaching support to help business owners lead with more intention, make higher-impact decisions, identify blind spots, and build the leadership foundation their growing team needs.",
       },
       {
-        title: "Strategic advisory support",
+        title: "Scaling without overwhelm",
         description:
-          "Guidance on business strategy, service delivery models, and decision-making frameworks for business owners who need outside perspective alongside their HR and compliance work.",
+          "Practical coaching for business owners who are growing but feeling stretched thin. Haniel Consulting helps identify where to delegate, how to build sustainable systems, and how to scale without adding more hours.",
       },
       {
-        title: "Complementary HR and business support",
+        title: "Business and life alignment coaching",
         description:
-          "When Freedom HR Solutions clients need business consulting support beyond HR scope, Haniel Consulting provides a trusted referral and collaborative resource.",
+          "Support for business owners who have built external success but feel disconnected from their personal goals. Claudia helps clients align their business strategy with a life that works on their own terms.",
       },
     ],
     relatedServiceSlugs: [
@@ -618,27 +618,27 @@ export const partners: Partner[] = [
       {
         question: "What is the relationship between Freedom HR Solutions and Haniel Consulting?",
         answer:
-          "Freedom HR Solutions and Haniel Consulting are independent firms that collaborate to support shared clients. When clients need business consulting support alongside HR and compliance services, Haniel Consulting provides that expertise.",
+          "Freedom HR Solutions and Haniel Consulting are independent firms that collaborate to support shared clients. Freedom HR Solutions provides HR, payroll, benefits, and compliance support. Haniel Consulting provides strategic business coaching and leadership development for business owners who want to scale and lead more effectively.",
       },
       {
         question: "Who leads Haniel Consulting?",
         answer:
-          "Claudia Brown leads Haniel Consulting and brings business operations and strategic consulting experience to clients who need broader advisory support alongside HR services.",
+          "Claudia Esser Brown, MBA, founded Haniel Consulting and brings over 18 years of experience helping established business owners clarify their strategy, strengthen their leadership, and build businesses that work without consuming their lives.",
       },
       {
-        question: "Can Freedom HR Solutions refer me to Haniel Consulting?",
+        question: "What does Haniel Consulting help business owners with?",
         answer:
-          "Yes. If your situation calls for both HR support and broader business consulting, Freedom HR Solutions can connect you with Haniel Consulting as a trusted collaborative partner.",
+          "Haniel Consulting offers strategic business coaching, leadership development, and life alignment coaching for established business owners. The focus is on scaling with strategy, reducing owner dependency, and building a business that supports the life the owner actually wants.",
       },
       {
-        question: "Is Haniel Consulting an HR firm?",
+        question: "How does Freedom HR Solutions decide when to refer a client to Haniel Consulting?",
         answer:
-          "Haniel Consulting focuses on business operations and strategy consulting. Freedom HR Solutions handles the HR, payroll, benefits, and compliance side, and the two firms collaborate where client needs overlap.",
+          "When a Freedom HR Solutions client is managing HR and payroll challenges alongside broader questions about leadership, growth strategy, or team structure, Haniel Consulting may be a relevant next step. We do not require clients to use any partner firm.",
       },
       {
-        question: "Where can I learn more about Haniel Consulting?",
+        question: "Where is Haniel Consulting based and who do they work with?",
         answer:
-          "You can visit Haniel Consulting at hanielconsulting.com to learn more about their services and approach.",
+          "Haniel Consulting is based in New Hampshire and works with business owners worldwide through coaching programs focused on strategic growth and leadership alignment.",
       },
     ],
   },

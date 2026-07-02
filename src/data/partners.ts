@@ -433,22 +433,86 @@ export const partners: Partner[] = [
   {
     slug: "legalshield-benefits-support",
     name: "LegalShield",
-    category: "Legal & benefits",
+    category: "Legal & voluntary benefits",
     meta: {
-      title: "LegalShield Benefits Support",
+      title: "LegalShield Benefits Administration Support | Freedom HR Solutions",
       description:
-        "Freedom HR Solutions helps businesses support and administer benefits workflows involving LegalShield as part of their benefits program.",
+        "Freedom HR Solutions helps businesses set up, administer, and communicate employee benefits workflows involving LegalShield. Support for open enrollment, payroll deduction coordination, and ongoing administration. Las Vegas and nationwide.",
     },
     summary:
-      "Support for administering and communicating benefits workflows involving LegalShield.",
+      "Support for setting up, administering, and communicating employee benefits workflows involving LegalShield as part of a broader voluntary benefits program.",
     overview:
-      "Freedom HR Solutions helps businesses support and administer benefits workflows involving LegalShield, including setup, employee communication, and ongoing administration as part of a broader benefits program.",
-    supportAreas: safeSupportAreas("LegalShield"),
-    relatedServiceSlugs: benefitsPartnerServices,
+      "LegalShield offers legal and identity protection benefits that employers can make available to their workforce. Freedom HR Solutions helps businesses support the administration side: setting up the benefit, communicating it clearly to employees, coordinating payroll deduction, and managing the workflow through open enrollment and beyond. We work alongside your existing HR and payroll systems to help the benefit run accurately and without unnecessary friction.",
+    supportAreas: [
+      {
+        title: "Benefits setup support",
+        description:
+          "Help coordinating the initial setup of LegalShield as an employee benefit, including how it fits into your existing benefits package and systems.",
+      },
+      {
+        title: "Open enrollment support",
+        description:
+          "Support configuring, communicating, and administering LegalShield benefit options during open enrollment so employees understand what is available and how to enroll.",
+      },
+      {
+        title: "Payroll deduction coordination",
+        description:
+          "Help reviewing how LegalShield payroll deductions are set up and flow through your payroll system to reduce errors and reconciliation issues.",
+      },
+      {
+        title: "Employee communication support",
+        description:
+          "Support developing clear, consistent communication so employees understand their LegalShield benefit, how to activate it, and how to use it.",
+      },
+      {
+        title: "Ongoing administration support",
+        description:
+          "Ongoing help managing benefits workflows involving LegalShield throughout the plan year, including enrollment changes, deduction adjustments, and employee questions.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "benefits-administration-support",
+      "open-enrollment-setup",
+      "payroll-benefits-hr-management",
+      "technical-issue-resolution",
+      "ongoing-technical-support",
+    ],
     faqs: [
-      { question: "Is Freedom HR Solutions an official LegalShield partner?", answer: "We help businesses support and administer benefits workflows involving LegalShield. We do not claim official partnership or certification unless confirmed." },
-      { question: "Can Freedom HR Solutions help administer LegalShield benefits?", answer: "Yes. We help with setup, employee communication, and ongoing administration of benefits workflows." },
-      { question: "Can you help during open enrollment?", answer: "Yes. We help configure and communicate benefits options during open enrollment." },
+      {
+        question: "Is Freedom HR Solutions an official LegalShield partner?",
+        answer:
+          "We help businesses support and administer benefits workflows involving LegalShield. We do not claim official partnership or certification unless confirmed.",
+      },
+      {
+        question: "Can Freedom HR Solutions help set up LegalShield as an employee benefit?",
+        answer:
+          "Yes. We help coordinate the setup process, review how LegalShield fits into your existing benefits package, and support configuration of payroll deductions and enrollment workflows.",
+      },
+      {
+        question: "Can you help administer LegalShield benefits during open enrollment?",
+        answer:
+          "Yes. We support open enrollment by helping configure available benefit options, preparing employee communications, and managing the workflow so employees can enroll accurately.",
+      },
+      {
+        question: "How does Freedom HR Solutions help with LegalShield payroll deductions?",
+        answer:
+          "We review how LegalShield deductions are configured in your payroll system and help identify and resolve setup issues that cause errors or reconciliation problems.",
+      },
+      {
+        question: "Can you help communicate LegalShield benefits to employees?",
+        answer:
+          "Yes. We help develop clear communication that explains what LegalShield covers, how to enroll, and how to activate the benefit so employees actually understand and use it.",
+      },
+      {
+        question: "What types of businesses does Freedom HR Solutions help with LegalShield benefits?",
+        answer:
+          "We work with small businesses, growing companies, HR teams, benefits administrators, and business owners across Nevada and nationwide that need support administering voluntary benefits like LegalShield.",
+      },
+      {
+        question: "Can Freedom HR Solutions help with LegalShield benefits year-round?",
+        answer:
+          "Yes. Beyond open enrollment, we provide ongoing support for enrollment changes, deduction adjustments, and employee questions related to LegalShield throughout the plan year.",
+      },
     ],
   },
   {

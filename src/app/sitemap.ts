@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/who-we-help/",
     "/who-we-help/small-businesses/hr-outsourcing/",
     "/who-we-help/small-businesses/hr-technology-automation/",
+    "/who-we-help/small-businesses/hr-mri-risk-assessment/",
     "/locations/",
     "/resources/",
     "/blog/",

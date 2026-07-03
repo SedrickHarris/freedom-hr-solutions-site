@@ -31,6 +31,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/resources/",
     "/blog/",
     "/privacy-policy/",
+    "/who-we-help/multi-state-employers/aca-reporting-compliance/",
+    "/who-we-help/multi-state-employers/payroll-compliance/",
+    "/who-we-help/multi-state-employers/employee-handbooks/",
+    "/who-we-help/multi-state-employers/hr-system-setup/",
+    "/who-we-help/multi-state-employers/workforce-compliance/",
+    "/who-we-help/growing-businesses/aca-reporting-compliance/",
+    "/who-we-help/growing-businesses/payroll-benefits-hr-management/",
   ];
 
   const hubPaths = serviceHubs.map((hub) => `/services/${hub.slug}/`);

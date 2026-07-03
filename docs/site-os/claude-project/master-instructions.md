@@ -547,6 +547,7 @@ Use these as Phase 2 or strategic expansion pages:
 /who-we-help/benefits-administrators/benefits-administration-support/
 /who-we-help/benefits-administrators/aca-reporting/
 /who-we-help/benefits-administrators/legalshield-benefits-support/
+/who-we-help/benefits-administrators/champion-insurance/
 ```
 
 # Location Plus Service Pages

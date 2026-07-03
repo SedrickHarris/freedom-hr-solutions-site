@@ -38,6 +38,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/who-we-help/multi-state-employers/workforce-compliance/",
     "/who-we-help/growing-businesses/aca-reporting-compliance/",
     "/who-we-help/growing-businesses/payroll-benefits-hr-management/",
+    "/who-we-help/growing-businesses/process-automation/",
+    "/who-we-help/growing-businesses/system-audits/",
   ];
 
   const hubPaths = serviceHubs.map((hub) => `/services/${hub.slug}/`);

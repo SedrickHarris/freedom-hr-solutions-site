@@ -5,6 +5,7 @@ import { services } from "@/data/services";
 import { partners } from "@/data/partners";
 import { audiences } from "@/data/audiences";
 import { locations } from "@/data/locations";
+import { audienceServicePages } from "@/data/audienceServicePages";
 import { publishedPosts, blogCategories } from "@/data/blog";
 
 export const dynamic = "force-static";
@@ -37,6 +38,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const partnerPaths = partners.map((partner) => `/partners/${partner.slug}/`);
   const audiencePaths = audiences.map((audience) => `/who-we-help/${audience.slug}/`);
   const locationPaths = locations.map((location) => `/locations/${location.slug}/`);
+  const audienceServicePaths = audienceServicePages.map(
+    (p) => `/who-we-help/${p.audienceSlug}/${p.serviceSlug}/`,
+  );
   const blogPaths = publishedPosts.map((post) => `/blog/${post.slug}/`);
   const blogCategoryPaths = blogCategories.map((category) => `/blog/category/${category.slug}/`);
 
@@ -47,6 +51,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...partnerPaths,
     ...audiencePaths,
     ...locationPaths,
+    ...audienceServicePaths,
     ...blogCategoryPaths,
     ...blogPaths,
   ];
@@ -54,6 +59,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return all.map((path) => ({
     url: abs(path),
     changeFrequency: path === "/" ? "weekly" : "monthly",
-    priority: path === "/" ? 1 : path.startsWith("/services/") ? 0.8 : 0.6,
+    priority:
+      path === "/"
+        ? 1
+        : path.startsWith("/services/")
+          ? 0.8
+          : path.match(/^\/who-we-help\/[^/]+\/[^/]+\/$/)
+            ? 0.7
+            : 0.6,
   }));
 }

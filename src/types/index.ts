@@ -135,6 +135,29 @@ export interface Audience {
   launch?: boolean;
 }
 
+export interface AudienceServicePage {
+  audienceSlug: string;
+  serviceSlug: string;
+  primaryServiceDataSlug: string;
+  hubSlug: string;
+  title: string;
+  h1: string;
+  eyebrow: string;
+  meta: PageMeta;
+  summary: string;
+  intro: string;
+  directAnswer: {
+    question: string;
+    answer: string;
+  };
+  painPoints: FeatureItem[];
+  scenarios: string[];
+  siblingServiceSlugs: string[];
+  faqs: Faq[];
+  primaryCta?: Cta;
+  secondaryCta?: Cta;
+}
+
 export interface Location {
   slug: string;
   title: string;

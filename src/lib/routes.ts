@@ -21,3 +21,5 @@ export const audiencePath = (slug: string) => `/who-we-help/${slug}/`;
 export const locationPath = (slug: string) => `/locations/${slug}/`;
 export const blogPath = (slug: string) => `/blog/${slug}/`;
 export const blogCategoryPath = (slug: string) => `/blog/category/${slug}/`;
+export const audienceServicePath = (audienceSlug: string, serviceSlug: string) =>
+  `/who-we-help/${audienceSlug}/${serviceSlug}/`;

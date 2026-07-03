@@ -98,6 +98,103 @@ export const audienceServicePages: AudienceServicePage[] = [
     primaryCta: { label: "Request HR Compliance Review", href: "/request-assessment/" },
     secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
   },
+  {
+    audienceSlug: "small-businesses",
+    serviceSlug: "payroll-benefits-support",
+    primaryServiceDataSlug: "payroll-benefits-hr-management",
+    hubSlug: "payroll-benefits-hr-systems",
+    title: "Payroll and Benefits Support for Small Businesses",
+    h1: "Payroll and Benefits Support for Small Businesses",
+    eyebrow: "For small businesses",
+    meta: {
+      title: "Payroll and Benefits Support for Small Businesses | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions helps small businesses fix payroll errors, manage benefits eligibility, and build reliable payroll and benefits workflows. Las Vegas and nationwide.",
+    },
+    summary:
+      "Fix payroll errors, manage benefits eligibility, and build workflows that stay accurate as your business grows, without a full-time HR team.",
+    intro:
+      "Payroll and benefits are two of the most error-prone areas in a small business. Most small businesses configure payroll and benefits without HR expertise, and the gaps that result, misconfigured deductions, mismatched eligibility rules, enrollment errors, and reconciliation problems, compound quietly over time. Freedom HR Solutions helps small businesses identify what is wrong, fix the underlying configuration, and build payroll and benefits workflows that stay accurate as the business grows. We work with small businesses in Las Vegas, across Nevada, and nationwide.",
+    directAnswer: {
+      question: "What payroll and benefits support does a small business need?",
+      answer:
+        "Small businesses need payroll and benefits support that covers accurate pay calculations, correct deduction setup, benefits eligibility tracking, and enrollment management. Most small businesses set up payroll and benefits without HR expertise and accumulate configuration errors that cause recurring problems. Practical support identifies those gaps, corrects the underlying setup, and builds workflows that stay accurate as the business grows.",
+    },
+    painPoints: [
+      {
+        title: "Payroll errors that keep coming back",
+        description:
+          "Recurring payroll errors usually trace back to how payroll was originally configured. Fixing individual mistakes without fixing the underlying setup means the same errors return every cycle.",
+      },
+      {
+        title: "Benefits eligibility that does not line up",
+        description:
+          "When eligibility rules in your benefits system do not match actual employee status, enrollment errors follow. Employees get enrolled in plans they should not have access to or miss plans they qualify for.",
+      },
+      {
+        title: "Enrollment that creates more work than it resolves",
+        description:
+          "Open enrollment surfaces configuration problems that were dormant all year. Without preparation, enrollment periods generate corrections, confusion, and hours of manual cleanup afterward.",
+      },
+      {
+        title: "Systems that do not talk to each other",
+        description:
+          "Payroll and benefits data often lives in separate systems with no clean sync. Deductions, elections, and records drift apart and require manual reconciliation that grows more time-consuming each cycle.",
+      },
+    ],
+    scenarios: [
+      "Payroll errors keep appearing each cycle and the same corrections have to be made repeatedly.",
+      "Benefits elections from open enrollment did not sync correctly into payroll deductions.",
+      "You are not confident that employee benefits eligibility is set up correctly in your system.",
+      "Payroll and benefits records do not reconcile and no one knows where the discrepancy starts.",
+      "You set up payroll and benefits on your own and suspect the configuration may have gaps.",
+      "Open enrollment is approaching and your current setup is not ready to handle it smoothly.",
+    ],
+    siblingServiceSlugs: [
+      "hr-compliance",
+      "employee-handbooks",
+      "hr-mri-risk-assessment",
+    ],
+    faqs: [
+      {
+        question: "What payroll and benefits support does a small business typically need?",
+        answer:
+          "Small businesses commonly need help reviewing pay calculation setup, correcting deduction configurations, tracking benefits eligibility, managing open enrollment, and reconciling payroll and benefits records. The right scope depends on your current systems, headcount, and where errors are occurring. An HR MRI Risk Assessment helps identify where to focus first.",
+      },
+      {
+        question: "Why do small businesses have recurring payroll errors?",
+        answer:
+          "Recurring payroll errors in small businesses usually trace back to how payroll was originally configured: incorrect deduction rules, mismatched pay codes, or eligibility settings that were never fully validated. Fixing the symptom without fixing the underlying configuration means the error keeps coming back.",
+      },
+      {
+        question: "How does Freedom HR Solutions help fix payroll errors for small businesses?",
+        answer:
+          "We review your payroll configuration, identify the root cause of recurring errors, and work through corrections with your team. We also help document the correct setup so your payroll runs consistently without relying on manual workarounds.",
+      },
+      {
+        question: "Can Freedom HR Solutions help set up benefits for a small business?",
+        answer:
+          "Yes. We help small businesses configure benefits eligibility rules, set up enrollment workflows, and prepare for open enrollment so your employees get accurate information and your records stay organized. We work with your existing platforms and do not require you to switch systems.",
+      },
+      {
+        question: "What is payroll and benefits reconciliation and why does it matter for small businesses?",
+        answer:
+          "Payroll and benefits reconciliation is the process of confirming that what is deducted from employee paychecks matches what is remitted to benefits carriers and recorded in your systems. When reconciliation is skipped or inconsistent, small discrepancies accumulate into larger errors that are time-consuming to correct.",
+      },
+      {
+        question: "Can Freedom HR Solutions help a small business with no HR staff manage payroll and benefits?",
+        answer:
+          "Yes. Most small businesses we support handle payroll and benefits without a dedicated HR person. We provide structured support that works alongside whoever manages these tasks today, without requiring you to hire full-time HR staff.",
+      },
+      {
+        question: "Does Freedom HR Solutions support payroll and benefits on specific platforms?",
+        answer:
+          "We work with businesses using ADP, isolved, BambooHR, HiBob, CustomHCM, and other HR and payroll platforms. We help with configuration, error resolution, and workflow improvements on your existing system rather than requiring a platform change. Freedom HR Solutions is an independent consulting firm and is not affiliated with or endorsed by any of these platforms.",
+      },
+    ],
+    primaryCta: { label: "Request Payroll and Benefits Review", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+  },
 ];
 
 export const audienceServicePagesByKey: Record<string, AudienceServicePage> = Object.fromEntries(

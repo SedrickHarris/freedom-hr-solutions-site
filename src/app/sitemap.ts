@@ -43,6 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/who-we-help/payroll-teams/system-audits/",
     "/who-we-help/benefits-administrators/open-enrollment-setup/",
     "/who-we-help/benefits-administrators/benefits-administration-support/",
+    "/who-we-help/benefits-administrators/aca-reporting/",
   ];
 
   const hubPaths = serviceHubs.map((hub) => `/services/${hub.slug}/`);

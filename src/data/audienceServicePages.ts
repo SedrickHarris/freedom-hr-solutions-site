@@ -195,6 +195,103 @@ export const audienceServicePages: AudienceServicePage[] = [
     primaryCta: { label: "Request Payroll and Benefits Review", href: "/request-assessment/" },
     secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
   },
+  {
+    audienceSlug: "small-businesses",
+    serviceSlug: "employee-handbooks",
+    primaryServiceDataSlug: "employee-handbook-creation-management",
+    hubSlug: "hr-compliance",
+    title: "Employee Handbook Creation and Review for Small Businesses",
+    h1: "Employee Handbook Creation and Review for Small Businesses",
+    eyebrow: "For small businesses",
+    meta: {
+      title: "Employee Handbooks for Small Businesses | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions creates, reviews, and updates employee handbooks for small businesses. Get a handbook that reflects how your business operates and holds up as you grow. Las Vegas and nationwide.",
+    },
+    summary:
+      "Create, review, or update your employee handbook so it reflects how your business actually operates and holds up as your team grows.",
+    intro:
+      "Most small business employee handbooks are missing, outdated, or copied from a template that was never customized for the business. When policies exist only in people's heads, situations get handled inconsistently, disputes are harder to resolve, and the business is left without documented procedures to reference when something goes wrong. Freedom HR Solutions helps small businesses create handbooks from scratch, review and update existing handbooks, and maintain them as the business grows and policies change. We work with small businesses in Las Vegas, across Nevada, and nationwide.",
+    directAnswer: {
+      question: "Do small businesses need an employee handbook?",
+      answer:
+        "Yes. An employee handbook documents your policies, expectations, and procedures so they are consistent and clear for every employee. Without one, small businesses face inconsistency in how situations are handled, disputes that are harder to resolve, and exposure when employee issues arise that the business has not planned for. A current, accurate handbook is one of the most practical HR foundations a small business can put in place.",
+    },
+    painPoints: [
+      {
+        title: "No handbook at all",
+        description:
+          "Many small businesses operate without any written policies. Expectations exist informally, situations get handled inconsistently, and the business has no documented foundation to reference when employee issues arise.",
+      },
+      {
+        title: "A handbook copied from a template",
+        description:
+          "Generic templates include policies that may not match your state, your benefits, your pay practices, or how your business actually handles situations. A template handbook often creates more confusion than clarity.",
+      },
+      {
+        title: "An outdated handbook no one maintains",
+        description:
+          "A handbook written two years ago may no longer reflect how the business operates. Outdated policies create inconsistency between what is written and what actually happens, which undermines the handbook's usefulness when you need it most.",
+      },
+      {
+        title: "No acknowledgment process in place",
+        description:
+          "Even a well-written handbook provides limited protection if employees have not acknowledged receiving and reviewing it. Without a documented acknowledgment process, the handbook is harder to rely on when disputes arise.",
+      },
+    ],
+    scenarios: [
+      "You have never created a formal employee handbook and HR processes are entirely informal.",
+      "You have a handbook from several years ago that no longer reflects how your business operates.",
+      "You downloaded a template online but it has never been customized for your business.",
+      "Employees are handled differently in similar situations because policies are not written down.",
+      "You are onboarding new hires and have nothing to give them that documents your expectations.",
+      "A situation arose with an employee and your current policies do not clearly address it.",
+    ],
+    siblingServiceSlugs: [
+      "hr-compliance",
+      "payroll-benefits-support",
+      "hr-mri-risk-assessment",
+    ],
+    faqs: [
+      {
+        question: "Do small businesses need an employee handbook?",
+        answer:
+          "Yes. An employee handbook documents your policies, expectations, and procedures so they are consistent and clear for every employee. Without one, small businesses face inconsistency in how situations are handled, disputes that are harder to resolve, and exposure when employee issues arise that the business has not planned for. A current, accurate handbook is one of the most practical HR foundations a small business can put in place.",
+      },
+      {
+        question: "What should a small business employee handbook include?",
+        answer:
+          "A small business employee handbook should cover at-will employment status where applicable, workplace conduct expectations, attendance and time-off policies, pay practices, benefits summary, leave policies, anti-harassment and anti-discrimination policies, and an acknowledgment page for employees to sign. The specific content depends on your state, headcount, and how your business operates. We help you build a handbook that reflects your actual policies, not a generic template.",
+      },
+      {
+        question: "How often should a small business employee handbook be updated?",
+        answer:
+          "A good practice is to review your handbook at least once a year and after major changes such as new state locations, significant headcount growth, new benefits, or updated policies. Handbooks that are not reviewed regularly drift out of step with how the business actually operates, which creates inconsistency and exposure when situations arise.",
+      },
+      {
+        question: "What happens if a small business does not have an employee handbook?",
+        answer:
+          "Without a handbook, expectations and procedures exist only in people's heads. That creates inconsistency in how situations are handled, makes it harder to resolve disputes fairly, and leaves the business without documented policies to reference when employee issues arise. It also signals to employees that HR practices are informal, which can affect how seriously policies are taken.",
+      },
+      {
+        question: "Can Freedom HR Solutions review and update an existing employee handbook?",
+        answer:
+          "Yes. We review existing handbooks to identify policies that are outdated, missing, or inconsistent with how the business operates, and update them to reflect current practices. If your handbook was created from a template or has not been reviewed in over a year, a review is a practical starting point.",
+      },
+      {
+        question: "How is a custom employee handbook different from a template?",
+        answer:
+          "A template gives you generic policy language that may not match your state, your benefits, your pay practices, or how your business handles situations. A custom handbook documents your actual policies in language that reflects your business. It is more accurate, more useful to employees, and more defensible if a dispute arises.",
+      },
+      {
+        question: "Does Freedom HR Solutions create employee handbooks for businesses outside of Las Vegas?",
+        answer:
+          "Yes. We create, review, and update employee handbooks for small businesses across Nevada and nationwide through remote consulting. We account for the operating location and state-specific context of your business when building or reviewing handbook content.",
+      },
+    ],
+    primaryCta: { label: "Request Employee Handbook Review", href: "/request-assessment/" },
+    secondaryCta: { label: "Schedule Consultation", href: "/contact/" },
+  },
 ];
 
 export const audienceServicePagesByKey: Record<string, AudienceServicePage> = Object.fromEntries(

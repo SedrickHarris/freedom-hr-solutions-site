@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import type { NavLink } from "@/types";
 import { Button } from "@/components/ui/Button";
@@ -18,7 +19,12 @@ export function MobileNav({ links, open, onClose }: MobileNavProps) {
 
   if (!open) return null;
 
-  return (
+  // Render outside the sticky <header>: that element uses backdrop-blur
+  // (backdrop-filter), which makes it the containing block for position:fixed
+  // descendants. Inside it, the "inset-y-0" panel collapses to the header
+  // height and clips the nav. Portaling to <body> anchors the overlay to the
+  // viewport instead.
+  return createPortal(
     <div className="lg:hidden" role="dialog" aria-modal="true" aria-label="Site menu">
       <div
         className="fixed inset-0 z-40 bg-ink/40"
@@ -127,6 +133,7 @@ export function MobileNav({ links, open, onClose }: MobileNavProps) {
           </div>
         </nav>
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 }

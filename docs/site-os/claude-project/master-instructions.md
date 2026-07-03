@@ -542,7 +542,6 @@ Use these as Phase 2 or strategic expansion pages:
 /who-we-help/payroll-teams/multi-state-payroll-support/
 /who-we-help/payroll-teams/system-audits/
 
-# PENDING - childPages feature not yet built; these routes do not exist on the live site
 /who-we-help/benefits-administrators/open-enrollment-setup/
 /who-we-help/benefits-administrators/benefits-administration-support/
 /who-we-help/benefits-administrators/aca-reporting/

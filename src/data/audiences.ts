@@ -1282,6 +1282,10 @@ export const audiences: Audience[] = [
   },
   {
     slug: "professional-services",
+    image: {
+      src: "/images/industries/freedom-hr-solutions-professional-services-hr-payroll-benefits-compliance-support-editorial-image.webp",
+      alt: "Professional services HR payroll and benefits compliance",
+    },
     title: "HR, Payroll, Benefits, and Compliance Support for Professional Services Firms",
     navLabel: "Professional Services",
     type: "industry",

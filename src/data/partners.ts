@@ -629,6 +629,87 @@ export const partners: Partner[] = [
     ],
   },
   {
+    slug: "champion-group-insurance",
+    name: "Champion Group Insurance",
+    category: "Group health and workers' compensation partner",
+    externalUrl: "https://championgroupinsurance.com/",
+    contactName: "Ron Filice",
+    meta: {
+      title: "Champion Group Insurance Partner | Group Health and Workers' Comp | Freedom HR Solutions",
+      description:
+        "Freedom HR Solutions works alongside Champion Group Insurance to connect employer clients with licensed group health and workers' compensation guidance. Support for small businesses, growing companies, and HR teams in Nevada and nationwide.",
+    },
+    summary:
+      "A licensed independent insurance partner that gives Freedom HR Solutions clients a trusted referral resource for group health plan selection, workers' compensation placement, and employer benefits guidance when those needs surface alongside HR and payroll work.",
+    overview:
+      "Freedom HR Solutions works alongside Champion Group Insurance to support employer clients whose needs extend into group health coverage and workers' compensation. Ron Filice leads Champion Insurance Agency Inc, DBA Insurance Champion Services, a licensed independent insurance agency holding CA License #6017081. Champion Group Insurance helps small businesses, growing companies, and established employers shop group health plans across 30+ carriers, understand their ACA employer mandate obligations, place workers' compensation coverage, and navigate open enrollment as an employer-sponsored benefit. For Freedom HR Solutions clients whose HR and payroll work surfaces questions about group health plan selection, carrier options, or workers' compensation requirements, Champion Group Insurance provides a knowledgeable and licensed referral. Freedom HR Solutions provides HR, payroll, benefits administration, and compliance support for employers. Champion Group Insurance provides licensed group health and workers' compensation placement. Both firms operate independently and collaborate on behalf of shared clients.",
+    supportAreas: [
+      {
+        title: "Group health plan referrals for employers",
+        description:
+          "When Freedom HR Solutions clients need help selecting and placing group health coverage, Champion Group Insurance shops across 30+ carriers including HMO, PPO, and HDHP options to find coverage that fits the employer's workforce size, budget, and plan preferences.",
+      },
+      {
+        title: "Workers' compensation placement",
+        description:
+          "Workers' compensation is a legal requirement for most employers. Champion Group Insurance helps clients understand their obligations, identify the right carrier for their industry and payroll structure, and place compliant coverage without unnecessary complexity.",
+      },
+      {
+        title: "ACA employer mandate guidance",
+        description:
+          "Employers with 50 or more full-time equivalent employees are subject to ACA Employer Shared Responsibility provisions. Champion Group Insurance provides general guidance on employer mandate obligations and plan design options. This is general guidance and not legal or tax advice.",
+      },
+      {
+        title: "Open enrollment benefits support for employers",
+        description:
+          "Champion Group Insurance supports employers through annual open enrollment, including plan re-shopping, renewal negotiation, and employee benefits communication, so employers are not navigating carrier decisions alone each year.",
+      },
+      {
+        title: "Small group health insurance for businesses starting coverage",
+        description:
+          "Group health coverage can begin with as few as two enrolled employees. Champion Group Insurance helps small employers understand their options, compare plans, and launch group coverage for the first time without unnecessary friction.",
+      },
+      {
+        title: "Carrier comparison and independent plan selection",
+        description:
+          "As an independent agency, Champion Group Insurance is not tied to any single carrier. Ron Filice and the Champion team compare options across their carrier network on the employer's behalf, with no carrier quota or conflict of interest.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "payroll-benefits-hr-management",
+      "open-enrollment-setup",
+      "compliance-support",
+      "hr-mri-risk-assessment",
+    ],
+    faqs: [
+      {
+        question: "What is the relationship between Freedom HR Solutions and Champion Group Insurance?",
+        answer:
+          "Freedom HR Solutions and Champion Group Insurance are independent firms that collaborate to support shared clients. Freedom HR Solutions provides HR, payroll, benefits administration, and compliance support for employers. Champion Group Insurance provides licensed group health and workers' compensation placement through Champion Insurance Agency Inc, DBA Insurance Champion Services.",
+      },
+      {
+        question: "Who leads Champion Group Insurance?",
+        answer:
+          "Ron Filice leads Champion Insurance Agency Inc, DBA Insurance Champion Services. The agency holds CA License #6017081 and operates as a licensed independent insurance agency. Ron and his team work with employers to shop group health and workers' compensation coverage across more than 30 carriers.",
+      },
+      {
+        question: "Are employers required to offer health insurance to employees?",
+        answer:
+          "Under the ACA, employers with 50 or more full-time equivalent employees are subject to the Employer Shared Responsibility provisions and may face IRS penalties if they do not offer minimum essential coverage. Employers with fewer than 50 full-time equivalent employees are not federally required to offer coverage, though many choose to for recruiting and retention purposes. Champion Group Insurance can provide general guidance on your specific situation. This is not legal or tax advice.",
+      },
+      {
+        question: "How does Freedom HR Solutions decide when to refer a client to Champion Group Insurance?",
+        answer:
+          "When Freedom HR Solutions clients surface questions about group health plan selection, carrier options, workers' compensation requirements, or ACA employer obligations during HR or payroll work, Champion Group Insurance may be a relevant referral. We do not require clients to engage any partner firm.",
+      },
+      {
+        question: "Does Freedom HR Solutions provide group health or workers' compensation insurance services?",
+        answer:
+          "No. Freedom HR Solutions provides HR, payroll, benefits administration, and compliance support for employers. Group health plan placement and workers' compensation coverage are Champion Group Insurance's scope. We refer clients when those needs arise.",
+      },
+    ],
+  },
+  {
     slug: "champion-insurance",
     name: "Champion Insurance",
     category: "Medicare and employee benefits transition partner",

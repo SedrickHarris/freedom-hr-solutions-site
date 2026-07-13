@@ -34,6 +34,7 @@ const PLATFORM_SLUGS = [
 ];
 
 const CONSULTING_SLUGS = [
+  "champion-group-insurance",
   "champion-insurance",
   "haniel-consulting",
   "pursuit-pathways",

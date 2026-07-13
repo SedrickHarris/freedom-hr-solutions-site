@@ -27,6 +27,7 @@ export const headerNav: NavLink[] = [
       { label: "CustomHCM", href: "/partners/customhcm-consulting-support/" },
       { label: "LegalShield", href: "/partners/legalshield-benefits-support/" },
       { label: "Champion Insurance", href: "/partners/champion-insurance/" },
+      { label: "Champion Group Insurance", href: "/partners/champion-group-insurance/" },
       { label: "Haniel Consulting", href: "/partners/haniel-consulting/" },
       { label: "PursuitPathways", href: "/partners/pursuit-pathways/" },
     ],

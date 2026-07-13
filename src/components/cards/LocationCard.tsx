@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CardShell, CardArrow } from "@/components/cards/CardShell";
 import { Badge } from "@/components/ui/Badge";
 
@@ -6,11 +7,34 @@ interface LocationCardProps {
   summary: string;
   href: string;
   regionLabel?: string;
+  /** Opt-in image placeholder at the top of the card (off by default). */
+  withImagePlaceholder?: boolean;
+  /** Real location image. When omitted, the placeholder background shows. */
+  image?: {
+    src: string;
+    alt: string;
+  };
 }
 
-export function LocationCard({ title, summary, href, regionLabel }: LocationCardProps) {
+export function LocationCard({ title, summary, href, regionLabel, withImagePlaceholder, image }: LocationCardProps) {
   return (
     <CardShell href={href}>
+      {withImagePlaceholder && (
+        <div
+          aria-hidden={!image}
+          className="relative mb-5 aspect-[7/4] w-full overflow-hidden rounded-lg bg-brand-50"
+        >
+          {image ? (
+            <Image
+              src={image.src}
+              alt={image.alt}
+              fill
+              className="object-cover object-center"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            />
+          ) : null}
+        </div>
+      )}
       <div className="flex items-start justify-between gap-3">
         <h3 className="font-display text-lg font-bold text-ink transition-colors group-hover:text-brand-700">
           {title}

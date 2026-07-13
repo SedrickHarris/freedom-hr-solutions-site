@@ -120,6 +120,8 @@ export default function LocationsHubPage() {
               summary={location.summary}
               href={locationPath(location.slug)}
               regionLabel={regionLabel[location.region]}
+              withImagePlaceholder
+              image={location.image}
             />
           ))}
         </div>

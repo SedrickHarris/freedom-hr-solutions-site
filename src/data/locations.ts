@@ -3,6 +3,10 @@ import type { Location } from "@/types";
 export const locations: Location[] = [
   {
     slug: "las-vegas-nv",
+    image: {
+      src: "/images/locations/freedom-hr-solutions-las-vegas-nv-business-district-hero.webp",
+      alt: "Las Vegas NV business district",
+    },
     title: "HR Consulting and HR Support Services in Las Vegas, Nevada",
     region: "local",
     meta: {
@@ -137,6 +141,10 @@ export const locations: Location[] = [
   },
   {
     slug: "henderson-nv",
+    image: {
+      src: "/images/locations/freedom-hr-solutions-henderson-nv-business-location-hero.webp",
+      alt: "Henderson NV business location",
+    },
     title: "HR, Payroll, Benefits, and Compliance Support in Henderson, Nevada",
     region: "local",
     meta: {
@@ -234,6 +242,10 @@ export const locations: Location[] = [
   },
   {
     slug: "north-las-vegas-nv",
+    image: {
+      src: "/images/locations/freedom-hr-solutions-north-las-vegas-nv-business-location-hero.webp",
+      alt: "North Las Vegas NV business location",
+    },
     title: "HR, Payroll, Benefits, and Compliance Support in North Las Vegas, Nevada",
     region: "local",
     meta: {
@@ -331,6 +343,10 @@ export const locations: Location[] = [
   },
   {
     slug: "nevada",
+    image: {
+      src: "/images/locations/freedom-hr-solutions-nevada-business-location-hero.webp",
+      alt: "Nevada business location",
+    },
     title: "HR, Payroll, Benefits, and Compliance Support for Nevada Employers",
     region: "state",
     meta: {
@@ -428,6 +444,10 @@ export const locations: Location[] = [
   },
   {
     slug: "nationwide-hr-consulting",
+    image: {
+      src: "/images/locations/freedom-hr-solutions-nationwide-hr-consulting-business-support-hero.webp",
+      alt: "Nationwide HR consulting business support",
+    },
     title: "Nationwide HR, Payroll, Benefits, Compliance, and HR Technology Support",
     region: "national",
     meta: {

@@ -190,6 +190,11 @@ export interface Location {
   faqs: Faq[];
   primaryCta?: Cta;
   secondaryCta?: Cta;
+  /** Optional hero background image for location pages and cards. */
+  image?: {
+    src: string;
+    alt: string;
+  };
 }
 
 export interface BlogCategory {

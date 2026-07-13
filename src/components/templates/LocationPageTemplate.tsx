@@ -41,6 +41,7 @@ export function LocationPageTemplate({ location }: { location: Location }) {
         description={location.summary}
         primaryCta={location.primaryCta ?? ctas.assessment}
         secondaryCta={location.secondaryCta ?? ctas.consultation}
+        backgroundImage={location.image}
       />
 
       <TrustBar />

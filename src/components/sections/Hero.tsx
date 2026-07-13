@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
@@ -17,6 +18,11 @@ interface HeroProps {
   aside?: React.ReactNode;
   /** "page" is the compact inner-page hero; "home" is the larger variant. */
   variant?: "page" | "home";
+  /** Optional full-bleed background image. Falls back to brand gradient. */
+  backgroundImage?: {
+    src: string;
+    alt: string;
+  };
 }
 
 export function Hero({
@@ -28,12 +34,43 @@ export function Hero({
   secondaryCta,
   aside,
   variant = "page",
+  backgroundImage,
 }: HeroProps) {
   return (
-    <section className="relative overflow-hidden bg-brand-gradient text-white">
-      <div className="pointer-events-none absolute inset-0 bg-grid opacity-60" aria-hidden />
+    <section
+      className="relative overflow-hidden text-white"
+      style={backgroundImage ? { minHeight: "480px" } : undefined}
+    >
+      {/* Background layer - image when supplied, brand gradient fallback */}
+      {backgroundImage ? (
+        <>
+          <div className="absolute inset-0">
+            <Image
+              src={backgroundImage.src}
+              alt={backgroundImage.alt}
+              fill
+              className="object-cover object-center"
+              priority
+              sizes="100vw"
+            />
+          </div>
+          <div className="absolute inset-0 bg-black/60" aria-hidden />
+        </>
+      ) : (
+        <div className="absolute inset-0 bg-brand-gradient" aria-hidden />
+      )}
       <div
-        className="pointer-events-none absolute -right-24 -top-24 h-96 w-96 rounded-full bg-white/10 blur-3xl"
+        className={cn(
+          "pointer-events-none absolute inset-0 bg-grid",
+          backgroundImage ? "opacity-30" : "opacity-60",
+        )}
+        aria-hidden
+      />
+      <div
+        className={cn(
+          "pointer-events-none absolute -right-24 -top-24 h-96 w-96 rounded-full blur-3xl",
+          backgroundImage ? "bg-white/5" : "bg-white/10",
+        )}
         aria-hidden
       />
       <Container

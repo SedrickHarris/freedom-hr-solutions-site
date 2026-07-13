@@ -21,6 +21,10 @@ const HR_MRI_HERO_IMAGES = [
     src: "/images/heroes/freedom-hr-solutions-hr-mri-strategic-findings-discussion-hero.webp",
     alt: "HR MRI strategic findings discussion",
   },
+  {
+    src: "/images/core/freedom-hr-solutions-hr-mri-assessment-request-consultation-hero.webp",
+    alt: "HR MRI assessment request consultation",
+  },
 ];
 
 /** milliseconds each image is fully visible */

@@ -75,6 +75,10 @@ export default function AboutPage() {
 
       <Hero
         eyebrow="About us"
+        backgroundImage={{
+          src: "/images/core/freedom-hr-solutions-founder-led-hr-advisory-session-about-hero.webp",
+          alt: "Founder led HR advisory session",
+        }}
         title="About Freedom HR Solutions"
         description="Freedom HR Solutions is an HR consulting firm headquartered in Las Vegas, Nevada. We help businesses across Nevada and nationwide manage HR compliance, payroll, benefits, ACA reporting, HR technology, and workforce operations. The firm is founder-led by Soleil Kline, who brings experience across HR technology, payroll, benefits, compliance, and HCM systems."
         primaryCta={ctas.assessment}

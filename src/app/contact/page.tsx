@@ -72,6 +72,10 @@ export default function ContactPage() {
 
       <Hero
         eyebrow="Contact"
+        backgroundImage={{
+          src: "/images/core/freedom-hr-solutions-initial-hr-consultation-meeting-contact-hero.webp",
+          alt: "Initial HR consultation meeting",
+        }}
         title="Contact Freedom HR Solutions"
         description="Tell us what you need help with and we will follow up using the contact details you provide. You can also call or email directly, or request an HR MRI Assessment for a structured review of your HR, payroll, benefits, and compliance operations."
         primaryCta={ctas.assessment}

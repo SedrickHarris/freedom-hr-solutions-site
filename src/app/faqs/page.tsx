@@ -63,6 +63,10 @@ export default function FaqsPage() {
 
       <Hero
         eyebrow="FAQs"
+        backgroundImage={{
+          src: "/images/core/freedom-hr-solutions-employer-faq-guidance-desk-hero.webp",
+          alt: "Employer FAQ guidance",
+        }}
         title="HR Compliance, Payroll, and HR Consulting FAQs"
         description="Answers to common questions about HR compliance, employee handbooks, ACA reporting, payroll and benefits administration, HR technology, and how Freedom HR Solutions supports businesses in Las Vegas and nationwide."
         primaryCta={ctas.assessment}

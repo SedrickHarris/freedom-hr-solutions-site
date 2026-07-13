@@ -75,6 +75,10 @@ export default function ResourcesHubPage() {
 
       <Hero
         eyebrow="Resources"
+        backgroundImage={{
+          src: "/images/core/freedom-hr-solutions-employer-resource-library-table-hero.webp",
+          alt: "Employer resource library",
+        }}
         title="HR Compliance Checklists and Resources for Employers"
         description="Practical checklists, guides, and references to help you manage HR compliance, ACA reporting, payroll systems, benefits administration, HR technology, and open enrollment. Checklists are in development and will be available for download when published."
         primaryCta={ctas.assessment}

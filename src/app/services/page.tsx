@@ -118,6 +118,8 @@ export default function ServicesHubPage() {
               title={hub.title}
               summary={hub.summary}
               href={servicePath(hub.slug)}
+              withImagePlaceholder
+              image={hub.image}
             />
           ))}
         </div>
@@ -152,6 +154,8 @@ export default function ServicesHubPage() {
               title={service.title}
               summary={service.summary}
               href={servicePath(service.slug)}
+              withImagePlaceholder
+              image={service.image}
             />
           ))}
         </div>

@@ -470,6 +470,10 @@ export const services: Service[] = [
   },
   {
     slug: "workforce-compliance-monitoring",
+    image: {
+      src: "/images/services/freedom-hr-solutions-workforce-compliance-monitoring-hero.webp",
+      alt: "Workforce compliance monitoring",
+    },
     hubSlug: "hr-compliance",
     title: "Workforce Compliance Monitoring",
     h1: "Workforce Compliance Monitoring and Documentation Support",
@@ -605,6 +609,10 @@ export const services: Service[] = [
   },
   {
     slug: "aca-compliance-review",
+    image: {
+      src: "/images/services/freedom-hr-solutions-aca-compliance-review-hero.webp",
+      alt: "ACA compliance review",
+    },
     hubSlug: "aca-reporting-compliance",
     title: "ACA Compliance Review",
     h1: "ACA Compliance Review for Employers",
@@ -655,6 +663,10 @@ export const services: Service[] = [
   },
   {
     slug: "applicable-large-employer-review",
+    image: {
+      src: "/images/services/freedom-hr-solutions-applicable-large-employer-review-hero.webp",
+      alt: "Applicable large employer review",
+    },
     hubSlug: "aca-reporting-compliance",
     title: "Applicable Large Employer Review",
     h1: "Applicable Large Employer (ALE) Review",
@@ -789,6 +801,10 @@ export const services: Service[] = [
   },
   {
     slug: "benefits-administration-support",
+    image: {
+      src: "/images/services/freedom-hr-solutions-benefits-administration-support-hero.webp",
+      alt: "Benefits administration support",
+    },
     hubSlug: "payroll-benefits-hr-systems",
     title: "Benefits Administration Support",
     h1: "Benefits Administration Support",
@@ -839,6 +855,10 @@ export const services: Service[] = [
   },
   {
     slug: "multi-state-payroll-support",
+    image: {
+      src: "/images/services/freedom-hr-solutions-multi-state-payroll-support-hero.webp",
+      alt: "Multi-state payroll support",
+    },
     hubSlug: "payroll-benefits-hr-systems",
     title: "Multi-State Payroll Support",
     h1: "Multi-State Payroll Support for Employers",
@@ -1272,6 +1292,10 @@ export const services: Service[] = [
   },
   {
     slug: "streamlining-processes",
+    image: {
+      src: "/images/services/freedom-hr-solutions-streamlining-processes-hero.webp",
+      alt: "Streamlining HR processes",
+    },
     hubSlug: "hr-technology-automation",
     title: "Streamlining HR Processes",
     h1: "Streamlining HR, Payroll, and Benefits Processes",
@@ -1631,6 +1655,10 @@ export const services: Service[] = [
   // ---------- Talent & Workforce Development ----------
   {
     slug: "recruiting-onboarding-solutions",
+    image: {
+      src: "/images/services/freedom-hr-solutions-recruiting-onboarding-solutions-hero.webp",
+      alt: "Recruiting and onboarding solutions",
+    },
     hubSlug: "talent-workforce-development",
     title: "Recruiting & Onboarding Solutions",
     h1: "Recruiting and Onboarding Solutions",
@@ -1681,6 +1709,10 @@ export const services: Service[] = [
   },
   {
     slug: "training-development-programs",
+    image: {
+      src: "/images/services/freedom-hr-solutions-training-development-programs-hero.webp",
+      alt: "Training and development programs",
+    },
     hubSlug: "talent-workforce-development",
     title: "Training & Development Programs",
     h1: "Training and Development Programs",
@@ -1731,6 +1763,10 @@ export const services: Service[] = [
   },
   {
     slug: "employee-engagement-performance-management",
+    image: {
+      src: "/images/services/freedom-hr-solutions-employee-engagement-performance-management-hero.webp",
+      alt: "Employee engagement and performance management",
+    },
     hubSlug: "talent-workforce-development",
     title: "Employee Engagement & Performance Management",
     h1: "Employee Engagement and Performance Management Support",

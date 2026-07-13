@@ -3,6 +3,10 @@ import type { Audience } from "@/types";
 export const audiences: Audience[] = [
   {
     slug: "business-owners",
+    image: {
+      src: "/images/audiences/freedom-hr-solutions-business-owners-hr-payroll-compliance-support-editorial-image.webp",
+      alt: "Business owners",
+    },
     title: "HR, Payroll, Benefits, and Compliance Support for Business Owners",
     navLabel: "Business Owners",
     type: "role",
@@ -111,6 +115,10 @@ export const audiences: Audience[] = [
   },
   {
     slug: "hr-teams",
+    image: {
+      src: "/images/audiences/freedom-hr-solutions-hr-teams-project-support-system-implementation-editorial-image.webp",
+      alt: "HR teams",
+    },
     title: "HR System, Compliance, and Workforce Support for HR Teams",
     navLabel: "HR Teams",
     type: "role",
@@ -204,6 +212,10 @@ export const audiences: Audience[] = [
   },
   {
     slug: "payroll-teams",
+    image: {
+      src: "/images/audiences/freedom-hr-solutions-payroll-teams-workflow-troubleshooting-editorial-image.webp",
+      alt: "Payroll teams",
+    },
     title: "Payroll System, Compliance, and Technical Support for Payroll Teams",
     navLabel: "Payroll Teams",
     type: "role",
@@ -297,6 +309,10 @@ export const audiences: Audience[] = [
   },
   {
     slug: "benefits-administrators",
+    image: {
+      src: "/images/audiences/freedom-hr-solutions-benefits-administrators-open-enrollment-aca-support-editorial-image.webp",
+      alt: "Benefits administrators",
+    },
     title: "Benefits Administration Support and Open Enrollment Help",
     navLabel: "Benefits Administrators",
     type: "role",
@@ -388,6 +404,10 @@ export const audiences: Audience[] = [
   },
   {
     slug: "small-businesses",
+    image: {
+      src: "/images/audiences/freedom-hr-solutions-small-business-hr-payroll-benefits-compliance-support-editorial-image.webp",
+      alt: "Small business",
+    },
     title: "HR, Payroll, Benefits, and Compliance Support for Small Businesses",
     navLabel: "Small Businesses",
     type: "company",
@@ -496,6 +516,10 @@ export const audiences: Audience[] = [
   },
   {
     slug: "growing-businesses",
+    image: {
+      src: "/images/audiences/freedom-hr-solutions-growing-business-hr-payroll-benefits-compliance-support-editorial-image.webp",
+      alt: "Growing business",
+    },
     title: "HR, Payroll, Benefits, and System Support for Growing Businesses",
     navLabel: "Growing Businesses",
     type: "company",
@@ -599,6 +623,10 @@ export const audiences: Audience[] = [
   },
   {
     slug: "multi-state-employers",
+    image: {
+      src: "/images/audiences/freedom-hr-solutions-multi-state-employers-payroll-aca-compliance-support-editorial-image.webp",
+      alt: "Multi state employers",
+    },
     title: "HR, Payroll, Benefits, and Compliance Support for Multi-State Employers",
     navLabel: "Multi-State Employers",
     type: "company",
@@ -692,6 +720,10 @@ export const audiences: Audience[] = [
   },
   {
     slug: "companies-without-hr-departments",
+    image: {
+      src: "/images/audiences/freedom-hr-solutions-companies-without-hr-complete-hr-support-editorial-image.webp",
+      alt: "Companies without HR",
+    },
     title: "HR Support for Companies Without an HR Department",
     navLabel: "Companies Without HR",
     type: "company",

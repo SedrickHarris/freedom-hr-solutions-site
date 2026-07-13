@@ -96,6 +96,11 @@ export interface Service {
   secondaryCta?: Cta;
   /** Marks the highest-priority launch pages. */
   launch?: boolean;
+  /** Optional section image for service pages and cards. */
+  image?: {
+    src: string;
+    alt: string;
+  };
 }
 
 export interface Partner {
@@ -133,6 +138,11 @@ export interface Audience {
   primaryCta?: Cta;
   secondaryCta?: Cta;
   launch?: boolean;
+  /** Optional editorial image for audience pages. */
+  image?: {
+    src: string;
+    alt: string;
+  };
 }
 
 export interface AudienceServicePage {

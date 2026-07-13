@@ -49,6 +49,90 @@ const HERO_IMAGES = [
     src: "/images/heroes/freedom-hr-solutions-workforce-reporting-data-insights-editorial-hero.webp",
     alt: "Workforce reporting and data insights",
   },
+  {
+    src: "/images/heroes/freedom-hr-solutions-aca-reporting-readiness-review-hero.webp",
+    alt: "ACA reporting readiness review",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-benefits-workflow-readiness-table-hero.webp",
+    alt: "Benefits workflow readiness table",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-business-owner-hr-relief-consultation-hero.webp",
+    alt: "Business owner HR relief consultation",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-connected-hr-workflow-strategy-session-hero.webp",
+    alt: "Connected HR workflow strategy session",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-employee-lifecycle-development-workshop-hero.webp",
+    alt: "Employee lifecycle development workshop",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-employer-faq-guidance-desk-hero.webp",
+    alt: "Employer FAQ guidance desk",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-employer-resource-library-table-hero.webp",
+    alt: "Employer resource library table",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-founder-led-hr-advisory-session-about-hero.webp",
+    alt: "Founder led HR advisory session",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-hr-compliance-risk-review-table-hero.webp",
+    alt: "HR compliance risk review table",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-hr-knowledge-editorial-desk-blog-hero.webp",
+    alt: "HR knowledge editorial desk",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-hr-partner-ecosystem-strategy-table-hero.webp",
+    alt: "HR partner ecosystem strategy table",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-hr-payroll-benefits-compliance-services-hero.webp",
+    alt: "HR payroll benefits compliance services",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-hr-systems-support-operations-table-hero.webp",
+    alt: "HR systems support operations table",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-hr-team-capacity-strategy-session-hero.webp",
+    alt: "HR team capacity strategy session",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-initial-hr-consultation-meeting-contact-hero.webp",
+    alt: "Initial HR consultation meeting",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-multi-state-workforce-coordination-table-hero.webp",
+    alt: "Multi state workforce coordination table",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-payroll-benefits-system-review-table-hero.webp",
+    alt: "Payroll benefits system review table",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-payroll-workflow-troubleshooting-table-hero.webp",
+    alt: "Payroll workflow troubleshooting table",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-scaling-hr-operations-strategy-table-hero.webp",
+    alt: "Scaling HR operations strategy table",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-small-business-hr-foundation-review-hero.webp",
+    alt: "Small business HR foundation review",
+  },
+  {
+    src: "/images/heroes/freedom-hr-solutions-who-we-help-audience-strategy-roundtable-hero.webp",
+    alt: "Who we help audience strategy roundtable",
+  },
 ];
 
 /** milliseconds each image is fully visible */
@@ -98,7 +182,7 @@ export function HomepageHero({
       className="relative overflow-hidden text-white"
       style={{ minHeight: "560px" }}
     >
-      {/* Background image layer — current (below) */}
+      {/* Background image layer - current (below) */}
       <div className="absolute inset-0">
         <Image
           src={HERO_IMAGES[current].src}
@@ -110,7 +194,7 @@ export function HomepageHero({
         />
       </div>
 
-      {/* Background image layer — next (above, fades in) */}
+      {/* Background image layer - next (above, fades in) */}
       <div
         className="absolute inset-0"
         style={{
@@ -129,19 +213,19 @@ export function HomepageHero({
         />
       </div>
 
-      {/* Dark overlay — keeps text readable over any image */}
+      {/* Dark overlay - keeps text readable over any image */}
       <div
         className="absolute inset-0 bg-black/55"
         aria-hidden
       />
 
-      {/* Grid texture overlay — subtle depth */}
+      {/* Grid texture overlay - subtle depth */}
       <div
         className="pointer-events-none absolute inset-0 bg-grid opacity-30"
         aria-hidden
       />
 
-      {/* Ambient glow — top right */}
+      {/* Ambient glow - top right */}
       <div
         className="pointer-events-none absolute -right-24 -top-24 h-96 w-96 rounded-full bg-white/5 blur-3xl"
         aria-hidden

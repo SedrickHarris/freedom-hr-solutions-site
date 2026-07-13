@@ -14,6 +14,10 @@ export const services: Service[] = [
   // ---------- HR Compliance & Risk ----------
   {
     slug: "hr-mri-risk-assessment",
+    image: {
+      src: "/images/services/freedom-hr-solutions-hr-mri-risk-assessment-editorial-service-image.webp",
+      alt: "HR MRI risk assessment",
+    },
     hubSlug: "hr-compliance",
     launch: true,
     title: "HR MRI Risk Assessment",
@@ -229,6 +233,10 @@ export const services: Service[] = [
   },
   {
     slug: "compliance-support",
+    image: {
+      src: "/images/services/freedom-hr-solutions-compliance-support-editorial-service-image.webp",
+      alt: "Compliance support",
+    },
     hubSlug: "hr-compliance",
     launch: true,
     title: "Compliance Support",
@@ -282,6 +290,10 @@ export const services: Service[] = [
   },
   {
     slug: "employee-handbook-creation-management",
+    image: {
+      src: "/images/services/freedom-hr-solutions-employee-handbook-creation-management-editorial-service-image.webp",
+      alt: "Employee handbook creation management",
+    },
     hubSlug: "hr-compliance",
     launch: true,
     title: "Employee Handbook Creation & Management",
@@ -511,6 +523,10 @@ export const services: Service[] = [
   // ---------- ACA Reporting & Compliance ----------
   {
     slug: "aca-reporting-consultant",
+    image: {
+      src: "/images/services/freedom-hr-solutions-aca-reporting-consultant-editorial-service-image.webp",
+      alt: "ACA reporting consultant",
+    },
     hubSlug: "aca-reporting-compliance",
     launch: true,
     title: "ACA Reporting Consultant",
@@ -691,6 +707,10 @@ export const services: Service[] = [
   // ---------- Payroll, Benefits & HR Systems ----------
   {
     slug: "payroll-benefits-hr-management",
+    image: {
+      src: "/images/services/freedom-hr-solutions-payroll-benefits-hr-management-editorial-service-image.webp",
+      alt: "Payroll benefits HR management",
+    },
     hubSlug: "payroll-benefits-hr-systems",
     launch: true,
     title: "Payroll, Benefits & HR Management",
@@ -871,6 +891,10 @@ export const services: Service[] = [
   // ---------- HR Technology & Automation ----------
   {
     slug: "hr-technology-automation",
+    image: {
+      src: "/images/services/freedom-hr-solutions-hr-technology-automation-editorial-service-image.webp",
+      alt: "HR technology automation",
+    },
     hubSlug: "hr-technology-automation",
     launch: true,
     title: "HR Technology & Automation",
@@ -931,6 +955,10 @@ export const services: Service[] = [
   },
   {
     slug: "system-setup-implementation",
+    image: {
+      src: "/images/services/freedom-hr-solutions-system-setup-implementation-editorial-service-image.webp",
+      alt: "System setup implementation",
+    },
     hubSlug: "hr-technology-automation",
     launch: true,
     title: "System Set-Up & Implementation",
@@ -1009,6 +1037,10 @@ export const services: Service[] = [
   },
   {
     slug: "hris-implementation",
+    image: {
+      src: "/images/services/freedom-hr-solutions-hris-implementation-editorial-service-image.webp",
+      alt: "HRIS implementation",
+    },
     hubSlug: "hr-technology-automation",
     launch: true,
     title: "HRIS Implementation",
@@ -1290,6 +1322,10 @@ export const services: Service[] = [
   },
   {
     slug: "reporting-data-insights",
+    image: {
+      src: "/images/services/freedom-hr-solutions-reporting-data-insights-editorial-service-image.webp",
+      alt: "Reporting data insights",
+    },
     hubSlug: "hr-technology-automation",
     launch: true,
     title: "Reporting & Data Insights",
@@ -1349,6 +1385,10 @@ export const services: Service[] = [
   },
   {
     slug: "system-audits-improvements",
+    image: {
+      src: "/images/services/freedom-hr-solutions-system-audits-improvements-editorial-service-image.webp",
+      alt: "System audits improvements",
+    },
     hubSlug: "hr-technology-automation",
     launch: true,
     title: "System Audits & Improvements",
@@ -1405,6 +1445,10 @@ export const services: Service[] = [
   // ---------- Support & Service Continuity ----------
   {
     slug: "ongoing-technical-support",
+    image: {
+      src: "/images/services/freedom-hr-solutions-ongoing-technical-support-editorial-service-image.webp",
+      alt: "Ongoing technical support",
+    },
     hubSlug: "support-service-continuity",
     launch: true,
     title: "Ongoing Technical Support",
@@ -1464,6 +1508,10 @@ export const services: Service[] = [
   },
   {
     slug: "technical-issue-resolution",
+    image: {
+      src: "/images/services/freedom-hr-solutions-technical-issue-resolution-editorial-service-image.webp",
+      alt: "Technical issue resolution",
+    },
     hubSlug: "support-service-continuity",
     launch: true,
     title: "Technical Issue Resolution",
@@ -1523,6 +1571,10 @@ export const services: Service[] = [
   },
   {
     slug: "open-enrollment-setup",
+    image: {
+      src: "/images/services/freedom-hr-solutions-open-enrollment-setup-editorial-service-image.webp",
+      alt: "Open enrollment setup",
+    },
     hubSlug: "support-service-continuity",
     launch: true,
     title: "Open Enrollment Setup",

@@ -157,34 +157,6 @@ const homeFaqs = [
   },
 ];
 
-/** Maps each service hub slug to its real category image. */
-const serviceHubImages: Record<string, { src: string; alt: string }> = {
-  "hr-compliance": {
-    src: "/images/services/freedom-hr-solutions-hr-compliance-risk-management-service-section.webp",
-    alt: "HR compliance and risk management consulting",
-  },
-  "aca-reporting-compliance": {
-    src: "/images/services/freedom-hr-solutions-aca-reporting-compliance-service-section.webp",
-    alt: "ACA reporting and compliance consulting",
-  },
-  "payroll-benefits-hr-systems": {
-    src: "/images/services/freedom-hr-solutions-payroll-benefits-hr-systems-service-section.webp",
-    alt: "Payroll, benefits, and HR systems support",
-  },
-  "hr-technology-automation": {
-    src: "/images/services/freedom-hr-solutions-hr-technology-automation-service-section.webp",
-    alt: "HR technology and automation consulting",
-  },
-  "support-service-continuity": {
-    src: "/images/services/freedom-hr-solutions-support-service-continuity-service-section.webp",
-    alt: "HR support and service continuity",
-  },
-  "talent-workforce-development": {
-    src: "/images/services/freedom-hr-solutions-talent-workforce-development-service-section.webp",
-    alt: "Talent and workforce development consulting",
-  },
-};
-
 export default function HomePage() {
   return (
     <>
@@ -253,7 +225,7 @@ export default function HomePage() {
                 summary={hub.summary}
                 href={servicePath(hub.slug)}
                 withImagePlaceholder
-                image={serviceHubImages[hub.slug]}
+                image={hub.image}
               />
             </Reveal>
           ))}

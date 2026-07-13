@@ -24,9 +24,10 @@ import { CtaBand } from "@/components/sections/CtaBand";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/motion/Reveal";
 import { serviceHubs } from "@/data/serviceHubs";
+import { audiences } from "@/data/audiences";
 import { standardProcess } from "@/data/shared";
 import { buildMetadata } from "@/lib/seo";
-import { servicePath } from "@/lib/routes";
+import { servicePath, audiencePath } from "@/lib/routes";
 
 export const metadata: Metadata = buildMetadata({
   title: "HR Compliance, Payroll, Benefits & HR Consulting | Freedom HR Solutions",
@@ -44,38 +45,18 @@ const problems = [
   { title: "Outgrowing your processes", description: "Growing companies often outgrow their HR processes before they realize it.", Icon: TrendingUp },
 ];
 
-const whoWeHelp = [
-  {
-    title: "Business Owners",
-    summary: "You need HR, payroll, and compliance handled so you can focus on running the business.",
-    href: "/who-we-help/business-owners/",
-  },
-  {
-    title: "Small Businesses",
-    summary: "Get the HR and compliance foundation your business needs without a full in-house HR team.",
-    href: "/who-we-help/small-businesses/",
-  },
-  {
-    title: "Growing Businesses",
-    summary: "Scale your HR, payroll, and benefits operations without outgrowing your systems.",
-    href: "/who-we-help/growing-businesses/",
-  },
-  {
-    title: "HR Teams",
-    summary: "Support for system implementation, reporting, open enrollment, and technical issues.",
-    href: "/who-we-help/hr-teams/",
-  },
-  {
-    title: "Payroll Teams",
-    summary: "Resolve payroll system issues, improve reporting accuracy, and support multi-state payroll.",
-    href: "/who-we-help/payroll-teams/",
-  },
-  {
-    title: "Multi-State Employers",
-    summary: "HR compliance, ACA reporting, and payroll support across multiple states and jurisdictions.",
-    href: "/who-we-help/multi-state-employers/",
-  },
+const WHO_WE_HELP_SLUGS = [
+  "business-owners",
+  "small-businesses",
+  "growing-businesses",
+  "hr-teams",
+  "payroll-teams",
+  "multi-state-employers",
 ];
+
+const whoWeHelp = WHO_WE_HELP_SLUGS
+  .map((slug) => audiences.find((a) => a.slug === slug))
+  .filter((a): a is NonNullable<typeof a> => a !== undefined);
 
 const whyChoose = [
   {
@@ -243,8 +224,14 @@ export default function HomePage() {
         />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {whoWeHelp.map((audience, index) => (
-            <Reveal key={audience.href} index={index} className="h-full">
-              <AudienceCard title={audience.title} summary={audience.summary} href={audience.href} />
+            <Reveal key={audience.slug} index={index} className="h-full">
+              <AudienceCard
+                title={audience.navLabel}
+                summary={audience.summary}
+                href={audiencePath(audience.slug)}
+                withImagePlaceholder
+                image={audience.image}
+              />
             </Reveal>
           ))}
         </div>

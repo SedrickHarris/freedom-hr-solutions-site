@@ -186,6 +186,8 @@ export default function WhoWeHelpHubPage() {
                   title={audience.navLabel}
                   summary={audience.summary}
                   href={audiencePath(audience.slug)}
+                  withImagePlaceholder
+                  image={audience.image}
                 />
               ))}
             </div>

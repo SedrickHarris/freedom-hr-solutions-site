@@ -39,6 +39,7 @@ export function AudiencePageTemplate({ audience }: { audience: Audience }) {
         description={audience.summary}
         primaryCta={audience.primaryCta ?? ctas.assessment}
         secondaryCta={audience.secondaryCta ?? ctas.consultation}
+        backgroundImage={audience.image}
       />
 
       <TrustBar />

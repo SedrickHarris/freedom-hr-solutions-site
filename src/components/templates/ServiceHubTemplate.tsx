@@ -73,6 +73,7 @@ export function ServiceHubTemplate({ hub }: { hub: ServiceHub }) {
                 summary={service.summary}
                 href={servicePath(service.slug)}
                 withImagePlaceholder
+                image={service.image}
               />
             ))}
           </div>

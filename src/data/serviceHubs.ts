@@ -9,6 +9,10 @@ import { standardProcess, ctas } from "@/data/shared";
 export const serviceHubs: ServiceHub[] = [
   {
     slug: "hr-compliance",
+    image: {
+      src: "/images/services/freedom-hr-solutions-hr-compliance-risk-management-service-section.webp",
+      alt: "HR compliance and risk management",
+    },
     navLabel: "HR Compliance & Risk",
     title: "HR Compliance & Risk Management",
     h1: "HR Compliance and Risk Management Support for Growing Businesses",
@@ -93,6 +97,10 @@ export const serviceHubs: ServiceHub[] = [
   },
   {
     slug: "aca-reporting-compliance",
+    image: {
+      src: "/images/services/freedom-hr-solutions-aca-reporting-compliance-service-section.webp",
+      alt: "ACA reporting and compliance",
+    },
     navLabel: "ACA Reporting & Compliance",
     title: "ACA Reporting & Compliance",
     h1: "ACA Reporting and Compliance Support for Employers",
@@ -179,6 +187,10 @@ export const serviceHubs: ServiceHub[] = [
   },
   {
     slug: "payroll-benefits-hr-systems",
+    image: {
+      src: "/images/services/freedom-hr-solutions-payroll-benefits-hr-systems-service-section.webp",
+      alt: "Payroll benefits and HR systems",
+    },
     navLabel: "Payroll, Benefits & HR Systems",
     title: "Payroll, Benefits & HR Systems",
     h1: "Payroll, Benefits, and HR System Support",
@@ -260,6 +272,10 @@ export const serviceHubs: ServiceHub[] = [
   },
   {
     slug: "hr-technology-automation",
+    image: {
+      src: "/images/services/freedom-hr-solutions-hr-technology-automation-service-section.webp",
+      alt: "HR technology and automation",
+    },
     navLabel: "HR Technology & Automation",
     title: "HR Technology & Automation",
     h1: "HR Technology and Automation Consulting",
@@ -342,6 +358,10 @@ export const serviceHubs: ServiceHub[] = [
   },
   {
     slug: "support-service-continuity",
+    image: {
+      src: "/images/services/freedom-hr-solutions-support-service-continuity-service-section.webp",
+      alt: "Support and service continuity",
+    },
     navLabel: "Support & Service Continuity",
     title: "Support & Service Continuity",
     h1: "HR, Payroll, and Benefits Support and Service Continuity",
@@ -418,6 +438,10 @@ export const serviceHubs: ServiceHub[] = [
   },
   {
     slug: "talent-workforce-development",
+    image: {
+      src: "/images/services/freedom-hr-solutions-talent-workforce-development-service-section.webp",
+      alt: "Talent and workforce development",
+    },
     navLabel: "Talent & Workforce Development",
     title: "Talent & Workforce Development",
     h1: "Workforce Development Programs and Staff Training Support",

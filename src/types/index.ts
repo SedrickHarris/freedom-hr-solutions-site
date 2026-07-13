@@ -67,6 +67,11 @@ export interface ServiceHub {
   faqs: Faq[];
   primaryCta?: Cta;
   secondaryCta?: Cta;
+  /** Optional hub-level image for service cards on hub pages and homepage. */
+  image?: {
+    src: string;
+    alt: string;
+  };
 }
 
 export interface Service {

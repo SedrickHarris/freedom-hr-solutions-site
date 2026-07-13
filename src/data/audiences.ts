@@ -832,6 +832,10 @@ export const audiences: Audience[] = [
   },
   {
     slug: "healthcare-companies",
+    image: {
+      src: "/images/industries/freedom-hr-solutions-healthcare-hr-payroll-benefits-compliance-support-editorial-image.webp",
+      alt: "Healthcare HR payroll and benefits compliance",
+    },
     title: "HR, Payroll, Benefits, and Compliance Support for Healthcare Companies",
     navLabel: "Healthcare",
     type: "industry",
@@ -918,6 +922,10 @@ export const audiences: Audience[] = [
   },
   {
     slug: "construction-companies",
+    image: {
+      src: "/images/industries/freedom-hr-solutions-construction-payroll-compliance-onboarding-hr-support-editorial-image.webp",
+      alt: "Construction payroll compliance and onboarding",
+    },
     title: "HR, Payroll, Benefits, and Compliance Support for Construction Companies",
     navLabel: "Construction",
     type: "industry",
@@ -1004,6 +1012,10 @@ export const audiences: Audience[] = [
   },
   {
     slug: "retail-businesses",
+    image: {
+      src: "/images/industries/freedom-hr-solutions-retail-onboarding-payroll-benefits-hr-support-editorial-image.webp",
+      alt: "Retail onboarding payroll and benefits HR support",
+    },
     title: "HR, Payroll, Benefits, and Workforce Support for Retail Businesses",
     navLabel: "Retail",
     type: "industry",
@@ -1090,6 +1102,10 @@ export const audiences: Audience[] = [
   },
   {
     slug: "manufacturing-companies",
+    image: {
+      src: "/images/industries/freedom-hr-solutions-manufacturing-compliance-payroll-training-workforce-support-editorial-image.webp",
+      alt: "Manufacturing compliance payroll and training",
+    },
     title: "HR, Payroll, Benefits, and Compliance Support for Manufacturing Companies",
     navLabel: "Manufacturing",
     type: "industry",
@@ -1176,6 +1192,10 @@ export const audiences: Audience[] = [
   },
   {
     slug: "education-organizations",
+    image: {
+      src: "/images/industries/freedom-hr-solutions-education-hr-systems-payroll-benefits-compliance-support-editorial-image.webp",
+      alt: "Education HR systems payroll and benefits",
+    },
     title: "HR, Payroll, Benefits, and Workforce Support for Education Organizations",
     navLabel: "Education",
     type: "industry",

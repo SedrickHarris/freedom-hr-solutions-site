@@ -244,7 +244,6 @@ export function HomepageHero({
 
           <h1
             className="font-display text-4xl font-extrabold text-white sm:text-5xl lg:text-[3.4rem] lg:leading-[1.05]"
-            style={{ color: "#ffffff" }}
           >
             {title}
           </h1>

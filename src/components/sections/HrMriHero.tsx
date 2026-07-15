@@ -131,7 +131,6 @@ export function HrMriHero({
 
           <h1
             className="font-display text-3xl font-extrabold text-white sm:text-4xl lg:text-[2.6rem] lg:leading-[1.1]"
-            style={{ color: "#ffffff" }}
           >
             {title}
           </h1>

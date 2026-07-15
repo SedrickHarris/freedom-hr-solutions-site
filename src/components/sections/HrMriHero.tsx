@@ -137,7 +137,6 @@ export function HrMriHero({
 
           <p
             className="mt-5 text-lg leading-relaxed text-white/85"
-            style={{ color: "rgba(255,255,255,0.85)" }}
           >
             {description}
           </p>

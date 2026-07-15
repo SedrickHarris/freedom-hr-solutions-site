@@ -106,6 +106,12 @@ export interface Service {
     src: string;
     alt: string;
   };
+  /** Optional full-bleed hero background image for the service page.
+      Separate from image (card thumbnail). Falls back to gradient. */
+  heroImage?: {
+    src: string;
+    alt: string;
+  };
 }
 
 export interface Partner {

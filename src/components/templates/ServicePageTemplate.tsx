@@ -57,6 +57,7 @@ export function ServicePageTemplate({ service }: { service: Service }) {
           trustLine={service.trustLine}
           primaryCta={service.primaryCta}
           secondaryCta={service.secondaryCta}
+          backgroundImage={service.heroImage}
         />
       )}
 

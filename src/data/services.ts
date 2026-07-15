@@ -951,10 +951,6 @@ export const services: Service[] = [
       src: "/images/services/freedom-hr-solutions-hr-technology-automation-editorial-service-image.webp",
       alt: "HR technology automation",
     },
-    heroImage: {
-      src: "/images/services/freedom-hr-solutions-hr-technology-automation-service-hero.webp",
-      alt: "HR technology and automation",
-    },
     hubSlug: "hr-technology-automation",
     launch: true,
     title: "HR Technology & Automation",

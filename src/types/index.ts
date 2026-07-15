@@ -72,6 +72,12 @@ export interface ServiceHub {
     src: string;
     alt: string;
   };
+  /** Optional full-bleed hero background image for hub pages.
+      Separate from image (card thumbnail). Falls back to gradient. */
+  heroImage?: {
+    src: string;
+    alt: string;
+  };
 }
 
 export interface Service {

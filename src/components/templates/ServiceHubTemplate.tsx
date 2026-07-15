@@ -39,7 +39,7 @@ export function ServiceHubTemplate({ hub }: { hub: ServiceHub }) {
         description={hub.summary}
         primaryCta={hub.primaryCta}
         secondaryCta={hub.secondaryCta}
-        backgroundImage={hub.image}
+        backgroundImage={hub.heroImage}
       />
 
       <TrustBar />
